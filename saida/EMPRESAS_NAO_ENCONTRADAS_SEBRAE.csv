@@ -1,0 +1,879 @@
+﻿CNPJ,Razão Social,Categoria,Porte,CNAE,Origem da Cobertura,TEM_SESI,TEM_SENAI,TEM_SESI_SENAI,STATUS_RELACIONAMENTO,QTD_REGISTROS_BASE,SEBRAE_situacao_atual,SEBRAE_razao_social,SEBRAE_SETOR,SEBRAE_CNAE PRIMARIO,SEBRAE_Porte,SEBRAE_Municipio,SEBRAE_SESI,SEBRAE_SENAI,SEBRAE_cnae_codigo_recuperado,SEBRAE_cnae_norm,SEBRAE_cnae_divisao,SEBRAE_secao,SEBRAE_setor,SEBRAE_subsetor,SEBRAE_e_industria,SEBRAE_auditoria,SEBRAE_elegivel_sebrae,SEBRAE_oportunidade_comercial,ENCONTRADO_SEBRAE
+00237471000118,"Melro, Sampaio & Cia Ltda",Não Indústria,4.Micro,Comércio varejista de plantas e flores naturais,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+00279531000750,Tupan Construcoes Ltda,Não Indústria,3.Pequena,Comércio atacadista de materiais de construção em geral,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+00292156000193,Prorede Comercio E Servicos Ltda,Não Indústria,4.Micro,Comércio varejista de materiais de construção não especificados anteriormente,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+00298863000197,Farmacia De Manip Derm E Cosmetica Ltda,Não Indústria,4.Micro,"Comércio varejista de produtos farmacêuticos, com manipulação de fórmulas",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+00360305000104,Caixa Economica Federal,Nao Industria,4.Micro,Caixas econômicas,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+00361941000150,Albuquerque Engenharia Ltda,Indústria,2.Média,Construção de edifícios,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+00400203000175,Geovane Veiculos Ltda,Não Indústria,4.Micro,"Comércio a varejo de automóveis, camionetas e utilitários usados",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+00405481000115,Maria C Do Sacramento Santos Ferragens Ltda,Não Indústria,4.Micro,Comércio varejista de ferragens e ferramentas,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+00407844000151,Lourenco Peixoto Neto,Não Indústria,4.Micro,Comércio varejista de plantas e flores naturais,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+00598187000177,Inove Engenharia Termica Ltda,Indústria,3.Pequena,"Instalação e manutenção de sistemas centrais de ar condicionado, de ventilação e refrigeração",Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+00673581000122,Tt Comercio De Areia E Brita E Servicos De Solda Ltda,Não Indústria,4.Micro,"Comércio varejista de cal, areia, pedra britada, tijolos e telhas",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+00823434000272,Agricom Agro Industria E Comercio Anadiense Ltda,Não Indústria,4.Micro,Comércio atacadista de produtos alimentícios em geral,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+00823434000353,Agricom Agro Industria E Comercio Anadiense Ltda,Não Indústria,4.Micro,Comércio atacadista de produtos alimentícios em geral,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+00837546000100,Ceproal - Centro De Ensino Profissionalizante De Alagoas Ltda,Não Indústria,4.Micro,Educação profissional de nível técnico,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+00930087000104,Prener Engenharia Ltda,Indústria,3.Pequena,Construção de estações e redes de distribuição de energia elétrica,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+00961032000153,Multbox Esquadrias De Aluminio Ltda,Indústria,3.Pequena,Fabricação de esquadrias de metal,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+00969924000109,F.t.lindoso & Cia. Ltda,Não Indústria,4.Micro,Atividades de condicionamento físico,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+00987872000195,Leonia Peixoto Cavalcante,Não Indústria,4.Micro,"Lanchonetes, casas de chá, de sucos e similares",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+01014074000140,Adilson Ferreira Dos Anjos,Não Indústria,4.Micro,Comércio varejista de materiais de construção em geral,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+01106583000100,Sacramento E Moreira Ltda,Não Indústria,3.Pequena,Restaurantes e similares,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+01129810000105,Fundo Municipal De Educacao,Nao Industria | Não Indústria,4.Micro,Atividades de associações de defesa de direitos sociais,Migração | Proposta,True,True,True,SESI + SENAI,2,,,,,,,,,,,,,,,,,,,False
+01177442000170,Avante Energia E Servicos Ltda,Nao Industria,4.Micro,Outras atividades de prestação de serviços de informação não especificadas anteriormente,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+01182834000128,Reis & Gomes Ltda,Não Indústria,4.Micro,Comércio varejista especializado de eletrodomésticos e equipamentos de áudio e vídeo,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+01247474000103,Ana M.borges Utiama,Não Indústria,4.Micro,Atividades de podologia,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+01285165000462,O Borrachao Ltda,Nao Industria,4.Micro,Comércio varejista de outros produtos não especificados anteriormente,Migração,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+01454407000151,Cardiodinamica Ltda,Não Indústria,2.Média,Atividades de atendimento em pronto-socorro e unidades hospitalares para atendimento a urgências,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+01528374000147,Engie Solucoes De Operacao E Manutencao Ltda.,Indústria,1.Grande,Serviços de engenharia,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+01551272002005,Asa Industria E Comercio Ltda,Nao Industria,3.Pequena,Comércio atacadista de produtos alimentícios em geral,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+01563491000141,Brisamar Pousada Ltda,Não Indústria,4.Micro,Outros alojamentos não especificados anteriormente,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+01637895000132,Votorantim Cimentos S.a.,Indústria,1.Grande,Fabricação de cimento,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+01656786000162,Grafimar Ltda,Não Indústria,4.Micro,"Edição integrada à impressão de cadastros, listas e outros produtos gráficos",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+01670186000159,Gildete M. Dos Santos Silva Restaurante,Não Indústria,4.Micro,Restaurantes e similares,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+01707112000140,Cooperativa Dos Medicos Da Santa Casa De Maceio,Não Indústria,3.Pequena,Atividades de profissionais da área de saúde não especificadas anteriormente,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+01707112000301,Cooperativa Dos Medicos Da Santa Casa De Maceio,Não Indústria,4.Micro,Atividades de profissionais da área de saúde não especificadas anteriormente,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+01744683000154,Maceoleo Ltda,Não Indústria,4.Micro,Comércio varejista de lubrificantes,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+01771408000120,Jorge Pereira Da Rocha Neto,Não Indústria,4.Micro,"Aluguel de palcos, coberturas e outras estruturas de uso temporário, exceto andaimes",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+01774589000148,Mestre Cuca Restaurante Ltda,Não Indústria,3.Pequena,Restaurantes e similares,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+01832386000160,Tecserv - Comercio E Servicos Ltda,Não Indústria,4.Micro,Aluguel de máquinas e equipamentos para escritório,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+01839841000150,Gelbanise Oliveira De Almeida,Não Indústria,4.Micro,Comércio varejista de bicicletas e triciclos; peças e acessórios,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+01864858000167,Dilab- Diagnostico Laboratorial S/s Ltda,Nao Industria,4.Micro,Laboratórios clínicos,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+01868460000107,Condominio Residencial Aquarius,Não Indústria,4.Micro,Condomínios prediais,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+01899414000167,Mecbrun-industria E Comercio Ltda,Indústria,3.Pequena,Fabricação de obras de caldeiraria pesada,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+01908548000105,Buffet Izabel Pinheiro Ltda,Não Indústria,4.Micro,Serviços de alimentação para eventos e recepções - bufê,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+02040502000171,Edivaldo Araujo,Não Indústria,4.Micro,Comércio varejista de materiais de construção em geral,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+02180731000191,Casa Para Velhice Luiza De Marillac,Não Indústria,3.Pequena,Atividades de associações de defesa de direitos sociais,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+02285556000105,Mario Calheiros De Lima & Cia Ltda,Não Indústria,4.Micro,Apicultura,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+02297239000109,Distribuidora Comercial E Industrial Rio Branco Ltda,Não Indústria,4.Micro,Comércio atacadista de cereais e leguminosas beneficiados,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+02301846000197,Transmares Corretora De Seguros Ltda,Não Indústria,4.Micro,"Corretores e agentes de seguros, de planos de previdência complementar e de saúde",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+02321947000120,"C D I - Centro De Imagem, Diagnostico E Tratamento Ltda",Não Indústria,4.Micro,Serviços de ressonância magnética,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+02327768000108,E L Rocha Dedetizadora,Não Indústria,3.Pequena,Imunização e controle de pragas urbanas,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+02329713000129,Timac Agro Industria E Comercio De Fertilizantes Ltda,Não Indústria,2.Média,"Comércio atacadista de defensivos agrícolas, adubos, fertilizantes e corretivos do solo",Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+02359689000170,Sk Infraestrutura Ltda,Industria,4.Micro,"Obras portuárias, marítimas e fluviais",Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+02417115001698,Sgs Geosol Laboratorios Ltda,Não Indústria,4.Micro,Testes e análises técnicas,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+02481605000177,Conselho Regional De Quimica Da Xvii Regiao,Órgãos Públicos,4.Micro,Administração pública em geral,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+02573575000129,A. Maria Brasil Martins,Não Indústria,4.Micro,Restaurantes e similares,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+02586873000153,Casel Servicos De Eletricidade Ltda,Industria,4.Micro,Construção de edifícios,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+02644422000125,Marcogram Comercio De Marmores E Granitos Ltda,Não Indústria,4.Micro,Comércio varejista de materiais de construção não especificados anteriormente,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+02668961000102,Condomnio Casa Da Industria,Não Indústria,4.Micro,Condomínios prediais,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+02789569000103,Eugenio Costa De Souza,Não Indústria,4.Micro,Comércio varejista de artigos do vestuário e acessórios,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+02857954002437,Amara Net Zero Brasil Ltda,Não Indústria,3.Pequena,"Depósitos de mercadorias para terceiros, exceto armazéns gerais e guarda-móveis",Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+02865907000149,M T Florencio Fernandes & Cia Ltda,Não Indústria,4.Micro,Comércio varejista de artigos do vestuário e acessórios,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+02867678000100,Nip Global Ltda,Industria | Indústria,2.Média,Serviços de engenharia,Proposta,True,True,True,SESI + SENAI,2,,,,,,,,,,,,,,,,,,,False
+02890163000112,Andre Luis De Almeda Silva Promocoes E Assessoria Ltda,Não Indústria,4.Micro,"Serviços de organização de feiras, congressos, exposições e festas",Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+02914460000312,Seara Alimentos Ltda,Não Indústria,1.Grande,Serviços combinados de escritório e apoio administrativo,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+02970438000128,Clinica De Cirurgia Plastica Dr. Fernando Lins Ltda,Não Indústria,4.Micro,Atividade médica ambulatorial com recursos para realização de procedimentos cirúrgicos,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+02995661000120,Cunegundes Nascimento Soares Neto,Não Indústria,4.Micro,"Comércio varejista de mercadorias em geral, com predominância de produtos alimentícios - minimercados, mercearias e armazéns",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+03028774000119,F. M. S. L.. Coretora De Seguros Ltda,Não Indústria,4.Micro,Outras atividades de prestação de serviços de informação não especificadas anteriormente,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+03178923000126,Versan Empreendimentos Limitada,Não Indústria,3.Pequena,Gestão e manutenção de cemitérios,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+03252709000172,Santos & Carvalho Ltda,Não Indústria,4.Micro,"Representantes comerciais e agentes do comércio de madeira, material de construção e ferragens",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+03279056000115,Cabecal - Calcario De Cabeceiras Mineracao Ltda,Industria,4.Micro,"Extração de minerais para fabricação de adubos, fertilizantes e outros produtos químicos",Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+03360646000330,Samplas Industria E Comercio De Plasticos Ltda.,Não Indústria,4.Micro,Comércio varejista de outros artigos de uso doméstico não especificados anteriormente,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+03396460000179,Industria Parisom Ltda,Indústria,4.Micro,"Fabricação de artigos para viagem, bolsas e semelhantes de qualquer material",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+03405567000136,L. B. Comercio De Alimentos Ltda,Não Indústria,4.Micro,"Lanchonetes, casas de chá, de sucos e similares",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+03470536000169,Energia Empreendimentos Ltda,Industria,3.Pequena,Construção de edifícios,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+03507618000130,N S Racoes Ltda,Não Indústria,4.Micro,Comércio varejista de animais vivos e de artigos e alimentos para animais de estimação,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+03624362000141,Cooperativa Educacional De Maceio,Nao Industria,3.Pequena,Atividades de associações de defesa de direitos sociais,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+03641462000186,Igreja Em Arapiraca,Não Indústria,4.Micro,Atividades de organizações religiosas,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+03692424000152,Servico Nacional De Aprendizagem Comercial - Senac,Não Indústria,1.Grande,Outras atividades de ensino não especificadas anteriormente,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+03692424000403,Servico Nacional De Aprendizagem Comercial - Senac,Não Indústria,3.Pequena,Outras atividades de ensino não especificadas anteriormente,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+03692424000667,Servico Nacional De Aprendizagem Comercial - Senac,Não Indústria,3.Pequena,Outras atividades de ensino não especificadas anteriormente,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+03692424000900,Servico Nacional De Aprendizagem Comercial - Senac,Não Indústria,4.Micro,Outras atividades de ensino não especificadas anteriormente,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+03692424001124,Servico Nacional De Aprendizagem Comercial - Senac,Não Indústria,3.Pequena,Outras atividades de ensino não especificadas anteriormente,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+03692424001205,Servico Nacional De Aprendizagem Comercial - Senac,Não Indústria,4.Micro,Outras atividades de ensino não especificadas anteriormente,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+03692424001477,Servico Nacional De Aprendizagem Comercial - Senac,Não Indústria,3.Pequena,Outras atividades de ensino não especificadas anteriormente,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+03692424001558,Servico Nacional De Aprendizagem Comercial - Senac,Não Indústria,4.Micro,Outras atividades de ensino não especificadas anteriormente,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+03698620000568,Green4t Solucoes Ti Ltda,Industria,3.Pequena,Outras obras de instalações em construções não especificadas anteriormente,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+03746272000123,Sian Engenharia Ltda,Industria | Indústria,3.Pequena,Construção de edifícios,Migração | Proposta,True,True,True,SESI + SENAI,2,,,,,,,,,,,,,,,,,,,False
+03773834000128,"Servico Social Da Industria, Departamento Regional De Minas Gerais (sesi / Drmg)",Não Indústria,4.Micro,Outras atividades de ensino não especificadas anteriormente,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+03798336000130,Servico Social Da Industria - Sesi,Não Indústria,2.Média,Outras atividades de ensino não especificadas anteriormente,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+03798336000210,Servico Social Da Industria - Sesi,Nao Industria,3.Pequena,Outras atividades de ensino não especificadas anteriormente,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+03798336000806,Servico Social Da Industria - Sesi,Nao Industria,3.Pequena,Outras atividades de ensino não especificadas anteriormente,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+03798336000997,Servico Social Da Industria - Sesi,Nao Industria,3.Pequena,Outras atividades de ensino não especificadas anteriormente,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+03798361000113,Servico Nacional De Aprendizagem Industrial,Não Indústria,2.Média,Outras atividades de ensino não especificadas anteriormente,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+03798361000202,Servico Nacional De Aprendizagem Industrial,Não Indústria,3.Pequena,Outras atividades de ensino não especificadas anteriormente,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+03859544000100,Malta & Malta Ltda,Não Indústria,4.Micro,Atividade médica ambulatorial com recursos para realização de exames complementares,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+03866223000124,Medradius Clinica De Medicina Nuclear E Radiologia De Maceio Ltda,Nao Industria | Não Indústria,2.Média,"Serviços de diagnóstico por imagem com uso de radiação ionizante, exceto tomografia",Migração | Proposta,True,True,True,SESI + SENAI,2,,,,,,,,,,,,,,,,,,,False
+03866223000205,Medradius Clinica De Medicina Nuclear E Radiologia De Maceio Ltda,Não Indústria,2.Média,"Serviços de diagnóstico por imagem com uso de radiação ionizante, exceto tomografia",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+03866223000477,Medradius Clinica De Medicina Nuclear E Radiologia De Maceio Ltda,Não Indústria,2.Média,"Serviços de diagnóstico por imagem com uso de radiação ionizante, exceto tomografia",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+03887992000109,Cam Clinica De Anestesiologia De Maceio Ltda.,Não Indústria,4.Micro,Atividade médica ambulatorial restrita a consultas,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+03894943000101,Colegio Sagrada Familia Ltda,Não Indústria,4.Micro,Ensino fundamental,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+03949951000108,Uniao Brasil Transportes Ltda,Não Indústria,3.Pequena,"Transporte rodoviário de carga, exceto produtos perigosos e mudanças, intermunicipal, interestadual e internacional",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+03975548000145,Hidroenergia Engenharia E Automacao Ltda,Indústria,4.Micro,Fabricação de aparelhos e equipamentos para distribuição e controle de energia elétrica,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+04157373000121,Sindicato Das Industrias Graficas Do Estado De Alagoas,Não Indústria,4.Micro,Atividades de organizações sindicais,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+04267678000196,Escola De Educacao Basica Educar E Construir Ltda,Não Indústria,3.Pequena,Ensino fundamental,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+04307530000138,Lessa & Moura Contabilidade E Consultoria Empresarial S/s,Não Indústria,4.Micro,Atividades de contabilidade,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+04342459000124,Sesc-administracao Regional No Estado De Alagoas,Não Indústria,2.Média,Serviços de assistência social sem alojamento,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+04342459000205,Sesc-administracao Regional No Estado De Alagoas,Não Indústria,3.Pequena,Serviços de assistência social sem alojamento,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+04342459000396,Sesc-administracao Regional No Estado De Alagoas,Não Indústria,3.Pequena,Serviços de assistência social sem alojamento,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+04342459000477,Sesc-administracao Regional No Estado De Alagoas,Não Indústria,4.Micro,Serviços de assistência social sem alojamento,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+04342459000558,Sesc-administracao Regional No Estado De Alagoas,Não Indústria,4.Micro,Serviços de assistência social sem alojamento,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+04342459000639,Sesc-administracao Regional No Estado De Alagoas,Não Indústria,3.Pequena,Serviços de assistência social sem alojamento,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+04342459000710,Sesc-administracao Regional No Estado De Alagoas,Não Indústria,3.Pequena,Serviços de assistência social sem alojamento,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+04342949000120,Acessorios Mineirao Pecas E Servicos Ltda,Nao Industria,3.Pequena,Comércio a varejo de peças e acessórios novos para veículos automotores,Migração,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+04396985000177,Previparq Ltda,Não Indústria,2.Média,Serviços de funerárias,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+04396985000410,Previparq Ltda,Não Indústria,4.Micro,Serviços de funerárias,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+04396985000681,Previparq Ltda,Não Indústria,3.Pequena,Serviços de funerárias,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+04396985000762,Previparq Ltda,Não Indústria,3.Pequena,Serviços de funerárias,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+04401310000179,Teccel - Tecnologia Da Construcao Civil E Eletrica Ltda,Industria,2.Média,Construção de estações e redes de distribuição de energia elétrica,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+04408182000195,"Clenio Pacheco Franco, Advogados E Consultores Juridicos",Não Indústria,4.Micro,Serviços advocatícios,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+04433402000130,Colegio Santissimo Senhor Ltda,Não Indústria,3.Pequena,Ensino médio,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+04454766000105,Elias Nunes De Oliveira,Não Indústria,4.Micro,Comércio varejista de ferragens e ferramentas,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+04532525000129,Eletrocomp Ltda,Não Indústria,4.Micro,Comércio varejista especializado de eletrodomésticos e equipamentos de áudio e vídeo,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+04540885000172,Lara De Araujo Amorim,Não Indústria,4.Micro,Reparação e manutenção de outros objetos e equipamentos pessoais e domésticos não especificados anteriormente,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+04606375000150,Restaurante E Cachacaria Divina Gula Ltda,Não Indústria,3.Pequena,Restaurantes e similares,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+04638833000133,E2ps Engenharia E Equipamentos Industriais Ltda,Indústria,2.Média,"Fabricação de máquinas e equipamentos para as indústrias de alimentos, bebidas e fumo, peças e acessórios",Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+04735910000173,Sociedade Cunha & Madureira Ltda,Não Indústria,4.Micro,"Comércio varejista de produtos farmacêuticos, com manipulação de fórmulas",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+04735910000254,Sociedade Cunha & Madureira Ltda,Não Indústria,4.Micro,"Comércio varejista de produtos farmacêuticos, com manipulação de fórmulas",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+04735910000335,Sociedade Cunha & Madureira Ltda,Não Indústria,4.Micro,"Comércio varejista de produtos farmacêuticos, com manipulação de fórmulas",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+04735910000416,Sociedade Cunha & Madureira Ltda,Não Indústria,4.Micro,"Comércio varejista de produtos farmacêuticos, com manipulação de fórmulas",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+04736001000150,Living Locacoes Ltda.,Nao Industria,3.Pequena,"Aluguel de móveis, utensílios e aparelhos de uso doméstico e pessoal; instrumentos musicais",Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+04767762000179,Mercadao Das Miudezas E Papelaria Ltda,Não Indústria,4.Micro,Comercio varejista de artigos de armarinho,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+04789378000177,Terral Corretora E Intermediacao De Negocios Ltda,Não Indústria,4.Micro,"Corretores e agentes de seguros, de planos de previdência complementar e de saúde",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+04790656000106,Abreu & Silva Distribuidor Ltda.,Não Indústria,3.Pequena,Comércio atacadista de materiais de construção em geral,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+04834392000145,Brascar Locadora Ltda,Nao Industria,3.Pequena,Locação de automóveis sem condutor,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+04874651000161,Maria Das Gracas B. Santos,Não Indústria,4.Micro,Comércio varejista de artigos do vestuário e acessórios,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+04928281000106,Mervil - Mercantil Vieira Ltda,Não Indústria,1.Grande,Comércio atacadista de produtos alimentícios em geral,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+05012368000193,Elg Pedestais Ltda,Não Indústria,3.Pequena,Comércio atacadista especializado em outros produtos intermediários não especificados anteriormente,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+05042855000107,Aluisio Luis Dos Santos  Ltda,Não Indústria,3.Pequena,Comércio atacadista de produtos alimentícios em geral,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+05154589000449,Oliveira E Nobre Supermercado Ltda,Não Indústria,2.Média,"Comércio varejista de mercadorias em geral, com predominância de produtos alimentícios - supermercados",Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+05325467000206,D A L Comercio Ltda,Não Indústria,4.Micro,"Comércio varejista de produtos farmacêuticos, sem manipulação de fórmulas",Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+05415557000107,L P Magicel Corretora E Administradora De Seguros Ltda,Não Indústria,2.Média,"Corretores e agentes de seguros, de planos de previdência complementar e de saúde",Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+05419173000162,Luci Pereira Dos Santos,Não Indústria,4.Micro,Comércio atacadista de produtos alimentícios em geral,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+05481218000129,Nascimento & Falcao Ltda,Não Indústria,4.Micro,Comércio varejista de ferragens e ferramentas,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+05502102000129,Centro De Seguranca Veicular Ltda,Não Indústria,4.Micro,Testes e análises técnicas,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+05559112000109,Nova Harcos Corretora De Seguros Ltda,Não Indústria,3.Pequena,"Corretores e agentes de seguros, de planos de previdência complementar e de saúde",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+05623256000179,Inside Sistemas Ltda,Indústria,2.Média,Desenvolvimento e licenciamento de programas de computador não-customizáveis,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+05771122000103,Am Incorporacoes E Administracoes Ltda,Não Indústria,4.Micro,Serviços de sepultamento,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+05863009000140,Synergia - Consultoria Urbana E Social Ltda.,Nao Industria,2.Média,Pesquisa e desenvolvimento experimental em ciências sociais e humanas,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+05898710000102,Ana Cristina Dos Santos Costa,Não Indústria,4.Micro,"Comércio varejista de suvenires, bijuterias e artesanatos",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+05900886000143,Escola Padre Pierre Vigne Ltda,Não Indústria,3.Pequena,Ensino fundamental,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+05902038000254,Iabs - Instituto Brasileiro De Desenvolvimento E Sustentabilidade,Não Indústria,4.Micro,Atividades de associações de defesa de direitos sociais,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+05954139000198,Clinica De Cardiologia Avancada Ltda,Não Indústria,3.Pequena,Atividade médica ambulatorial com recursos para realização de exames complementares,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+05954139000279,Clinica De Cardiologia Avancada Ltda,Não Indústria,4.Micro,Atividade médica ambulatorial com recursos para realização de exames complementares,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+05957520000100,Karina F. Da S. C. De Aquino,Não Indústria,4.Micro,Comércio varejista de outros produtos não especificados anteriormente,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+05966389000148,L F M W Cartisano,Não Indústria,4.Micro,Comércio varejista de tintas e materiais para pintura,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+05996028000144,Varejao Dos Doces Ltda,Não Indústria,3.Pequena,"Comércio varejista de doces, balas, bombons e semelhantes",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+05996028000306,Varejao Dos Doces Ltda,Não Indústria,3.Pequena,"Comércio atacadista de chocolates, confeitos, balas, bombons e semelhantes",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+06009273000183,Memorial Parque De Maceio Ltda,Não Indústria,3.Pequena,Gestão e manutenção de cemitérios,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+06043133000121,Gentil Aurelio Rodrigues,Indústria,4.Micro,Obras de acabamento em gesso e estuque,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+06171493000451,Mslog - Servicos De Logistica E Transporte Ltda,Nao Industria,3.Pequena,Organização logística do transporte de carga,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+06173511000191,Retrofit Engenharia De Servicos Ltda,Industria,3.Pequena,Construção de edifícios,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+06197766000194,H A Menezes Santos,Não Indústria,4.Micro,Comércio a varejo de peças e acessórios novos para veículos automotores,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+06210697000101,K C A De Melo & Cia Ltda,Não Indústria,4.Micro,Atividades de monitoramento de sistemas de segurança eletrônico,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+06227963000109,Auto Viacao Mae Do Salvador Ltda,Não Indústria,4.Micro,"Transporte rodoviário coletivo de passageiros, com itinerário fixo, municipal",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+06228417000192,Madebras Atacado De Madeiras Ltda,Não Indústria,3.Pequena,Comércio atacadista de materiais de construção em geral,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+06248248000152,Sabalanga Produtos Agropecuarios Ltda,Nao Industria,2.Média,Criação de frangos para corte,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+06304474000103,Moura E Moura Servicos Medicos Ltda,Não Indústria,4.Micro,"Serviços de diagnóstico por registro gráfico - ECG, EEG e outros exames análogos",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+06326419000114,Acquaplan Tecnologia E Consultoria Ambiental Ltda,Não Indústria,4.Micro,"Outras atividades profissionais, científicas e técnicas não especificadas anteriormente",Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+06371307000185,Harcos Comercio E Servicos Ltda,Não Indústria,4.Micro,Promoção de vendas,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+06371307000347,Harcos Comercio E Servicos Ltda,Não Indústria,4.Micro,Promoção de vendas,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+06371307000509,Harcos Comercio E Servicos Ltda,Não Indústria,4.Micro,Promoção de vendas,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+06371307000690,Harcos Comercio E Servicos Ltda,Não Indústria,4.Micro,"Atividades de intermediação e agenciamento de serviços e negócios em geral, exceto imobiliários",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+06371307000770,Harcos Comercio E Servicos Ltda,Não Indústria,4.Micro,"Atividades de intermediação e agenciamento de serviços e negócios em geral, exceto imobiliários",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+06371307000851,Harcos Comercio E Servicos Ltda,Não Indústria,4.Micro,Promoção de vendas,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+06371307001580,Harcos Comercio E Servicos Ltda,Não Indústria,4.Micro,Promoção de vendas,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+06371307001742,Harcos Comercio E Servicos Ltda,Não Indústria,4.Micro,Promoção de vendas,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+06371307001823,Harcos Comercio E Servicos Ltda,Não Indústria,4.Micro,Promoção de vendas,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+06371307001904,Harcos Comercio E Servicos Ltda,Não Indústria,4.Micro,Promoção de vendas,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+06371325000167,Masterop Operadora Turistica Ltda,Não Indústria,3.Pequena,Agências de viagens,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+06372095000150,W.l.monteiro,Não Indústria,4.Micro,"Comércio atacadista de combustíveis de origem vegetal, exceto álcool carburante",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+06931419000143,Escola Pequenos Brilhantes Ltda,Não Indústria,4.Micro,Ensino fundamental,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+06964752000159,P3 Engenharia Eletrica Ltda,Indústria,2.Média,Serviços de engenharia,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+06980064001073,Nacional Gas Butano Distribuidora Ltda,Nao Industria,3.Pequena,Comércio varejista de gás liqüefeito de petróleo (GLP),Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+07036026000139,Igreja Batista El Shadday De Arapiraca,Não Indústria,4.Micro,Atividades de organizações religiosas,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+07042588000195,Bomfim & Jatoba Advogados Associados,Não Indústria,4.Micro,Serviços advocatícios,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+07051560000114,Cemi - Com. De Equipamentos E Manutencao Em Informatica Ltda,Não Indústria,4.Micro,Recarga de cartuchos para equipamentos de informática,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+07103225000112,Empresa Brasileira De Construcao Ltda,Industria,3.Pequena,Construção de edifícios,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+07119626000160,Bdo Rcs Gestao Empresarial Ltda,Não Indústria,4.Micro,"Atividades de consultoria em gestão empresarial, exceto consultoria técnica específica",Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+07256880000100,Germano Regueira Advogados,Não Indústria,4.Micro,Serviços advocatícios,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+07302129000101,J. C. Da Silva & Silva Ltda,Não Indústria,3.Pequena,Serviços combinados de escritório e apoio administrativo,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+07326239000103,C H Sampaio,Não Indústria,4.Micro,Comércio varejista de calçados,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+07337276000109,Shl-servicos De Hospedagens Ltda,Não Indústria,2.Média,Hotéis,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+07355891000148,Almar Pesquisa E Desenvolvimento Experimental Em Ciencias Fisicas E Naturais Ltda,Não Indústria,4.Micro,Pesquisa e desenvolvimento experimental em ciências físicas e naturais,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+07431747000143,Comferral Comercio De Ferragens Ltda,Nao Industria,4.Micro,Comércio atacadista de ferragens e ferramentas,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+07471959000154,Escola De Educacao Basica Millenium Ltda,Não Indústria,4.Micro,Ensino fundamental,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+07472625000103,Reciclal Industria E Comercio De Metais Ltda,Não Indústria,4.Micro,Comércio atacadista de resíduos e sucatas metálicos,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+07478417000103,Metro Engenharia E Consultoria Ltda,Industria,1.Grande,Construção de edifícios,Migração,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+07480558000160,Clinilar Home Care Ltda,Não Indústria,4.Micro,Atividades de fornecimento de infra-estrutura de apoio e assistência a paciente no domicílio,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+07648847000126,Arraes Comercio De Pecas E Servicos Automotivos Ltda,Não Indústria,4.Micro,Comércio a varejo de peças e acessórios novos para veículos automotores,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+07771407000161,Comercial Popular Ltda,Não Indústria,3.Pequena,"Comércio varejista de mercadorias em geral, com predominância de produtos alimentícios - supermercados",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+07811608000145,Sol Salinas Hotelaria E Servicos Ltda.,Nao Industria,2.Média,Hotéis,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+07849197000187,Diniz & Rocha Ltda,Não Indústria,4.Micro,"Lanchonetes, casas de chá, de sucos e similares",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+07849197000349,Diniz & Rocha Ltda,Não Indústria,4.Micro,"Lanchonetes, casas de chá, de sucos e similares",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+07982350000140,Silva E Simiao Ltda,Não Indústria,4.Micro,Comércio varejista de materiais de construção em geral,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+08075562000106,Pousada Sonho Meu Ltda,Não Indústria,4.Micro,Hotéis,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+08092429000168,Pinheiro Empreendimentos Turisticos Ltda,Não Indústria,4.Micro,Hotéis,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+08099802000102,Jose Afonso Dos Anjos,Não Indústria,4.Micro,Comércio varejista de equipamentos para escritório,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+08183359000153,Prodiet Nutricao Clinica S.a,Indústria,2.Média,Fabricação de outros produtos alimentícios não especificados anteriormente,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+08282818000156,Alfa Empreendimentos E Participacoes S.a,Não Indústria,3.Pequena,Holdings de instituições não-financeiras,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+08342516000126,Sabor De Minas Comercio Ltda,Não Indústria,4.Micro,Restaurantes e similares,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+08343492000120,Mrv Engenharia E Participacoes Sa,Industria,1.Grande,Incorporação de empreendimentos imobiliários,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+08364485000295,Nova Empreendimentos Hoteleiros Ltda,Não Indústria,3.Pequena,Hotéis,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+08401328000121,Centro Pedagogico Ensinar E Construir Ltda,Não Indústria,3.Pequena,Ensino fundamental,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+08413825000140,Pimentel Lopes Engenharia E Arquitetura Ltda,Indústria,3.Pequena,Serviços de engenharia,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+08414691000181,Verissimo E Holanda Ltda,Nao Industria,3.Pequena,"Aluguel de máquinas e equipamentos para construção sem operador, exceto andaimes",Migração,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+08467115000100,Companhia Estadual De Distribuicao De Energia Eletrica - Ceee-d,Indústria,3.Pequena,Distribuição de energia elétrica,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+08474125000165,Aderaldo Teixeira Neves,Não Indústria,4.Micro,"Comércio varejista de mercadorias em geral, com predominância de produtos alimentícios - minimercados, mercearias e armazéns",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+08507416000102,Tmk Servicos E Montagens Ltda,Indústria,4.Micro,Construção de estações e redes de distribuição de energia elétrica,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+08513910000180,Armazem Comercio E Imp De Material De Construcao Ltda,Não Indústria,3.Pequena,Comércio varejista de materiais de construção em geral,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+08531946000196,Eme's Cargas Aereas Ltda,Não Indústria,4.Micro,"Transporte rodoviário de carga, exceto produtos perigosos e mudanças, municipal",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+08614679000110,Real Arapiraca Viacao Ltda,Não Indústria,3.Pequena,"Transporte rodoviário coletivo de passageiros, com itinerário fixo, municipal",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+08618746000175,Centro Educacional Santa Terezinha Ltda,Nao Industria,3.Pequena,Ensino fundamental,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+08623589000196,J Jakson P Da Silva,Não Indústria,4.Micro,Apicultura,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+08629693000198,Associacao Do Pessoal Da Caixa Economica Federal,Não Indústria,4.Micro,"Clubes sociais, esportivos e similares",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+08661067000189,Organicos Ambiental Consultoria Auditoria E Servicos Ltda,Não Indústria,4.Micro,Testes e análises técnicas,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+08726496000197,Engeko Engenharia E Construcao Ltda,Industria,3.Pequena,Construção de edifícios,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+08729141000151,"Pena Distribuidora, Importacao E Exportacao Ltda",Não Indústria,2.Média,Comércio atacadista de produtos alimentícios em geral,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+08840071000104,Av Gestao Empresarial Ltda,Não Indústria,3.Pequena,"Atividades de consultoria em gestão empresarial, exceto consultoria técnica específica",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+08850788000137,A C Locadora De Transportes Ltda,Não Indústria,3.Pequena,Operadores turísticos,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+08862530000150,Tigre Materiais E Solucoes Para Construcao Ltda.,Indústria,1.Grande,Fabricação de tubos e acessórios de material plástico para uso na construção,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+08900689000112,J.r.feyh & Cia Ltda,Industria,3.Pequena,Construção de estações e redes de distribuição de energia elétrica,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+08917765000100,Coisa De Casa Magazine Ltda,Não Indústria,4.Micro,Comércio varejista de outros artigos de uso doméstico não especificados anteriormente,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+08923450000168,Congregacao Das Irmas Franciscanas De Santo Antonio,Não Indústria,4.Micro,Atividades de associações de defesa de direitos sociais,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+08973574000158,Cordial Sociedade Beneficente Do Coracao De Alagoas,Não Indústria,3.Pequena,Atividades associativas não especificadas anteriormente,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+09102299000160,Melo & Calheiros Comercio E Servicos Ltda,Não Indústria,4.Micro,"Comércio varejista de cosméticos, produtos de perfumaria e de higiene pessoal",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+09114805000211,Oceanpact Servicos Maritimos S.a.,Não Indústria,4.Micro,Navegação de apoio marítimo,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+09116721000136,J. R. Ribeiro Auto Pecas Ltda,Não Indústria,4.Micro,Comércio a varejo de peças e acessórios novos para veículos automotores,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+09143357000101,Arafort Piscinas E Materiais De Construcao Ltda,Não Indústria,4.Micro,Comércio varejista de materiais de construção em geral,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+09167697000164,Cedro Alimentos & Bebidas Ltda,Não Indústria,3.Pequena,Restaurantes e similares,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+09338997000169,System 2000 Centro De Idiomas Ltda,Não Indústria,3.Pequena,Ensino de idiomas,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+09341637000116,Delfos Locacoes Ltda,Não Indústria,4.Micro,"Aluguel de outras máquinas e equipamentos comerciais e industriais não especificados anteriormente, sem operador",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+09344391000217,Hotel Costa Azul S A,Nao Industria,3.Pequena,Hotéis,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+09352645000168,Cooperativa De Trabalho Dos Fisioterapeutas De Alagoas - Fisiocoop,Não Indústria,4.Micro,Atividades de fisioterapia,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+09358384000193,Aleplast Comercio De Produtos Descartaveis Ltda,Não Indústria,2.Média,Comércio varejista de outros produtos não especificados anteriormente,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+09361765000121,Cedro Assessoria E Administracao De Hoteis De Maceio Ltda,Não Indústria,4.Micro,Hotéis,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+09378950000129,Nsa Distribuidora Ltda,Não Indústria,4.Micro,Comércio atacadista de produtos alimentícios em geral,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+09423483000101,Associacao Madre Esperanca,Nao Industria,4.Micro,Atividades de associações de defesa de direitos sociais,Migração,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+09428526000141,"Pajucara Editora, Internet E Eventos Ltda",Não Indústria,3.Pequena,"Portais, provedores de conteúdo e outros serviços de informação na internet",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+09438676000136,Tucci E Pontual Servicos Ltda,Não Indústria,4.Micro,Lavanderias,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+09473889000107,Trusty Servicos E Comercio Ltda,Indústria,4.Micro,Perfurações e sondagens,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+09511455000146,Sichuan Restaurantes Ltda,Não Indústria,4.Micro,Restaurantes e similares,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+09520287000155,Adequa Assessoria E Consultoria Em Controle De Qualidade De Alimentos Ltda.,Nao Industria,4.Micro,Treinamento em desenvolvimento profissional e gerencial,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+09571854000100,59 Batalhao De Infantaria Motorizado,Nao Industria,4.Micro,Defesa,Migração,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+09597651000185,Lyra & Paes Produtos Farmaceuticos Ltda,Não Indústria,4.Micro,"Comércio varejista de produtos farmacêuticos, com manipulação de fórmulas",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+09597731000130,G Do Nascimento - Pecas,Não Indústria,3.Pequena,Comércio a varejo de peças e acessórios novos para veículos automotores,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+09601087000127,Loja Do Posto Comercio E Servicos Ltda,Não Indústria,4.Micro,Comércio varejista de ferragens e ferramentas,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+09601934000153,Gases Do Agreste Comercio E Transporte Ltda,Não Indústria,4.Micro,Transporte rodoviário de produtos perigosos,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+09813009000196,Alvaro Jose Do Monte Vasconcelos,Não Indústria,4.Micro,Criação de frangos para corte,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+09814493000178,Carlos Henrique Alves Da Silva,Nao Industria,4.Micro,Comércio a varejo de peças e acessórios novos para veículos automotores,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+10198241000140,E F Guedes,Não Indústria,4.Micro,Comércio a varejo de peças e acessórios novos para veículos automotores,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+10198241000221,E F Guedes,Não Indústria,4.Micro,Comércio a varejo de peças e acessórios novos para veículos automotores,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+10306633000186,P De Carvalho Silva Servicos Ltda,Não Indústria,3.Pequena,Seleção e agenciamento de mão-de-obra,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+10331633000136,Rad - Radiologia Diagnostica Ltda,Não Indústria,4.Micro,Serviços de ressonância magnética,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+10340747000142,Guerrero Construtora E Empreendimentos Ltda,Industria,3.Pequena,Construção de estações e redes de distribuição de energia elétrica,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+10368560000157,L.a.f. Marketing E Servicos Ltda,Não Indústria,4.Micro,Marketing direto,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+10412434000152,Emsercol - Empresa Sergipana De Contrucao E Limpeza Ltda,Indústria,2.Média,Construção de edifícios,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+10445683000144,Lucas Vagner Dos Santos Comercio,Não Indústria,4.Micro,Comércio varejista de ferragens e ferramentas,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+10474868000187,Associacao Dos Proprietarios E/ou Moradores Do Loteamento Residencial Aldeia Do Vale,Não Indústria,4.Micro,Atividades associativas não especificadas anteriormente,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+10494027000131,Lopes E Teixeira Alimentos E Bebidas Ltda,Não Indústria,3.Pequena,Restaurantes e similares,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+10500326000131,Madeiras Do Brasil Do Agreste Ltda,Não Indústria,3.Pequena,Comércio varejista de madeira e artefatos,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+10530141000170,Mundau Comercio De Materiais Reciclados Ltda,Não Indústria,3.Pequena,Comércio atacadista de resíduos e sucatas metálicos,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+10581362000177,Araujo & Albuquerque Ltda,Não Indústria,3.Pequena,Comércio varejista de outros produtos não especificados anteriormente,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+10616674000179,Builders Loc Locadora E Operadora De Maquinas E Equipamentos Ltda,Industria,4.Micro,Serviços de operação e fornecimento de equipamentos para transporte e elevação de cargas e pessoas para uso em obras,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+10655727000160,Messtechnik Industria E Comercio Ltda,Indústria,2.Média,"Fabricação de aparelhos e equipamentos de medida, teste e controle",Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+10723930001280,Cyro Cavalcanti Auto Pecas Ltda,Nao Industria,3.Pequena,Comércio por atacado de peças e acessórios novos para veículos automotores,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+10729398000155,W M - Manutencao Industrial Ltda,Indústria,4.Micro,Manutenção e reparação de outras máquinas e equipamentos para usos industriais não especificados anteriormente,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+10769660000195,Agencia De Fomento De Alagoas S/a.,Não Indústria,3.Pequena,Agências de fomento,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+10793958000130,Industria E Comercio De Gelo Ltda,Indústria,3.Pequena,Fabricação de gelo comum,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+10795557000110,Aloisio De Oliveira Silva,Indústria,4.Micro,FABRICAÇÃO DE PRODUTOS DE PANIFICAÇÃO INDUSTRIAL,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+10811677000163,Tambaqui Empreendimentos Hoteleiros Ltda,Não Indústria,3.Pequena,Hotéis,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+10812501000126,Cooperativa Mista Dos Taxistas De Maceio Ltda,Não Indústria,4.Micro,Outras atividades associativas profissionais,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+10825373000155,"Instituto Federal De Educacao, Ciencia E Tecnologia De Alagoas - If/al",Não Indústria,4.Micro,Educação profissional de nível tecnológico,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+10825373001127,"Instituto Federal De Educacao, Ciencia E Tecnologia De Alagoas - If/al",Não Indústria,4.Micro,Educação profissional de nível tecnológico,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+10840082000136,M A Dos Anjos Locacao Impressao E Servico De Informatica Ltda,Não Indústria,4.Micro,Fotocópias,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+10857039000183,Mss Transportes Ltda,Não Indústria,1.Grande,"Transporte rodoviário de carga, exceto produtos perigosos e mudanças, intermunicipal, interestadual e internacional",Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+10882812000161,Gonube Tecnologia Ltda,Não Indústria,3.Pequena,"Suporte técnico, manutenção e outros serviços em tecnologia da informação",Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+10885069000101,Maceio Aviamento Ltda,Não Indústria,4.Micro,Comercio varejista de artigos de armarinho,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+10887669000281,Kiola Industria E Comercio Ltda,Não Indústria,4.Micro,Comércio varejista de produtos saneantes domissanitários,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+10907247000140,Via Granito Comercio De Pedras Ltda,Não Indústria,3.Pequena,Comércio varejista de pedras para revestimento,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+10923803000171,"Audconp - Central De Servicos De Auditoria, Contabilidade E Pericia Ltda",Não Indústria,4.Micro,Atividades de contabilidade,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+10925899000107,Madeiras Do Brasil Ltda,Nao Industria | Não Indústria,3.Pequena,Comércio varejista de madeira e artefatos,Migração | Proposta,True,True,True,SESI + SENAI,2,,,,,,,,,,,,,,,,,,,False
+10950744000120,Doce Momento Comercio De Alimentos Ltda.,Não Indústria,4.Micro,"Lanchonetes, casas de chá, de sucos e similares",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+11031356000109,Santorini Restaurante Ltda,Não Indústria,3.Pequena,Restaurantes e similares,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+11050982000142,Secretaria De Estado De Prevencao A Violencia,Nao Industria,3.Pequena,Administração pública em geral,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+11097044000106,M . J. Ferreira Soares Confeccoes,Não Indústria,4.Micro,Comércio varejista de artigos do vestuário e acessórios,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+11101933000191,Sf Alimentos Ltda,Não Indústria,4.Micro,Comércio varejista de produtos alimentícios em geral ou especializado em produtos alimentícios não especificados anteriormente,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+11101933000515,Sf Alimentos Ltda,Não Indústria,4.Micro,Comércio varejista de produtos alimentícios em geral ou especializado em produtos alimentícios não especificados anteriormente,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+11161579000190,High Park Gestao De Estacionamentos Ltda,Não Indústria,3.Pequena,Estacionamento de veículos,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+11188176000135,Cms Engenharia E Sistemas De Energia Eletrica Ltda,Não Indústria,3.Pequena,Comércio varejista de material elétrico,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+11232112000194,A C Lima Barbosa Comercio De Alimentos Ltda,Não Indústria,4.Micro,"Lanchonetes, casas de chá, de sucos e similares",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+11421889000105,Mixfarma Comercial Ltda,Nao Industria | Não Indústria,2.Média,Comércio atacadista de medicamentos e drogas de uso humano,Proposta,True,True,True,SESI + SENAI,2,,,,,,,,,,,,,,,,,,,False
+11421889000440,Mixfarma Comercial Ltda,Não Indústria,4.Micro,Comércio atacadista de produtos de higiene pessoal,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+11440164000156,Am Lanchonetes Ltda,Nao Industria,4.Micro,"Lanchonetes, casas de chá, de sucos e similares",Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+11493623000160,Magnetron Industria E Comercio De Componentes Ltda,Industria,2.Média,"Fabricação de material elétrico e eletrônico para veículos automotores, exceto baterias",Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+11509676001101,Auto Norte Distribuidora De Pecas Ltda,Não Indústria,3.Pequena,Comércio por atacado de peças e acessórios novos para veículos automotores,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+11512944000164,Faab Engenharia Ltda,Industria | Indústria,2.Média,Construção de estações e redes de distribuição de energia elétrica,Proposta,True,True,True,SESI + SENAI,2,,,,,,,,,,,,,,,,,,,False
+11544373000140,Dirad - Tomografia E Imagem Ltda.,Não Indústria,4.Micro,Serviços de tomografia,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+11592537000104,Labplus Diagnostica Ltda,Não Indústria,4.Micro,"Comércio atacadista de instrumentos e materiais para uso médico, cirúrgico, hospitalar e de laboratórios",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+11705404000105,Cenutri - Centro Especializado De Nutricao Ltda.,Nao Industria,3.Pequena,Comércio varejista de artigos médicos e ortopédicos,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+11838337000199,R. P. M. Da Silva Ferreira,Indústria,4.Micro,"Serviços de instalação, manutenção e reparação de acessórios para veículos automotores",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+11910387000130,Drogaria Jeane Ltda.,Não Indústria,4.Micro,"Comércio varejista de produtos farmacêuticos, sem manipulação de fórmulas",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+11917733000101,R2t Telecomunicacoes Ltda,Indústria,3.Pequena,Construção de estações e redes de telecomunicações,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+11918091000165,Condominio Do Edificio San Marino Residence Service,Não Indústria,3.Pequena,Condomínios prediais,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+12002804000702,Transbezerra Ltda,Não Indústria,3.Pequena,"Aluguel de outras máquinas e equipamentos comerciais e industriais não especificados anteriormente, sem operador",Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+12019360000114,Tv Pajucara Ltda,Não Indústria,2.Média,Atividades de televisão aberta,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+12020066000122,Braf Empreendimentos Hoteleiros Ltda.,Nao Industria | Não Indústria,3.Pequena,Hotéis,Migração | Proposta,True,True,True,SESI + SENAI,2,,,,,,,,,,,,,,,,,,,False
+12069177000123,Rm Retifica De Motores Ltda,Não Indústria,4.Micro,Comércio a varejo de peças e acessórios novos para veículos automotores,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+12150025000150,Ferro E Costa Ltda,Indústria,4.Micro,FABRICAÇÃO DE PRODUTOS DE PANIFICAÇÃO INDUSTRIAL,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+12156097000105,Associacao Atletica Banco Do Brasil,Nao Industria,3.Pequena,"Clubes sociais, esportivos e similares",Migração,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+12157863000156,Instituto Euvaldo Lodi Nucleo Regional De Alagoas,Não Indústria,4.Micro,"Atividades de apoio à educação, exceto caixas escolares",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+12157871000100,Sindicato Dos Trabalhadores No Comercio De Minerios E Derivados De Petroleo No Estado De Alagoas(inclusive Pesquisas De Minerios),Nao Industria,4.Micro,Atividades de organizações sindicais,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+12159281000109,Clube De Regatas Brasil,Não Indústria,3.Pequena,Produção e promoção de eventos esportivos,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+12186524000106,Tv Gazeta De Alagoas Ltda - Em Recuperacao Judicial,Nao Industria,4.Micro,Atividades de televisão aberta,Migração,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+12187241000170,Feitosa Irmaos & Cia Ltda,Nao Industria,3.Pequena,Comércio a varejo de peças e acessórios novos para veículos automotores,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+12198693000158,Municipio De Arapiraca,Nao Industria,4.Micro,Administração pública em geral,Migração,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+12200135000180,Municipio De Maceio,Nao Industria,4.Micro,Administração pública em geral,Migração,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+12200218000179,Secretaria De Estado Da Educacao,Nao Industria,4.Micro,Administração pública em geral,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+12200259000165,Secretaria De Estado Da Saude,Nao Industria,1.Grande,Administração pública em geral,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+12203196000109,Federacao Das Associacoes Comerciais Do Estado De Al,Não Indústria,4.Micro,Atividades de associações de defesa de direitos sociais,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+12207536000161,Municipio De Girau Do Ponciano,Nao Industria,4.Micro,Administração pública em geral,Migração,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+12229415000200,S A Usina Coruripe Acucar E Alcool,Nao Industria | Não Indústria,1.Grande,Cultivo de cana-de-açúcar,Migração | Proposta,True,True,True,SESI + SENAI,2,,,,,,,,,,,,,,,,,,,False
+12242350000143,Municipio De Igreja Nova,Nao Industria,4.Micro,Administração pública em geral,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+12250916000189,Municipio De Santana Do Ipanema,Nao Industria,4.Micro,Atividades de associações de defesa de direitos sociais,Migração,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+12257462000178,Infranet Distribuidora De Tecnologia E Engenharia Ltda,Nao Industria,3.Pequena,Comércio atacadista de material elétrico,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+12264222000109,Municipio De Sao Miguel Dos Campos,Nao Industria | Órgãos Públicos,4.Micro,Administração pública em geral,Migração | Proposta,True,True,True,SESI + SENAI,2,,,,,,,,,,,,,,,,,,,False
+12264628000183,Municipio De Campo Alegre,Nao Industria,3.Pequena,Administração pública em geral,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+12268397000186,Hotel Beiriz Ltda,Não Indústria,2.Média,Hotéis,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+12282034000286,Usina Caete S A,Nao Industria | Não Indústria,1.Grande,Cultivo de cana-de-açúcar,Proposta,True,True,True,SESI + SENAI,2,,,,,,,,,,,,,,,,,,,False
+12301511000122,Parque Das Flores Administracao Ltda,Não Indústria,3.Pequena,Serviços de sepultamento,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+12303541000178,Conselho Regional De Contabilidade De Alagoas,Não Indústria,3.Pequena,Outras atividades associativas profissionais,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+12303616000110,S. Vieira Da Silva Ltda,Não Indústria,2.Média,Comercio varejista de artigos de armarinho,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+12303616000544,S. Vieira Da Silva Ltda,Não Indústria,4.Micro,"Lanchonetes, casas de chá, de sucos e similares",Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+12303616001001,S. Vieira Da Silva Ltda,Não Indústria,3.Pequena,Comercio varejista de artigos de armarinho,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+12306031000154,Escola Domestica Maria Imaculada,Não Indústria,3.Pequena,Ensino fundamental,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+12307187000150,Santa Casa De Misericordia De Maceio,Não Indústria,1.Grande,"Atividades de atendimento hospitalar, exceto pronto-socorro e unidades para atendimento a urgências",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+12307187000311,Santa Casa De Misericordia De Maceio,Não Indústria,3.Pequena,"Atividades de atendimento hospitalar, exceto pronto-socorro e unidades para atendimento a urgências",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+12312799000211,Panificacao Jaragua Ltda,Industria | Indústria,4.Micro,FABRICAÇÃO DE PRODUTOS DE PANIFICAÇÃO INDUSTRIAL,Proposta,True,True,True,SESI + SENAI,2,,,,,,,,,,,,,,,,,,,False
+12316295000199,Federacao Das Industrias Do Estado De Alagoas,Não Indústria,4.Micro,Atividades de associações de defesa de direitos sociais,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+12318184000111,Sindicato Dos Trabalhadores Em Empresas De Telecomunicacoes E Operadores De Mesas Telefonicas (telefonistas Em Geral) No Estado De Alagoas - Sin,Não Indústria,4.Micro,Atividades de organizações sindicais,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+12318234000160,"Emalub - Equipamentos, Maquinas E Lubrificantes Ltda.",Não Indústria,4.Micro,Comércio varejista de outros produtos não especificados anteriormente,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+12319067000172,Associacao Comercial De Maceio,Não Indústria,4.Micro,Atividades de associações de defesa de direitos sociais,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+12332946000134,Municipio De Uniao Dos Palmares,Nao Industria,4.Micro,Administração pública em geral,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+12333753000106,Municipio De Capela,Nao Industria,4.Micro,Administração pública em geral,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+12380887000170,Cilel Comercio E Industria De Lages Ltda,Não Indústria,3.Pequena,"Depósitos de mercadorias para terceiros, exceto armazéns gerais e guarda-móveis",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+12388278000167,Convem Comercio De Veiculos E Motores Ltda - Em Recuperacao Judicial,Nao Industria | Não Indústria,4.Micro,Comércio a varejo de motocicletas e motonetas novas,Migração | Proposta,True,True,True,SESI + SENAI,2,,,,,,,,,,,,,,,,,,,False
+12388278000329,Convem Comercio De Veiculos E Motores Ltda - Em Recuperacao Judicial,Não Indústria,3.Pequena,Comércio a varejo de motocicletas e motonetas novas,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+12398749000380,Diocese De Penedo,Não Indústria,4.Micro,Atividades de organizações religiosas,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+12423997000171,Up Distribuidora De Produtos Descartaveis Ltda,Não Indústria,2.Média,Comércio atacadista de embalagens,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+12449880000167,Fundacao Universitaria De Desenv De Extensao E Pesquisa,Nao Industria,2.Média,Pesquisa e desenvolvimento experimental em ciências sociais e humanas,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+12489837000125,Camara De Dirigentes Lojistas De Arapiraca,Não Indústria,4.Micro,Atividades de organizações associativas patronais e empresariais,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+12509238000126,Associacao Beneficente De Palmeira Dos Indios,Não Indústria,2.Média,"Atividades de atendimento hospitalar, exceto pronto-socorro e unidades para atendimento a urgências",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+12517413000127,Servico De Apoio As M E P Empresas De Alagoas-sebrae-al,Não Indústria,3.Pequena,"Atividades de consultoria em gestão empresarial, exceto consultoria técnica específica",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+12517413000208,Servico De Apoio As M E P Empresas De Alagoas-sebrae-al,Não Indústria,4.Micro,"Atividades de consultoria em gestão empresarial, exceto consultoria técnica específica",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+12517413000399,Servico De Apoio As M E P Empresas De Alagoas-sebrae-al,Não Indústria,4.Micro,"Atividades de consultoria em gestão empresarial, exceto consultoria técnica específica",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+12517413000470,Servico De Apoio As M E P Empresas De Alagoas-sebrae-al,Não Indústria,4.Micro,"Atividades de consultoria em gestão empresarial, exceto consultoria técnica específica",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+12542999000180,Santa Casa De Misericordia De Penedo,Não Indústria,2.Média,"Atividades de atendimento hospitalar, exceto pronto-socorro e unidades para atendimento a urgências",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+12621462000105,Associacao Das Empresas Do Distrito Industrial Governador Luiz Cavalcante,Não Indústria,4.Micro,Atividades de associações de defesa de direitos sociais,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+12683326000140,Hotel Brisa Suites Ltda,Não Indústria,2.Média,Hotéis,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+12712261000113,Elba Brito Valenca,Não Indústria,4.Micro,Ensino fundamental,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+12737680000100,Santa Casa De Misericordia De Sao Miguel Dos Campos,Não Indústria,1.Grande,"Atividades de atendimento hospitalar, exceto pronto-socorro e unidades para atendimento a urgências",Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+12805698000100,Francisco De Assis Soares Alcantara,Não Indústria,4.Micro,Comércio varejista de artigos do vestuário e acessórios,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+12952537000130,Six Propaganda Ltda,Não Indústria,4.Micro,Agências de publicidade,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+12954202000151,Associacao Dos Empregados Do Sesi Senai Fiea E Iel,Não Indústria,4.Micro,"Clubes sociais, esportivos e similares",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+12962817000120,V. L. Da Silva Boutique Ltda,Não Indústria,4.Micro,Comércio varejista de artigos do vestuário e acessórios,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+12974281000162,Rodogranel Logistica E Servicos Ltda,Não Indústria,4.Micro,"Transporte rodoviário de carga, exceto produtos perigosos e mudanças, intermunicipal, interestadual e internacional",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+13009550000113,Irmaos Britto Representacoes E Comercio Ltda,Não Indústria,4.Micro,Operações de terminais,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+13009550000547,Irmaos Britto Representacoes E Comercio Ltda,Não Indústria,3.Pequena,Operações de terminais,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+13055903000111,Yellow Kite Propaganda E Publicidade Ltda,Não Indústria,3.Pequena,Agências de publicidade,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+13096105000138,M A Da Silva & Cia Ltda,Não Indústria,4.Micro,Atividades de contabilidade,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+13158812000101,I G Da Silva  Ltda,Não Indústria,4.Micro,Atividades de cobrança e informações cadastrais,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+13256673000159,Smartway Comercio E Servicos Ltda,Indústria,4.Micro,Impressão de material para outros usos,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+13328046000186,Comercial Lavinia Ltda,Não Indústria,4.Micro,Comércio varejista de ferragens e ferramentas,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+13551835000181,Valkyria De Barros Rocha Ltda,Não Indústria,4.Micro,"Lanchonetes, casas de chá, de sucos e similares",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+13598663000100,P C Araujo Ltda,Não Indústria,3.Pequena,Restaurantes e similares,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+13625508000127,T . M . Do Nascimento Morais,Não Indústria,4.Micro,Comércio varejista de artigos do vestuário e acessórios,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+13743821000160,J J Balbino Da Silva  Ltda,Indústria,4.Micro,Instalação e manutenção elétrica,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+13930232000190,Pandurata Logistica Ltda,Não Indústria,2.Média,"Transporte rodoviário de carga, exceto produtos perigosos e mudanças, intermunicipal, interestadual e internacional",Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+13982530000124,Hotel Lua Cheia Ltda,Não Indústria,4.Micro,Outros alojamentos não especificados anteriormente,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+14085471000154,M C Aquino,Não Indústria,4.Micro,Comércio varejista de medicamentos veterinários,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+14101244000175,F M Da Silva Oliveira Ltda,Não Indústria,4.Micro,Comercio varejista de artigos de armarinho,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+14101244000256,F M Da Silva Oliveira Ltda,Não Indústria,4.Micro,Comercio varejista de artigos de armarinho,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+14101244000337,F M Da Silva Oliveira Ltda,Não Indústria,4.Micro,Comercio varejista de artigos de armarinho,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+14179637000100,Gisele Ferreira Dos Anjos,Não Indústria,4.Micro,"Comércio varejista de mercadorias em geral, com predominância de produtos alimentícios - minimercados, mercearias e armazéns",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+14313789000145,Mcz Express Service Ltda,Nao Industria,3.Pequena,"Transporte rodoviário de carga, exceto produtos perigosos e mudanças, intermunicipal, interestadual e internacional",Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+14377141000132,Valderley Silva De Oliveira,Não Indústria,4.Micro,Comércio varejista de outros produtos não especificados anteriormente,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+14458115000139,Alexandre Dos Santos Freitas 00250873630,Nao Industria,4.Micro,Promoção de vendas,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+14613816000103,J L F F Construcoes E Servicos Ltda,Indústria,4.Micro,Construção de instalações esportivas e recreativas,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+14658598000115,Alerta Seguranca Do Trabalho Ltda,Nao Industria,4.Micro,Treinamento em desenvolvimento profissional e gerencial,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+14755547000101,Parmegianno Pajucara Restaurante Ltda,Não Indústria,3.Pequena,Restaurantes e similares,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+14793555000142,Cooperativa Dos Agricultores Qualificados -coopaq,Não Indústria,3.Pequena,Atividades de apoio à agricultura não especificadas anteriormente,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+14798740000120,Acessoline Telecomunicacoes Ltda,Indústria,2.Média,Serviços de comunicação multimídia - SCM,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+14840869000159,Lima E Carvalho Ltda,Não Indústria,3.Pequena,Gestão e administração da propriedade imobiliária,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+14891051000165,Rv Hoteis Ltda,Não Indústria,3.Pequena,Hotéis,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+14951706000143,Associacao Dos Moradores E Proprietarios De Lotes Do Loteamento Residencial Altaville Residence,Não Indústria,4.Micro,Atividades associativas não especificadas anteriormente,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+15081543000158,Santa Fe Empreendimentos Imobiliarios E Participacoes Ltda,Não Indústria,4.Micro,Aluguel de imóveis próprios,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+15113214000141,Comercial Lambu Materiais Hidraulicos Ltda,Não Indústria,4.Micro,Comércio varejista de materiais hidráulicos,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+15369322000180,"Secretaria Municipal De Desenvolvimento Social, Primeira Infancia E Seguranca Alimentar ( Semdes ) )",Nao Industria,2.Média,Administração pública em geral,Migração,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+15580519000163,Ferreira Empreendimentos Turisticos Ltda,Não Indústria,4.Micro,Hotéis,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+15613922000141,Java Sorvetes Ltda,Não Indústria,4.Micro,Serviços combinados de escritório e apoio administrativo,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+15613922000222,Java Industria De Sorvetes Ltda,Não Indústria,4.Micro,"Lanchonetes, casas de chá, de sucos e similares",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+15614253000122,J. De Almeida Silva,Não Indústria,4.Micro,"Transporte rodoviário coletivo de passageiros, com itinerário fixo, intermunicipal em região metropolitana",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+15738728000192,R. Da Silva Material De Construcoes E Premoldados,Não Indústria,4.Micro,Comércio varejista de materiais de construção em geral,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+15862219000177,Reato Nucleo De Reabilitacao Ltda,Não Indústria,3.Pequena,Atividades de terapia ocupacional,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+16527159000107,E. R. Da Costa Silva Mercadinho,Não Indústria,4.Micro,"Comércio varejista de mercadorias em geral, com predominância de produtos alimentícios - minimercados, mercearias e armazéns",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+16599987000142,Applus Qualitec Servicos De Engenharia Ltda,Industria | Indústria,4.Micro,Serviços de engenharia,Proposta,True,True,True,SESI + SENAI,2,,,,,,,,,,,,,,,,,,,False
+16691563000103,G . Do Amaral Lima Correspondente,Não Indústria,4.Micro,Atividades de cobrança e informações cadastrais,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+16753841000100,Pousada Vicenza Ltda,Não Indústria,4.Micro,Outros alojamentos não especificados anteriormente,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+16798006000196,Condominio Do Edificio Residencial Catole,Não Indústria,4.Micro,Condomínios prediais,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+16819228000148,Mandala Promocao E Marketing Ltda,Nao Industria,4.Micro,Marketing direto,Migração,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+16821729000169,Ronaldo Costa Barroca,Não Indústria,4.Micro,"Criação de aves, exceto galináceos",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+16912703000126,Aco Lider Ltda,Não Indústria,3.Pequena,Comércio atacadista de ferragens e ferramentas,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+16925721000142,Togni  & Togni - Participacoes E Empreendimentos Ltda,Nao Industria,3.Pequena,Holdings de instituições não-financeiras,Migração,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+16941986000134,H B Alimentos Ltda,Nao Industria,4.Micro,"Lanchonetes, casas de chá, de sucos e similares",Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+16941986000215,H B Alimentos Ltda,Nao Industria,4.Micro,"Lanchonetes, casas de chá, de sucos e similares",Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+16941986000568,H B Alimentos Ltda,Nao Industria,4.Micro,"Lanchonetes, casas de chá, de sucos e similares",Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+16941986000720,H B Alimentos Ltda,Nao Industria,4.Micro,"Lanchonetes, casas de chá, de sucos e similares",Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+16941986000991,H B Alimentos Ltda,Nao Industria,4.Micro,"Lanchonetes, casas de chá, de sucos e similares",Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+16941986001106,H B Alimentos Ltda,Nao Industria,3.Pequena,"Lanchonetes, casas de chá, de sucos e similares",Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+16986057000141,Madeiras Do Brasil Via Expressa Ltda.,Não Indústria,4.Micro,Comércio varejista de materiais de construção em geral,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+17017499000142,Alexsandra M Dos Santos Ferreira Aguiar Me,Não Indústria,3.Pequena,Educação infantil - pré-escola,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+17127654000183,Myx Lanchonete Ltda,Nao Industria,4.Micro,"Lanchonetes, casas de chá, de sucos e similares",Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+17235389000157,Alagoas Onibus Ltda,Nao Industria,3.Pequena,"Comércio a varejo de automóveis, camionetas e utilitários novos",Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+17281037000804,Sao Miguel Logistica E Distribuicao Ltda,Não Indústria,3.Pequena,"Comércio atacadista de cerveja, chope e refrigerante",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+17336019000106,Auto Posto Veloz Ltda,Não Indústria,3.Pequena,Comércio varejista de combustíveis para veículos automotores,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+17348739000191,Joao Da Silva Barros Laticinios,Não Indústria,4.Micro,Comércio atacadista de leite e laticínios,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+17576754000197,Clinica Medica Integrada Souza Lima S/s Ltda,Não Indústria,4.Micro,Atividade médica ambulatorial restrita a consultas,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+17622147000116,Maceio Autopecas E Servicos Automotivos Ltda,Nao Industria,4.Micro,Comércio a varejo de pneumáticos e câmaras-de-ar,Migração,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+17765953000224,Agreste Lanchonete Ltda,Nao Industria,4.Micro,"Lanchonetes, casas de chá, de sucos e similares",Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+17776281000171,Badoc Comunicacao Ltda,Não Indústria,4.Micro,"Edição de cadastros, listas e outros produtos gráficos",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+17777646000182,Jayme Carneiro Junior,Nao Industria,3.Pequena,Criação de bovinos para leite,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+17917137000108,Tudo Limpo Distribuidora De Material De Limpeza E Descartaveis Ltda,Não Indústria,4.Micro,Comércio varejista de produtos saneantes domissanitários,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+18078551000133,Tecflan Servicos Industriais Ltda,Indústria,4.Micro,Manutenção e reparação de equipamentos e produtos não especificados anteriormente,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+18221849000150,Jacilma Marques De Sousa Pet Shop,Não Indústria,4.Micro,Comércio varejista de animais vivos e de artigos e alimentos para animais de estimação,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+18311921000130,Alagoas Restaurante Ltda,Não Indústria,4.Micro,Restaurantes e similares,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+18403814000132,Hotel Refugio Ltda,Não Indústria,4.Micro,Outros alojamentos não especificados anteriormente,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+18427355000127,Tau Consultoria Em Sustentabilidade Ltda,Não Indústria,4.Micro,Pesquisa e desenvolvimento experimental em ciências sociais e humanas,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+18448770000167,Falcao & Silva Comercio De Materiais De Construcao Ltda,Não Indústria,3.Pequena,Comércio varejista de materiais de construção em geral,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+18711452000147,Souza & Figueiredo Comercio De Lubrificantes Ltda,Não Indústria,4.Micro,Comércio atacadista de lubrificantes,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+18842121000146,Caetex Florestal S.a.,Nao Industria | Não Indústria,1.Grande,Cultivo de eucalipto,Proposta,True,True,True,SESI + SENAI,2,,,,,,,,,,,,,,,,,,,False
+18855580000164,Life Comercio De Produtos De Nutricao Esportiva E Funcional Ltda,Não Indústria,4.Micro,Comércio varejista de produtos alimentícios em geral ou especializado em produtos alimentícios não especificados anteriormente,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+18985898000160,Prime Solucoes Industriais Ltda,Indústria,2.Média,Instalação de máquinas e equipamentos industriais,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+19197536000177,Sanderly Teles Da Silva,Não Indústria,4.Micro,"Lanchonetes, casas de chá, de sucos e similares",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+19233110000121,Via Compra Ltda,Não Indústria,4.Micro,Comércio varejista de outros produtos não especificados anteriormente,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+19273747014797,Barbosa & Marques S A  Em Recuperacao Judicial,Não Indústria,4.Micro,Comércio atacadista de leite e laticínios,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+19284040000130,Klin Engenharia E Gestao Ambiental Ltda,Indústria,3.Pequena,Descontaminação e outros serviços de gestão de resíduos,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+19306147000132,Clinica Medica Otosinus Ltda,Não Indústria,4.Micro,Atividade médica ambulatorial com recursos para realização de exames complementares,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+19315059000105,Irrigaplant Comercio De Materiais Hidraulicos Ltda,Não Indústria,4.Micro,Comércio varejista de materiais hidráulicos,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+19420544000130,Secretaria Municipal De Governo E De Subprefeituras ( Segov),Nao Industria,4.Micro,Administração pública em geral,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+19427410000141,Sora Alimentos Ltda,Indústria,4.Micro,Moagem e fabricação de produtos de origem vegetal não especificados anteriormente,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+19485388000196,Ultra Servicos De Transportes Ltda,Não Indústria,3.Pequena,"Transporte rodoviário de carga, exceto produtos perigosos e mudanças, intermunicipal, interestadual e internacional",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+19598162000100,Aloizio Protazio De Oliveira Fertilizantes Ltda,Não Indústria,4.Micro,"Comércio atacadista de defensivos agrícolas, adubos, fertilizantes e corretivos do solo",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+19653622000147,Distribuidora Popular De Alimentos Ltda,Não Indústria,3.Pequena,Comércio atacadista de produtos alimentícios em geral,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+19667297000171,Alagoana Ind. E Com. De Carrocerias Ltda,Não Indústria,4.Micro,Comércio a varejo de peças e acessórios novos para veículos automotores,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+19682315000194,Carlos Da Silva Catuipe Junior 75884151004,Não Indústria,4.Micro,Treinamento em desenvolvimento profissional e gerencial,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+19704303000113,Asp Assessoria Social E Pesquisa Ltda,Nao Industria,3.Pequena,"Atividades de consultoria em gestão empresarial, exceto consultoria técnica específica",Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+19730559000103,Freitas Comercio De Artigos Esportivos Ltda,Não Indústria,4.Micro,Comércio varejista de artigos esportivos,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+20068306000278,Distribuidora De Alimentos Mix Bom Ltda,Nao Industria,3.Pequena,"Comércio varejista de mercadorias em geral, com predominância de produtos alimentícios - supermercados",Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+20210296000182,Condominio Residencial Alto Das Alamedas,Não Indústria,4.Micro,Condomínios prediais,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+20253491000190,J. I. Lima,Não Indústria,4.Micro,Comércio varejista de produtos alimentícios em geral ou especializado em produtos alimentícios não especificados anteriormente,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+20268976000157,L. Carlos Barboza E Cia Ltda,Não Indústria,4.Micro,Comércio a varejo de peças e acessórios novos para motocicletas e motonetas,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+20279762000186,Secretaria De Estado De Ressocializacao E Inclusao Social,Nao Industria,4.Micro,Segurança e ordem pública,Migração,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+20293552000142,Ellca 2 Servicos & Locacoes Ltda,Industria | Indústria,2.Média,Instalação e manutenção elétrica,Proposta,True,True,True,SESI + SENAI,2,,,,,,,,,,,,,,,,,,,False
+20589243000114,Evolution Comercio Administradora E Servicos Ltda,Não Indústria,3.Pequena,Gestão e administração da propriedade imobiliária,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+20644507000195,Pousada Martur Ltda,Não Indústria,4.Micro,Outros alojamentos não especificados anteriormente,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+20645520000169,Fm2c Servicos De Manutencao Ltda,Indústria,3.Pequena,Instalação e manutenção elétrica,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+20664328000110,Central Comercio De Pallet Ltda,Não Indústria,4.Micro,Comércio varejista de madeira e artefatos,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+20725521000113,Boulevard 1089 Apoio Administrativo Ltda,Não Indústria,4.Micro,"Serviços combinados para apoio a edifícios, exceto condomínios prediais",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+20784093000108,Rosilene Pereira Silva,Não Indústria,4.Micro,Comércio varejista de madeira e artefatos,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+20792878000114,Eletroblu Sistemas Eletricos Ltda,Indústria,2.Média,Instalação e manutenção elétrica,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+21050108000169,S & S Restaurante E Pizzaria Ltda,Não Indústria,4.Micro,Restaurantes e similares,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+21135340000108,H Fernando De Medeiros Pinto,Não Indústria,4.Micro,Hotéis,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+21142841000103,Reauto Servicos E Comercio De Pecas Para Veiculos Ltda,Não Indústria,4.Micro,Comércio a varejo de peças e acessórios novos para veículos automotores,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+21169943000112,Neri Coelho Estetica E Beleza Ltda,Não Indústria,4.Micro,Outras atividades de tratamento de beleza,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+21278824000106,Solo Agropecuaria E Participacoes Ltda,Nao Industria,3.Pequena,Cultivo de cana-de-açúcar,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+21583852000129,Parmegianno Iate Club Ltda,Não Indústria,3.Pequena,Restaurantes e similares,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+21717134000106,Mak Sorveteria Ltda,Nao Industria,4.Micro,"Lanchonetes, casas de chá, de sucos e similares",Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+21935123000194,Annalyce Soares De Melo,Não Indústria,4.Micro,"Comércio varejista de mercadorias em geral, com predominância de produtos alimentícios - minimercados, mercearias e armazéns",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+22053818000105,Condominio Residencial Mediterraneo Oestes,Não Indústria,4.Micro,Condomínios prediais,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+22442829000187,Jeizeanne De Gusmao Gomes Ltda,Não Indústria,4.Micro,Comércio varejista de hortifrutigranjeiros,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+22476571000130,Evolution Locadora Comercio E Servicos Ltda,Não Indústria,3.Pequena,Gestão e administração da propriedade imobiliária,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+22632851000190,Ganhar Brasil Franchising S/s Ltda,Nao Industria,4.Micro,Treinamento em desenvolvimento profissional e gerencial,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+22648664000102,Vila Materna Ltda,Não Indústria,4.Micro,Outras atividades de serviços pessoais não especificadas anteriormente,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+22821129000101,Zampieri Alugueis Ltda,Não Indústria,4.Micro,Gestão e administração da propriedade imobiliária,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+22844896000128,S. Paula Guimaraes Amaral,Não Indústria,4.Micro,Atividades de cobrança e informações cadastrais,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+22975605000130,R S L Policarpo Contrucoes,Não Indústria,4.Micro,Comércio varejista de materiais de construção em geral,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+23093434000260,Riomar Trading Ltda,Não Indústria,4.Micro,"Comércio atacadista de mercadorias em geral, sem predominância de alimentos ou de insumos agropecuários",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+23233451000174,A P Cezar & Cia Ltda,Não Indústria,4.Micro,Comércio a varejo de peças e acessórios novos para veículos automotores,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+23275905000170,Bem Estar Nutricao Clinica E Estetica S/s Ltda,Não Indústria,4.Micro,Atividades de profissionais da nutrição,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+23499339000180,Beeva Industria Comercio E Exportacao De Mel E Derivados S/a,Indústria,3.Pequena,Fabricação de outros produtos alimentícios não especificados anteriormente,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+23524040000138,Braspowertech Solucoes Tecnologicas Ltda,Indústria,4.Micro,"Fabricação de aparelhos e equipamentos de medida, teste e controle",Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+23571419000107,Jael Engenharia Ltda,Industria,4.Micro,Serviços de engenharia,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+23585778000105,Sbv Solucoes Ambientais Ltda,Industria,2.Média,"Obras portuárias, marítimas e fluviais",Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+23619452000151,Maucon Empreendimentos Ltda,Não Indústria,3.Pequena,Hotéis,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+23720921000124,Stx Energia Ltda,Indústria,3.Pequena,Serviços de engenharia,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+23803052000100,Fortfit Academia Ltda,Não Indústria,4.Micro,Atividades de condicionamento físico,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+23803052000282,Fortfit Academia Ltda,Não Indústria,4.Micro,Atividades de condicionamento físico,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+23856827000105,"Pontes, Marinho E Vasconcellos Advogados",Não Indústria,4.Micro,Serviços advocatícios,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+23878186000181,Centro De Educacao Infantil Bilingue Ltda,Não Indústria,3.Pequena,Ensino de idiomas,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+23883380000155,Atmmpaes Comercio De Produtos De Nutricao Esportiva E Funcional Ltda,Não Indústria,4.Micro,Comércio varejista de produtos alimentícios em geral ou especializado em produtos alimentícios não especificados anteriormente,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+23953373000182,Bahia Industria De Subprodutos Animais Ltda,Indústria,3.Pequena,Preparação de subprodutos do abate,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+24111914000198,Pedro Locacoes Ltda,Não Indústria,4.Micro,"Aluguel de palcos, coberturas e outras estruturas de uso temporário, exceto andaimes",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+24194249000143,P C Assessoria Empresarial Ltda,Não Indústria,3.Pequena,Seleção e agenciamento de mão-de-obra,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+24208048000158,Ferbras Ferragens Brasil Ltda,Não Indústria,4.Micro,Comércio varejista de ferragens e ferramentas,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+24244972000190,Condominio Do Edificio Curima,Não Indústria,4.Micro,Condomínios prediais,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+24245219000119,Condominio Maceio Shopping Center,Nao Industria,2.Média,Condomínios prediais,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+24250813000106,Jose Bepe Guedes De Luna,Não Indústria,4.Micro,Outros alojamentos não especificados anteriormente,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+24312944000162,Cooperativa Mista Radio Tele Taxi De Maceio Ltda,Não Indústria,4.Micro,Outras atividades associativas profissionais,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+24313827000113,Comlub Comercial De Lubrificantes S.a.,Não Indústria,3.Pequena,Comércio atacadista de lubrificantes,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+24321382000385,Luna L Nunes Avicola Ltda,Não Indústria,4.Micro,Produção de ovos,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+24326589000180,System Tours Viagens E Turismo Ltda,Não Indústria,4.Micro,Agências de viagens,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+24341378000117,Toracica Alagoas Servicos Medicos Ltda,Não Indústria,4.Micro,"Atividades de atendimento hospitalar, exceto pronto-socorro e unidades para atendimento a urgências",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+24463812000131,Condominio Do Edificio Costa Do Sol,Não Indústria,4.Micro,Condomínios prediais,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+24464315000158,Assoc Dos Servidores Inat Do Fisco Do Estado De Alagoas,Não Indústria,4.Micro,Atividades de associações de defesa de direitos sociais,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+24468522000180,Hotel Costamar Ltda,Não Indústria,2.Média,Hotéis,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+24483633000166,Santos E Melo Ltda,Não Indústria,4.Micro,Cabeleireiros,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+24575297000181,J. V. F. Gomes Equipadora,Não Indústria,4.Micro,Comércio a varejo de peças e acessórios novos para veículos automotores,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+24830240000181,Elizabete Pinheiro Queiroz,Não Indústria,4.Micro,Hotéis,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+24987939000150,3m Administracao Ltda,Não Indústria,4.Micro,"Albergues, exceto assistenciais",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+25060853000140,Ello Condominios Ltda,Não Indústria,3.Pequena,Gestão e administração da propriedade imobiliária,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+25079321000154,Sacramento E Almeida Ltda,Não Indústria,3.Pequena,Restaurantes e similares,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+25164354000100,Condominio Riacho Doce Residence Flat,Não Indústria,3.Pequena,Condomínios prediais,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+25288252000199,Rodrigues E Souza Alimentos Ltda,Não Indústria,4.Micro,Restaurantes e similares,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+25422019000157,Bello Gusto Comercio De Alimentos Ltda,Não Indústria,4.Micro,Restaurantes e similares,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+25422785000111,Juciara Souza Lima Galvao,Não Indústria,4.Micro,Educação infantil - pré-escola,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+26070970000157,Ycb Sampaio Servicos Ltda,Não Indústria,4.Micro,Carga e descarga,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+26212676000132,Vilela Araujo & Cia Ltda,Não Indústria,4.Micro,Comércio varejista de artigos do vestuário e acessórios,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+26216761000179,Walmir Valenca Sociedade Individual De Advocacia,Não Indústria,4.Micro,Serviços advocatícios,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+26389015000187,Data Engenharia Ltda,Indústria,4.Micro,"Manutenção e reparação de geradores, transformadores e motores elétricos",Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+26430205000109,Gm Prestadora De Servicos Administrativos A Empresas Ltda,Não Indústria,3.Pequena,Preparação de documentos e serviços especializados de apoio administrativo não especificados anteriormente,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+26491141000148,Autopecas Angelo Falcao Ltda,Não Indústria,4.Micro,Comércio a varejo de peças e acessórios novos para veículos automotores,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+26536432000105,Maragogi Brisa Hotel Ltda,Não Indústria,2.Média,Hotéis,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+26616606000140,Gd Finance Ltda,Não Indústria,4.Micro,Corretagem na compra e venda e avaliação de imóveis,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+26736810000102,Geoagro Perfuracoes E Sondagens S.a,Indústria,4.Micro,Perfurações e sondagens,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+26775107000103,Agencia Erk Ltda,Não Indústria,4.Micro,Agências de publicidade,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+26791836000145,Pacheco Variedades Ltda,Não Indústria,4.Micro,Comercio varejista de artigos de armarinho,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+26794410000226,Tcl Semp Industria E Comerco De Condicionadores De Ar S.a,Industria,1.Grande,Fabricação de aparelhos e equipamentos de ar condicionado para uso não-industrial,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+26991157000110,"Bastos Teixeira & Cia Comercio De Importacao, Exportacao E Representacoes Ltda",Não Indústria,4.Micro,"Representantes comerciais e agentes do comércio de madeira, material de construção e ferragens",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+27023800000184,Interlink Correntes Agroindustrial E Transportadora Ltda,Não Indústria,3.Pequena,Comércio varejista de ferragens e ferramentas,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+27056622000198,Guardare Corretora De Seguros Ltda,Não Indústria,4.Micro,"Corretores e agentes de seguros, de planos de previdência complementar e de saúde",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+27181509000134,Joao Lippo Advogados Associados,Não Indústria,4.Micro,Serviços advocatícios,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+27191235000164,Ayx Lanchonete Ltda,Nao Industria,4.Micro,"Lanchonetes, casas de chá, de sucos e similares",Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+27358066000104,Alirio Alisson Benjamim Alves Ricarte Ceramica Ltda,Indústria,3.Pequena,"Fabricação de artefatos de cerâmica e barro cozido para uso na construção, exceto azulejos e pisos",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+27446620000105,Byze Comercio E Servicos Ltda,Não Indústria,4.Micro,Comércio a varejo de motocicletas e motonetas novas,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+27511226000103,J.f. Dos Santos Esportes Ltda,Não Indústria,4.Micro,Comércio varejista de calçados,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+27654153000109,Fw Alimentacao Ltda,Nao Industria,4.Micro,Restaurantes e similares,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+27747010000141,Instituto Pra Vida,Não Indústria,4.Micro,Atividades de associações de defesa de direitos sociais,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+27806530000188,27.806.530 Maria Cleane Barbosa Pereira,Não Indústria,4.Micro,Ensino de arte e cultura não especificado anteriormente,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+27854319000130,Casa Da Limpeza Ltda,Não Indústria,4.Micro,Comércio varejista de produtos saneantes domissanitários,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+28004806000177,Cardan Arapiraca Comercio De Pecas E Servicos Ltda,Não Indústria,4.Micro,Comércio a varejo de peças e acessórios novos para veículos automotores,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+28442909000119,28.442.909 Israel Henrique Da Silva,Não Indústria,4.Micro,Produção teatral,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+28515756000192,Eletronica Barao De Atalaia Ltda,Não Indústria,4.Micro,"Comércio varejista especializado de peças e acessórios para aparelhos eletroeletrônicos para uso doméstico, exceto informática e comunicação",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+28663399000100,Hotel Kazullo Ltda,Não Indústria,4.Micro,Outros alojamentos não especificados anteriormente,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+28726763000133,Madeiras Do Brasil Barro Duro Ltda.,Não Indústria,4.Micro,Comércio varejista de madeira e artefatos,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+28791676000160,Maxlab Reagentes E Equipamentos Ltda,Não Indústria,4.Micro,Comércio varejista de artigos médicos e ortopédicos,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+28923975000100,Karoliny B Cardoso,Não Indústria,4.Micro,Comércio varejista de materiais de construção em geral,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+28964988000128,Diogo M G Pereira Ltda,Não Indústria,3.Pequena,Restaurantes e similares,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+28978618000140,Irmaos Costas Ltda,Não Indústria,4.Micro,Comércio varejista de produtos alimentícios em geral ou especializado em produtos alimentícios não especificados anteriormente,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+28978618000301,Irmaos Costas Ltda,Não Indústria,3.Pequena,Comércio atacadista especializado em outros produtos alimentícios não especificados anteriormente,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+28978618000492,Irmaos Costas Ltda,Não Indústria,4.Micro,Comércio atacadista especializado em outros produtos alimentícios não especificados anteriormente,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+29112325000148,Weston & Cia Cervejaria Artesanal Ltda,Indústria,4.Micro,Fabricação de cervejas e chopes,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+29161215000176,Tph Empreendimentos Hoteleiros Ltda,Não Indústria,3.Pequena,Hotéis,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+29180818000115,Jm Oliveira & Lopes Educacao Ltda,Não Indústria,3.Pequena,Ensino fundamental,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+29259315000130,Associacao Dos Proprietarios E/ou Moradores Do Condominio Residencial San Lorenzo,Não Indústria,4.Micro,Atividades associativas não especificadas anteriormente,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+29325963000147,E C L Almeida,Indústria,4.Micro,FABRICAÇÃO DE PRODUTOS DE PANIFICAÇÃO INDUSTRIAL,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+29398209000137,Veletrica Distribuidor Import. E Export. Ltda,Nao Industria,3.Pequena,Comércio atacadista de material elétrico,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+29500928000117,Aereo Gerenciamento De Projetos Ltda,Não Indústria,4.Micro,"Atividades de consultoria em gestão empresarial, exceto consultoria técnica específica",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+29514979000106,Artecia Eduardo Damasceno Ferreira Ltda,Não Indústria,4.Micro,Comércio varejista de vidros,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+29564421000127,L M Silva Falcao Ltda,Não Indústria,4.Micro,Comércio varejista de calçados,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+29722597000160,Solaric Energia Fotovoltaica Industria E Servico Ltda,Não Indústria,3.Pequena,Comércio atacadista de material elétrico,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+29884632000147,Infotec Consultoria E Planejamento Ltda,Nao Industria,1.Grande,"Atividades de consultoria em gestão empresarial, exceto consultoria técnica específica",Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+30102828000111,Erivaldo Auto Pecas E Servicos Ltda,Não Indústria,4.Micro,Comércio a varejo de peças e acessórios novos para veículos automotores,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+30158134000104,V. N. Barbosa Lima,Não Indústria,4.Micro,Comércio varejista de móveis,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+30351144000153,Rei Dog Zoo Center Ltda,Não Indústria,4.Micro,Comércio varejista de animais vivos e de artigos e alimentos para animais de estimação,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+30494698000100,Bobs Palmeira Ltda,Nao Industria,4.Micro,"Lanchonetes, casas de chá, de sucos e similares",Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+30587116000130,Instituto Manda Ver,Não Indústria,4.Micro,Atividades de associações de defesa de direitos sociais,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+30649147000178,Dr. Anderson Lima De Araujo Ltda,Não Indústria,4.Micro,Atividade médica ambulatorial com recursos para realização de procedimentos cirúrgicos,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+30700933000152,Rei Dog Pet Company Ltda,Não Indústria,4.Micro,Atividades veterinárias,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+30855210000122,30.855.210 Selma Maria Arruda Pimentel Manolio,Não Indústria,4.Micro,Ensino de arte e cultura não especificado anteriormente,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+30862278000139,Osman Batalha Xavier,Não Indústria,4.Micro,Criação de bovinos para leite,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+30871646000105,Ortouro Servicos Medicos Ltda,Não Indústria,4.Micro,Atividade médica ambulatorial restrita a consultas,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+30903679000190,Renovar Solucoes Empresariais Ltda,Não Indústria,4.Micro,"Atividades de intermediação e agenciamento de serviços e negócios em geral, exceto imobiliários",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+30925826000122,Id Solucoes Digitais Ltda,Não Indústria,4.Micro,"Suporte técnico, manutenção e outros serviços em tecnologia da informação",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+30984346000132,Distribuidora Klean Ltda,Não Indústria,3.Pequena,"Comércio atacadista de produtos de higiene, limpeza e conservação domiciliar",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+31005916000168,Alcantara & Oliveira Servicos Especializados Em Preparacao De Documentos Ltda.,Não Indústria,3.Pequena,Preparação de documentos e serviços especializados de apoio administrativo não especificados anteriormente,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+31132744000193,Guimaraes & Lima Ltda,Não Indústria,4.Micro,Atividades de cobrança e informações cadastrais,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+31470634000131,Couto E Lima Ltda,Não Indústria,4.Micro,Atividade médica ambulatorial restrita a consultas,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+31518231000115,"Instituto De Geriatria, Reabilitacao E Saude Ltda",Não Indústria,4.Micro,Atividade médica ambulatorial restrita a consultas,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+31820106000165,Reobote Sistemas Ltda,Indústria,4.Micro,Instalações de sistema de prevenção contra incêndio,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+31897907000129,Karla Viviane O. De P. Candido,Não Indústria,4.Micro,Atividades de psicologia e psicanálise,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+32041636000178,Associacao Jardins Perucaba,Não Indústria,4.Micro,Atividades associativas não especificadas anteriormente,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+32319224000157,Am Representacoes Ltda,Não Indústria,4.Micro,"Representantes comerciais e agentes do comércio de madeira, material de construção e ferragens",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+32355846000130,Chivito's Br Alimentos Ltda,Não Indústria,4.Micro,"Lanchonetes, casas de chá, de sucos e similares",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+32706891000192,Cheiro Da Terra Restaurante Ltda,Não Indústria,3.Pequena,Restaurantes e similares,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+32742424000118,C.mendes Pereira De Souza,Nao Industria,4.Micro,Comércio a varejo de peças e acessórios novos para veículos automotores,Migração,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+32785284000165,Ep Santos Ltda,Não Indústria,4.Micro,Atividade médica ambulatorial restrita a consultas,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+32808669001172,Bomfim Cargas E Encomendas Ltda,Não Indústria,3.Pequena,"Transporte rodoviário de carga, exceto produtos perigosos e mudanças, intermunicipal, interestadual e internacional",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+32898143000159,Carvalho E Lobo Lavanderia Ltda,Não Indústria,4.Micro,Lavanderias,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+33033440003039,Ncr Atleos Brasil Ltda,Não Indústria,2.Média,Reparação e manutenção de computadores e de equipamentos periféricos,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+33614220000164,Jeremias L Barbosa Granja,Não Indústria,4.Micro,"Criação de aves, exceto galináceos",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+33623363000132,M Lisboa Brandao Ltda,Nao Industria,4.Micro,Restaurantes e similares,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+33641358000152,Servico Social Da Industria Sesi,Não Indústria,4.Micro,Outras atividades de ensino não especificadas anteriormente,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+33978848000149,E & R Administradora Hoteleira E Condominial Ltda,Não Indústria,3.Pequena,Gestão e administração da propriedade imobiliária,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+34074252000268,Instituto Das Missionarias De N. S. De Fatima Do Brasil,Não Indústria,4.Micro,Atividades de organizações religiosas,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+34116804000172,Colegio Iep Ltda,Nao Industria,3.Pequena,Educação infantil - pré-escola,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+34186669000301,Origem Energia Alagoas S.a.,Indústria,1.Grande,Extração de petróleo e gás natural,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+34186669000565,Origem Energia Alagoas S.a.,Indústria,2.Média,Extração de petróleo e gás natural,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+34566702000159,Escola De Educacao Basica Santa Helena Ltda,Não Indústria,4.Micro,Ensino fundamental,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+34607256000183,Dlicias Da Terra Ltda,Nao Industria | Não Indústria,3.Pequena,Comércio varejista de produtos alimentícios em geral ou especializado em produtos alimentícios não especificados anteriormente,Migração | Proposta,True,True,True,SESI + SENAI,2,,,,,,,,,,,,,,,,,,,False
+34758007000199,Blue Park Gestao De Estacionamento Ltda,Não Indústria,4.Micro,Estacionamento de veículos,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+34831679000182,Camelo & Camelo Administracao De Imoveis Ltda,Não Indústria,4.Micro,Gestão e administração da propriedade imobiliária,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+34895118000147,M B S Costa Damasceno Ltda,Indústria,4.Micro,Fabricação de esquadrias de metal,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+35050445000160,J I De Almeida Comercio Varejista De Moveis Ltda,Não Indústria,4.Micro,Comércio varejista de móveis,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+35097794000138,Verttice Gerenciamento De Riscos Ltda,Não Indústria,4.Micro,Atividades de monitoramento de sistemas de segurança eletrônico,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+35167946000121,Ac Prestadora De Servicos Administrativos A Empresas Ltda,Não Indústria,4.Micro,Preparação de documentos e serviços especializados de apoio administrativo não especificados anteriormente,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+35250695000144,Unidade De Gastroenterologia E Endoscopia De Alagoas,Não Indústria,4.Micro,Serviços de diagnóstico por métodos ópticos - endoscopia e outros exames análogos,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+35256106000135,Proanalises Laboratorio De Analises Clinicas Ltda,Não Indústria,3.Pequena,Laboratórios clínicos,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+35292769000105,Fpb Empreendimentos Ltda,Não Indústria,3.Pequena,Gestão e manutenção de cemitérios,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+35371749000120,Encanto Do Tear Ltda,Não Indústria,4.Micro,"Comércio varejista de artigos de tapeçaria, cortinas e persianas",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+35375005000183,Comercial Leticia Ltda,Não Indústria,4.Micro,Comércio varejista de materiais de construção não especificados anteriormente,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+35396968000163,Kaline Do Bomfim Lima 02921221446,Não Indústria,4.Micro,"Lanchonetes, casas de chá, de sucos e similares",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+35492098000126,Nbg Midia Ltda,Nao Industria,4.Micro,"Agenciamento de espaços para publicidade, exceto em veículos de comunicação",Migração,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+35536265000193,V De Lira Leandro Educacao,Não Indústria,4.Micro,Educação infantil - pré-escola,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+35547843000197,L Das N Fernandes,Não Indústria,4.Micro,Comércio varejista de móveis,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+35553783000115,Jc Ind. Com. Exp. Imp. E Montagem De Sist. De Energia Solar Ltda,Não Indústria,4.Micro,Comércio varejista de materiais hidráulicos,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+35561844000196,Condominio Do Edf Nautilus,Não Indústria,4.Micro,Condomínios prediais,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+35562321000164,Fundacao De Amparo A Pesquisa De Alagoas,Nao Industria,3.Pequena,Administração pública em geral,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+35578782000125,Cardiomed Arapiraca Ltda,Não Indústria,4.Micro,Atividade médica ambulatorial com recursos para realização de exames complementares,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+35635333000171,Edial Empresa Divulgadora Arapiraca Ltda,Não Indústria,4.Micro,Atividades de rádio,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+35647523000109,Nordex Transportes E Servicos De Logisticas Ltda,Não Indústria,4.Micro,"Transporte rodoviário de carga, exceto produtos perigosos e mudanças, intermunicipal, interestadual e internacional",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+35647608000197,R.a. Gestao De Ativos Ltda,Nao Industria,3.Pequena,"Serviços de organização de feiras, congressos, exposições e festas",Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+35728310000101,M C Oleos E Lubrificantes Ltda,Não Indústria,3.Pequena,Comércio varejista de lubrificantes,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+35734334000173,Condominio Conjunto Residencial Tabuleiro Do Martins I,Não Indústria,4.Micro,Condomínios prediais,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+35739739000102,Instituto De Cultura Anglo Americana De Arapiraca Ltda,Não Indústria,4.Micro,Ensino de idiomas,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+35741024000267,Diagnose Centro De Diagnostico Por Imagem Ltda,Não Indústria,2.Média,Serviços de ressonância magnética,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+35763849000100,Grano Gestao Empresarial Ltda.,Não Indústria,3.Pequena,Serviços combinados de escritório e apoio administrativo,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+35852051000126,Unimar Supermecado Ltda,Não Indústria,4.Micro,"Comércio varejista de mercadorias em geral, com predominância de produtos alimentícios - minimercados, mercearias e armazéns",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+35956639000120,System Express Ltda,Não Indústria,3.Pequena,Ensino de idiomas,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+36064094000100,Amp Lanchonetes Ltda,Nao Industria,4.Micro,"Lanchonetes, casas de chá, de sucos e similares",Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+36075731000143,W.w.l. Hidraulica Equipamentos Ltda,Não Indústria,4.Micro,Comércio varejista de materiais hidráulicos,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+36078354000104,Frigoprime Cortes Especiais Ltda,Não Indústria,4.Micro,Comércio varejista de carnes - açougues,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+36308155000137,Hospital Memorial Agape S/a,Não Indústria,2.Média,Atividades de atendimento em pronto-socorro e unidades hospitalares para atendimento a urgências,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+36329165000159,G Moveis Ltda,Indústria,4.Micro,Fabricação de móveis com predominância de metal,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+36343070000190,Rico Consultores Imobiliarios Ltda,Não Indústria,4.Micro,Corretagem na compra e venda e avaliação de imóveis,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+36376728000160,Atitude Promo E Eventos Ltda,Não Indústria,4.Micro,"Serviços de organização de feiras, congressos, exposições e festas",Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+36629951000171,B C De Oliveira Lima  Ltda,Não Indústria,4.Micro,"Lanchonetes, casas de chá, de sucos e similares",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+36634906000105,Optmus Consultoria E Servicos Ltda,Nao Industria,3.Pequena,Serviços combinados de escritório e apoio administrativo,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+36999552000100,"Mg Construcao, Manutencao E Servicos Ltda",Indústria,4.Micro,Instalação e manutenção elétrica,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+37225540000183,Tavares E Pedrosa Assistencia De Enfermagem Ltda,Não Indústria,4.Micro,Atividades de enfermagem,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+37432689000133,Abaco Tecnologia De Informacao Ltda,Não Indústria,2.Média,Desenvolvimento e licenciamento de programas de computador customizáveis,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+37602529000195,Silvia Regia Pereira De Carvalho,Não Indústria,4.Micro,Comércio varejista de jornais e revistas,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+37801431000167,Computare Assessoria Contabil E Empresarial Al Ltda,Não Indústria,4.Micro,Atividades de contabilidade,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+37999873000160,Cemiterio Reserva Da Paz Ltda,Não Indústria,4.Micro,Serviços de sepultamento,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+38058413000108,Ello Solucoes Condominiais Ltda,Não Indústria,3.Pequena,Gestão e administração da propriedade imobiliária,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+38132400000123,Boi Carreiro Ltda,Nao Industria,3.Pequena,Criação de bovinos para corte,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+38497296000170,J L Da Silva Industria E Comercio,Indústria,4.Micro,"Fabricação de especiarias, molhos, temperos e condimentos",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+39282073000159,Reciclal Servicos E Solucoes Em Mao De Obra Ltda,Não Indústria,4.Micro,Seleção e agenciamento de mão-de-obra,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+39584335000130,Prime Vistorias Automotivas Ltda,Não Indústria,4.Micro,Outras atividades de serviços prestados principalmente às empresas não especificadas anteriormente,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+39585461000109,Yan Thiago Tavares Santos 09307495459,Não Indústria,4.Micro,"Serviços de organização de feiras, congressos, exposições e festas",Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+39821377000147,Rio Branco Administradora Ltda,Não Indústria,3.Pequena,Serviços combinados de escritório e apoio administrativo,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+40110376000173,Erivelton Valentim Silva 34885342864,Não Indústria,4.Micro,"Serviços de organização de feiras, congressos, exposições e festas",Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+40141215000147,Select Servicos Odontologicos Limitada,Não Indústria,4.Micro,Atividade odontológica com recursos para realização de procedimentos cirúrgicos,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+40702064000159,Fulo De Mandacaru Comidas Regionais Ltda,Não Indústria,4.Micro,Restaurantes e similares,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+40911117000141,Ativa Servicos Gerais Ltda,Nao Industria,1.Grande,Fornecimento e gestão de recursos humanos para terceiros,Migração,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+40914875000113,Joyce Vidal M. Lins Ballet Artes & Cia Ltda,Não Indústria,4.Micro,Ensino de dança,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+40919185000157,Alternativa Ensino Ltda,Não Indústria,3.Pequena,Ensino fundamental,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+40921140000117,Auto Pecas Real Ltda,Nao Industria,3.Pequena,Comércio a varejo de peças e acessórios novos para veículos automotores,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+40923831000150,Lopes & Calheiros Ltda,Não Indústria,4.Micro,Comércio varejista de materiais de construção em geral,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+40924102000622,Katoen Natie Do Brasil Ltda,Não Indústria,2.Média,Carga e descarga,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+40928830000106,M G L R Gomes,Não Indústria,4.Micro,Reparação e manutenção de equipamentos eletroeletrônicos de uso pessoal e doméstico,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+40954597000128,F M Servicos Ltda,Não Indústria,3.Pequena,Serviços combinados de escritório e apoio administrativo,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+40970440000196,Souza & Souto Alimentos E Bebidas Ltda,Não Indústria,3.Pequena,Restaurantes e similares,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+41160235000128,Manipular Formula Farmacia De Manipulacao Ltda.,Não Indústria,4.Micro,"Comércio varejista de produtos farmacêuticos, com manipulação de fórmulas",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+41178237000144,Sorveteria Bali Ltda,Não Indústria,4.Micro,"Lanchonetes, casas de chá, de sucos e similares",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+41178237000306,Sorveteria Bali Ltda,Não Indústria,4.Micro,"Lanchonetes, casas de chá, de sucos e similares",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+41183708000102,E Rocha Da Silva & Cia Ltda,Não Indústria,3.Pequena,Restaurantes e similares,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+41187766000104,Esquina Brasil Artesanato Ltda,Não Indústria,4.Micro,"Comércio varejista de suvenires, bijuterias e artesanatos",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+41191677000131,Unimed Palmeira Dos Indios Cooperativa De Trabalho Medico - Em Liquidacao,Não Indústria,3.Pequena,Planos de saúde,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+41200286000136,Trez Participacoes E Engenharia Ltda,Industria,3.Pequena,Construção de edifícios,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+41281917000199,Thaisa Guillou Pedrosa Ltda.,Não Indústria,4.Micro,Comércio atacadista de cereais e leguminosas beneficiados,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+41349784000145,Evolution Servicos Ltda,Não Indústria,4.Micro,Gestão e administração da propriedade imobiliária,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+41406475000160,"Maceio Print Grafica, Sinalizacao E Locacao Ltda",Indústria,3.Pequena,Impressão de material para uso publicitário,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+41568214000146,Receptivo Milagres Do Porto Ltda,Não Indústria,3.Pequena,"Bares e outros estabelecimentos especializados em servir bebidas, sem entretenimento",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+41629288001540,Transfarrapos Transportes Rodoviarios De Cargas Ltda,Não Indústria,4.Micro,"Transporte rodoviário de carga, exceto produtos perigosos e mudanças, intermunicipal, interestadual e internacional",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+41635932000198,Mais Vida Saude E Seguranca Ocupacional Ltda,Não Indústria,4.Micro,Serviços de perícia técnica relacionados à segurança do trabalho,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+41653026000116,Anderson Jeronimo Silva Petiscaria E Pizzaria,Não Indústria,4.Micro,Restaurantes e similares,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+41796948000182,Nayara Souza Do Nascimento  Ltda,Não Indústria,4.Micro,Outras atividades de tratamento de beleza,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+41864070000175,Ne Comercio Atacadista Ltda,Nao Industria | Não Indústria,3.Pequena,Comércio atacadista de produtos alimentícios em geral,Migração | Proposta,True,True,True,SESI + SENAI,2,,,,,,,,,,,,,,,,,,,False
+42150391000170,Braskem S.a,Indústria,3.Pequena,Fabricação de produtos petroquímicos básicos,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+42374148000136,Lm Telecom Ltda,Não Indústria,3.Pequena,Reparação e manutenção de equipamentos de comunicação,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+42564810000200,Origem Energia Infraestrutura Portuaria S.a.,Não Indústria,4.Micro,Administração da infra-estrutura portuária,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+42619562000168,J C Da Silva Ltda,Não Indústria,4.Micro,"Comércio varejista de cal, areia, pedra britada, tijolos e telhas",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+43249460000160,Warlem Teofilo Alves Ltda,Industria | Indústria,4.Micro,Recuperação de sucatas de alumínio,Migração | Proposta,True,True,True,SESI + SENAI,2,,,,,,,,,,,,,,,,,,,False
+43639775000114,Auto Posto Ultra Ltda,Não Indústria,3.Pequena,Comércio varejista de combustíveis para veículos automotores,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+43645681000158,Viacao Girauense Transportes E Fretamentos Ltda,Não Indústria,3.Pequena,"Transporte rodoviário coletivo de passageiros, com itinerário fixo, intermunicipal em região metropolitana",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+43651456000124,Workamusic Producoes Ltda,Não Indústria,4.Micro,Produção musical,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+43707005000161,Lcaa Consultoria Ltda,Não Indústria,3.Pequena,Operadores turísticos,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+43802186000105,Aina Do Sacramento Moreira Ltda,Não Indústria,4.Micro,Restaurantes e similares,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+43836290000110,Santos E Tenorio Telecom Ltda,Não Indústria,4.Micro,"Atividades de intermediação e agenciamento de serviços e negócios em geral, exceto imobiliários",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+43995907000140,Flex Industria E Comercio Ltda,Indústria,4.Micro,Fabricação de fraldas descartáveis,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+44086279000143,Sheylla Bispo Dos Santos  Ltda,Não Indústria,4.Micro,"Comércio varejista de cosméticos, produtos de perfumaria e de higiene pessoal",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+44203148000107,G S A Moveis Planejados Ltda,Não Indústria,4.Micro,Comércio varejista de móveis,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+44203357000142,Francinaldo De O Souza Ltda,Não Indústria,4.Micro,Comércio atacadista de lubrificantes,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+44526952000208,Matsubara Hoteis E Turismo Ltda,Nao Industria,4.Micro,Hotéis,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+44575605000186,E R Administradora Condominial Ltda,Não Indústria,3.Pequena,Gestão e administração da propriedade imobiliária,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+44586624000108,Fluxus Servicos Medicos Ltda,Não Indústria,4.Micro,Atividade médica ambulatorial restrita a consultas,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+44908785000170,G K S Da Silva Comedoria,Não Indústria,4.Micro,"Lanchonetes, casas de chá, de sucos e similares",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+45075715000141,Honor Service Ltda,Indústria,3.Pequena,Instalação e manutenção elétrica,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+45128005000132,Evolution Servicos Ltda,Não Indústria,2.Média,Gestão e administração da propriedade imobiliária,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+45387544000196,C G M De Carvalho,Não Indústria,4.Micro,"Lanchonetes, casas de chá, de sucos e similares",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+45412531000120,Associacao Dos Proprietarios De Unidades Autonomas Do Futuro Edificio Jardins Maria Luiza,Não Indústria,3.Pequena,Atividades associativas não especificadas anteriormente,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+45637490000170,Clarity Comercio De Valvulas Tubos E Conexoes Ltda,Não Indústria,4.Micro,Comércio varejista de materiais hidráulicos,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+45713672000182,Mcz Topografia Engenharia E Aerolevantamentos Ltda,Não Indústria,4.Micro,"Serviços de cartografia, topografia e geodésia",Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+45882038000173,Projeto Imobiliario Ita Hoti Spe Ltda.,Não Indústria,2.Média,Compra e venda de imóveis próprios,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+46042619000160,Tio Ferreira Ltda,Não Indústria,3.Pequena,"Comércio atacadista de cereais e leguminosas beneficiados, farinhas, amidos e féculas, com atividade de fracionamento e acondicionamento associada",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+46042619000240,Tio Ferreira Ltda,Não Indústria,3.Pequena,"Comércio atacadista de produtos alimentícios em geral, com atividade de fracionamento e acondicionamento associada",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+46042619000402,Tio Ferreira Ltda,Não Indústria,3.Pequena,"Comércio atacadista de cereais e leguminosas beneficiados, farinhas, amidos e féculas, com atividade de fracionamento e acondicionamento associada",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+46189709000188,R Q Regueira Moda Calcadista,Não Indústria,4.Micro,Comércio varejista de calçados,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+46202280000111,Orlando Lins Clinica Medica Ltda,Não Indústria,4.Micro,Atividade médica ambulatorial restrita a consultas,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+46337372000109,Associacao Dos Adquirentes De Unidades Autonomas Do Condominio Residencial Ville De France,Nao Industria,2.Média,Atividades associativas não especificadas anteriormente,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+46402809000140,J L V Dos Santos,Não Indústria,4.Micro,Serviço de transporte de passageiros - locação de automóveis com motorista,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+46423543000112,James Pertheson Da S Melo Vidracaria,Não Indústria,4.Micro,Comércio varejista de vidros,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+46632939000170,M G Dos Santos Pousada E Restaurante,Não Indústria,4.Micro,Restaurantes e similares,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+46806564000117,Sunset Residence Frances Spe Ltda,Industria,3.Pequena,Incorporação de empreendimentos imobiliários,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+46847405000160,Maria Jose De Farias Magalhaes Ltda,Não Indústria,3.Pequena,"Comércio varejista de cosméticos, produtos de perfumaria e de higiene pessoal",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+46874729000198,Rehabcardio Ltda,Não Indústria,4.Micro,Atividades de fisioterapia,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+47016991000164,T T Servicos Empresariais Ltda,Não Indústria,3.Pequena,Serviços combinados de escritório e apoio administrativo,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+47334691000123,Passaggio Empreendimentos Turisticos Ltda,Não Indústria,2.Média,Hotéis,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+47409771000109,Thiago Lins Batista 01140757431,Indústria,4.Micro,"Instalação e manutenção de sistemas centrais de ar condicionado, de ventilação e refrigeração",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+47440200000129,Cca Comercio De Moveis Ltda,Não Indústria,4.Micro,Comércio varejista de móveis,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+47454591000130,Instituto Saude Singularis Ltda,Não Indústria,4.Micro,Atividade odontológica com recursos para realização de procedimentos cirúrgicos,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+47594187000162,Therapie Medical Center Ltda,Não Indústria,4.Micro,Atividade médica ambulatorial com recursos para realização de exames complementares,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+47763856000182,Campo Verde Servicos Ltda,Não Indústria,3.Pequena,Serviços combinados de escritório e apoio administrativo,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+47967706000190,Restaurante Jaragua Ltda,Não Indústria,3.Pequena,Restaurantes e similares,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+48130274000121,Carvalho Assessoria E Servicos Ltda,Não Indústria,3.Pequena,Seleção e agenciamento de mão-de-obra,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+48196035000174,Posto Satuba Ltda,Não Indústria,4.Micro,Comércio varejista de combustíveis para veículos automotores,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+48684642000183,Adamo Spe 1 Ltda,Nao Industria,2.Média,Compra e venda de imóveis próprios,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+48825912000129,Ello Servicos Condominiais E Imobiliario Ltda,Não Indústria,3.Pequena,Gestão e administração da propriedade imobiliária,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+48869153000104,Tanino Bistro & Emporio Ltda,Não Indústria,4.Micro,Restaurantes e similares,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+48905364000147,48.905.364 Paulo Marcos Da Silva,Não Indústria,4.Micro,Restaurantes e similares,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+48962242000192,Quimica Nordeste De Produtos Ltda,Indústria,3.Pequena,Fabricação de sabões e detergentes sintéticos,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+48975994000198,Consulttymed Servicos Clinicos Ltda,Não Indústria,4.Micro,Atividade médica ambulatorial restrita a consultas,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+49120358000147,Buffet Pinheiro Ltda,Não Indústria,4.Micro,Serviços de alimentação para eventos e recepções - bufê,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+49120631000133,Associacao Dos Proprietarios De Unidades Autonomas Do Futuro Edificio Botanic View Club Residence,Nao Industria | Não Indústria,2.Média,Atividades associativas não especificadas anteriormente,Proposta,True,True,True,SESI + SENAI,2,,,,,,,,,,,,,,,,,,,False
+49142678000106,"Secretaria De Estado Do Desenvolvimento, Industria, Comercio E Servicos",Nao Industria,2.Média,Administração pública em geral,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+49274757000162,Janaina Mainara Da Silva Motopecas Ltda,Não Indústria,4.Micro,Comércio a varejo de peças e acessórios novos para motocicletas e motonetas,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+49329618000199,Sistenge Construcoes E Comercio Ltda,Industria,4.Micro,Construção de edifícios,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+49678524000125,Soilymar Ferreira Consultorio Odontologico Ltda,Não Indústria,4.Micro,Atividade odontológica com recursos para realização de procedimentos cirúrgicos,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+49837432000140,Magalhaes Consultoria Ltda,Não Indústria,4.Micro,"Atividades de consultoria em gestão empresarial, exceto consultoria técnica específica",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+49871213006623,Ic Transportes Ltda.,Nao Industria,1.Grande,"Transporte rodoviário de carga, exceto produtos perigosos e mudanças, intermunicipal, interestadual e internacional",Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+49930514000135,Sodexo Do Brasil Comercial S.a.,Indústria,1.Grande,Fornecimento de alimentos preparados preponderantemente para empresas,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+50161226000142,Adriano Tenorio Fernandes Comercio,Não Indústria,4.Micro,Comércio varejista de tecidos,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+50269736000138,Panetutti Casa De Lanches Ltda,Não Indústria,3.Pequena,Restaurantes e similares,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+50370509000102,Costa Servicos Ltda,Não Indústria,3.Pequena,Seleção e agenciamento de mão-de-obra,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+50381197000124,F L C Da S Buarque Policlinica,Não Indústria,4.Micro,Atividade médica ambulatorial com recursos para realização de exames complementares,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+50381212000134,Albuquerque Medicos Associados Ltda,Não Indústria,4.Micro,Atividade médica ambulatorial restrita a consultas,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+50527176000174,Centro De Estetica Avancado Ltda,Não Indústria,4.Micro,Outras atividades de tratamento de beleza,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+50567288000744,Sociedade Michelin De Participacoes Indust E Comercio Ltda,Indústria,2.Média,Fabricação de pneumáticos e de câmaras-de-ar,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+50583563000128,G D R Gelados Comercio Varejista Ltda,Não Indústria,3.Pequena,Comércio varejista de produtos alimentícios em geral ou especializado em produtos alimentícios não especificados anteriormente,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+50600889000116,50.600.889 Ana Karina Menezes De Aquino Franca,Não Indústria,4.Micro,Restaurantes e similares,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+50811328000166,Martta B De Lima Soluster Contabil,Não Indústria,4.Micro,Atividades de contabilidade,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+50935966000199,Space Gym Ltda,Não Indústria,4.Micro,Atividades de condicionamento físico,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+51401276000112,Sanctus Empreendimentos Imobiliarios Ltda,Não Indústria,4.Micro,Gestão e administração da propriedade imobiliária,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+51533527000112,Atacadista De Fraldas Mundial Ltda,Não Indústria,4.Micro,Comércio atacadista de produtos de higiene pessoal,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+51554396000150,Beef House Ltda,Não Indústria,4.Micro,Comércio varejista de carnes - açougues,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+51573010000157,Y T Melo Ltda,Não Indústria,4.Micro,Atividades de cobrança e informações cadastrais,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+51588175000100,Fernanda Moreira Santos,Não Indústria,4.Micro,Atividades veterinárias,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+51660007000170,Angiosaude Servicos Medicos Ltda,Não Indústria,4.Micro,Atividade médica ambulatorial com recursos para realização de exames complementares,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+51879879000124,Eny Pneus Auto Service Ltda,Não Indústria,4.Micro,Comércio a varejo de peças e acessórios novos para veículos automotores,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+51899013000185,Petroworks Do Brasil Ltda.,Indústria,3.Pequena,Perfurações e sondagens,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+51899405000225,Pratagy Comercio De Alimentos Ltda,Nao Industria,3.Pequena,Restaurantes e similares,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+51899405000497,Pratagy Comercio De Alimentos Ltda,Nao Industria,3.Pequena,Restaurantes e similares,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+51899405000578,Pratagy Comercio De Alimentos Ltda,Nao Industria,3.Pequena,Restaurantes e similares,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+52110730000149,Rma Distribuidora Ltda,Não Indústria,4.Micro,"Comércio atacadista de mercadorias em geral, sem predominância de alimentos ou de insumos agropecuários",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+52330340000184,Edificio Empresarial Link Office,Nao Industria,3.Pequena,Condomínios prediais,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+52386063000121,Harcos Corretora De Seguros Ltda,Não Indústria,4.Micro,"Corretores e agentes de seguros, de planos de previdência complementar e de saúde",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+52618139000105,Legrand Brasil Ltda,Não Indústria,3.Pequena,Serviços combinados de escritório e apoio administrativo,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+52650507000194,Ultra Cafe Ltda,Não Indústria,4.Micro,Comércio varejista de mercadorias em lojas de conveniência,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+52803309000113,Voe Home Automacao Ltda,Não Indústria,4.Micro,Comércio varejista especializado de eletrodomésticos e equipamentos de áudio e vídeo,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+52920999000190,Buffet Farol Ltda,Não Indústria,3.Pequena,Serviços de alimentação para eventos e recepções - bufê,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+52924246000153,Instituto Santa Afra,Não Indústria,4.Micro,Educação infantil - pré-escola,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+53281653000152,Rocha & Maranhao Ltda,Não Indústria,4.Micro,Atividade médica ambulatorial restrita a consultas,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+53622004000178,53.622.004 Meirilany Pereira Nascimento,Não Indústria,4.Micro,Comércio varejista de tecidos,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+54004943000111,Lr Mello Colchoes Ltda.,Não Indústria,4.Micro,"Comercio varejista de artigos de cama, mesa e banho",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+54027801000170,Tgn Empreendimentos Ltda,Nao Industria,3.Pequena,Preparação de documentos e serviços especializados de apoio administrativo não especificados anteriormente,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+54153370000198,Ferreira Araujo Servicos Ltda,Não Indústria,3.Pequena,Serviços combinados de escritório e apoio administrativo,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+54202484000180,D S Comercio De Eucalipto Ltda,Indústria,4.Micro,"Fabricação de artefatos diversos de madeira, exceto móveis",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+54347636000133,Alagoana Buffet E Servicos Ltda,Não Indústria,3.Pequena,Serviços combinados de escritório e apoio administrativo,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+54365049000177,Japa Bowl Ltda,Não Indústria,4.Micro,Restaurantes e similares,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+54787099000142,Croassaria Da Dressa Ltda,Não Indústria,4.Micro,Restaurantes e similares,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+54845919000105,M E Dos S Silva,Não Indústria,4.Micro,Comércio a varejo de peças e acessórios novos para veículos automotores,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+54846397000166,Biscoite Parque Shopping Ltda,Nao Industria,4.Micro,"Comércio varejista de doces, balas, bombons e semelhantes",Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+54922060000190,A B Gomes Lucena,Não Indústria,4.Micro,Atividade médica ambulatorial restrita a consultas,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+54991602000187,D F Servicos De Apoio Administrativo Ltda,Não Indústria,3.Pequena,Serviços combinados de escritório e apoio administrativo,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+55034633000102,Fb Locacoes E Servicos Ltda,Não Indústria,4.Micro,Outras atividades de prestação de serviços de informação não especificadas anteriormente,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+55065115000156,Hotel Quatro Coracoes Ltda,Não Indústria,4.Micro,Hotéis,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+55066699000184,Condominio Pier Norte,Não Indústria,3.Pequena,Condomínios prediais,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+55176486000105,55.176.486 Lucas Medeiros Marinho,Não Indústria,4.Micro,Restaurantes e similares,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+55297144000143,Narayana Locacoes De Equipamentos Ltda,Não Indústria,4.Micro,Aluguel de máquinas e equipamentos para escritório,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+55304253000140,Hora Extra Administrativo Ltda,Não Indústria,4.Micro,Outras atividades de prestação de serviços de informação não especificadas anteriormente,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+55436580000156,R F F Servicos Administrativos Ltda,Não Indústria,4.Micro,Serviços combinados de escritório e apoio administrativo,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+55553907000170,Restaurante Cheiro Da Terra Frances Ltda,Não Indústria,3.Pequena,Restaurantes e similares,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+55617622000155,J C Da Silva Carnes Ltda,Não Indústria,4.Micro,Comércio atacadista de carnes bovinas e suínas e derivados,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+55963809000100,Lais Carvalho Lima Jatoba,Não Indústria,4.Micro,Cabeleireiros,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+56022975000175,Restaurante Fusion Ltda,Não Indústria,3.Pequena,Restaurantes e similares,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+57467850000111,Cymi Aguas Alagoas S.a.,Indústria,3.Pequena,"Construção de redes de abastecimento de água, coleta de esgoto e construções correlatas, exceto obras de irrigação",Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+57558651000119,Escola Dom Bosco Maceio Ltda,Não Indústria,4.Micro,Educação infantil - pré-escola,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+57645286000180,Bobs Azul Ltda,Nao Industria,4.Micro,"Lanchonetes, casas de chá, de sucos e similares",Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+57727013000184,Ultra Oleo E Jato Comercio E Servicos Automotivos Ltda,Não Indústria,4.Micro,Comércio varejista de lubrificantes,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+57876279000199,Tamara Araujo Consultorio Odontologico Ltda,Não Indústria,4.Micro,Atividade odontológica com recursos para realização de procedimentos cirúrgicos,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+58012728000113,Claudivaldo B Lima  Ltda,Não Indústria,4.Micro,"Comércio varejista de mercadorias em geral, com predominância de produtos alimentícios - minimercados, mercearias e armazéns",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+58292666000140,Maceio Plasticouro Al Ltda,Não Indústria,4.Micro,Comércio varejista de tecidos,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+58397792000160,Apoio Atf Consultoria Especializada Ltda,Não Indústria,4.Micro,Serviços combinados de escritório e apoio administrativo,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+58457553000158,Alvorada Locacao Ltda,Não Indústria,4.Micro,Aluguel de máquinas e equipamentos para escritório,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+59203583000109,Jms Acessorios Ltda,Não Indústria,4.Micro,Comércio varejista especializado de equipamentos de telefonia e comunicação,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+59322838000144,Aaf Franchising Ltda,Não Indústria,4.Micro,Gestão de ativos intangíveis não-financeiros,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+59691114000178,Britto Macelog Spe. Ltda.,Não Indústria,3.Pequena,Administração da infra-estrutura portuária,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+59705135000103,Jeanks Toff Ltda,Não Indústria,4.Micro,"Comércio varejista de doces, balas, bombons e semelhantes",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+60145420000198,Leao E Silva Ltda,Não Indústria,4.Micro,Restaurantes e similares,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+60483869000166,Mestre Cuca Restaurantes Ltda,Não Indústria,3.Pequena,Restaurantes e similares,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+60574442000173,Ecosolar Servicos Administrativos Ltda,Não Indústria,4.Micro,Serviços combinados de escritório e apoio administrativo,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+60784666000100,Stc Luna Ltda,Não Indústria,4.Micro,Produção teatral,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+60818177000121,Condominio Beach Class Patacho,Nao Industria,3.Pequena,Condomínios prediais,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+61057621000104,Jln Agropecuaria Ltda,Não Indústria,3.Pequena,Criação de bovinos para corte,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+61082316000245,Vip Sports Group Industria E Comercio Ltda,Industria,4.Micro,"Confecção de peças do vestuário, exceto roupas íntimas e as confeccionadas sob medida",Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+61226455000114,J C Silva Goes De Araujo  Ltda,Não Indústria,4.Micro,Restaurantes e similares,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+61320365000198,Bobs Posto Terra Nossa Ltda,Nao Industria,4.Micro,"Lanchonetes, casas de chá, de sucos e similares",Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+61471733000107,Grano Restaurante Ltda.,Nao Industria | Não Indústria,3.Pequena,Restaurantes e similares,Migração | Proposta,True,True,True,SESI + SENAI,2,,,,,,,,,,,,,,,,,,,False
+61491058000170,Associacao Comunitaria Amigos De Maribondo,Nao Industria,4.Micro,Atividades de associações de defesa de direitos sociais,Migração,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+62361466000170,Ar De Mello Colchoes Ltda.,Não Indústria,4.Micro,Comércio varejista de móveis,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+62578771000118,Sangu La Sangucheria Peruana Ltda,Não Indústria,4.Micro,"Lanchonetes, casas de chá, de sucos e similares",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+62582285000173,Hotel Sol Poente Ltda,Não Indústria,3.Pequena,Hotéis,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+62590092000164,62.590.092 Wellington Araujo Da Silva,Não Indústria,4.Micro,Promoção de vendas,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+63477520000100,Condominio Do Edificio Salsa,Nao Industria,2.Média,Condomínios prediais,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+63541698000172,Arthur Autopecas E Servicos Ltda,Não Indústria,4.Micro,Comércio a varejo de peças e acessórios novos para veículos automotores,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+63631496000111,Delicias Do Cheff Ltda,Nao Industria,4.Micro,Restaurantes e similares,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+63907723000199,Jg Extintores Ltda,Nao Industria,4.Micro,Comércio varejista de outros produtos não especificados anteriormente,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+64078146000132,Viacao Lider Transportes E Fretamentos Ltda,Não Indústria,4.Micro,"Transporte rodoviário coletivo de passageiros, com itinerário fixo, intermunicipal em região metropolitana",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+64502210000160,Compre Bem Mais Comercio E Distribuicao De Alimentos Ltda,Não Indústria,3.Pequena,"Comércio varejista de mercadorias em geral, com predominância de produtos alimentícios - minimercados, mercearias e armazéns",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+64904295001932,Camil Alimentos S.a.,Não Indústria,2.Média,Comércio atacadista de produtos alimentícios em geral,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+64904295005920,Camil Alimentos S.a.,Indústria,2.Média,Fabricação de biscoitos e bolachas,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+65080391000147,M J Panificacao Ltda,Indústria,4.Micro,FABRICAÇÃO DE PRODUTOS DE PANIFICAÇÃO INDUSTRIAL,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+65333199000115,Cristo Rei Empreendimentos Ltda,Não Indústria,4.Micro,Aluguel de imóveis próprios,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+65357066000189,Audion Comercio De Produtos Medicos Ltda,Não Indústria,4.Micro,Comércio varejista de artigos médicos e ortopédicos,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+65456832000162,Erm Brasil Ltda,Indústria,2.Média,Serviços de engenharia,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+65530482000137,M E R C Florencio  Ltda,Não Indústria,4.Micro,Instituições de longa permanência para idosos,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+65672950000108,Riacho Doce Restaurante Ltda,Não Indústria,4.Micro,Restaurantes e similares,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+65780094000104,Martoke Empreendimento Imobiliario Spe Ltda,Nao Industria,3.Pequena,Gestão e administração da propriedade imobiliária,Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+66745231000132,Panificacao A Casa Portuguesa Pao E Mais Ltda,Indústria,4.Micro,FABRICAÇÃO DE PRODUTOS DE PANIFICAÇÃO INDUSTRIAL,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+66799281000100,Dfs Comercio E Industria Ltda,Indústria,3.Pequena,Fabricação de gelo comum,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+68362521000122,Alagoas Rendering Ltda,Indústria,3.Pequena,Preparação de subprodutos do abate,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+68409605000174,Paraty Ltda,Indústria,2.Média,Fabricação de azulejos e pisos,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+69973477000150,Ortotrauma Servicos Medicos Ltda,Não Indústria,3.Pequena,"Atividades de atendimento hospitalar, exceto pronto-socorro e unidades para atendimento a urgências",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+69975530000151,Consultar Assist Tec Em Documentacao E Informacao Ltda,Não Indústria,4.Micro,Preparação de documentos e serviços especializados de apoio administrativo não especificados anteriormente,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+69987485000155,Escola De Educacao Basica Santa Izabel Ltda,Não Indústria,4.Micro,Educação infantil - pré-escola,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+69987980000164,M De Lourdes O Araujo,Não Indústria,4.Micro,Comércio varejista de materiais de construção em geral,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+70003504000140,M J Lopes Da Silva Ltda,Não Indústria,3.Pequena,Ensino fundamental,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+70005723000169,Nucleo De Prevencao E Diagnostico Do Cancer Ltda,Não Indústria,4.Micro,Laboratórios de anatomia patológica e citológica,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+70005855000190,Hormoclinica Ltda,Não Indústria,3.Pequena,Laboratórios clínicos,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+70014030000132,Instituto Da Visao Ltda,Não Indústria,2.Média,"Atividades de atendimento hospitalar, exceto pronto-socorro e unidades para atendimento a urgências",Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+70940994009249,Pandurata Alimentos Ltda,Nao Industria | Não Indústria,3.Pequena,"Comércio atacadista de pães, bolos, biscoitos e similares",Proposta,True,True,True,SESI + SENAI,2,,,,,,,,,,,,,,,,,,,False
+78391612000140,Ibq - Industrias Quimicas S/a,Indústria,4.Micro,"Fabricação de pólvoras, explosivos e detonantes",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+79500385000106,Consistem Sistemas Ltda,Indústria,2.Média,Desenvolvimento e licenciamento de programas de computador não-customizáveis,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+82945932000171,Parati Industria E Comercio De Alimentos Ltda,Indústria,2.Média,Fabricação de biscoitos e bolachas,Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+82984287000104,Irmaos Fischer Sa Ind E Com,Indústria,1.Grande,"Fabricação de outros aparelhos eletrodomésticos não especificados anteriormente, peças e acessórios",Proposta,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+83475913004774,Pbg S/a,Não Indústria,2.Média,Serviços combinados de escritório e apoio administrativo,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+86894953001561,Bigburger Salvador Lanchonetes Ltda,Nao Industria,4.Micro,"Lanchonetes, casas de chá, de sucos e similares",Proposta,False,True,False,SOMENTE SENAI,1,,,,,,,,,,,,,,,,,,,False
+88301155006905,Moinhos Cruzeiro Do Sul S A,Não Indústria,4.Micro,"Comércio atacadista de farinhas, amidos e féculas",Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False
+96825575003308,Intermaritima Portos E Logistica S/a,Não Indústria,3.Pequena,Operações de terminais,Migração,True,False,False,SOMENTE SESI,1,,,,,,,,,,,,,,,,,,,False

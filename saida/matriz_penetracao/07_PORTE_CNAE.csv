@@ -1,0 +1,790 @@
+﻿Porte,CNAE PRIMARIO,MERCADO,QT_SESI,QT_SENAI,QT_SESI_SENAI,QT_SESI_OU_SENAI,SEM_RELACIONAMENTO,PENETRACAO_SESI_%,PENETRACAO_SENAI_%,PENETRACAO_COMBINADA_%,GAP_SESI,GAP_SENAI,GAP_COMBINADO
+DEMAIS,Administracao de obras,6,0,1,0,1,5,0.0,16.6667,16.6667,6,5,5
+DEMAIS,Atividades de apoio a extracao de minerais metalicos nao ferrosos,2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+DEMAIS,Atividades de apoio a extracao de minerais nao metalicos,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+DEMAIS,Atividades de apoio a extracao de petroleo e gas natural,9,1,1,0,2,7,11.1111,11.1111,22.2222,8,8,7
+DEMAIS,Atividades de coordenacao e controle da operacao da geracao e transmissao de energia eletrica,2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+DEMAIS,Atividades do correio nacional,122,0,0,0,0,122,0.0,0.0,0.0,122,122,122
+DEMAIS,"Atividades relacionadas a esgoto, exceto a gestao de redes",2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+DEMAIS,Beneficiamento de arroz,5,0,0,0,0,5,0.0,0.0,0.0,5,5,5
+DEMAIS,"Captacao, tratamento e distribuicao de agua",32,4,4,3,5,27,12.5,12.5,15.625,28,28,27
+DEMAIS,Coleta de residuos nao perigosos,34,3,0,0,3,31,8.8235,0.0,8.8235,31,34,31
+DEMAIS,Coleta de residuos perigosos,3,0,0,0,0,3,0.0,0.0,0.0,3,3,3
+DEMAIS,Comercio atacadista de energia eletrica,9,0,0,0,0,9,0.0,0.0,0.0,9,9,9
+DEMAIS,"Confeccao de pecas de vestuario, exceto roupas intimas e as confeccionadas sob medida",3,0,0,0,0,3,0.0,0.0,0.0,3,3,3
+DEMAIS,Confeccao de roupas intimas,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+DEMAIS,"Confeccao de roupas profissionais, exceto sob medida",1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+DEMAIS,"Confeccao, sob medida, de pecas do vestuario, exceto roupas intimas",2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+DEMAIS,"Confeccao, sob medida, de roupas profissionais",1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+DEMAIS,Construcao de barragens e represas para geracao de energia eletrica,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+DEMAIS,Construcao de edificios,470,24,38,10,52,418,5.1064,8.0851,11.0638,446,432,418
+DEMAIS,Construcao de embarcacoes de grande porte,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+DEMAIS,Construcao de embarcacoes para esporte e lazer,2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+DEMAIS,Construcao de estacoes e redes de distribuicao de energia eletrica,9,0,0,0,0,9,0.0,0.0,0.0,9,9,9
+DEMAIS,Construcao de estacoes e redes de telecomunicacoes,4,2,0,0,2,2,50.0,0.0,50.0,2,4,2
+DEMAIS,Construcao de instalacoes esportivas e recreativas,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+DEMAIS,Construcao de obras de arte especiais,5,0,1,0,1,4,0.0,20.0,20.0,5,4,4
+DEMAIS,"Construcao de redes de abastecimento de agua, coleta de esgoto e construcoes correlatas, exceto obras de irrigacao",14,0,2,0,2,12,0.0,14.2857,14.2857,14,12,12
+DEMAIS,"Construcao de redes de transportes por dutos, exceto para agua e esgoto",2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+DEMAIS,Construcao de rodovias e ferrovias,63,0,8,0,8,55,0.0,12.6984,12.6984,63,55,55
+DEMAIS,Demolicao de edificios e outras estruturas,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+DEMAIS,Desenvolvimento e licenciamento de programas de computador nao customizaveis,2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+DEMAIS,Distribuicao de combustiveis gasosos por redes urbanas,2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+DEMAIS,Distribuicao de energia eletrica,26,0,1,0,1,25,0.0,3.8462,3.8462,26,25,25
+DEMAIS,"Extracao de areia, cascalho ou pedregulho e beneficiamento associado",14,0,0,0,0,14,0.0,0.0,0.0,14,14,14
+DEMAIS,Extracao de argila e beneficiamento associado,4,0,0,0,0,4,0.0,0.0,0.0,4,4,4
+DEMAIS,Extracao de calcario e dolomita e beneficiamento associado,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+DEMAIS,Extracao de granito e beneficiamento associado,4,0,0,0,0,4,0.0,0.0,0.0,4,4,4
+DEMAIS,Extracao de madeira em florestas plantadas,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+DEMAIS,"Extracao de minerais para fabricacao de adubos, fertilizantes e outros produtos quimicos",3,3,0,0,3,0,100.0,0.0,100.0,0,3,0
+DEMAIS,Extracao de minerio de metais preciosos,2,1,1,1,1,1,50.0,50.0,50.0,1,1,1
+DEMAIS,Extracao de petroleo e gas natural,5,2,0,0,2,3,40.0,0.0,40.0,3,5,3
+DEMAIS,Extracao de sal gema,1,1,0,0,1,0,100.0,0.0,100.0,0,1,0
+DEMAIS,Extracao e britamento de pedras e outros materiais para construcao e beneficiamento associado,11,2,3,1,4,7,18.1818,27.2727,36.3636,9,8,7
+DEMAIS,"Fabricacao de acessorios do vestuario, exceto para seguranca e protecao",2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+DEMAIS,Fabricacao de acucar em bruto,55,7,4,2,9,46,12.7273,7.2727,16.3636,48,51,46
+DEMAIS,Fabricacao de aditivos de uso industrial,1,1,0,0,1,0,100.0,0.0,100.0,0,1,0
+DEMAIS,Fabricacao de adubos e fertilizantes organominerais,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+DEMAIS,"Fabricacao de adubos e fertilizantes, exceto organominerais",9,2,0,0,2,7,22.2222,0.0,22.2222,7,9,7
+DEMAIS,Fabricacao de aguardente de cana de acucar,3,0,0,0,0,3,0.0,0.0,0.0,3,3,3
+DEMAIS,Fabricacao de aguas envasadas,10,3,0,0,3,7,30.0,0.0,30.0,7,10,7
+DEMAIS,Fabricacao de alcool,8,1,0,0,1,7,12.5,0.0,12.5,7,8,7
+DEMAIS,Fabricacao de alimentos e pratos prontos,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+DEMAIS,Fabricacao de alimentos para animais,16,2,0,0,2,14,12.5,0.0,12.5,14,16,14
+DEMAIS,"Fabricacao de aparelhos de recepcao, reproducao, gravacao e amplificacao de audio e video",1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+DEMAIS,"Fabricacao de aparelhos e equipamentos de medida, teste e controle",2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+DEMAIS,Fabricacao de aparelhos e equipamentos para distribuicao e controle de energia eletrica,2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+DEMAIS,Fabricacao de aparelhos e utensilios para correcao de defeitos fisicos e aparelhos ortopedicos em geral sob encomenda,2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+DEMAIS,"Fabricacao de artefatos de ceramica e barro cozido para uso na construcao, exceto azulejos e pisos",3,0,0,0,0,3,0.0,0.0,0.0,3,3,3
+DEMAIS,Fabricacao de artefatos de cimento para uso na construcao,3,1,1,1,1,2,33.3333,33.3333,33.3333,2,2,2
+DEMAIS,Fabricacao de artefatos de material plastico para outros usos nao especificados anteriormente,11,3,2,1,4,7,27.2727,18.1818,36.3636,8,9,7
+DEMAIS,"Fabricacao de artefatos de material plastico para uso na construcao, exceto tubos e acessorios",8,2,2,2,2,6,25.0,25.0,25.0,6,6,6
+DEMAIS,Fabricacao de artefatos de material plastico para uso pessoal e domestico,8,7,3,3,7,1,87.5,37.5,87.5,1,5,1
+DEMAIS,Fabricacao de artefatos de material plastico para usos industriais,6,1,0,0,1,5,16.6667,0.0,16.6667,5,6,5
+DEMAIS,Fabricacao de artefatos de tanoaria e de embalagens de madeira,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+DEMAIS,Fabricacao de artefatos de tapecaria,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+DEMAIS,"Fabricacao de artefatos diversos de madeira, exceto moveis",3,1,1,1,1,2,33.3333,33.3333,33.3333,2,2,2
+DEMAIS,Fabricacao de artefatos texteis para uso domestico,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+DEMAIS,Fabricacao de artigos de metal para uso domestico e pessoal,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+DEMAIS,"Fabricacao de artigos de serralheria, exceto esquadrias",1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+DEMAIS,Fabricacao de artigos de vidro,2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+DEMAIS,Fabricacao de azulejos e pisos,1,1,1,1,1,0,100.0,100.0,100.0,0,0,0
+DEMAIS,Fabricacao de bancos e estofados para veiculos automotores,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+DEMAIS,"Fabricacao de biocombustiveis, exceto alcool",2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+DEMAIS,Fabricacao de biscoitos e bolachas,3,1,1,1,1,2,33.3333,33.3333,33.3333,2,2,2
+DEMAIS,"Fabricacao de cabines, carrocerias e reboques para caminhoes",4,0,1,0,1,3,0.0,25.0,25.0,4,3,3
+DEMAIS,"Fabricacao de canetas, lapis e outros artigos para escritorio",1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+DEMAIS,Fabricacao de cigarros,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+DEMAIS,Fabricacao de cimento,3,3,1,1,3,0,100.0,33.3333,100.0,0,2,0
+DEMAIS,Fabricacao de cloro e alcalis,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+DEMAIS,Fabricacao de colchoes,3,1,0,0,1,2,33.3333,0.0,33.3333,2,3,2
+DEMAIS,Fabricacao de componentes eletronicos,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+DEMAIS,Fabricacao de conservas de frutas,14,2,2,0,4,10,14.2857,14.2857,28.5714,12,12,10
+DEMAIS,"Fabricacao de conservas de peixes, crustaceos e moluscos",1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+DEMAIS,"Fabricacao de cosmeticos, produtos de perfumaria e de higiene pessoal",2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+DEMAIS,Fabricacao de embalagens de material plastico,5,2,0,0,2,3,40.0,0.0,40.0,3,5,3
+DEMAIS,Fabricacao de embalagens de papel,2,1,1,1,1,1,50.0,50.0,50.0,1,1,1
+DEMAIS,"Fabricacao de equipamentos para irrigacao agricola, pecas e acessorios",1,1,0,0,1,0,100.0,0.0,100.0,0,1,0
+DEMAIS,"Fabricacao de equipamentos transmissores de comunicacao, pecas e acessorios",1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+DEMAIS,"Fabricacao de especiarias, molhos, temperos e condimentos",3,0,0,0,0,3,0.0,0.0,0.0,3,3,3
+DEMAIS,Fabricacao de esquadrias de madeira e de pecas de madeira para instalacoes industriais e comerciais,6,2,1,1,2,4,33.3333,16.6667,33.3333,4,5,4
+DEMAIS,Fabricacao de esquadrias de metal,1,0,1,0,1,0,0.0,100.0,100.0,1,0,0
+DEMAIS,Fabricacao de estruturas metalicas,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+DEMAIS,"Fabricacao de estruturas pre moldadas de concreto armado, em serie e sob encomenda",4,0,1,0,1,3,0.0,25.0,25.0,4,3,3
+DEMAIS,Fabricacao de farinha de mandioca e derivados,1,1,0,0,1,0,100.0,0.0,100.0,0,1,0
+DEMAIS,"Fabricacao de farinha de milho e derivados, exceto oleos de milho",4,2,0,0,2,2,50.0,0.0,50.0,2,4,2
+DEMAIS,"Fabricacao de fios, cabos e condutores eletricos isolados",1,1,1,1,1,0,100.0,100.0,100.0,0,0,0
+DEMAIS,Fabricacao de gases industriais,3,0,0,0,0,3,0.0,0.0,0.0,3,3,3
+DEMAIS,Fabricacao de gelo comum,2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+DEMAIS,"Fabricacao de geradores de corrente continua e alternada, pecas e acessorios",3,0,0,0,0,3,0.0,0.0,0.0,3,3,3
+DEMAIS,"Fabricacao de impermeabilizantes, solventes e produtos afins",1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+DEMAIS,Fabricacao de laminados planos e tubulares de material plastico,3,1,2,1,2,1,33.3333,66.6667,66.6667,2,1,1
+DEMAIS,Fabricacao de laticinios,17,0,1,0,1,16,0.0,5.8824,5.8824,17,16,16
+DEMAIS,Fabricacao de luminarias e outros equipamentos de iluminacao,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+DEMAIS,"Fabricacao de maquinas e equipamentos para uso industrial especifico nao especificados anteriormente, pecas e acessorios",5,0,0,0,0,5,0.0,0.0,0.0,5,5,5
+DEMAIS,"Fabricacao de maquinas, equipamentos e aparelhos para transporte e elevacao de pessoas, pecas e acessorios",1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+DEMAIS,Fabricacao de massas alimenticias,2,1,1,1,1,1,50.0,50.0,50.0,1,1,1
+DEMAIS,Fabricacao de medicamentos alopaticos para uso humano,2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+DEMAIS,Fabricacao de motocicletas,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+DEMAIS,"Fabricacao de motores e turbinas, pecas e acessorios, exceto para avioes e veiculos rodoviarios",2,1,0,0,1,1,50.0,0.0,50.0,1,2,1
+DEMAIS,"Fabricacao de motores eletricos, pecas e acessorios",1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+DEMAIS,Fabricacao de moveis com predominancia de madeira,2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+DEMAIS,"Fabricacao de moveis de outros materiais, exceto madeira e metal",2,1,0,0,1,1,50.0,0.0,50.0,1,2,1
+DEMAIS,"Fabricacao de oleos vegetais refinados, exceto oleo de milho",1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+DEMAIS,Fabricacao de outras bebidas nao alcoolicas nao especificadas anteriormente,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+DEMAIS,"Fabricacao de outras maquinas e equipamentos de uso geral nao especificados anteriormente, pecas e acessorios",1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+DEMAIS,"Fabricacao de outros artefatos e produtos de concreto, cimento, fibrocimento, gesso e materiais semelhantes",1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+DEMAIS,Fabricacao de outros produtos alimenticios nao especificados anteriormente,12,1,0,0,1,11,8.3333,0.0,8.3333,11,12,11
+DEMAIS,Fabricacao de outros produtos de metal nao especificados anteriormente,5,0,2,0,2,3,0.0,40.0,40.0,5,3,3
+DEMAIS,Fabricacao de outros produtos de minerais nao metalicos nao especificados anteriormente,3,1,0,0,1,2,33.3333,0.0,33.3333,2,3,2
+DEMAIS,"Fabricacao de outros produtos derivados do petroleo, exceto produtos do refino",1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+DEMAIS,"Fabricacao de outros produtos do fumo, exceto cigarros, cigarrilhas e charutos",4,0,0,0,0,4,0.0,0.0,0.0,4,4,4
+DEMAIS,Fabricacao de outros produtos quimicos inorganicos nao especificados anteriormente,2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+DEMAIS,Fabricacao de outros produtos quimicos nao especificados anteriormente,9,1,1,0,2,7,11.1111,11.1111,22.2222,8,8,7
+DEMAIS,Fabricacao de papel,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+DEMAIS,Fabricacao de produtos ceramicos nao refratarios nao especificados anteriormente,2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+DEMAIS,Fabricacao de produtos de carne,2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+DEMAIS,Fabricacao de produtos de limpeza e polimento,2,1,0,0,1,1,50.0,0.0,50.0,1,2,1
+DEMAIS,Fabricacao de produtos de padaria e confeitaria com predominancia de producao propria,3,0,0,0,0,3,0.0,0.0,0.0,3,3,3
+DEMAIS,Fabricacao de produtos de panificacao industrial,6,2,0,0,2,4,33.3333,0.0,33.3333,4,6,4
+DEMAIS,Fabricacao de produtos de papel para uso domestico e higienico sanitario nao especificados anteriormente,1,1,0,0,1,0,100.0,0.0,100.0,0,1,0
+DEMAIS,"Fabricacao de produtos de papel, cartolina, papel cartao e papelao ondulado para uso industrial, comercial e de escritorio",1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+DEMAIS,"Fabricacao de produtos de pastas celulosicas, papel, cartolina, papel cartao e papelao ondulado nao especificados anteriormente",1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+DEMAIS,Fabricacao de produtos de trefilados de metal padronizados,1,1,0,0,1,0,100.0,0.0,100.0,0,1,0
+DEMAIS,Fabricacao de produtos do refino de petroleo,2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+DEMAIS,Fabricacao de produtos quimicos organicos nao especificados anteriormente,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+DEMAIS,"Fabricacao de refrescos, xaropes e pos para refrescos, exceto refrescos de frutas",1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+DEMAIS,Fabricacao de refrigerantes,4,1,0,0,1,3,25.0,0.0,25.0,3,4,3
+DEMAIS,Fabricacao de resinas termoplasticas,2,0,1,0,1,1,0.0,50.0,50.0,2,1,1
+DEMAIS,Fabricacao de saboes e detergentes sinteticos,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+DEMAIS,Fabricacao de sorvetes e outros gelados comestiveis,3,3,1,1,3,0,100.0,33.3333,100.0,0,2,0
+DEMAIS,"Fabricacao de sucos de frutas, hortalicas e legumes, exceto concentrados",2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+DEMAIS,"Fabricacao de tanques, reservatorios metalicos e caldeiras para aquecimento central",2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+DEMAIS,Fabricacao de tecidos de malha,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+DEMAIS,"Fabricacao de tintas, vernizes, esmaltes e lacas",5,2,1,1,2,3,40.0,20.0,40.0,3,4,3
+DEMAIS,Fabricacao de tubos e acessorios de material plastico para uso na construcao,5,2,2,2,2,3,40.0,40.0,40.0,3,3,3
+DEMAIS,Fabricacao de vidro plano e de seguranca,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+DEMAIS,Fabricacao de vinagres,1,1,0,0,1,0,100.0,0.0,100.0,0,1,0
+DEMAIS,Formulacao de combustiveis,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+DEMAIS,Fornecimento de alimentos preparados preponderantemente para empresas,35,4,3,1,6,29,11.4286,8.5714,17.1429,31,32,29
+DEMAIS,Frigorifico - abate de bovinos,5,1,0,0,1,4,20.0,0.0,20.0,4,5,4
+DEMAIS,Fundicao de ferro e aco,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+DEMAIS,Fundicao de metais nao ferrosos e suas ligas,1,1,0,0,1,0,100.0,0.0,100.0,0,1,0
+DEMAIS,Geracao de energia eletrica,75,1,1,1,1,74,1.3333,1.3333,1.3333,74,74,74
+DEMAIS,Gestao de redes de esgoto,2,1,0,0,1,1,50.0,0.0,50.0,1,2,1
+DEMAIS,Impressao de jornais,3,0,0,0,0,3,0.0,0.0,0.0,3,3,3
+DEMAIS,"Impressao de livros, revistas e outras publicacoes periodicas",3,0,1,0,1,2,0.0,33.3333,33.3333,3,2,2
+DEMAIS,Impressao de material de seguranca,3,0,0,0,0,3,0.0,0.0,0.0,3,3,3
+DEMAIS,Impressao de material para uso publicitario,2,1,0,0,1,1,50.0,0.0,50.0,1,2,1
+DEMAIS,Incorporacao de empreendimentos imobiliarios,660,20,24,7,37,623,3.0303,3.6364,5.6061,640,636,623
+DEMAIS,Instalacao de maquinas e equipamentos industriais,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+DEMAIS,"Instalacao de portas, janelas, tetos, divisorias e armarios embutidos de qualquer material",1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+DEMAIS,"Instalacao e manutencao de sistemas centrais de ar condicionado, de ventilacao e refrigeracao",3,0,1,0,1,2,0.0,33.3333,33.3333,3,2,2
+DEMAIS,Instalacao e manutencao eletrica,26,2,6,1,7,19,7.6923,23.0769,26.9231,24,20,19
+DEMAIS,"Instalacao, manutencao e reparacao de elevadores, escadas e esteiras rolantes",4,1,0,0,1,3,25.0,0.0,25.0,3,4,3
+DEMAIS,"Instalacoes hidraulicas, sanitarias e de gas",1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+DEMAIS,Manutencao de estacoes e redes de telecomunicacoes,3,1,1,1,1,2,33.3333,33.3333,33.3333,2,2,2
+DEMAIS,Manutencao e reparacao de aparelhos eletromedicos e eletroterapeuticos e equipamentos de irradiacao,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+DEMAIS,Manutencao e reparacao de embarcacoes para esporte e lazer,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+DEMAIS,Manutencao e reparacao de equipamentos e produtos nao especificados anteriormente,2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+DEMAIS,"Manutencao e reparacao de equipamentos hidraulicos e pneumaticos, exceto valvulas",2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+DEMAIS,"Manutencao e reparacao de geradores, transformadores e motores eletricos",2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+DEMAIS,Manutencao e reparacao de maquinas e aparelhos de refrigeracao e ventilacao para uso industrial e comercial,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+DEMAIS,"Manutencao e reparacao de maquinas, aparelhos e materiais eletricos nao especificados anteriormente",2,0,1,0,1,1,0.0,50.0,50.0,2,1,1
+DEMAIS,Manutencao e reparacao de outras maquinas e equipamentos para usos industriais nao especificados anteriormente,7,1,1,1,1,6,14.2857,14.2857,14.2857,6,6,6
+DEMAIS,"Manutencao e reparacao de tanques, reservatorios metalicos e caldeiras, exceto para veiculos",1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+DEMAIS,Moagem de trigo e fabricacao de derivados,2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+DEMAIS,Moagem e fabricacao de produtos de origem vegetal nao especificados anteriormente,12,2,0,0,2,10,16.6667,0.0,16.6667,10,12,10
+DEMAIS,Montagem de estruturas metalicas,4,0,0,0,0,4,0.0,0.0,0.0,4,4,4
+DEMAIS,Montagem e desmontagem de andaimes e outras estruturas temporarias,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+DEMAIS,Obras de alvenaria,2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+DEMAIS,Obras de fundacoes,2,1,0,0,1,1,50.0,0.0,50.0,1,2,1
+DEMAIS,Obras de montagem industrial,4,0,0,0,0,4,0.0,0.0,0.0,4,4,4
+DEMAIS,Obras de terraplenagem,11,1,2,1,2,9,9.0909,18.1818,18.1818,10,9,9
+DEMAIS,"Obras de urbanizacao - ruas, pracas e calcadas",25,3,2,0,5,20,12.0,8.0,20.0,22,23,20
+DEMAIS,"Obras portuarias, maritimas e fluviais",1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+DEMAIS,Outras atividades de telecomunicacoes nao especificadas anteriormente,8,0,1,0,1,7,0.0,12.5,12.5,8,7,7
+DEMAIS,Outras obras de acabamento da construcao,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+DEMAIS,Outras obras de engenharia civil nao especificadas anteriormente,29,1,1,1,1,28,3.4483,3.4483,3.4483,28,28,28
+DEMAIS,Outras obras de instalacoes em construcoes nao especificadas anteriormente,3,0,1,0,1,2,0.0,33.3333,33.3333,3,2,2
+DEMAIS,Perfuracoes e sondagens,3,0,0,0,0,3,0.0,0.0,0.0,3,3,3
+DEMAIS,Pintura para sinalizacao em pistas rodoviarias e aeroportos,2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+DEMAIS,Preparacao de canteiro e limpeza de terreno,2,0,1,0,1,1,0.0,50.0,50.0,2,1,1
+DEMAIS,Preparacao de massa de concreto e argamassa para construcao,9,4,4,3,5,4,44.4444,44.4444,55.5556,5,5,4
+DEMAIS,Preparacao do leite,16,2,1,1,2,14,12.5,6.25,12.5,14,15,14
+DEMAIS,Preparacao e fiacao de fibras de algodao,3,0,0,0,0,3,0.0,0.0,0.0,3,3,3
+DEMAIS,"Preservacao de peixes, crustaceos e moluscos",3,1,0,0,1,2,33.3333,0.0,33.3333,2,3,2
+DEMAIS,Processamento industrial do fumo,2,0,1,0,1,1,0.0,50.0,50.0,2,1,1
+DEMAIS,Producao de artefatos estampados de metal,2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+DEMAIS,Producao de carvao vegetal - florestas plantadas,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+DEMAIS,Producao de gas; processamento de gas natural,6,2,0,0,2,4,33.3333,0.0,33.3333,4,6,4
+DEMAIS,"Producao de relaminados, trefilados e perfilados de aco, exceto arames",1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+DEMAIS,"Producao e distribuicao de vapor, agua quente e ar condicionado",2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+DEMAIS,Provedores de acesso as redes de comunicacoes,4,0,0,0,0,4,0.0,0.0,0.0,4,4,4
+DEMAIS,"Recuperacao de materiais metalicos, exceto aluminio",1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+DEMAIS,Recuperacao de materiais nao especificados anteriormente,3,2,1,1,2,1,66.6667,33.3333,66.6667,1,2,1
+DEMAIS,Recuperacao de materiais plasticos,3,0,1,0,1,2,0.0,33.3333,33.3333,3,2,2
+DEMAIS,Recuperacao de sucatas de aluminio,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+DEMAIS,Reforma de pneumaticos usados,3,0,0,0,0,3,0.0,0.0,0.0,3,3,3
+DEMAIS,Restauracao e conservacao de lugares e predios historicos,2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+DEMAIS,Serrarias sem desdobramento de madeira em bruto - resserragem,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+DEMAIS,Servico de corte e dobra de metais,3,0,0,0,0,3,0.0,0.0,0.0,3,3,3
+DEMAIS,Servico movel especializado - sme,3,0,0,0,0,3,0.0,0.0,0.0,3,3,3
+DEMAIS,Servicos de borracharia para veiculos automotores,1,1,0,0,1,0,100.0,0.0,100.0,0,1,0
+DEMAIS,Servicos de comunicacao multimidia - scm,31,1,2,1,2,29,3.2258,6.4516,6.4516,30,29,29
+DEMAIS,Servicos de engenharia,65,1,3,1,3,62,1.5385,4.6154,4.6154,64,62,62
+DEMAIS,"Servicos de instalacao, manutencao e reparacao de acessorios para veiculos automotores",2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+DEMAIS,Servicos de manutencao e reparacao mecanica de veiculos automotores,5,1,0,0,1,4,20.0,0.0,20.0,4,5,4
+DEMAIS,Servicos de pintura de edificios em geral,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+DEMAIS,Servicos de preparacao do terreno nao especificados anteriormente,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+DEMAIS,Servicos de telecomunicacoes por fio nao especificados anteriormente,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+DEMAIS,Servicos de telecomunicacoes sem fio nao especificados anteriormente,2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+DEMAIS,Servicos de telefonia fixa comutada - stfc,18,0,0,0,0,18,0.0,0.0,0.0,18,18,18
+DEMAIS,"Servicos de usinagem, tornearia e solda",1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+DEMAIS,Servicos especializados para construcao nao especificados anteriormente,12,0,0,0,0,12,0.0,0.0,0.0,12,12,12
+DEMAIS,Telecomunicacoes por satelite,3,0,0,0,0,3,0.0,0.0,0.0,3,3,3
+DEMAIS,Telefonia movel celular,12,0,0,0,0,12,0.0,0.0,0.0,12,12,12
+DEMAIS,Transmissao de energia eletrica,79,0,0,0,0,79,0.0,0.0,0.0,79,79,79
+DEMAIS,Transporte dutoviario,4,1,0,0,1,3,25.0,0.0,25.0,3,4,3
+DEMAIS,Transporte ferroviario de passageiros intermunicipal e interestadual,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+DEMAIS,Transporte ferroviario de passageiros municipal e em regiao metropolitana,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+DEMAIS,Tratamento e disposicao de residuos nao perigosos,8,4,1,0,5,3,50.0,12.5,62.5,4,7,3
+MICRO EMPRESA,Abate de aves,27,0,0,0,0,27,0.0,0.0,0.0,27,27,27
+MICRO EMPRESA,Abate de pequenos animais,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+MICRO EMPRESA,Acabamento de calcados de couro sob contrato,44,0,0,0,0,44,0.0,0.0,0.0,44,44,44
+MICRO EMPRESA,Administracao de obras,55,0,1,0,1,54,0.0,1.8182,1.8182,55,54,54
+MICRO EMPRESA,Aluguel de andaimes,34,0,0,0,0,34,0.0,0.0,0.0,34,34,34
+MICRO EMPRESA,"Aparelhamento de pedras para construcao, exceto associado a extracao",2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+MICRO EMPRESA,"Aparelhamento de placas e execucao de trabalhos em marmore, granito, ardosia e outras pedras",146,7,2,1,8,138,4.7945,1.3699,5.4795,139,144,138
+MICRO EMPRESA,Aplicacao de revestimentos e de resinas em interiores e exteriores,126,0,0,0,0,126,0.0,0.0,0.0,126,126,126
+MICRO EMPRESA,Atividades de apoio a extracao de minerais metalicos nao ferrosos,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+MICRO EMPRESA,Atividades de apoio a extracao de minerais nao metalicos,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+MICRO EMPRESA,Atividades de apoio a extracao de petroleo e gas natural,3,0,0,0,0,3,0.0,0.0,0.0,3,3,3
+MICRO EMPRESA,Atividades de franqueadas do correio nacional,24,1,0,0,1,23,4.1667,0.0,4.1667,23,24,23
+MICRO EMPRESA,"Atividades relacionadas a esgoto, exceto a gestao de redes",23,0,0,0,0,23,0.0,0.0,0.0,23,23,23
+MICRO EMPRESA,Beneficiamento de arroz,7,0,0,0,0,7,0.0,0.0,0.0,7,7,7
+MICRO EMPRESA,"Britamento de pedras, exceto associado a extracao",2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+MICRO EMPRESA,"Captacao, tratamento e distribuicao de agua",16,0,0,0,0,16,0.0,0.0,0.0,16,16,16
+MICRO EMPRESA,Coleta de residuos nao perigosos,545,2,0,0,2,543,0.367,0.0,0.367,543,545,543
+MICRO EMPRESA,Coleta de residuos perigosos,5,1,0,0,1,4,20.0,0.0,20.0,4,5,4
+MICRO EMPRESA,Comercio atacadista de energia eletrica,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+MICRO EMPRESA,"Confeccao de pecas de vestuario, exceto roupas intimas e as confeccionadas sob medida",548,5,1,0,6,542,0.9124,0.1825,1.0949,543,547,542
+MICRO EMPRESA,Confeccao de roupas intimas,37,5,1,1,5,32,13.5135,2.7027,13.5135,32,36,32
+MICRO EMPRESA,"Confeccao de roupas profissionais, exceto sob medida",19,4,2,2,4,15,21.0526,10.5263,21.0526,15,17,15
+MICRO EMPRESA,"Confeccao, sob medida, de pecas do vestuario, exceto roupas intimas",836,4,2,2,4,832,0.4785,0.2392,0.4785,832,834,832
+MICRO EMPRESA,"Confeccao, sob medida, de roupas profissionais",11,5,0,0,5,6,45.4545,0.0,45.4545,6,11,6
+MICRO EMPRESA,Construcao de edificios,1121,6,4,2,8,1113,0.5352,0.3568,0.7136,1115,1117,1113
+MICRO EMPRESA,Construcao de embarcacoes de grande porte,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+MICRO EMPRESA,Construcao de embarcacoes para esporte e lazer,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+MICRO EMPRESA,"Construcao de embarcacoes para uso comercial e para usos especiais, exceto de grande porte",1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+MICRO EMPRESA,Construcao de estacoes e redes de distribuicao de energia eletrica,8,0,0,0,0,8,0.0,0.0,0.0,8,8,8
+MICRO EMPRESA,Construcao de estacoes e redes de telecomunicacoes,2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+MICRO EMPRESA,Construcao de instalacoes esportivas e recreativas,5,0,0,0,0,5,0.0,0.0,0.0,5,5,5
+MICRO EMPRESA,Construcao de obras de arte especiais,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+MICRO EMPRESA,"Construcao de redes de abastecimento de agua, coleta de esgoto e construcoes correlatas, exceto obras de irrigacao",3,0,0,0,0,3,0.0,0.0,0.0,3,3,3
+MICRO EMPRESA,"Construcao de redes de transportes por dutos, exceto para agua e esgoto",1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+MICRO EMPRESA,Construcao de rodovias e ferrovias,8,0,0,0,0,8,0.0,0.0,0.0,8,8,8
+MICRO EMPRESA,Curtimento e outras preparacoes de couro,2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+MICRO EMPRESA,"Decoracao, lapidacao, gravacao, vitrificacao e outros trabalhos em ceramica, louca, vidro e cristal",13,0,0,0,0,13,0.0,0.0,0.0,13,13,13
+MICRO EMPRESA,Descontaminacao e outros servicos de gestao de residuos,2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+MICRO EMPRESA,Desenvolvimento e licenciamento de programas de computador nao customizaveis,51,0,0,0,0,51,0.0,0.0,0.0,51,51,51
+MICRO EMPRESA,"Estamparia e texturizacao em fios, tecidos, artefatos texteis e pecas do vestuario",75,0,0,0,0,75,0.0,0.0,0.0,75,75,75
+MICRO EMPRESA,Estudios cinematograficos,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+MICRO EMPRESA,"Extracao de areia, cascalho ou pedregulho e beneficiamento associado",47,0,0,0,0,47,0.0,0.0,0.0,47,47,47
+MICRO EMPRESA,Extracao de argila e beneficiamento associado,3,0,0,0,0,3,0.0,0.0,0.0,3,3,3
+MICRO EMPRESA,Extracao de calcario e dolomita e beneficiamento associado,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+MICRO EMPRESA,Extracao de granito e beneficiamento associado,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+MICRO EMPRESA,Extracao de madeira em florestas plantadas,3,0,0,0,0,3,0.0,0.0,0.0,3,3,3
+MICRO EMPRESA,Extracao de minerio de metais preciosos,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+MICRO EMPRESA,Extracao de outros minerais nao metalicos nao especificados anteriormente,4,0,0,0,0,4,0.0,0.0,0.0,4,4,4
+MICRO EMPRESA,Extracao de saibro e beneficiamento associado,2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+MICRO EMPRESA,Extracao e britamento de pedras e outros materiais para construcao e beneficiamento associado,7,0,0,0,0,7,0.0,0.0,0.0,7,7,7
+MICRO EMPRESA,Fabricacao de absorventes higienicos,2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+MICRO EMPRESA,"Fabricacao de acessorios do vestuario, exceto para seguranca e protecao",12,1,0,0,1,11,8.3333,0.0,8.3333,11,12,11
+MICRO EMPRESA,Fabricacao de acucar em bruto,5,0,0,0,0,5,0.0,0.0,0.0,5,5,5
+MICRO EMPRESA,Fabricacao de adubos e fertilizantes organominerais,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+MICRO EMPRESA,Fabricacao de aguardente de cana de acucar,8,1,1,1,1,7,12.5,12.5,12.5,7,7,7
+MICRO EMPRESA,Fabricacao de aguas envasadas,9,4,2,2,4,5,44.4444,22.2222,44.4444,5,7,5
+MICRO EMPRESA,Fabricacao de alcool,5,0,0,0,0,5,0.0,0.0,0.0,5,5,5
+MICRO EMPRESA,Fabricacao de alimentos e pratos prontos,192,0,3,0,3,189,0.0,1.5625,1.5625,192,189,189
+MICRO EMPRESA,Fabricacao de alimentos para animais,10,2,1,1,2,8,20.0,10.0,20.0,8,9,8
+MICRO EMPRESA,Fabricacao de amidos e feculas de vegetais,17,0,0,0,0,17,0.0,0.0,0.0,17,17,17
+MICRO EMPRESA,"Fabricacao de aparelhos e equipamentos de medida, teste e controle",1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+MICRO EMPRESA,Fabricacao de artefatos de borracha nao especificados anteriormente,28,0,0,0,0,28,0.0,0.0,0.0,28,28,28
+MICRO EMPRESA,"Fabricacao de artefatos de ceramica e barro cozido para uso na construcao, exceto azulejos e pisos",18,3,1,0,4,14,16.6667,5.5556,22.2222,15,17,14
+MICRO EMPRESA,Fabricacao de artefatos de cimento para uso na construcao,24,3,1,1,3,21,12.5,4.1667,12.5,21,23,21
+MICRO EMPRESA,Fabricacao de artefatos de cordoaria,2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+MICRO EMPRESA,Fabricacao de artefatos de couro nao especificados anteriormente,44,0,0,0,0,44,0.0,0.0,0.0,44,44,44
+MICRO EMPRESA,Fabricacao de artefatos de joalheria e ourivesaria,17,0,0,0,0,17,0.0,0.0,0.0,17,17,17
+MICRO EMPRESA,Fabricacao de artefatos de material plastico para outros usos nao especificados anteriormente,28,0,0,0,0,28,0.0,0.0,0.0,28,28,28
+MICRO EMPRESA,"Fabricacao de artefatos de material plastico para uso na construcao, exceto tubos e acessorios",1,1,0,0,1,0,100.0,0.0,100.0,0,1,0
+MICRO EMPRESA,Fabricacao de artefatos de material plastico para uso pessoal e domestico,7,0,0,0,0,7,0.0,0.0,0.0,7,7,7
+MICRO EMPRESA,Fabricacao de artefatos de material plastico para usos industriais,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+MICRO EMPRESA,Fabricacao de artefatos de tanoaria e de embalagens de madeira,6,1,0,0,1,5,16.6667,0.0,16.6667,5,6,5
+MICRO EMPRESA,Fabricacao de artefatos de tapecaria,27,1,0,0,1,26,3.7037,0.0,3.7037,26,27,26
+MICRO EMPRESA,"Fabricacao de artefatos diversos de cortica, bambu, palha, vime e outros materiais trancados, exceto moveis",18,0,0,0,0,18,0.0,0.0,0.0,18,18,18
+MICRO EMPRESA,"Fabricacao de artefatos diversos de madeira, exceto moveis",171,1,1,1,1,170,0.5848,0.5848,0.5848,170,170,170
+MICRO EMPRESA,Fabricacao de artefatos para pesca e esporte,7,0,0,0,0,7,0.0,0.0,0.0,7,7,7
+MICRO EMPRESA,Fabricacao de artefatos texteis para uso domestico,34,0,0,0,0,34,0.0,0.0,0.0,34,34,34
+MICRO EMPRESA,Fabricacao de artigos de cutelaria,6,0,0,0,0,6,0.0,0.0,0.0,6,6,6
+MICRO EMPRESA,Fabricacao de artigos de metal para uso domestico e pessoal,9,0,0,0,0,9,0.0,0.0,0.0,9,9,9
+MICRO EMPRESA,"Fabricacao de artigos de serralheria, exceto esquadrias",635,0,0,0,0,635,0.0,0.0,0.0,635,635,635
+MICRO EMPRESA,Fabricacao de artigos de vidro,11,0,0,0,0,11,0.0,0.0,0.0,11,11,11
+MICRO EMPRESA,"Fabricacao de artigos do vestuario, produzidos em malharias e tricotagens, exceto meias",79,1,0,0,1,78,1.2658,0.0,1.2658,78,79,78
+MICRO EMPRESA,Fabricacao de artigos opticos,2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+MICRO EMPRESA,"Fabricacao de artigos para viagem, bolsas e semelhantes de qualquer material",44,1,0,0,1,43,2.2727,0.0,2.2727,43,44,43
+MICRO EMPRESA,Fabricacao de artigos pirotecnicos,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+MICRO EMPRESA,Fabricacao de aviamentos para costura,5,0,0,0,0,5,0.0,0.0,0.0,5,5,5
+MICRO EMPRESA,Fabricacao de bijuterias e artefatos semelhantes,281,2,0,0,2,279,0.7117,0.0,0.7117,279,281,279
+MICRO EMPRESA,Fabricacao de biscoitos e bolachas,73,2,2,0,4,69,2.7397,2.7397,5.4795,71,71,69
+MICRO EMPRESA,"Fabricacao de cabines, carrocerias e reboques para caminhoes",8,0,0,0,0,8,0.0,0.0,0.0,8,8,8
+MICRO EMPRESA,"Fabricacao de cabines, carrocerias e reboques para outros veiculos automotores, exceto caminhoes e onibus",8,0,0,0,0,8,0.0,0.0,0.0,8,8,8
+MICRO EMPRESA,Fabricacao de cal e gesso,2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+MICRO EMPRESA,Fabricacao de calcados de couro,5,0,0,0,0,5,0.0,0.0,0.0,5,5,5
+MICRO EMPRESA,Fabricacao de calcados de materiais nao especificados anteriormente,10,0,0,0,0,10,0.0,0.0,0.0,10,10,10
+MICRO EMPRESA,Fabricacao de calcados de material sintetico,2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+MICRO EMPRESA,"Fabricacao de canetas, lapis e outros artigos para escritorio",16,0,0,0,0,16,0.0,0.0,0.0,16,16,16
+MICRO EMPRESA,Fabricacao de casas de madeira pre fabricadas,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+MICRO EMPRESA,Fabricacao de cervejas e chopes,3,1,1,1,1,2,33.3333,33.3333,33.3333,2,2,2
+MICRO EMPRESA,Fabricacao de cha mate e outros chas prontos para consumo,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+MICRO EMPRESA,Fabricacao de chapas e de embalagens de papelao ondulado,4,1,1,0,2,2,25.0,25.0,50.0,3,3,2
+MICRO EMPRESA,Fabricacao de colchoes,7,0,0,0,0,7,0.0,0.0,0.0,7,7,7
+MICRO EMPRESA,"Fabricacao de compressores para uso nao industrial, pecas e acessorios",1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+MICRO EMPRESA,Fabricacao de conservas de frutas,59,2,1,0,3,56,3.3898,1.6949,5.0847,57,58,56
+MICRO EMPRESA,"Fabricacao de conservas de legumes e outros vegetais, exceto palmito",5,0,0,0,0,5,0.0,0.0,0.0,5,5,5
+MICRO EMPRESA,"Fabricacao de conservas de peixes, crustaceos e moluscos",2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+MICRO EMPRESA,"Fabricacao de cosmeticos, produtos de perfumaria e de higiene pessoal",12,1,0,0,1,11,8.3333,0.0,8.3333,11,12,11
+MICRO EMPRESA,Fabricacao de desinfestantes domissanitarios,3,0,0,0,0,3,0.0,0.0,0.0,3,3,3
+MICRO EMPRESA,Fabricacao de embalagens de cartolina e papel cartao,8,0,0,0,0,8,0.0,0.0,0.0,8,8,8
+MICRO EMPRESA,Fabricacao de embalagens de material plastico,21,4,1,1,4,17,19.0476,4.7619,19.0476,17,20,17
+MICRO EMPRESA,Fabricacao de embalagens de papel,14,0,0,0,0,14,0.0,0.0,0.0,14,14,14
+MICRO EMPRESA,Fabricacao de equipamentos e acessorios para seguranca pessoal e profissional,11,0,0,0,0,11,0.0,0.0,0.0,11,11,11
+MICRO EMPRESA,"Fabricacao de equipamentos hidraulicos e pneumaticos, pecas e acessorios, exceto valvulas",1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+MICRO EMPRESA,Fabricacao de equipamentos para sinalizacao e alarme,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+MICRO EMPRESA,"Fabricacao de escovas, pinceis e vassouras",5,0,0,0,0,5,0.0,0.0,0.0,5,5,5
+MICRO EMPRESA,"Fabricacao de especiarias, molhos, temperos e condimentos",36,1,1,1,1,35,2.7778,2.7778,2.7778,35,35,35
+MICRO EMPRESA,Fabricacao de esquadrias de madeira e de pecas de madeira para instalacoes industriais e comerciais,14,1,0,0,1,13,7.1429,0.0,7.1429,13,14,13
+MICRO EMPRESA,Fabricacao de esquadrias de metal,160,3,1,0,4,156,1.875,0.625,2.5,157,159,156
+MICRO EMPRESA,Fabricacao de estruturas metalicas,10,1,1,0,2,8,10.0,10.0,20.0,9,9,8
+MICRO EMPRESA,"Fabricacao de estruturas pre moldadas de concreto armado, em serie e sob encomenda",37,1,0,0,1,36,2.7027,0.0,2.7027,36,37,36
+MICRO EMPRESA,Fabricacao de farinha de mandioca e derivados,17,0,0,0,0,17,0.0,0.0,0.0,17,17,17
+MICRO EMPRESA,"Fabricacao de farinha de milho e derivados, exceto oleos de milho",8,0,0,0,0,8,0.0,0.0,0.0,8,8,8
+MICRO EMPRESA,Fabricacao de ferramentas,8,0,0,0,0,8,0.0,0.0,0.0,8,8,8
+MICRO EMPRESA,Fabricacao de fibras artificiais e sinteticas,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+MICRO EMPRESA,Fabricacao de filtros para cigarros,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+MICRO EMPRESA,Fabricacao de fraldas descartaveis,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+MICRO EMPRESA,"Fabricacao de frutas cristalizadas, balas e semelhantes",9,0,0,0,0,9,0.0,0.0,0.0,9,9,9
+MICRO EMPRESA,Fabricacao de gelo comum,103,2,1,0,3,100,1.9417,0.9709,2.9126,101,102,100
+MICRO EMPRESA,Fabricacao de guarda chuvas e similares,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+MICRO EMPRESA,"Fabricacao de instrumentos musicais, pecas e acessorios",3,0,0,0,0,3,0.0,0.0,0.0,3,3,3
+MICRO EMPRESA,Fabricacao de jogos eletronicos,2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+MICRO EMPRESA,Fabricacao de laminados planos e tubulares de material plastico,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+MICRO EMPRESA,Fabricacao de laticinios,62,10,3,2,11,51,16.129,4.8387,17.7419,52,59,51
+MICRO EMPRESA,"Fabricacao de letras, letreiros e placas de qualquer material, exceto luminosos",139,2,0,0,2,137,1.4388,0.0,1.4388,137,139,137
+MICRO EMPRESA,Fabricacao de luminarias e outros equipamentos de iluminacao,6,0,0,0,0,6,0.0,0.0,0.0,6,6,6
+MICRO EMPRESA,"Fabricacao de maquinas e aparelhos de refrigeracao e ventilacao para uso industrial e comercial, pecas e acessorios",2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+MICRO EMPRESA,"Fabricacao de maquinas e equipamentos para a agricultura e pecuaria, pecas e acessorios, exceto para irrigacao",1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+MICRO EMPRESA,"Fabricacao de maquinas e equipamentos para as industrias de alimentos, bebidas e fumo, pecas e acessorios",1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+MICRO EMPRESA,"Fabricacao de maquinas e equipamentos para saneamento basico e ambiental, pecas e acessorios",1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+MICRO EMPRESA,"Fabricacao de maquinas e equipamentos para uso industrial especifico nao especificados anteriormente, pecas e acessorios",2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+MICRO EMPRESA,"Fabricacao de maquinas ferramenta, pecas e acessorios",1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+MICRO EMPRESA,"Fabricacao de maquinas para a industria metalurgica, pecas e acessorios, exceto maquinas ferramenta",1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+MICRO EMPRESA,"Fabricacao de maquinas, equipamentos e aparelhos para transporte e elevacao de cargas, pecas e acessorios",2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+MICRO EMPRESA,Fabricacao de massas alimenticias,217,0,0,0,0,217,0.0,0.0,0.0,217,217,217
+MICRO EMPRESA,Fabricacao de materiais para medicina e odontologia,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+MICRO EMPRESA,Fabricacao de material eletrico para instalacoes em circuito de consumo,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+MICRO EMPRESA,Fabricacao de medicamentos fitoterapicos para uso humano,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+MICRO EMPRESA,"Fabricacao de mesas de bilhar, de sinuca e acessorios nao associada a locacao",1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+MICRO EMPRESA,"Fabricacao de mobiliario para uso medico, cirurgico, odontologico e de laboratorio",1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+MICRO EMPRESA,"Fabricacao de motores e turbinas, pecas e acessorios, exceto para avioes e veiculos rodoviarios",1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+MICRO EMPRESA,Fabricacao de moveis com predominancia de madeira,923,9,6,5,10,913,0.9751,0.6501,1.0834,914,917,913
+MICRO EMPRESA,Fabricacao de moveis com predominancia de metal,17,2,0,0,2,15,11.7647,0.0,11.7647,15,17,15
+MICRO EMPRESA,"Fabricacao de moveis de outros materiais, exceto madeira e metal",40,2,1,1,2,38,5.0,2.5,5.0,38,39,38
+MICRO EMPRESA,Fabricacao de obras de caldeiraria pesada,15,0,0,0,0,15,0.0,0.0,0.0,15,15,15
+MICRO EMPRESA,Fabricacao de outras aguardentes e bebidas destiladas,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+MICRO EMPRESA,Fabricacao de outras bebidas nao alcoolicas nao especificadas anteriormente,3,0,0,0,0,3,0.0,0.0,0.0,3,3,3
+MICRO EMPRESA,"Fabricacao de outras maquinas e equipamentos de uso geral nao especificados anteriormente, pecas e acessorios",1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+MICRO EMPRESA,"Fabricacao de outros artefatos e produtos de concreto, cimento, fibrocimento, gesso e materiais semelhantes",79,0,0,0,0,79,0.0,0.0,0.0,79,79,79
+MICRO EMPRESA,Fabricacao de outros artigos de carpintaria para construcao,119,0,0,0,0,119,0.0,0.0,0.0,119,119,119
+MICRO EMPRESA,Fabricacao de outros brinquedos e jogos recreativos nao especificados anteriormente,21,0,0,0,0,21,0.0,0.0,0.0,21,21,21
+MICRO EMPRESA,Fabricacao de outros produtos alimenticios nao especificados anteriormente,13,1,1,1,1,12,7.6923,7.6923,7.6923,12,12,12
+MICRO EMPRESA,Fabricacao de outros produtos de metal nao especificados anteriormente,32,1,0,0,1,31,3.125,0.0,3.125,31,32,31
+MICRO EMPRESA,Fabricacao de outros produtos de minerais nao metalicos nao especificados anteriormente,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+MICRO EMPRESA,"Fabricacao de outros produtos do fumo, exceto cigarros, cigarrilhas e charutos",17,0,0,0,0,17,0.0,0.0,0.0,17,17,17
+MICRO EMPRESA,Fabricacao de outros produtos quimicos nao especificados anteriormente,2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+MICRO EMPRESA,Fabricacao de outros produtos texteis nao especificados anteriormente,263,0,0,0,0,263,0.0,0.0,0.0,263,263,263
+MICRO EMPRESA,Fabricacao de paineis e letreiros luminosos,26,0,0,0,0,26,0.0,0.0,0.0,26,26,26
+MICRO EMPRESA,Fabricacao de papel,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+MICRO EMPRESA,"Fabricacao de partes para calcados, de qualquer material",2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+MICRO EMPRESA,Fabricacao de perifericos para equipamentos de informatica,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+MICRO EMPRESA,Fabricacao de pneumaticos e de camaras de ar,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+MICRO EMPRESA,Fabricacao de produtos ceramicos nao refratarios nao especificados anteriormente,68,0,0,0,0,68,0.0,0.0,0.0,68,68,68
+MICRO EMPRESA,Fabricacao de produtos de carne,21,1,0,0,1,20,4.7619,0.0,4.7619,20,21,20
+MICRO EMPRESA,Fabricacao de produtos de limpeza e polimento,26,1,0,0,1,25,3.8462,0.0,3.8462,25,26,25
+MICRO EMPRESA,Fabricacao de produtos de padaria e confeitaria com predominancia de producao propria,1779,31,12,7,36,1743,1.7426,0.6745,2.0236,1748,1767,1743
+MICRO EMPRESA,Fabricacao de produtos de panificacao industrial,384,6,1,0,7,377,1.5625,0.2604,1.8229,378,383,377
+MICRO EMPRESA,"Fabricacao de produtos de papel, cartolina, papel cartao e papelao ondulado para uso industrial, comercial e de escritorio",2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+MICRO EMPRESA,"Fabricacao de produtos de pastas celulosicas, papel, cartolina, papel cartao e papelao ondulado nao especificados anteriormente",211,0,0,0,0,211,0.0,0.0,0.0,211,211,211
+MICRO EMPRESA,Fabricacao de produtos de trefilados de metal padronizados,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+MICRO EMPRESA,"Fabricacao de produtos de trefilados de metal, exceto padronizados",2,1,0,0,1,1,50.0,0.0,50.0,1,2,1
+MICRO EMPRESA,Fabricacao de produtos derivados do cacau e de chocolates,42,1,1,1,1,41,2.381,2.381,2.381,41,41,41
+MICRO EMPRESA,Fabricacao de produtos diversos nao especificados anteriormente,738,0,0,0,0,738,0.0,0.0,0.0,738,738,738
+MICRO EMPRESA,Fabricacao de produtos do arroz,2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+MICRO EMPRESA,"Fabricacao de produtos para infusao (cha, mate, etc.)",5,0,0,0,0,5,0.0,0.0,0.0,5,5,5
+MICRO EMPRESA,Fabricacao de produtos quimicos organicos nao especificados anteriormente,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+MICRO EMPRESA,"Fabricacao de refrescos, xaropes e pos para refrescos, exceto refrescos de frutas",5,0,0,0,0,5,0.0,0.0,0.0,5,5,5
+MICRO EMPRESA,Fabricacao de refrigerantes,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+MICRO EMPRESA,Fabricacao de resinas termoplasticas,1,1,0,0,1,0,100.0,0.0,100.0,0,1,0
+MICRO EMPRESA,Fabricacao de saboes e detergentes sinteticos,5,0,0,0,0,5,0.0,0.0,0.0,5,5,5
+MICRO EMPRESA,Fabricacao de sorvetes e outros gelados comestiveis,42,2,2,1,3,39,4.7619,4.7619,7.1429,40,40,39
+MICRO EMPRESA,"Fabricacao de sucos concentrados de frutas, hortalicas e legumes",15,1,0,0,1,14,6.6667,0.0,6.6667,14,15,14
+MICRO EMPRESA,"Fabricacao de sucos de frutas, hortalicas e legumes, exceto concentrados",25,1,2,1,2,23,4.0,8.0,8.0,24,23,23
+MICRO EMPRESA,"Fabricacao de tanques, reservatorios metalicos e caldeiras para aquecimento central",4,0,0,0,0,4,0.0,0.0,0.0,4,4,4
+MICRO EMPRESA,"Fabricacao de tecidos especiais, inclusive artefatos",1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+MICRO EMPRESA,Fabricacao de tenis de qualquer material,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+MICRO EMPRESA,"Fabricacao de tintas, vernizes, esmaltes e lacas",5,1,1,1,1,4,20.0,20.0,20.0,4,4,4
+MICRO EMPRESA,Fabricacao de tubos e acessorios de material plastico para uso na construcao,3,0,0,0,0,3,0.0,0.0,0.0,3,3,3
+MICRO EMPRESA,"Fabricacao de valvulas, registros e dispositivos semelhantes, pecas e acessorios",1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+MICRO EMPRESA,"Fabricacao de velas, inclusive decorativas",21,0,0,0,0,21,0.0,0.0,0.0,21,21,21
+MICRO EMPRESA,Fabricacao de vinagres,2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+MICRO EMPRESA,"Faccao de pecas do vestuario, exceto roupas intimas",83,1,0,0,1,82,1.2048,0.0,1.2048,82,83,82
+MICRO EMPRESA,Faccao de roupas intimas,11,0,0,0,0,11,0.0,0.0,0.0,11,11,11
+MICRO EMPRESA,Faccao de roupas profissionais,52,1,0,0,1,51,1.9231,0.0,1.9231,51,52,51
+MICRO EMPRESA,Fornecimento de alimentos preparados preponderantemente para empresas,483,7,0,0,7,476,1.4493,0.0,1.4493,476,483,476
+MICRO EMPRESA,Frigorifico - abate de bovinos,5,0,0,0,0,5,0.0,0.0,0.0,5,5,5
+MICRO EMPRESA,Fundicao de metais nao ferrosos e suas ligas,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+MICRO EMPRESA,Geracao de energia eletrica,12,0,0,0,0,12,0.0,0.0,0.0,12,12,12
+MICRO EMPRESA,Gestao de redes de esgoto,5,0,0,0,0,5,0.0,0.0,0.0,5,5,5
+MICRO EMPRESA,Impermeabilizacao em obras de engenharia civil,10,0,0,0,0,10,0.0,0.0,0.0,10,10,10
+MICRO EMPRESA,"Impressao de livros, revistas e outras publicacoes periodicas",5,0,0,0,0,5,0.0,0.0,0.0,5,5,5
+MICRO EMPRESA,Impressao de material para outros usos,249,7,0,0,7,242,2.8112,0.0,2.8112,242,249,242
+MICRO EMPRESA,Impressao de material para uso publicitario,256,3,2,1,4,252,1.1719,0.7812,1.5625,253,254,252
+MICRO EMPRESA,Incorporacao de empreendimentos imobiliarios,98,2,0,0,2,96,2.0408,0.0,2.0408,96,98,96
+MICRO EMPRESA,Instalacao de equipamentos para orientacao a navegacao maritima fluvial e lacustre,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+MICRO EMPRESA,Instalacao de maquinas e equipamentos industriais,189,0,2,0,2,187,0.0,1.0582,1.0582,189,187,187
+MICRO EMPRESA,Instalacao de outros equipamentos nao especificados anteriormente,2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+MICRO EMPRESA,Instalacao de paineis publicitarios,65,0,0,0,0,65,0.0,0.0,0.0,65,65,65
+MICRO EMPRESA,"Instalacao de portas, janelas, tetos, divisorias e armarios embutidos de qualquer material",129,2,0,0,2,127,1.5504,0.0,1.5504,127,129,127
+MICRO EMPRESA,"Instalacao e manutencao de sistemas centrais de ar condicionado, de ventilacao e refrigeracao",946,1,1,0,2,944,0.1057,0.1057,0.2114,945,945,944
+MICRO EMPRESA,Instalacao e manutencao eletrica,2043,9,2,0,11,2032,0.4405,0.0979,0.5384,2034,2041,2032
+MICRO EMPRESA,"Instalacao, manutencao e reparacao de elevadores, escadas e esteiras rolantes",29,0,0,0,0,29,0.0,0.0,0.0,29,29,29
+MICRO EMPRESA,Instalacoes de sistema de prevencao contra incendio,40,0,0,0,0,40,0.0,0.0,0.0,40,40,40
+MICRO EMPRESA,"Instalacoes hidraulicas, sanitarias e de gas",173,0,0,0,0,173,0.0,0.0,0.0,173,173,173
+MICRO EMPRESA,Lapidacao de gemas,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+MICRO EMPRESA,Manutencao de estacoes e redes de telecomunicacoes,3,0,0,0,0,3,0.0,0.0,0.0,3,3,3
+MICRO EMPRESA,Manutencao de redes de distribuicao de energia eletrica,7,0,0,0,0,7,0.0,0.0,0.0,7,7,7
+MICRO EMPRESA,"Manutencao e reparacao de aeronaves, exceto a manutencao na pista",5,0,0,0,0,5,0.0,0.0,0.0,5,5,5
+MICRO EMPRESA,"Manutencao e reparacao de aparelhos e instrumentos de medida, teste e controle",3,0,0,0,0,3,0.0,0.0,0.0,3,3,3
+MICRO EMPRESA,Manutencao e reparacao de aparelhos eletromedicos e eletroterapeuticos e equipamentos de irradiacao,13,0,0,0,0,13,0.0,0.0,0.0,13,13,13
+MICRO EMPRESA,"Manutencao e reparacao de baterias e acumuladores eletricos, exceto para veiculos",1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+MICRO EMPRESA,Manutencao e reparacao de compressores,2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+MICRO EMPRESA,Manutencao e reparacao de embarcacoes e estruturas flutuantes,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+MICRO EMPRESA,Manutencao e reparacao de embarcacoes para esporte e lazer,21,0,0,0,0,21,0.0,0.0,0.0,21,21,21
+MICRO EMPRESA,Manutencao e reparacao de equipamentos de transmissao para fins industriais,6,0,0,0,0,6,0.0,0.0,0.0,6,6,6
+MICRO EMPRESA,Manutencao e reparacao de equipamentos e instrumentos opticos,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+MICRO EMPRESA,Manutencao e reparacao de equipamentos e produtos nao especificados anteriormente,50,0,0,0,0,50,0.0,0.0,0.0,50,50,50
+MICRO EMPRESA,"Manutencao e reparacao de equipamentos hidraulicos e pneumaticos, exceto valvulas",56,1,2,1,2,54,1.7857,3.5714,3.5714,55,54,54
+MICRO EMPRESA,"Manutencao e reparacao de geradores, transformadores e motores eletricos",93,0,0,0,0,93,0.0,0.0,0.0,93,93,93
+MICRO EMPRESA,"Manutencao e reparacao de maquinas de escrever, calcular e de outros equipamentos nao eletronicos para escritorio",5,0,0,0,0,5,0.0,0.0,0.0,5,5,5
+MICRO EMPRESA,Manutencao e reparacao de maquinas e aparelhos de refrigeracao e ventilacao para uso industrial e comercial,227,0,0,0,0,227,0.0,0.0,0.0,227,227,227
+MICRO EMPRESA,Manutencao e reparacao de maquinas e aparelhos para a industria do plastico,2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+MICRO EMPRESA,"Manutencao e reparacao de maquinas e equipamentos de terraplenagem, pavimentacao e construcao, exceto tratores",3,0,0,0,0,3,0.0,0.0,0.0,3,3,3
+MICRO EMPRESA,"Manutencao e reparacao de maquinas e equipamentos para a industria textil, do vestuario, do couro e calcados",10,0,0,0,0,10,0.0,0.0,0.0,10,10,10
+MICRO EMPRESA,Manutencao e reparacao de maquinas e equipamentos para agricultura e pecuaria,34,0,0,0,0,34,0.0,0.0,0.0,34,34,34
+MICRO EMPRESA,"Manutencao e reparacao de maquinas e equipamentos para as industrias de alimentos, bebidas e fumo",41,1,1,1,1,40,2.439,2.439,2.439,40,40,40
+MICRO EMPRESA,Manutencao e reparacao de maquinas e equipamentos para uso geral nao especificados anteriormente,62,0,0,0,0,62,0.0,0.0,0.0,62,62,62
+MICRO EMPRESA,Manutencao e reparacao de maquinas ferramenta,2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+MICRO EMPRESA,Manutencao e reparacao de maquinas motrizes nao eletricas,17,0,0,0,0,17,0.0,0.0,0.0,17,17,17
+MICRO EMPRESA,"Manutencao e reparacao de maquinas para a industria metalurgica, exceto maquinas ferramenta",5,0,0,0,0,5,0.0,0.0,0.0,5,5,5
+MICRO EMPRESA,"Manutencao e reparacao de maquinas, aparelhos e equipamentos para instalacoes termicas",8,0,0,0,0,8,0.0,0.0,0.0,8,8,8
+MICRO EMPRESA,"Manutencao e reparacao de maquinas, aparelhos e materiais eletricos nao especificados anteriormente",41,2,2,2,2,39,4.878,4.878,4.878,39,39,39
+MICRO EMPRESA,"Manutencao e reparacao de maquinas, equipamentos e aparelhos para transporte e elevacao de cargas",2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+MICRO EMPRESA,Manutencao e reparacao de motocicletas e motonetas,544,0,0,0,0,544,0.0,0.0,0.0,544,544,544
+MICRO EMPRESA,Manutencao e reparacao de outras maquinas e equipamentos para usos industriais nao especificados anteriormente,27,2,1,1,2,25,7.4074,3.7037,7.4074,25,26,25
+MICRO EMPRESA,"Manutencao e reparacao de tanques, reservatorios metalicos e caldeiras, exceto para veiculos",51,1,0,0,1,50,1.9608,0.0,1.9608,50,51,50
+MICRO EMPRESA,Manutencao e reparacao de tratores agricolas,14,0,0,0,0,14,0.0,0.0,0.0,14,14,14
+MICRO EMPRESA,"Manutencao e reparacao de tratores, exceto agricolas",2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+MICRO EMPRESA,Manutencao e reparacao de valvulas industriais,4,0,0,0,0,4,0.0,0.0,0.0,4,4,4
+MICRO EMPRESA,Moagem de trigo e fabricacao de derivados,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+MICRO EMPRESA,Moagem e fabricacao de produtos de origem vegetal nao especificados anteriormente,5,0,0,0,0,5,0.0,0.0,0.0,5,5,5
+MICRO EMPRESA,Montagem de estruturas metalicas,14,0,0,0,0,14,0.0,0.0,0.0,14,14,14
+MICRO EMPRESA,Montagem e desmontagem de andaimes e outras estruturas temporarias,4,0,0,0,0,4,0.0,0.0,0.0,4,4,4
+MICRO EMPRESA,"Montagem e instalacao de sistemas e equipamentos de iluminacao e sinalizacao em vias publicas, portos e aeroportos",14,0,0,0,0,14,0.0,0.0,0.0,14,14,14
+MICRO EMPRESA,Obras de acabamento em gesso e estuque,235,0,0,0,0,235,0.0,0.0,0.0,235,235,235
+MICRO EMPRESA,Obras de alvenaria,2521,1,0,0,1,2520,0.0397,0.0,0.0397,2520,2521,2520
+MICRO EMPRESA,Obras de fundacoes,4,0,0,0,0,4,0.0,0.0,0.0,4,4,4
+MICRO EMPRESA,Obras de irrigacao,2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+MICRO EMPRESA,Obras de montagem industrial,12,0,0,0,0,12,0.0,0.0,0.0,12,12,12
+MICRO EMPRESA,Obras de terraplenagem,64,1,0,0,1,63,1.5625,0.0,1.5625,63,64,63
+MICRO EMPRESA,"Obras de urbanizacao - ruas, pracas e calcadas",23,0,1,0,1,22,0.0,4.3478,4.3478,23,22,22
+MICRO EMPRESA,Outras atividades de telecomunicacoes nao especificadas anteriormente,270,0,0,0,0,270,0.0,0.0,0.0,270,270,270
+MICRO EMPRESA,Outras obras de acabamento da construcao,190,1,1,1,1,189,0.5263,0.5263,0.5263,189,189,189
+MICRO EMPRESA,Outras obras de engenharia civil nao especificadas anteriormente,22,0,0,0,0,22,0.0,0.0,0.0,22,22,22
+MICRO EMPRESA,Outras obras de instalacoes em construcoes nao especificadas anteriormente,6,0,0,0,0,6,0.0,0.0,0.0,6,6,6
+MICRO EMPRESA,"Outros servicos de acabamento em fios, tecidos, artefatos texteis e pecas do vestuario",101,0,0,0,0,101,0.0,0.0,0.0,101,101,101
+MICRO EMPRESA,Perfuracao e construcao de pocos de agua,36,1,0,0,1,35,2.7778,0.0,2.7778,35,36,35
+MICRO EMPRESA,Perfuracoes e sondagens,2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+MICRO EMPRESA,Pintura para sinalizacao em pistas rodoviarias e aeroportos,4,0,0,0,0,4,0.0,0.0,0.0,4,4,4
+MICRO EMPRESA,Preparacao de canteiro e limpeza de terreno,3,0,0,0,0,3,0.0,0.0,0.0,3,3,3
+MICRO EMPRESA,Preparacao de massa de concreto e argamassa para construcao,10,3,0,0,3,7,30.0,0.0,30.0,7,10,7
+MICRO EMPRESA,Preparacao de subprodutos do abate,4,0,0,0,0,4,0.0,0.0,0.0,4,4,4
+MICRO EMPRESA,Preparacao do leite,2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+MICRO EMPRESA,Preparacao e fiacao de fibras de algodao,2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+MICRO EMPRESA,"Preparacao e fiacao de fibras texteis naturais, exceto algodao",1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+MICRO EMPRESA,Processamento industrial do fumo,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+MICRO EMPRESA,Producao de artefatos estampados de metal,35,1,0,0,1,34,2.8571,0.0,2.8571,34,35,34
+MICRO EMPRESA,Producao de carvao vegetal - florestas plantadas,2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+MICRO EMPRESA,Producao de laminados de aluminio,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+MICRO EMPRESA,"Producao de relaminados, trefilados e perfilados de aco, exceto arames",1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+MICRO EMPRESA,Producao de tubos de aco com costura,2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+MICRO EMPRESA,Provedores de acesso as redes de comunicacoes,143,8,0,0,8,135,5.5944,0.0,5.5944,135,143,135
+MICRO EMPRESA,Provedores de voz sobre protocolo internet - voip,2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+MICRO EMPRESA,Recondicionamento e recuperacao de motores para veiculos automotores,71,1,0,0,1,70,1.4085,0.0,1.4085,70,71,70
+MICRO EMPRESA,"Recuperacao de materiais metalicos, exceto aluminio",29,1,0,0,1,28,3.4483,0.0,3.4483,28,29,28
+MICRO EMPRESA,Recuperacao de materiais nao especificados anteriormente,27,2,1,1,2,25,7.4074,3.7037,7.4074,25,26,25
+MICRO EMPRESA,Recuperacao de materiais plasticos,49,0,0,0,0,49,0.0,0.0,0.0,49,49,49
+MICRO EMPRESA,Recuperacao de sucatas de aluminio,53,1,0,0,1,52,1.8868,0.0,1.8868,52,53,52
+MICRO EMPRESA,Reforma de pneumaticos usados,2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+MICRO EMPRESA,Reproducao de software em qualquer suporte,5,0,0,0,0,5,0.0,0.0,0.0,5,5,5
+MICRO EMPRESA,Rerrefino de oleos lubrificantes,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+MICRO EMPRESA,Restauracao e conservacao de lugares e predios historicos,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+MICRO EMPRESA,Serrarias com desdobramento de madeira em bruto,9,1,1,1,1,8,11.1111,11.1111,11.1111,8,8,8
+MICRO EMPRESA,Servico de corte e dobra de metais,10,0,0,0,0,10,0.0,0.0,0.0,10,10,10
+MICRO EMPRESA,Servico de laboratorio optico,4,0,0,0,0,4,0.0,0.0,0.0,4,4,4
+MICRO EMPRESA,"Servicos de acabamentos graficos, exceto encadernacao e plastificacao",8,0,0,0,0,8,0.0,0.0,0.0,8,8,8
+MICRO EMPRESA,Servicos de alinhamento e balanceamento de veiculos automotores,24,1,0,0,1,23,4.1667,0.0,4.1667,23,24,23
+MICRO EMPRESA,Servicos de borracharia para veiculos automotores,303,0,0,0,0,303,0.0,0.0,0.0,303,303,303
+MICRO EMPRESA,Servicos de capotaria,153,1,0,0,1,152,0.6536,0.0,0.6536,152,153,152
+MICRO EMPRESA,Servicos de comunicacao multimidia - scm,326,23,0,0,23,303,7.0552,0.0,7.0552,303,326,303
+MICRO EMPRESA,Servicos de confeccao de armacoes metalicas para a construcao,102,0,0,0,0,102,0.0,0.0,0.0,102,102,102
+MICRO EMPRESA,Servicos de encadernacao e plastificacao,32,0,0,0,0,32,0.0,0.0,0.0,32,32,32
+MICRO EMPRESA,Servicos de engenharia,786,4,1,0,5,781,0.5089,0.1272,0.6361,782,785,781
+MICRO EMPRESA,"Servicos de instalacao, manutencao e reparacao de acessorios para veiculos automotores",308,5,0,0,5,303,1.6234,0.0,1.6234,303,308,303
+MICRO EMPRESA,Servicos de lanternagem ou funilaria e pintura de veiculos automotores,520,3,0,0,3,517,0.5769,0.0,0.5769,517,520,517
+MICRO EMPRESA,Servicos de manutencao e reparacao eletrica de veiculos automotores,228,0,0,0,0,228,0.0,0.0,0.0,228,228,228
+MICRO EMPRESA,Servicos de manutencao e reparacao mecanica de veiculos automotores,1426,9,4,0,13,1413,0.6311,0.2805,0.9116,1417,1422,1413
+MICRO EMPRESA,Servicos de montagem de moveis de qualquer material,326,0,0,0,0,326,0.0,0.0,0.0,326,326,326
+MICRO EMPRESA,Servicos de operacao e fornecimento de equipamentos para transporte e elevacao de cargas e pessoas para uso em obras,16,1,0,0,1,15,6.25,0.0,6.25,15,16,15
+MICRO EMPRESA,Servicos de pintura de edificios em geral,787,1,0,0,1,786,0.1271,0.0,0.1271,786,787,786
+MICRO EMPRESA,Servicos de pre impressao,196,0,0,0,0,196,0.0,0.0,0.0,196,196,196
+MICRO EMPRESA,Servicos de preparacao do terreno nao especificados anteriormente,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+MICRO EMPRESA,Servicos de telecomunicacoes sem fio nao especificados anteriormente,3,0,0,0,0,3,0.0,0.0,0.0,3,3,3
+MICRO EMPRESA,Servicos de telefonia fixa comutada - stfc,7,0,0,0,0,7,0.0,0.0,0.0,7,7,7
+MICRO EMPRESA,Servicos de tratamento e revestimento em metais,11,0,2,0,2,9,0.0,18.1818,18.1818,11,9,9
+MICRO EMPRESA,"Servicos de usinagem, tornearia e solda",330,0,0,0,0,330,0.0,0.0,0.0,330,330,330
+MICRO EMPRESA,Servicos especializados para construcao nao especificados anteriormente,69,0,0,0,0,69,0.0,0.0,0.0,69,69,69
+MICRO EMPRESA,Tecelagem de fios de algodao,2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+MICRO EMPRESA,Telecomunicacoes por satelite,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+MICRO EMPRESA,Telefonia movel celular,9,0,0,0,0,9,0.0,0.0,0.0,9,9,9
+MICRO EMPRESA,Torrefacao e moagem de cafe,4,2,2,2,2,2,50.0,50.0,50.0,2,2,2
+MICRO EMPRESA,Tratamento e disposicao de residuos nao perigosos,3,0,0,0,0,3,0.0,0.0,0.0,3,3,3
+MICRO EMPRESA,Tratamento e disposicao de residuos perigosos,2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+MICRO EMPRESA,"Tratamentos termicos, acusticos ou de vibracao",31,0,0,0,0,31,0.0,0.0,0.0,31,31,31
+MICRO EMPRESA,Usinas de compostagem,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+PEQUENO PORTE,Abate de aves,2,2,1,1,2,0,100.0,50.0,100.0,0,1,0
+PEQUENO PORTE,Administracao de obras,21,2,0,0,2,19,9.5238,0.0,9.5238,19,21,19
+PEQUENO PORTE,Aluguel de andaimes,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+PEQUENO PORTE,"Aparelhamento de placas e execucao de trabalhos em marmore, granito, ardosia e outras pedras",8,3,0,0,3,5,37.5,0.0,37.5,5,8,5
+PEQUENO PORTE,Aplicacao de revestimentos e de resinas em interiores e exteriores,8,0,0,0,0,8,0.0,0.0,0.0,8,8,8
+PEQUENO PORTE,Atividades de apoio a extracao de minerais metalicos nao ferrosos,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+PEQUENO PORTE,Atividades de apoio a extracao de minerais nao metalicos,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+PEQUENO PORTE,Atividades de apoio a extracao de petroleo e gas natural,5,0,0,0,0,5,0.0,0.0,0.0,5,5,5
+PEQUENO PORTE,Atividades de coordenacao e controle da operacao da geracao e transmissao de energia eletrica,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+PEQUENO PORTE,Atividades de franqueadas do correio nacional,2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+PEQUENO PORTE,Beneficiamento de arroz,4,1,0,0,1,3,25.0,0.0,25.0,3,4,3
+PEQUENO PORTE,"Captacao, tratamento e distribuicao de agua",1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+PEQUENO PORTE,Coleta de residuos nao perigosos,14,0,0,0,0,14,0.0,0.0,0.0,14,14,14
+PEQUENO PORTE,Coleta de residuos perigosos,3,0,0,0,0,3,0.0,0.0,0.0,3,3,3
+PEQUENO PORTE,"Confeccao de pecas de vestuario, exceto roupas intimas e as confeccionadas sob medida",24,3,1,1,3,21,12.5,4.1667,12.5,21,23,21
+PEQUENO PORTE,"Confeccao de roupas profissionais, exceto sob medida",3,3,0,0,3,0,100.0,0.0,100.0,0,3,0
+PEQUENO PORTE,"Confeccao, sob medida, de pecas do vestuario, exceto roupas intimas",5,0,0,0,0,5,0.0,0.0,0.0,5,5,5
+PEQUENO PORTE,"Confeccao, sob medida, de roupas profissionais",1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+PEQUENO PORTE,Construcao de edificios,711,12,10,3,19,692,1.6878,1.4065,2.6723,699,701,692
+PEQUENO PORTE,Construcao de estacoes e redes de distribuicao de energia eletrica,3,0,0,0,0,3,0.0,0.0,0.0,3,3,3
+PEQUENO PORTE,Construcao de estacoes e redes de telecomunicacoes,4,1,0,0,1,3,25.0,0.0,25.0,3,4,3
+PEQUENO PORTE,Construcao de obras de arte especiais,2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+PEQUENO PORTE,"Construcao de redes de abastecimento de agua, coleta de esgoto e construcoes correlatas, exceto obras de irrigacao",8,0,1,0,1,7,0.0,12.5,12.5,8,7,7
+PEQUENO PORTE,Construcao de rodovias e ferrovias,6,0,1,0,1,5,0.0,16.6667,16.6667,6,5,5
+PEQUENO PORTE,Descontaminacao e outros servicos de gestao de residuos,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+PEQUENO PORTE,Desenvolvimento e licenciamento de programas de computador nao customizaveis,5,0,0,0,0,5,0.0,0.0,0.0,5,5,5
+PEQUENO PORTE,"Estamparia e texturizacao em fios, tecidos, artefatos texteis e pecas do vestuario",1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+PEQUENO PORTE,Estudios cinematograficos,3,0,0,0,0,3,0.0,0.0,0.0,3,3,3
+PEQUENO PORTE,Extracao de ardosia e beneficiamento associado,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+PEQUENO PORTE,"Extracao de areia, cascalho ou pedregulho e beneficiamento associado",30,0,0,0,0,30,0.0,0.0,0.0,30,30,30
+PEQUENO PORTE,Extracao de argila e beneficiamento associado,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+PEQUENO PORTE,Extracao de madeira em florestas plantadas,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+PEQUENO PORTE,Extracao de outros minerais nao metalicos nao especificados anteriormente,1,1,0,0,1,0,100.0,0.0,100.0,0,1,0
+PEQUENO PORTE,Extracao de quartzo,2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+PEQUENO PORTE,Extracao e britamento de pedras e outros materiais para construcao e beneficiamento associado,2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+PEQUENO PORTE,"Fabricacao de acessorios do vestuario, exceto para seguranca e protecao",3,1,0,0,1,2,33.3333,0.0,33.3333,2,3,2
+PEQUENO PORTE,Fabricacao de adesivos e selantes,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+PEQUENO PORTE,Fabricacao de aditivos de uso industrial,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+PEQUENO PORTE,Fabricacao de aguardente de cana de acucar,6,1,1,1,1,5,16.6667,16.6667,16.6667,5,5,5
+PEQUENO PORTE,Fabricacao de aguas envasadas,9,1,1,1,1,8,11.1111,11.1111,11.1111,8,8,8
+PEQUENO PORTE,Fabricacao de alimentos e pratos prontos,3,0,0,0,0,3,0.0,0.0,0.0,3,3,3
+PEQUENO PORTE,Fabricacao de alimentos para animais,10,0,0,0,0,10,0.0,0.0,0.0,10,10,10
+PEQUENO PORTE,"Fabricacao de armas de fogo, outras armas e municoes",1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+PEQUENO PORTE,"Fabricacao de artefatos de ceramica e barro cozido para uso na construcao, exceto azulejos e pisos",12,2,1,0,3,9,16.6667,8.3333,25.0,10,11,9
+PEQUENO PORTE,Fabricacao de artefatos de cimento para uso na construcao,16,1,1,0,2,14,6.25,6.25,12.5,15,15,14
+PEQUENO PORTE,Fabricacao de artefatos de joalheria e ourivesaria,2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+PEQUENO PORTE,Fabricacao de artefatos de material plastico para outros usos nao especificados anteriormente,2,1,1,1,1,1,50.0,50.0,50.0,1,1,1
+PEQUENO PORTE,"Fabricacao de artefatos de material plastico para uso na construcao, exceto tubos e acessorios",2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+PEQUENO PORTE,Fabricacao de artefatos de material plastico para uso pessoal e domestico,5,1,0,0,1,4,20.0,0.0,20.0,4,5,4
+PEQUENO PORTE,Fabricacao de artefatos de material plastico para usos industriais,5,0,0,0,0,5,0.0,0.0,0.0,5,5,5
+PEQUENO PORTE,Fabricacao de artefatos de tanoaria e de embalagens de madeira,1,1,0,0,1,0,100.0,0.0,100.0,0,1,0
+PEQUENO PORTE,"Fabricacao de artefatos diversos de madeira, exceto moveis",2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+PEQUENO PORTE,Fabricacao de artefatos texteis para uso domestico,1,1,0,0,1,0,100.0,0.0,100.0,0,1,0
+PEQUENO PORTE,Fabricacao de artigos de metal para uso domestico e pessoal,3,1,0,0,1,2,33.3333,0.0,33.3333,2,3,2
+PEQUENO PORTE,"Fabricacao de artigos de serralheria, exceto esquadrias",2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+PEQUENO PORTE,"Fabricacao de artigos para viagem, bolsas e semelhantes de qualquer material",1,1,1,1,1,0,100.0,100.0,100.0,0,0,0
+PEQUENO PORTE,Fabricacao de artigos pirotecnicos,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+PEQUENO PORTE,Fabricacao de bijuterias e artefatos semelhantes,3,1,0,0,1,2,33.3333,0.0,33.3333,2,3,2
+PEQUENO PORTE,Fabricacao de biscoitos e bolachas,7,3,0,0,3,4,42.8571,0.0,42.8571,4,7,4
+PEQUENO PORTE,"Fabricacao de cabines, carrocerias e reboques para caminhoes",3,1,1,1,1,2,33.3333,33.3333,33.3333,2,2,2
+PEQUENO PORTE,"Fabricacao de cabines, carrocerias e reboques para outros veiculos automotores, exceto caminhoes e onibus",1,1,0,0,1,0,100.0,0.0,100.0,0,1,0
+PEQUENO PORTE,Fabricacao de calcados de materiais nao especificados anteriormente,2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+PEQUENO PORTE,Fabricacao de cervejas e chopes,6,3,1,1,3,3,50.0,16.6667,50.0,3,5,3
+PEQUENO PORTE,Fabricacao de colchoes,3,1,2,1,2,1,33.3333,66.6667,66.6667,2,1,1
+PEQUENO PORTE,Fabricacao de componentes eletronicos,2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+PEQUENO PORTE,Fabricacao de conservas de frutas,9,1,0,0,1,8,11.1111,0.0,11.1111,8,9,8
+PEQUENO PORTE,"Fabricacao de conservas de peixes, crustaceos e moluscos",2,1,0,0,1,1,50.0,0.0,50.0,1,2,1
+PEQUENO PORTE,"Fabricacao de cosmeticos, produtos de perfumaria e de higiene pessoal",8,2,0,0,2,6,25.0,0.0,25.0,6,8,6
+PEQUENO PORTE,Fabricacao de defensivos agricolas,2,0,1,0,1,1,0.0,50.0,50.0,2,1,1
+PEQUENO PORTE,Fabricacao de desinfestantes domissanitarios,2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+PEQUENO PORTE,Fabricacao de embalagens de material plastico,19,3,2,1,4,15,15.7895,10.5263,21.0526,16,17,15
+PEQUENO PORTE,Fabricacao de equipamentos de transporte nao especificados anteriormente,1,1,0,0,1,0,100.0,0.0,100.0,0,1,0
+PEQUENO PORTE,"Fabricacao de equipamentos hidraulicos e pneumaticos, pecas e acessorios, exceto valvulas",1,1,0,0,1,0,100.0,0.0,100.0,0,1,0
+PEQUENO PORTE,"Fabricacao de especiarias, molhos, temperos e condimentos",6,0,1,0,1,5,0.0,16.6667,16.6667,6,5,5
+PEQUENO PORTE,Fabricacao de esquadrias de madeira e de pecas de madeira para instalacoes industriais e comerciais,3,0,0,0,0,3,0.0,0.0,0.0,3,3,3
+PEQUENO PORTE,Fabricacao de esquadrias de metal,5,3,0,0,3,2,60.0,0.0,60.0,2,5,2
+PEQUENO PORTE,Fabricacao de estruturas metalicas,6,2,0,0,2,4,33.3333,0.0,33.3333,4,6,4
+PEQUENO PORTE,"Fabricacao de estruturas pre moldadas de concreto armado, em serie e sob encomenda",18,3,4,2,5,13,16.6667,22.2222,27.7778,15,14,13
+PEQUENO PORTE,Fabricacao de farinha de mandioca e derivados,4,0,0,0,0,4,0.0,0.0,0.0,4,4,4
+PEQUENO PORTE,Fabricacao de gelo comum,7,1,0,0,1,6,14.2857,0.0,14.2857,6,7,6
+PEQUENO PORTE,Fabricacao de laminados planos e tubulares de material plastico,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+PEQUENO PORTE,Fabricacao de laticinios,13,5,2,1,6,7,38.4615,15.3846,46.1538,8,11,7
+PEQUENO PORTE,"Fabricacao de letras, letreiros e placas de qualquer material, exceto luminosos",2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+PEQUENO PORTE,Fabricacao de luminarias e outros equipamentos de iluminacao,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+PEQUENO PORTE,"Fabricacao de maquinas e equipamentos para a industria do plastico, pecas e acessorios",1,1,1,1,1,0,100.0,100.0,100.0,0,0,0
+PEQUENO PORTE,"Fabricacao de maquinas e equipamentos para as industrias de alimentos, bebidas e fumo, pecas e acessorios",3,1,0,0,1,2,33.3333,0.0,33.3333,2,3,2
+PEQUENO PORTE,"Fabricacao de maquinas e equipamentos para uso industrial especifico nao especificados anteriormente, pecas e acessorios",3,1,0,0,1,2,33.3333,0.0,33.3333,2,3,2
+PEQUENO PORTE,"Fabricacao de maquinas para a industria metalurgica, pecas e acessorios, exceto maquinas ferramenta",1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+PEQUENO PORTE,Fabricacao de massas alimenticias,7,0,0,0,0,7,0.0,0.0,0.0,7,7,7
+PEQUENO PORTE,Fabricacao de medicamentos alopaticos para uso humano,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+PEQUENO PORTE,Fabricacao de medicamentos fitoterapicos para uso humano,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+PEQUENO PORTE,Fabricacao de motocicletas,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+PEQUENO PORTE,"Fabricacao de motores e turbinas, pecas e acessorios, exceto para avioes e veiculos rodoviarios",2,1,0,0,1,1,50.0,0.0,50.0,1,2,1
+PEQUENO PORTE,Fabricacao de moveis com predominancia de madeira,21,3,3,1,5,16,14.2857,14.2857,23.8095,18,18,16
+PEQUENO PORTE,Fabricacao de moveis com predominancia de metal,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+PEQUENO PORTE,"Fabricacao de moveis de outros materiais, exceto madeira e metal",1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+PEQUENO PORTE,Fabricacao de obras de caldeiraria pesada,9,0,0,0,0,9,0.0,0.0,0.0,9,9,9
+PEQUENO PORTE,"Fabricacao de outros aparelhos eletrodomesticos nao especificados anteriormente, pecas e acessorios",1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+PEQUENO PORTE,"Fabricacao de outros artefatos e produtos de concreto, cimento, fibrocimento, gesso e materiais semelhantes",5,1,2,1,2,3,20.0,40.0,40.0,4,3,3
+PEQUENO PORTE,Fabricacao de outros artigos de carpintaria para construcao,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+PEQUENO PORTE,Fabricacao de outros brinquedos e jogos recreativos nao especificados anteriormente,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+PEQUENO PORTE,Fabricacao de outros equipamentos e aparelhos eletricos nao especificados anteriormente,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+PEQUENO PORTE,Fabricacao de outros produtos alimenticios nao especificados anteriormente,2,1,0,0,1,1,50.0,0.0,50.0,1,2,1
+PEQUENO PORTE,Fabricacao de outros produtos de metal nao especificados anteriormente,2,1,0,0,1,1,50.0,0.0,50.0,1,2,1
+PEQUENO PORTE,Fabricacao de outros produtos de minerais nao metalicos nao especificados anteriormente,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+PEQUENO PORTE,"Fabricacao de outros produtos derivados do petroleo, exceto produtos do refino",1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+PEQUENO PORTE,"Fabricacao de outros produtos do fumo, exceto cigarros, cigarrilhas e charutos",8,0,0,0,0,8,0.0,0.0,0.0,8,8,8
+PEQUENO PORTE,Fabricacao de outros produtos quimicos nao especificados anteriormente,3,0,0,0,0,3,0.0,0.0,0.0,3,3,3
+PEQUENO PORTE,Fabricacao de outros produtos texteis nao especificados anteriormente,2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+PEQUENO PORTE,Fabricacao de paineis e letreiros luminosos,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+PEQUENO PORTE,Fabricacao de pecas e acessorios para o sistema de direcao e suspensao de veiculos automotores,1,1,0,0,1,0,100.0,0.0,100.0,0,1,0
+PEQUENO PORTE,Fabricacao de pneumaticos e de camaras de ar,1,1,0,0,1,0,100.0,0.0,100.0,0,1,0
+PEQUENO PORTE,Fabricacao de produtos de carne,2,1,0,0,1,1,50.0,0.0,50.0,1,2,1
+PEQUENO PORTE,Fabricacao de produtos de limpeza e polimento,10,0,0,0,0,10,0.0,0.0,0.0,10,10,10
+PEQUENO PORTE,Fabricacao de produtos de padaria e confeitaria com predominancia de producao propria,52,13,3,1,15,37,25.0,5.7692,28.8462,39,49,37
+PEQUENO PORTE,Fabricacao de produtos de panificacao industrial,6,2,1,1,2,4,33.3333,16.6667,33.3333,4,5,4
+PEQUENO PORTE,Fabricacao de produtos de papel para uso domestico e higienico sanitario nao especificados anteriormente,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+PEQUENO PORTE,"Fabricacao de produtos de papel, cartolina, papel cartao e papelao ondulado para uso industrial, comercial e de escritorio",3,0,0,0,0,3,0.0,0.0,0.0,3,3,3
+PEQUENO PORTE,"Fabricacao de produtos de trefilados de metal, exceto padronizados",3,1,1,1,1,2,33.3333,33.3333,33.3333,2,2,2
+PEQUENO PORTE,Fabricacao de refrigerantes,2,1,0,0,1,1,50.0,0.0,50.0,1,2,1
+PEQUENO PORTE,Fabricacao de resinas termoplasticas,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+PEQUENO PORTE,Fabricacao de saboes e detergentes sinteticos,5,2,1,1,2,3,40.0,20.0,40.0,3,4,3
+PEQUENO PORTE,Fabricacao de sorvetes e outros gelados comestiveis,6,3,3,3,3,3,50.0,50.0,50.0,3,3,3
+PEQUENO PORTE,"Fabricacao de sucos concentrados de frutas, hortalicas e legumes",1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+PEQUENO PORTE,"Fabricacao de sucos de frutas, hortalicas e legumes, exceto concentrados",2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+PEQUENO PORTE,"Fabricacao de tanques, reservatorios metalicos e caldeiras para aquecimento central",3,0,0,0,0,3,0.0,0.0,0.0,3,3,3
+PEQUENO PORTE,"Fabricacao de tintas, vernizes, esmaltes e lacas",5,0,0,0,0,5,0.0,0.0,0.0,5,5,5
+PEQUENO PORTE,Fabricacao de tubos e acessorios de material plastico para uso na construcao,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+PEQUENO PORTE,"Fabricacao de valvulas, registros e dispositivos semelhantes, pecas e acessorios",1,0,1,0,1,0,0.0,100.0,100.0,1,0,0
+PEQUENO PORTE,Fabricacao de vidro plano e de seguranca,3,1,2,0,3,0,33.3333,66.6667,100.0,2,1,0
+PEQUENO PORTE,Fabricacao de vinagres,2,1,0,0,1,1,50.0,0.0,50.0,1,2,1
+PEQUENO PORTE,"Faccao de pecas do vestuario, exceto roupas intimas",3,0,0,0,0,3,0.0,0.0,0.0,3,3,3
+PEQUENO PORTE,Faccao de roupas profissionais,1,1,1,1,1,0,100.0,100.0,100.0,0,0,0
+PEQUENO PORTE,Fornecimento de alimentos preparados preponderantemente para empresas,26,0,0,0,0,26,0.0,0.0,0.0,26,26,26
+PEQUENO PORTE,Frigorifico - abate de bovinos,4,1,0,0,1,3,25.0,0.0,25.0,3,4,3
+PEQUENO PORTE,Frigorifico - abate de suinos,2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+PEQUENO PORTE,Fundicao de ferro e aco,2,1,0,0,1,1,50.0,0.0,50.0,1,2,1
+PEQUENO PORTE,Geracao de energia eletrica,7,0,0,0,0,7,0.0,0.0,0.0,7,7,7
+PEQUENO PORTE,Gestao de redes de esgoto,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+PEQUENO PORTE,Impermeabilizacao em obras de engenharia civil,3,0,0,0,0,3,0.0,0.0,0.0,3,3,3
+PEQUENO PORTE,"Impressao de livros, revistas e outras publicacoes periodicas",6,1,0,0,1,5,16.6667,0.0,16.6667,5,6,5
+PEQUENO PORTE,Impressao de material para outros usos,14,3,3,2,4,10,21.4286,21.4286,28.5714,11,11,10
+PEQUENO PORTE,Impressao de material para uso publicitario,12,1,1,1,1,11,8.3333,8.3333,8.3333,11,11,11
+PEQUENO PORTE,Incorporacao de empreendimentos imobiliarios,130,2,1,1,2,128,1.5385,0.7692,1.5385,128,129,128
+PEQUENO PORTE,Instalacao de maquinas e equipamentos industriais,10,2,0,0,2,8,20.0,0.0,20.0,8,10,8
+PEQUENO PORTE,Instalacao de paineis publicitarios,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+PEQUENO PORTE,"Instalacao de portas, janelas, tetos, divisorias e armarios embutidos de qualquer material",10,1,0,0,1,9,10.0,0.0,10.0,9,10,9
+PEQUENO PORTE,"Instalacao e manutencao de sistemas centrais de ar condicionado, de ventilacao e refrigeracao",15,0,0,0,0,15,0.0,0.0,0.0,15,15,15
+PEQUENO PORTE,Instalacao e manutencao eletrica,61,2,2,0,4,57,3.2787,3.2787,6.5574,59,59,57
+PEQUENO PORTE,"Instalacao, manutencao e reparacao de elevadores, escadas e esteiras rolantes",5,0,0,0,0,5,0.0,0.0,0.0,5,5,5
+PEQUENO PORTE,Instalacoes de sistema de prevencao contra incendio,4,0,0,0,0,4,0.0,0.0,0.0,4,4,4
+PEQUENO PORTE,"Instalacoes hidraulicas, sanitarias e de gas",8,1,1,1,1,7,12.5,12.5,12.5,7,7,7
+PEQUENO PORTE,Manutencao de redes de distribuicao de energia eletrica,3,0,0,0,0,3,0.0,0.0,0.0,3,3,3
+PEQUENO PORTE,"Manutencao e reparacao de aeronaves, exceto a manutencao na pista",2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+PEQUENO PORTE,"Manutencao e reparacao de aparelhos e instrumentos de medida, teste e controle",1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+PEQUENO PORTE,Manutencao e reparacao de aparelhos eletromedicos e eletroterapeuticos e equipamentos de irradiacao,5,0,1,0,1,4,0.0,20.0,20.0,5,4,4
+PEQUENO PORTE,Manutencao e reparacao de equipamentos e produtos nao especificados anteriormente,2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+PEQUENO PORTE,"Manutencao e reparacao de equipamentos hidraulicos e pneumaticos, exceto valvulas",4,0,0,0,0,4,0.0,0.0,0.0,4,4,4
+PEQUENO PORTE,"Manutencao e reparacao de geradores, transformadores e motores eletricos",6,1,0,0,1,5,16.6667,0.0,16.6667,5,6,5
+PEQUENO PORTE,Manutencao e reparacao de maquinas e aparelhos de refrigeracao e ventilacao para uso industrial e comercial,6,2,0,0,2,4,33.3333,0.0,33.3333,4,6,4
+PEQUENO PORTE,Manutencao e reparacao de maquinas e equipamentos para agricultura e pecuaria,3,0,0,0,0,3,0.0,0.0,0.0,3,3,3
+PEQUENO PORTE,Manutencao e reparacao de maquinas e equipamentos para uso geral nao especificados anteriormente,4,0,0,0,0,4,0.0,0.0,0.0,4,4,4
+PEQUENO PORTE,Manutencao e reparacao de maquinas motrizes nao eletricas,2,1,0,0,1,1,50.0,0.0,50.0,1,2,1
+PEQUENO PORTE,"Manutencao e reparacao de maquinas para a industria metalurgica, exceto maquinas ferramenta",1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+PEQUENO PORTE,"Manutencao e reparacao de maquinas, aparelhos e equipamentos para instalacoes termicas",1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+PEQUENO PORTE,"Manutencao e reparacao de maquinas, aparelhos e materiais eletricos nao especificados anteriormente",4,1,0,0,1,3,25.0,0.0,25.0,3,4,3
+PEQUENO PORTE,"Manutencao e reparacao de maquinas, equipamentos e aparelhos para transporte e elevacao de cargas",1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+PEQUENO PORTE,Manutencao e reparacao de motocicletas e motonetas,2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+PEQUENO PORTE,Manutencao e reparacao de outras maquinas e equipamentos para usos industriais nao especificados anteriormente,5,0,0,0,0,5,0.0,0.0,0.0,5,5,5
+PEQUENO PORTE,"Manutencao e reparacao de tanques, reservatorios metalicos e caldeiras, exceto para veiculos",20,1,0,0,1,19,5.0,0.0,5.0,19,20,19
+PEQUENO PORTE,Manutencao e reparacao de tratores agricolas,2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+PEQUENO PORTE,Manutencao e reparacao de valvulas industriais,5,0,1,0,1,4,0.0,20.0,20.0,5,4,4
+PEQUENO PORTE,Manutencao e reparacao de veiculos ferroviarios,1,1,0,0,1,0,100.0,0.0,100.0,0,1,0
+PEQUENO PORTE,Moagem e fabricacao de produtos de origem vegetal nao especificados anteriormente,3,1,0,0,1,2,33.3333,0.0,33.3333,2,3,2
+PEQUENO PORTE,Montagem de estruturas metalicas,7,0,0,0,0,7,0.0,0.0,0.0,7,7,7
+PEQUENO PORTE,Montagem e desmontagem de andaimes e outras estruturas temporarias,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+PEQUENO PORTE,"Montagem e instalacao de sistemas e equipamentos de iluminacao e sinalizacao em vias publicas, portos e aeroportos",1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+PEQUENO PORTE,Obras de acabamento em gesso e estuque,5,0,0,0,0,5,0.0,0.0,0.0,5,5,5
+PEQUENO PORTE,Obras de alvenaria,26,0,0,0,0,26,0.0,0.0,0.0,26,26,26
+PEQUENO PORTE,Obras de fundacoes,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+PEQUENO PORTE,Obras de montagem industrial,5,0,0,0,0,5,0.0,0.0,0.0,5,5,5
+PEQUENO PORTE,Obras de terraplenagem,29,0,1,0,1,28,0.0,3.4483,3.4483,29,28,28
+PEQUENO PORTE,"Obras de urbanizacao - ruas, pracas e calcadas",14,0,0,0,0,14,0.0,0.0,0.0,14,14,14
+PEQUENO PORTE,Outras atividades de telecomunicacoes nao especificadas anteriormente,2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+PEQUENO PORTE,Outras obras de acabamento da construcao,14,0,0,0,0,14,0.0,0.0,0.0,14,14,14
+PEQUENO PORTE,Outras obras de engenharia civil nao especificadas anteriormente,15,0,0,0,0,15,0.0,0.0,0.0,15,15,15
+PEQUENO PORTE,Outras obras de instalacoes em construcoes nao especificadas anteriormente,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+PEQUENO PORTE,Perfuracao e construcao de pocos de agua,9,2,0,0,2,7,22.2222,0.0,22.2222,7,9,7
+PEQUENO PORTE,Perfuracoes e sondagens,3,0,0,0,0,3,0.0,0.0,0.0,3,3,3
+PEQUENO PORTE,Pintura para sinalizacao em pistas rodoviarias e aeroportos,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+PEQUENO PORTE,Preparacao de massa de concreto e argamassa para construcao,8,2,1,1,2,6,25.0,12.5,25.0,6,7,6
+PEQUENO PORTE,Preparacao do leite,2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+PEQUENO PORTE,"Preparacao e fiacao de fibras texteis naturais, exceto algodao",2,2,0,0,2,0,100.0,0.0,100.0,0,2,0
+PEQUENO PORTE,"Preservacao de peixes, crustaceos e moluscos",5,0,0,0,0,5,0.0,0.0,0.0,5,5,5
+PEQUENO PORTE,"Producao de relaminados, trefilados e perfilados de aco, exceto arames",1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+PEQUENO PORTE,Provedores de acesso as redes de comunicacoes,43,4,0,0,4,39,9.3023,0.0,9.3023,39,43,39
+PEQUENO PORTE,Recondicionamento e recuperacao de motores para veiculos automotores,4,1,0,0,1,3,25.0,0.0,25.0,3,4,3
+PEQUENO PORTE,"Recuperacao de materiais metalicos, exceto aluminio",2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+PEQUENO PORTE,Recuperacao de materiais nao especificados anteriormente,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+PEQUENO PORTE,Recuperacao de materiais plasticos,10,1,1,1,1,9,10.0,10.0,10.0,9,9,9
+PEQUENO PORTE,Recuperacao de sucatas de aluminio,2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+PEQUENO PORTE,Reforma de pneumaticos usados,4,0,0,0,0,4,0.0,0.0,0.0,4,4,4
+PEQUENO PORTE,Serrarias com desdobramento de madeira em bruto,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+PEQUENO PORTE,Servico de laboratorio optico,2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+PEQUENO PORTE,Servico de tratamento de madeira realizado sob contrato,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+PEQUENO PORTE,"Servicos de acabamentos graficos, exceto encadernacao e plastificacao",3,0,0,0,0,3,0.0,0.0,0.0,3,3,3
+PEQUENO PORTE,Servicos de alinhamento e balanceamento de veiculos automotores,3,0,0,0,0,3,0.0,0.0,0.0,3,3,3
+PEQUENO PORTE,Servicos de borracharia para veiculos automotores,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+PEQUENO PORTE,Servicos de capotaria,2,1,0,0,1,1,50.0,0.0,50.0,1,2,1
+PEQUENO PORTE,Servicos de comunicacao multimidia - scm,45,5,0,0,5,40,11.1111,0.0,11.1111,40,45,40
+PEQUENO PORTE,Servicos de confeccao de armacoes metalicas para a construcao,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+PEQUENO PORTE,Servicos de encadernacao e plastificacao,3,0,0,0,0,3,0.0,0.0,0.0,3,3,3
+PEQUENO PORTE,Servicos de engenharia,227,4,1,0,5,222,1.7621,0.4405,2.2026,223,226,222
+PEQUENO PORTE,"Servicos de instalacao, manutencao e reparacao de acessorios para veiculos automotores",4,0,0,0,0,4,0.0,0.0,0.0,4,4,4
+PEQUENO PORTE,Servicos de lanternagem ou funilaria e pintura de veiculos automotores,14,2,0,0,2,12,14.2857,0.0,14.2857,12,14,12
+PEQUENO PORTE,Servicos de manutencao e reparacao eletrica de veiculos automotores,2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+PEQUENO PORTE,Servicos de manutencao e reparacao mecanica de veiculos automotores,48,4,1,0,5,43,8.3333,2.0833,10.4167,44,47,43
+PEQUENO PORTE,Servicos de montagem de moveis de qualquer material,13,0,0,0,0,13,0.0,0.0,0.0,13,13,13
+PEQUENO PORTE,Servicos de operacao e fornecimento de equipamentos para transporte e elevacao de cargas e pessoas para uso em obras,2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+PEQUENO PORTE,Servicos de pintura de edificios em geral,5,0,1,0,1,4,0.0,20.0,20.0,5,4,4
+PEQUENO PORTE,Servicos de telecomunicacoes sem fio nao especificados anteriormente,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+PEQUENO PORTE,Servicos de tratamento e revestimento em metais,4,1,0,0,1,3,25.0,0.0,25.0,3,4,3
+PEQUENO PORTE,"Servicos de usinagem, tornearia e solda",19,1,2,1,2,17,5.2632,10.5263,10.5263,18,17,17
+PEQUENO PORTE,Servicos especializados para construcao nao especificados anteriormente,15,2,0,0,2,13,13.3333,0.0,13.3333,13,15,13
+PEQUENO PORTE,Telecomunicacoes por satelite,2,0,0,0,0,2,0.0,0.0,0.0,2,2,2
+PEQUENO PORTE,Tratamento e disposicao de residuos perigosos,1,0,0,0,0,1,0.0,0.0,0.0,1,1,1
+PEQUENO PORTE,"Tratamentos termicos, acusticos ou de vibracao",4,0,0,0,0,4,0.0,0.0,0.0,4,4,4

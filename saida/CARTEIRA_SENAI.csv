@@ -1,0 +1,468 @@
+﻿CNPJ,Razão Social,Categoria,Porte,CNAE,Origem da Cobertura,TEM_SESI,TEM_SENAI,TEM_SESI_SENAI,STATUS_RELACIONAMENTO,QTD_REGISTROS_BASE
+00290431000130,Servicos E Pecas Diesel Arapiraca Ltda,Industria,4.Micro,Serviços de manutenção e reparação mecânica de veículos automotores,Proposta,False,True,False,SOMENTE SENAI,1
+00321975000111,Araforros Ind E Comercio De Perfilados Ltda Em Recuperacao Judicial,Industria | Indústria,2.Média,"Fabricação de artefatos de material plástico para uso na construção, exceto tubos e acessórios",Migração | Proposta,True,True,True,SESI + SENAI,2
+00360305000104,Caixa Economica Federal,Nao Industria,4.Micro,Caixas econômicas,Proposta,False,True,False,SOMENTE SENAI,1
+00421822000146,Kinata Sorvetes Ltda.,Industria | Indústria,3.Pequena,Fabricação de sorvetes e outros gelados comestíveis,Proposta,True,True,True,SESI + SENAI,2
+00469393000187,Valmar Servicos Industriais Ltda,Industria,2.Média,Serviços de engenharia,Proposta,False,True,False,SOMENTE SENAI,1
+00482915000180,Dorgival Jose Da Silva,Industria | Indústria,4.Micro,Serrarias com desdobramento de madeira em bruto,Migração | Proposta,True,True,True,SESI + SENAI,2
+00741946000109,Mineracao Costa Dourada Ltda,Industria | Indústria,3.Pequena,Fabricação de águas envasadas,Migração | Proposta,True,True,True,SESI + SENAI,2
+00874154000102,M A Ferreira Veiga,Industria,4.Micro,FABRICAÇÃO DE PRODUTOS DE PADARIA E CONFEITARIA COM PREDOMINÂNCIA DE PRODUÇÃO PRÓPRIA,Proposta,False,True,False,SOMENTE SENAI,1
+00887925000104,Grafmarques Industria Editora E Servicos Ltda,Industria,4.Micro,"Impressão de livros, revistas e outras publicações periódicas",Migração,False,True,False,SOMENTE SENAI,1
+01129810000105,Fundo Municipal De Educacao,Nao Industria | Não Indústria,4.Micro,Atividades de associações de defesa de direitos sociais,Migração | Proposta,True,True,True,SESI + SENAI,2
+01177442000170,Avante Energia E Servicos Ltda,Nao Industria,4.Micro,Outras atividades de prestação de serviços de informação não especificadas anteriormente,Proposta,False,True,False,SOMENTE SENAI,1
+01285165000462,O Borrachao Ltda,Nao Industria,4.Micro,Comércio varejista de outros produtos não especificados anteriormente,Migração,False,True,False,SOMENTE SENAI,1
+01336881000189,Armario Quarto E Cozinha Ind. E Com. Ltda,Industria | Indústria,4.Micro,Fabricação de móveis com predominância de madeira,Migração | Proposta,True,True,True,SESI + SENAI,2
+01413951000155,Ferplas Industria De Artefatos De Arame Ltda,Industria,3.Pequena,Fabricação de outros produtos de metal não especificados anteriormente,Proposta,False,True,False,SOMENTE SENAI,1
+01551272002005,Asa Industria E Comercio Ltda,Nao Industria,3.Pequena,Comércio atacadista de produtos alimentícios em geral,Proposta,False,True,False,SOMENTE SENAI,1
+01637593000164,Enord Engenharia Ltda,Industria | Indústria,1.Grande,Construção de edifícios,Migração,True,True,True,SESI + SENAI,2
+01788792000173,Carmem Lucia De Souza Feitosa,Industria | Indústria,4.Micro,"Fabricação de móveis de outros materiais, exceto madeira e metal",Migração | Proposta,True,True,True,SESI + SENAI,2
+01864858000167,Dilab- Diagnostico Laboratorial S/s Ltda,Nao Industria,4.Micro,Laboratórios clínicos,Proposta,False,True,False,SOMENTE SENAI,1
+01974371000218,Risoterm Isolantes Termicos Ltda,Industria,3.Pequena,Outras obras de instalações em construções não especificadas anteriormente,Proposta,False,True,False,SOMENTE SENAI,1
+02359689000170,Sk Infraestrutura Ltda,Industria,4.Micro,"Obras portuárias, marítimas e fluviais",Proposta,False,True,False,SOMENTE SENAI,1
+02423864000141,"Arquitec - Arquitetura, Engenharia E Construcao Ltda Em Recuperacao Judicial",Industria,3.Pequena,Construção de edifícios,Proposta,False,True,False,SOMENTE SENAI,1
+02586873000153,Casel Servicos De Eletricidade Ltda,Industria,4.Micro,Construção de edifícios,Proposta,False,True,False,SOMENTE SENAI,1
+02805820003100,Enerflex Brasil Energia Ltda,Industria,4.Micro,Atividades de apoio à extração de petróleo e gás natural,Proposta,False,True,False,SOMENTE SENAI,1
+02867678000100,Nip Global Ltda,Industria | Indústria,2.Média,Serviços de engenharia,Proposta,True,True,True,SESI + SENAI,2
+02949016002114,Control Construcoes S.a,Industria | Indústria,1.Grande,Instalação e manutenção elétrica,Proposta,True,True,True,SESI + SENAI,2
+02949016002203,Control Construcoes S.a,Industria,2.Média,Instalação e manutenção elétrica,Proposta,False,True,False,SOMENTE SENAI,1
+02949016002467,Control Construcoes S.a,Industria,2.Média,Instalação e manutenção elétrica,Proposta,False,True,False,SOMENTE SENAI,1
+02949016002548,Control Construcoes S.a,Industria,3.Pequena,Instalação e manutenção elétrica,Proposta,False,True,False,SOMENTE SENAI,1
+03279056000115,Cabecal - Calcario De Cabeceiras Mineracao Ltda,Industria,4.Micro,"Extração de minerais para fabricação de adubos, fertilizantes e outros produtos químicos",Proposta,False,True,False,SOMENTE SENAI,1
+03470536000169,Energia Empreendimentos Ltda,Industria,3.Pequena,Construção de edifícios,Proposta,False,True,False,SOMENTE SENAI,1
+03624362000141,Cooperativa Educacional De Maceio,Nao Industria,3.Pequena,Atividades de associações de defesa de direitos sociais,Proposta,False,True,False,SOMENTE SENAI,1
+03698620000568,Green4t Solucoes Ti Ltda,Industria,3.Pequena,Outras obras de instalações em construções não especificadas anteriormente,Proposta,False,True,False,SOMENTE SENAI,1
+03722728000115,Engenharq Ltda,Industria | Indústria,1.Grande,Construção de edifícios,Migração | Proposta,True,True,True,SESI + SENAI,2
+03746272000123,Sian Engenharia Ltda,Industria | Indústria,3.Pequena,Construção de edifícios,Migração | Proposta,True,True,True,SESI + SENAI,2
+03798336000210,Servico Social Da Industria - Sesi,Nao Industria,3.Pequena,Outras atividades de ensino não especificadas anteriormente,Proposta,False,True,False,SOMENTE SENAI,1
+03798336000806,Servico Social Da Industria - Sesi,Nao Industria,3.Pequena,Outras atividades de ensino não especificadas anteriormente,Proposta,False,True,False,SOMENTE SENAI,1
+03798336000997,Servico Social Da Industria - Sesi,Nao Industria,3.Pequena,Outras atividades de ensino não especificadas anteriormente,Proposta,False,True,False,SOMENTE SENAI,1
+03866223000124,Medradius Clinica De Medicina Nuclear E Radiologia De Maceio Ltda,Nao Industria | Não Indústria,2.Média,"Serviços de diagnóstico por imagem com uso de radiação ionizante, exceto tomografia",Migração | Proposta,True,True,True,SESI + SENAI,2
+03910880000121,Maucon Construcoes Ltda,Industria,3.Pequena,Construção de edifícios,Proposta,False,True,False,SOMENTE SENAI,1
+04287461000148,Unicon Construcoes Ltda,Industria,4.Micro,Construção de edifícios,Proposta,False,True,False,SOMENTE SENAI,1
+04287896000192,Ronaldo De Oliveira Silva & Cia Ltda,Industria,3.Pequena,"Fabricação de outros artefatos e produtos de concreto, cimento, fibrocimento, gesso e materiais semelhantes",Migração,False,True,False,SOMENTE SENAI,1
+04342949000120,Acessorios Mineirao Pecas E Servicos Ltda,Nao Industria,3.Pequena,Comércio a varejo de peças e acessórios novos para veículos automotores,Migração,False,True,False,SOMENTE SENAI,1
+04401310000179,Teccel - Tecnologia Da Construcao Civil E Eletrica Ltda,Industria,2.Média,Construção de estações e redes de distribuição de energia elétrica,Proposta,False,True,False,SOMENTE SENAI,1
+04426278000186,Agropecuaria Industrial Alba Ltda,Industria,4.Micro,Fabricação de laticínios,Proposta,False,True,False,SOMENTE SENAI,1
+04493020000100,Concrenorte - Concreto Do Nordeste Ltda.,Industria | Indústria,3.Pequena,Fabricação de artefatos de cimento para uso na construção,Migração,True,True,True,SESI + SENAI,2
+04522379000665,Qualicoco Ltda,Industria,2.Média,Fabricação de conservas de frutas,Proposta,False,True,False,SOMENTE SENAI,1
+04583137000177,Solida Engenharia Ltda,Industria,1.Grande,Construção de edifícios,Migração,False,True,False,SOMENTE SENAI,1
+04590305000151,Construtora Mogno Ltda,Industria,3.Pequena,Construção de edifícios,Proposta,False,True,False,SOMENTE SENAI,1
+04601397010271,Brisanet Servicos De Telecomunicacoes S.a.,Industria,3.Pequena,Serviços de comunicação multimídia - SCM,Proposta,False,True,False,SOMENTE SENAI,1
+04667933000198,Campos Engenharia Ltda,Industria,4.Micro,Obras de terraplenagem,Proposta,False,True,False,SOMENTE SENAI,1
+04736001000150,Living Locacoes Ltda.,Nao Industria,3.Pequena,"Aluguel de móveis, utensílios e aparelhos de uso doméstico e pessoal; instrumentos musicais",Proposta,False,True,False,SOMENTE SENAI,1
+04821392000100,Weldservice Ltda,Industria,3.Pequena,"SERVIÇOS DE USINAGEM, TORNEARIA E SOLDA",Proposta,False,True,False,SOMENTE SENAI,1
+04834392000145,Brascar Locadora Ltda,Nao Industria,3.Pequena,Locação de automóveis sem condutor,Proposta,False,True,False,SOMENTE SENAI,1
+05204509000170,Joplas Industrial Ltda,Industria,3.Pequena,Fabricação de laminados planos e tubulares de material plástico,Proposta,False,True,False,SOMENTE SENAI,1
+05208211002505,In Haus Industrial E Servicos De Logistica S/a,Industria,2.Média,"Instalação e manutenção de sistemas centrais de ar condicionado, de ventilação e refrigeração",Migração,False,True,False,SOMENTE SENAI,1
+05383352000197,Celso Luiz Vidal De Negreiros Piatti,Industria | Indústria,4.Micro,"Confecção, sob medida, de peças do vestuário, exceto roupas íntimas",Proposta,True,True,True,SESI + SENAI,2
+05439866000117,R W Alves,Industria,4.Micro,FABRICAÇÃO DE PRODUTOS DE PANIFICAÇÃO INDUSTRIAL,Migração,False,True,False,SOMENTE SENAI,1
+05439911000133,Usitec Servicos E Comercio Ltda,Industria | Indústria,4.Micro,"SERVIÇOS DE USINAGEM, TORNEARIA E SOLDA",Migração | Proposta,True,True,True,SESI + SENAI,2
+05515590000109,Agropecuaria Novo Horizonte Ltda,Industria,4.Micro,Fabricação de laticínios,Proposta,False,True,False,SOMENTE SENAI,1
+05539303000109,Sorvetes Kinata Ltda,Industria | Indústria,4.Micro,Fabricação de sorvetes e outros gelados comestíveis,Proposta,True,True,True,SESI + SENAI,2
+05582326000198,Elo Engenharia Ltda,Industria | Indústria,4.Micro,Construção de edifícios,Migração | Proposta,True,True,True,SESI + SENAI,2
+05612717000108,Energy Engenharia Ltda,Industria | Indústria,2.Média,Serviços de engenharia,Proposta,True,True,True,SESI + SENAI,2
+05612717000450,Energy Engenharia Ltda,Industria,3.Pequena,"Fabricação de estruturas pré-moldadas de concreto armado, em série e sob encomenda",Migração,False,True,False,SOMENTE SENAI,1
+05680391000156,Fsf Tecnologia S.a.,Industria | Indústria,2.Média,Serviços de comunicação multimídia - SCM,Proposta,True,True,True,SESI + SENAI,2
+05863009000140,Synergia - Consultoria Urbana E Social Ltda.,Nao Industria,2.Média,Pesquisa e desenvolvimento experimental em ciências sociais e humanas,Proposta,False,True,False,SOMENTE SENAI,1
+05913401000156,Acender Engenharia Ltda Em Recuperacao Judicial,Industria,2.Média,Instalação e manutenção elétrica,Proposta,False,True,False,SOMENTE SENAI,1
+05925056000170,I. M. Da Silva Industria,Industria | Indústria,4.Micro,"Fabricação de especiarias, molhos, temperos e condimentos",Migração | Proposta,True,True,True,SESI + SENAI,2
+06007841000107,Brandao E Torres Construcoes Ltda.,Industria | Indústria,2.Média,Construção de edifícios,Migração,True,True,True,SESI + SENAI,2
+06034228000189,Plataforma Engenharia Ltda,Industria,2.Média,Construção de edifícios,Migração,False,True,False,SOMENTE SENAI,1
+06143647000230,Techplast Industria E Comercio De Plasticos Ltda,Industria | Indústria,2.Média,Recuperação de materiais não especificados anteriormente,Migração | Proposta,True,True,True,SESI + SENAI,2
+06171493000451,Mslog - Servicos De Logistica E Transporte Ltda,Nao Industria,3.Pequena,Organização logística do transporte de carga,Proposta,False,True,False,SOMENTE SENAI,1
+06173511000191,Retrofit Engenharia De Servicos Ltda,Industria,3.Pequena,Construção de edifícios,Proposta,False,True,False,SOMENTE SENAI,1
+06190387000172,Erisvaldo Luis Neto Ltda,Industria | Indústria,4.Micro,Fabricação de laticínios,Migração | Proposta,True,True,True,SESI + SENAI,2
+06209606000118,Triunfo Pedras Ltda,Industria | Indústria,3.Pequena,Extração e britamento de pedras e outros materiais para construção e beneficiamento associado,Proposta,True,True,True,SESI + SENAI,2
+06248248000152,Sabalanga Produtos Agropecuarios Ltda,Nao Industria,2.Média,Criação de frangos para corte,Proposta,False,True,False,SOMENTE SENAI,1
+06351389000104,Naturalia Aguas Minerais Ltda,Industria | Indústria,4.Micro,Fabricação de águas envasadas,Migração | Proposta,True,True,True,SESI + SENAI,2
+06698221000161,Tempermac Vidros Temperados De Maceio Ltda,Industria,3.Pequena,Fabricação de vidro plano e de segurança,Proposta,False,True,False,SOMENTE SENAI,1
+06937784000165,Solidez Engenharia Ltda,Industria,2.Média,Construção de edifícios,Proposta,False,True,False,SOMENTE SENAI,1
+06943858000176,Contemporanea Arquitetura E Construcoes Ltda,Industria,3.Pequena,Construção de edifícios,Proposta,False,True,False,SOMENTE SENAI,1
+06980064001073,Nacional Gas Butano Distribuidora Ltda,Nao Industria,3.Pequena,Comércio varejista de gás liqüefeito de petróleo (GLP),Proposta,False,True,False,SOMENTE SENAI,1
+07103225000112,Empresa Brasileira De Construcao Ltda,Industria,3.Pequena,Construção de edifícios,Proposta,False,True,False,SOMENTE SENAI,1
+07111432000380,Ceramica Capelli Ltda,Industria,3.Pequena,"Fabricação de artefatos de cerâmica e barro cozido para uso na construção, exceto azulejos e pisos",Proposta,False,True,False,SOMENTE SENAI,1
+07246670000131,S. C. Do Carmo Confeccoes,Industria | Indústria,3.Pequena,Confecção de roupas íntimas,Migração | Proposta,True,True,True,SESI + SENAI,2
+07250211000121,Panificacao Jeronimo Ltda,Industria | Indústria,3.Pequena,FABRICAÇÃO DE PRODUTOS DE PANIFICAÇÃO INDUSTRIAL,Proposta,True,True,True,SESI + SENAI,2
+07431747000143,Comferral Comercio De Ferragens Ltda,Nao Industria,4.Micro,Comércio atacadista de ferragens e ferramentas,Proposta,False,True,False,SOMENTE SENAI,1
+07478417000103,Metro Engenharia E Consultoria Ltda,Industria,1.Grande,Construção de edifícios,Migração,False,True,False,SOMENTE SENAI,1
+07502493000107,Art Moveis Ltda,Industria | Indústria,4.Micro,Fabricação de móveis com predominância de madeira,Migração | Proposta,True,True,True,SESI + SENAI,2
+07522191004430,Rip Servicos Industriais Ltda,Industria | Indústria,2.Média,Outras obras de engenharia civil não especificadas anteriormente,Proposta,True,True,True,SESI + SENAI,2
+07811608000145,Sol Salinas Hotelaria E Servicos Ltda.,Nao Industria,2.Média,Hotéis,Proposta,False,True,False,SOMENTE SENAI,1
+07868323000140,Macro Empreendimentos Ltda,Industria,4.Micro,Preparação de canteiro e limpeza de terreno,Proposta,False,True,False,SOMENTE SENAI,1
+08049154000856,M3 Tecnologia Ltda,Industria,4.Micro,Outras atividades de telecomunicações não especificadas anteriormente,Proposta,False,True,False,SOMENTE SENAI,1
+08295518000101,P Castro Refrigeracao Ltda,Industria,4.Micro,"Instalação e manutenção de sistemas centrais de ar condicionado, de ventilação e refrigeração",Proposta,False,True,False,SOMENTE SENAI,1
+08343492000120,Mrv Engenharia E Participacoes Sa,Industria,1.Grande,Incorporação de empreendimentos imobiliários,Proposta,False,True,False,SOMENTE SENAI,1
+08343492011164,Mrv Engenharia E Participacoes Sa,Industria,2.Média,Incorporação de empreendimentos imobiliários,Proposta,False,True,False,SOMENTE SENAI,1
+08414691000181,Verissimo E Holanda Ltda,Nao Industria,3.Pequena,"Aluguel de máquinas e equipamentos para construção sem operador, exceto andaimes",Migração,False,True,False,SOMENTE SENAI,1
+08488348000181,Serpecas Alagoas Implementos Rodoviarios Ltda,Industria,4.Micro,"Fabricação de cabines, carrocerias e reboques para caminhões",Proposta,False,True,False,SOMENTE SENAI,1
+08511719000107,Frut S Industria E Comercio De Gelados De Alagoas Ltda,Industria | Indústria,2.Média,Fabricação de sorvetes e outros gelados comestíveis,Migração,True,True,True,SESI + SENAI,2
+08611923000191,Irmaos Torres Ltda,Industria | Indústria,4.Micro,FABRICAÇÃO DE PRODUTOS DE PANIFICAÇÃO INDUSTRIAL,Migração | Proposta,True,True,True,SESI + SENAI,2
+08618746000175,Centro Educacional Santa Terezinha Ltda,Nao Industria,3.Pequena,Ensino fundamental,Proposta,False,True,False,SOMENTE SENAI,1
+08650571000183,Mineracao Vale Verde Do Brasil Ltda.,Industria | Indústria,2.Média,Extração de minério de metais preciosos,Migração,True,True,True,SESI + SENAI,2
+08656732000146,G De Almeida Oliveira,Industria | Indústria,4.Micro,"Fabricação de artefatos diversos de madeira, exceto móveis",Migração | Proposta,True,True,True,SESI + SENAI,2
+08695037000193,Gold Cafes Ltda,Industria | Indústria,4.Micro,Torrefação e moagem de café,Migração | Proposta,True,True,True,SESI + SENAI,2
+08726496000197,Engeko Engenharia E Construcao Ltda,Industria,3.Pequena,Construção de edifícios,Proposta,False,True,False,SOMENTE SENAI,1
+08789800000145,Cad Solucoes Em Engenharia Ltda,Industria,3.Pequena,Instalação e manutenção elétrica,Proposta,False,True,False,SOMENTE SENAI,1
+08898820000154,Assistence Engenharia Ltda,Industria,3.Pequena,Construção de edifícios,Proposta,False,True,False,SOMENTE SENAI,1
+08900689000112,J.r.feyh & Cia Ltda,Industria,3.Pequena,Construção de estações e redes de distribuição de energia elétrica,Proposta,False,True,False,SOMENTE SENAI,1
+08943210000125,Silvano Lazaro Da Silva Ltda,Industria | Indústria,4.Micro,Fabricação de sorvetes e outros gelados comestíveis,Migração,True,True,True,SESI + SENAI,2
+08962155000110,Nordeste Moveis Ltda,Industria,3.Pequena,Fabricação de móveis com predominância de madeira,Proposta,False,True,False,SOMENTE SENAI,1
+09066964000107,Alianca Construcoes Ltda,Industria | Indústria,2.Média,Construção de edifícios,Migração | Proposta,True,True,True,SESI + SENAI,2
+09232993000100,Evandro V Lima Panificacao Ltda.,Industria,4.Micro,FABRICAÇÃO DE PRODUTOS DE PANIFICAÇÃO INDUSTRIAL,Migração,False,True,False,SOMENTE SENAI,1
+09318807000141,Industria E Comercio De Pedras Jidearts Ltda,Industria | Indústria,4.Micro,"Aparelhamento de placas e execução de trabalhos em mármore, granito, ardósia e outras pedras",Migração,True,True,True,SESI + SENAI,2
+09344391000217,Hotel Costa Azul S A,Nao Industria,3.Pequena,Hotéis,Proposta,False,True,False,SOMENTE SENAI,1
+09411692000135,Engematloc - Terraplenagem E Locacoes Ltda,Industria,3.Pequena,Construção de edifícios,Proposta,False,True,False,SOMENTE SENAI,1
+09423483000101,Associacao Madre Esperanca,Nao Industria,4.Micro,Atividades de associações de defesa de direitos sociais,Migração,False,True,False,SOMENTE SENAI,1
+09520287000155,Adequa Assessoria E Consultoria Em Controle De Qualidade De Alimentos Ltda.,Nao Industria,4.Micro,Treinamento em desenvolvimento profissional e gerencial,Proposta,False,True,False,SOMENTE SENAI,1
+09571854000100,59 Batalhao De Infantaria Motorizado,Nao Industria,4.Micro,Defesa,Migração,False,True,False,SOMENTE SENAI,1
+09814493000178,Carlos Henrique Alves Da Silva,Nao Industria,4.Micro,Comércio a varejo de peças e acessórios novos para veículos automotores,Proposta,False,True,False,SOMENTE SENAI,1
+10145486000100,Plastmarc Comercio E Industria De Material Plastico Ltda,Industria | Indústria,3.Pequena,Recuperação de materiais plásticos,Proposta,True,True,True,SESI + SENAI,2
+10220039007423,Oeci S.a Em Recuperacao Judicial,Industria,2.Média,Construção de obras-de-arte especiais,Migração,False,True,False,SOMENTE SENAI,1
+10340747000142,Guerrero Construtora E Empreendimentos Ltda,Industria,3.Pequena,Construção de estações e redes de distribuição de energia elétrica,Proposta,False,True,False,SOMENTE SENAI,1
+10616674000179,Builders Loc Locadora E Operadora De Maquinas E Equipamentos Ltda,Industria,4.Micro,Serviços de operação e fornecimento de equipamentos para transporte e elevação de cargas e pessoas para uso em obras,Proposta,False,True,False,SOMENTE SENAI,1
+10695076000132,Souza & Souza Ltda,Industria | Indústria,4.Micro,FABRICAÇÃO DE PRODUTOS DE PANIFICAÇÃO INDUSTRIAL,Migração | Proposta,True,True,True,SESI + SENAI,2
+10702260000162,Rotan Pre Moldados E Construcoes Ltda,Industria,3.Pequena,"Obras de urbanização - ruas, praças e calçadas",Proposta,False,True,False,SOMENTE SENAI,1
+10723930001280,Cyro Cavalcanti Auto Pecas Ltda,Nao Industria,3.Pequena,Comércio por atacado de peças e acessórios novos para veículos automotores,Proposta,False,True,False,SOMENTE SENAI,1
+10887669000109,Kiola Industria E Comercio Ltda,Industria | Indústria,4.Micro,Fabricação de sabões e detergentes sintéticos,Migração | Proposta,True,True,True,SESI + SENAI,2
+10918657000196,Leao Nordeste Industria E Comercio De Plasticos Ltda,Industria | Indústria,3.Pequena,Fabricação de artefatos de material plástico para outros usos não especificados anteriormente,Migração | Proposta,True,True,True,SESI + SENAI,2
+10925899000107,Madeiras Do Brasil Ltda,Nao Industria | Não Indústria,3.Pequena,Comércio varejista de madeira e artefatos,Migração | Proposta,True,True,True,SESI + SENAI,2
+11050982000142,Secretaria De Estado De Prevencao A Violencia,Nao Industria,3.Pequena,Administração pública em geral,Proposta,False,True,False,SOMENTE SENAI,1
+11069316000318,Tubos Tigre-ads Do Brasil Limitada,Industria | Indústria,3.Pequena,Fabricação de tubos e acessórios de material plástico para uso na construção,Migração | Proposta,True,True,True,SESI + SENAI,2
+11421889000105,Mixfarma Comercial Ltda,Nao Industria | Não Indústria,2.Média,Comércio atacadista de medicamentos e drogas de uso humano,Proposta,True,True,True,SESI + SENAI,2
+11440164000156,Am Lanchonetes Ltda,Nao Industria,4.Micro,"Lanchonetes, casas de chá, de sucos e similares",Proposta,False,True,False,SOMENTE SENAI,1
+11483295000110,Codaco Confeccao E Dobra De Ferro E Aco Ltda,Industria,4.Micro,Fabricação de outros produtos de metal não especificados anteriormente,Proposta,False,True,False,SOMENTE SENAI,1
+11493623000160,Magnetron Industria E Comercio De Componentes Ltda,Industria,2.Média,"Fabricação de material elétrico e eletrônico para veículos automotores, exceto baterias",Proposta,False,True,False,SOMENTE SENAI,1
+11512944000164,Faab Engenharia Ltda,Industria | Indústria,2.Média,Construção de estações e redes de distribuição de energia elétrica,Proposta,True,True,True,SESI + SENAI,2
+11544802000189,Pca Tecnologia Em Manutencao Preditiva Ltda,Industria | Indústria,4.Micro,"Manutenção e reparação de máquinas, aparelhos e materiais elétricos não especificados anteriormente",Proposta,True,True,True,SESI + SENAI,2
+11705404000105,Cenutri - Centro Especializado De Nutricao Ltda.,Nao Industria,3.Pequena,Comércio varejista de artigos médicos e ortopédicos,Proposta,False,True,False,SOMENTE SENAI,1
+11907140000164,Krona Tubos E Conexoes Do Nordeste Ltda,Industria | Indústria,1.Grande,Fabricação de tubos e acessórios de material plástico para uso na construção,Migração | Proposta,True,True,True,SESI + SENAI,2
+12014510000105,Biotech Controle Biologico Ltda,Industria,3.Pequena,Fabricação de defensivos agrícolas,Migração,False,True,False,SOMENTE SENAI,1
+12020066000122,Braf Empreendimentos Hoteleiros Ltda.,Nao Industria | Não Indústria,3.Pequena,Hotéis,Migração | Proposta,True,True,True,SESI + SENAI,2
+12102741000243,Projetel - Telecomunicacoes E Servicos Ltda,Industria | Indústria,3.Pequena,Manutenção de estações e redes de telecomunicações,Migração | Proposta,True,True,True,SESI + SENAI,2
+12156097000105,Associacao Atletica Banco Do Brasil,Nao Industria,3.Pequena,"Clubes sociais, esportivos e similares",Migração,False,True,False,SOMENTE SENAI,1
+12157871000100,Sindicato Dos Trabalhadores No Comercio De Minerios E Derivados De Petroleo No Estado De Alagoas(inclusive Pesquisas De Minerios),Nao Industria,4.Micro,Atividades de organizações sindicais,Proposta,False,True,False,SOMENTE SENAI,1
+12186524000106,Tv Gazeta De Alagoas Ltda - Em Recuperacao Judicial,Nao Industria,4.Micro,Atividades de televisão aberta,Migração,False,True,False,SOMENTE SENAI,1
+12187241000170,Feitosa Irmaos & Cia Ltda,Nao Industria,3.Pequena,Comércio a varejo de peças e acessórios novos para veículos automotores,Proposta,False,True,False,SOMENTE SENAI,1
+12198693000158,Municipio De Arapiraca,Nao Industria,4.Micro,Administração pública em geral,Migração,False,True,False,SOMENTE SENAI,1
+12200135000180,Municipio De Maceio,Nao Industria,4.Micro,Administração pública em geral,Migração,False,True,False,SOMENTE SENAI,1
+12200218000179,Secretaria De Estado Da Educacao,Nao Industria,4.Micro,Administração pública em geral,Proposta,False,True,False,SOMENTE SENAI,1
+12200259000165,Secretaria De Estado Da Saude,Nao Industria,1.Grande,Administração pública em geral,Proposta,False,True,False,SOMENTE SENAI,1
+12201058000182,M. Do Socorro Da Conceicao,Industria | Indústria,4.Micro,Fabricação de colchões,Proposta,True,True,True,SESI + SENAI,2
+12207536000161,Municipio De Girau Do Ponciano,Nao Industria,4.Micro,Administração pública em geral,Migração,False,True,False,SOMENTE SENAI,1
+12229415000200,S A Usina Coruripe Acucar E Alcool,Nao Industria | Não Indústria,1.Grande,Cultivo de cana-de-açúcar,Migração | Proposta,True,True,True,SESI + SENAI,2
+12242350000143,Municipio De Igreja Nova,Nao Industria,4.Micro,Administração pública em geral,Proposta,False,True,False,SOMENTE SENAI,1
+12250916000189,Municipio De Santana Do Ipanema,Nao Industria,4.Micro,Atividades de associações de defesa de direitos sociais,Migração,False,True,False,SOMENTE SENAI,1
+12257462000178,Infranet Distribuidora De Tecnologia E Engenharia Ltda,Nao Industria,3.Pequena,Comércio atacadista de material elétrico,Proposta,False,True,False,SOMENTE SENAI,1
+12264222000109,Municipio De Sao Miguel Dos Campos,Nao Industria | Órgãos Públicos,4.Micro,Administração pública em geral,Migração | Proposta,True,True,True,SESI + SENAI,2
+12264628000183,Municipio De Campo Alegre,Nao Industria,3.Pequena,Administração pública em geral,Proposta,False,True,False,SOMENTE SENAI,1
+12272084000100,Equatorial Alagoas Distribuidora De Energia S.a.,Industria,1.Grande,Distribuição de energia elétrica,Migração,False,True,False,SOMENTE SENAI,1
+12275715000136,Utinga Acucar E Etanol S/a,Industria,1.Grande,Fabricação de açúcar em bruto,Proposta,False,True,False,SOMENTE SENAI,1
+12281871000100,Madeirart Nova Industria E Comercio De Madeiras Ltda,Industria | Indústria,4.Micro,"Fabricação de cabines, carrocerias e reboques para caminhões",Migração | Proposta,True,True,True,SESI + SENAI,2
+12282034000286,Usina Caete S A,Nao Industria | Não Indústria,1.Grande,Cultivo de cana-de-açúcar,Proposta,True,True,True,SESI + SENAI,2
+12282034000367,Usina Caete S A,Industria | Indústria,1.Grande,Fabricação de açúcar em bruto,Proposta,True,True,True,SESI + SENAI,2
+12286944000156,Construtora Humberto Lobo Ltda Em Recuperacao Judicial,Industria,3.Pequena,Construção de edifícios,Proposta,False,True,False,SOMENTE SENAI,1
+12312799000211,Panificacao Jaragua Ltda,Industria | Indústria,4.Micro,FABRICAÇÃO DE PRODUTOS DE PANIFICAÇÃO INDUSTRIAL,Proposta,True,True,True,SESI + SENAI,2
+12332946000134,Municipio De Uniao Dos Palmares,Nao Industria,4.Micro,Administração pública em geral,Proposta,False,True,False,SOMENTE SENAI,1
+12333753000106,Municipio De Capela,Nao Industria,4.Micro,Administração pública em geral,Proposta,False,True,False,SOMENTE SENAI,1
+12363594000184,Milton Alves Industria E Comercio Limitada,Industria | Indústria,2.Média,Fabricação de massas alimentícias,Migração | Proposta,True,True,True,SESI + SENAI,2
+12388278000167,Convem Comercio De Veiculos E Motores Ltda - Em Recuperacao Judicial,Nao Industria | Não Indústria,4.Micro,Comércio a varejo de motocicletas e motonetas novas,Migração | Proposta,True,True,True,SESI + SENAI,2
+12392890000103,Imcrel Irmaos Moreira Extracao Mineral Ltda,Industria,3.Pequena,Extração e britamento de pedras e outros materiais para construção e beneficiamento associado,Proposta,False,True,False,SOMENTE SENAI,1
+12407474000131,Construtora Penedo Ltda,Industria,4.Micro,Construção de edifícios,Proposta,False,True,False,SOMENTE SENAI,1
+12415313000190,Prime Construcoes E Incorporacoes Ltda,Industria | Indústria,2.Média,Construção de edifícios,Migração | Proposta,True,True,True,SESI + SENAI,2
+12449880000167,Fundacao Universitaria De Desenv De Extensao E Pesquisa,Nao Industria,2.Média,Pesquisa e desenvolvimento experimental em ciências sociais e humanas,Proposta,False,True,False,SOMENTE SENAI,1
+12476466000147,Ecopar Engenharia Ltda,Industria,2.Média,Construção de edifícios,Proposta,False,True,False,SOMENTE SENAI,1
+12478095000132,Companhia Acucareira Central Sumauma - Em Recuperacao Judicial,Industria,1.Grande,Fabricação de açúcar em bruto,Proposta,False,True,False,SOMENTE SENAI,1
+12481800000150,Construtora Lins Irmaos Ltda,Industria,4.Micro,Construção de edifícios,Proposta,False,True,False,SOMENTE SENAI,1
+12634325000105,Concretec Industria E Comercio De Pre-moldados Ltda,Industria | Indústria,3.Pequena,"Fabricação de outros artefatos e produtos de concreto, cimento, fibrocimento, gesso e materiais semelhantes",Proposta,True,True,True,SESI + SENAI,2
+12718011000190,Central Acucareira Santo Antonio S A,Industria | Indústria,1.Grande,Fabricação de açúcar em bruto,Migração | Proposta,True,True,True,SESI + SENAI,2
+12771703000100,Givanilson Da Silva Menezes,Industria | Indústria,4.Micro,Fabricação de móveis com predominância de madeira,Proposta,True,True,True,SESI + SENAI,2
+12835997000189,Panificadora E Lanchonete Primor Ltda,Industria | Indústria,4.Micro,FABRICAÇÃO DE PRODUTOS DE PANIFICAÇÃO INDUSTRIAL,Migração | Proposta,True,True,True,SESI + SENAI,2
+12841003000137,Ste Instalacoes Eletricas Montagens E Manutencao Ltda,Industria,4.Micro,Instalação e manutenção elétrica,Proposta,False,True,False,SOMENTE SENAI,1
+12945994000106,Construart Ltda,Industria,3.Pequena,Construção de edifícios,Proposta,False,True,False,SOMENTE SENAI,1
+13059313000167,Rm Industria E Comercio Ltda,Industria,4.Micro,"Fabricação de estruturas pré-moldadas de concreto armado, em série e sob encomenda",Proposta,False,True,False,SOMENTE SENAI,1
+13591329000116,Duppla Construcoes Ltda,Industria,3.Pequena,Construção de edifícios,Proposta,False,True,False,SOMENTE SENAI,1
+13711720000379,Clodax Reciclagem Ltda,Industria,4.Micro,Recuperação de materiais plásticos,Proposta,False,True,False,SOMENTE SENAI,1
+13748815000103,Totem Infraestrutura E Construcao Civil Ltda,Industria,4.Micro,Construção de rodovias e ferrovias,Proposta,False,True,False,SOMENTE SENAI,1
+13898154000194,Industrial Madeiras Do Brasil Ltda,Industria | Indústria,3.Pequena,Fabricação de esquadrias de madeira e de peças de madeira para instalações industriais e comerciais,Migração | Proposta,True,True,True,SESI + SENAI,2
+14313789000145,Mcz Express Service Ltda,Nao Industria,3.Pequena,"Transporte rodoviário de carga, exceto produtos perigosos e mudanças, intermunicipal, interestadual e internacional",Proposta,False,True,False,SOMENTE SENAI,1
+14458115000139,Alexandre Dos Santos Freitas 00250873630,Nao Industria,4.Micro,Promoção de vendas,Proposta,False,True,False,SOMENTE SENAI,1
+14519421000138,A C Tavares,Industria,4.Micro,Fabricação de chapas e de embalagens de papelão ondulado,Proposta,False,True,False,SOMENTE SENAI,1
+14554855000179,Unica Engenharia E Empreendimentos Imobiliarios Ltda,Industria,2.Média,Construção de edifícios,Proposta,False,True,False,SOMENTE SENAI,1
+14658598000115,Alerta Seguranca Do Trabalho Ltda,Nao Industria,4.Micro,Treinamento em desenvolvimento profissional e gerencial,Proposta,False,True,False,SOMENTE SENAI,1
+15267811000120,"Comercial Graciliano, Confeccoes E Sinalizacao Ltda",Industria | Indústria,4.Micro,Impressão de material para uso publicitário,Proposta,True,True,True,SESI + SENAI,2
+15369322000180,"Secretaria Municipal De Desenvolvimento Social, Primeira Infancia E Seguranca Alimentar ( Semdes ) )",Nao Industria,2.Média,Administração pública em geral,Migração,False,True,False,SOMENTE SENAI,1
+15590007000188,E M Empreendimentos Imobiliarios Ltda,Industria,2.Média,Construção de edifícios,Proposta,False,True,False,SOMENTE SENAI,1
+15786418000143,Cpm Industria De Bebidas Ltda,Industria | Indústria,4.Micro,Fabricação de cervejas e chopes,Migração | Proposta,True,True,True,SESI + SENAI,2
+16599987000142,Applus Qualitec Servicos De Engenharia Ltda,Industria | Indústria,4.Micro,Serviços de engenharia,Proposta,True,True,True,SESI + SENAI,2
+16682715000101,Atalaia Mineracao Industria E Comercio Ltda,Industria,3.Pequena,Extração e britamento de pedras e outros materiais para construção e beneficiamento associado,Migração,False,True,False,SOMENTE SENAI,1
+16819228000148,Mandala Promocao E Marketing Ltda,Nao Industria,4.Micro,Marketing direto,Migração,False,True,False,SOMENTE SENAI,1
+16925721000142,Togni  & Togni - Participacoes E Empreendimentos Ltda,Nao Industria,3.Pequena,Holdings de instituições não-financeiras,Migração,False,True,False,SOMENTE SENAI,1
+16941986000134,H B Alimentos Ltda,Nao Industria,4.Micro,"Lanchonetes, casas de chá, de sucos e similares",Proposta,False,True,False,SOMENTE SENAI,1
+16941986000215,H B Alimentos Ltda,Nao Industria,4.Micro,"Lanchonetes, casas de chá, de sucos e similares",Proposta,False,True,False,SOMENTE SENAI,1
+16941986000568,H B Alimentos Ltda,Nao Industria,4.Micro,"Lanchonetes, casas de chá, de sucos e similares",Proposta,False,True,False,SOMENTE SENAI,1
+16941986000720,H B Alimentos Ltda,Nao Industria,4.Micro,"Lanchonetes, casas de chá, de sucos e similares",Proposta,False,True,False,SOMENTE SENAI,1
+16941986000991,H B Alimentos Ltda,Nao Industria,4.Micro,"Lanchonetes, casas de chá, de sucos e similares",Proposta,False,True,False,SOMENTE SENAI,1
+16941986001106,H B Alimentos Ltda,Nao Industria,3.Pequena,"Lanchonetes, casas de chá, de sucos e similares",Proposta,False,True,False,SOMENTE SENAI,1
+17127654000183,Myx Lanchonete Ltda,Nao Industria,4.Micro,"Lanchonetes, casas de chá, de sucos e similares",Proposta,False,True,False,SOMENTE SENAI,1
+17235389000157,Alagoas Onibus Ltda,Nao Industria,3.Pequena,"Comércio a varejo de automóveis, camionetas e utilitários novos",Proposta,False,True,False,SOMENTE SENAI,1
+17597297000117,Metric Usinagem Ltda,Industria | Indústria,3.Pequena,"Fabricação de máquinas e equipamentos para a indústria do plástico, peças e acessórios",Migração | Proposta,True,True,True,SESI + SENAI,2
+17622147000116,Maceio Autopecas E Servicos Automotivos Ltda,Nao Industria,4.Micro,Comércio a varejo de pneumáticos e câmaras-de-ar,Migração,False,True,False,SOMENTE SENAI,1
+17756769000137,Sp Fardamentos Ltda,Industria | Indústria,4.Micro,Facção de roupas profissionais,Proposta,True,True,True,SESI + SENAI,2
+17765953000224,Agreste Lanchonete Ltda,Nao Industria,4.Micro,"Lanchonetes, casas de chá, de sucos e similares",Proposta,False,True,False,SOMENTE SENAI,1
+17777646000182,Jayme Carneiro Junior,Nao Industria,3.Pequena,Criação de bovinos para leite,Proposta,False,True,False,SOMENTE SENAI,1
+18144066000110,Le Mix Preparacao De Massa De Concreto Ltda,Industria | Indústria,2.Média,Preparação de massa de concreto e argamassa para construção,Proposta,True,True,True,SESI + SENAI,2
+18195069000183,Construtora E Empreendimentos M M Ltda,Industria | Indústria,4.Micro,Construção de edifícios,Migração,True,True,True,SESI + SENAI,2
+18675185000108,E-paletes Fabricacao E Comercio Atacadista De Paletes De Madeira Ltda.,Industria | Indústria,3.Pequena,"Fabricação de artefatos diversos de madeira, exceto móveis",Migração | Proposta,True,True,True,SESI + SENAI,2
+18729404000186,Metal Infraestrutura Ltda,Industria,3.Pequena,"Construção de redes de abastecimento de água, coleta de esgoto e construções correlatas, exceto obras de irrigação",Proposta,False,True,False,SOMENTE SENAI,1
+18748007000151,Ztt Do Brasil Ltda,Industria | Indústria,2.Média,"Fabricação de fios, cabos e condutores elétricos isolados",Migração | Proposta,True,True,True,SESI + SENAI,2
+18842121000146,Caetex Florestal S.a.,Nao Industria | Não Indústria,1.Grande,Cultivo de eucalipto,Proposta,True,True,True,SESI + SENAI,2
+19199106000194,Abrasiva - Especializada Em Tratamento Anti-corrosivo Ltda,Industria,4.Micro,Serviços de tratamento e revestimento em metais,Proposta,False,True,False,SOMENTE SENAI,1
+19420544000130,Secretaria Municipal De Governo E De Subprefeituras ( Segov),Nao Industria,4.Micro,Administração pública em geral,Proposta,False,True,False,SOMENTE SENAI,1
+19499296000165,Ultracanudos Industria E Comercio De Plasticos Ltda,Industria,3.Pequena,Fabricação de embalagens de material plástico,Proposta,False,True,False,SOMENTE SENAI,1
+19585028000166,Ethica Servicos De Engenharia E Construcao Ltda,Industria,3.Pequena,Construção de edifícios,Proposta,False,True,False,SOMENTE SENAI,1
+19704303000113,Asp Assessoria Social E Pesquisa Ltda,Nao Industria,3.Pequena,"Atividades de consultoria em gestão empresarial, exceto consultoria técnica específica",Proposta,False,True,False,SOMENTE SENAI,1
+19810812000120,Sena & Maia Ltda,Industria,4.Micro,Fabricação de gelo comum,Migração,False,True,False,SOMENTE SENAI,1
+19936024000185,Pfm Refeicoes Ltda,Industria | Indústria,3.Pequena,Fornecimento de alimentos preparados preponderantemente para empresas,Migração | Proposta,True,True,True,SESI + SENAI,2
+20068306000278,Distribuidora De Alimentos Mix Bom Ltda,Nao Industria,3.Pequena,"Comércio varejista de mercadorias em geral, com predominância de produtos alimentícios - supermercados",Proposta,False,True,False,SOMENTE SENAI,1
+20279762000186,Secretaria De Estado De Ressocializacao E Inclusao Social,Nao Industria,4.Micro,Segurança e ordem pública,Migração,False,True,False,SOMENTE SENAI,1
+20293552000142,Ellca 2 Servicos & Locacoes Ltda,Industria | Indústria,2.Média,Instalação e manutenção elétrica,Proposta,True,True,True,SESI + SENAI,2
+20699343000101,M P A Marques De Souza Comercio E Servicos Ltda,Industria | Indústria,4.Micro,"Confecção de roupas profissionais, exceto sob medida",Migração | Proposta,True,True,True,SESI + SENAI,2
+20997850000113,Incoforte - Industria E Comercio De Fumos Extra Forte Ltda,Industria,4.Micro,Processamento industrial do fumo,Proposta,False,True,False,SOMENTE SENAI,1
+21071021000178,Marcenaria Carmel Ltda,Industria | Indústria,4.Micro,Fabricação de móveis com predominância de madeira,Proposta,True,True,True,SESI + SENAI,2
+21278824000106,Solo Agropecuaria E Participacoes Ltda,Nao Industria,3.Pequena,Cultivo de cana-de-açúcar,Proposta,False,True,False,SOMENTE SENAI,1
+21344990000155,Tjm Pre-moldados Ltda,Industria | Indústria,3.Pequena,"Fabricação de estruturas pré-moldadas de concreto armado, em série e sob encomenda",Migração,True,True,True,SESI + SENAI,2
+21432103000281,Naturalle Tratamento De Residuos Ltda,Industria,1.Grande,Tratamento e disposição de resíduos não-perigosos,Proposta,False,True,False,SOMENTE SENAI,1
+21652038000119,Azevedo Soares Ind. E Com. De Argamassa Ltda,Industria,3.Pequena,Preparação de massa de concreto e argamassa para construção,Proposta,False,True,False,SOMENTE SENAI,1
+21656926000100,Lucelena Da Rocha Vanderlei,Industria,4.Micro,Fabricação de biscoitos e bolachas,Proposta,False,True,False,SOMENTE SENAI,1
+21717134000106,Mak Sorveteria Ltda,Nao Industria,4.Micro,"Lanchonetes, casas de chá, de sucos e similares",Proposta,False,True,False,SOMENTE SENAI,1
+22341335000106,Cruz E Correia Industria De Sorvetes Ltda,Industria | Indústria,4.Micro,Fabricação de sorvetes e outros gelados comestíveis,Migração | Proposta,True,True,True,SESI + SENAI,2
+22632851000190,Ganhar Brasil Franchising S/s Ltda,Nao Industria,4.Micro,Treinamento em desenvolvimento profissional e gerencial,Proposta,False,True,False,SOMENTE SENAI,1
+22779724000118,Kch Comercio De Laticinios Ltda,Industria | Indústria,3.Pequena,Fabricação de laticínios,Migração | Proposta,True,True,True,SESI + SENAI,2
+22862086000102,Panificacao Alvorada Ii Ltda,Industria | Indústria,3.Pequena,FABRICAÇÃO DE PRODUTOS DE PANIFICAÇÃO INDUSTRIAL,Migração | Proposta,True,True,True,SESI + SENAI,2
+23399809000133,S. A. De Souza Direcoes Hidraulicas,Industria,4.Micro,"Manutenção e reparação de equipamentos hidráulicos e pneumáticos, exceto válvulas",Proposta,False,True,False,SOMENTE SENAI,1
+23452238002016,Dvg Industrial S.a.,Industria | Indústria,3.Pequena,"Fabricação de artefatos de material plástico para uso na construção, exceto tubos e acessórios",Migração | Proposta,True,True,True,SESI + SENAI,2
+23571419000107,Jael Engenharia Ltda,Industria,4.Micro,Serviços de engenharia,Proposta,False,True,False,SOMENTE SENAI,1
+23585778000105,Sbv Solucoes Ambientais Ltda,Industria,2.Média,"Obras portuárias, marítimas e fluviais",Proposta,False,True,False,SOMENTE SENAI,1
+23693654000143,"Indumaster - Maquinas, Equipamentos E Manutencao Ltda",Industria | Indústria,3.Pequena,"Manutenção e reparação de máquinas e equipamentos para as indústrias de alimentos, bebidas e fumo",Migração | Proposta,True,True,True,SESI + SENAI,2
+24146840000125,Donna Lai Salgados Ltda,Industria,4.Micro,Fabricação de alimentos e pratos prontos,Migração,False,True,False,SOMENTE SENAI,1
+24174070000124,Record Planejamento E Construcao Ltda,Industria | Indústria,3.Pequena,Construção de edifícios,Migração | Proposta,True,True,True,SESI + SENAI,2
+24239931000105,Ibratin Nordeste Ltda,Industria | Indústria,3.Pequena,"Fabricação de tintas, vernizes, esmaltes e lacas",Migração | Proposta,True,True,True,SESI + SENAI,2
+24245219000119,Condominio Maceio Shopping Center,Nao Industria,2.Média,Condomínios prediais,Proposta,False,True,False,SOMENTE SENAI,1
+24250342000128,Aplimac Aplicadora Maceio Ltda,Industria,3.Pequena,Serviços de pintura de edifícios em geral,Proposta,False,True,False,SOMENTE SENAI,1
+24252447000116,Teknol Eletronica Industrial Ltda,Industria,3.Pequena,"Manutenção e reparação de máquinas, aparelhos e materiais elétricos não especificados anteriormente",Proposta,False,True,False,SOMENTE SENAI,1
+24307233000108,Panificadora E Lanchonete Rio Branco Ltda,Industria | Indústria,3.Pequena,FABRICAÇÃO DE PRODUTOS DE PADARIA E CONFEITARIA COM PREDOMINÂNCIA DE PRODUÇÃO PRÓPRIA,Migração | Proposta,True,True,True,SESI + SENAI,2
+24328700000178,Lares Construcoes Ltda,Industria | Indústria,2.Média,Construção de edifícios,Migração | Proposta,True,True,True,SESI + SENAI,2
+24353188000110,Ruca Comercio De Alimentos Ltda,Industria,3.Pequena,FABRICAÇÃO DE PRODUTOS DE PANIFICAÇÃO INDUSTRIAL,Proposta,False,True,False,SOMENTE SENAI,1
+24408420000170,Multpaes Fabricacao De Paes Ltda,Industria,3.Pequena,FABRICAÇÃO DE PRODUTOS DE PADARIA E CONFEITARIA COM PREDOMINÂNCIA DE PRODUÇÃO PRÓPRIA,Proposta,False,True,False,SOMENTE SENAI,1
+24447770002270,"Teixeira Duarte - Engenharia E Construcoes, S.a.",Industria,1.Grande,Construção de edifícios,Proposta,False,True,False,SOMENTE SENAI,1
+24467896000181,Ccb Engenharia Ltda,Industria,2.Média,"Construção de redes de abastecimento de água, coleta de esgoto e construções correlatas, exceto obras de irrigação",Proposta,False,True,False,SOMENTE SENAI,1
+24506839000164,R V I Comercio E Servicos Industriais Ltda,Industria,4.Micro,Manutenção e reparação de válvulas industriais,Proposta,False,True,False,SOMENTE SENAI,1
+24515392000190,A R Lopes Quintino Ltda,Industria,3.Pequena,Construção de edifícios,Proposta,False,True,False,SOMENTE SENAI,1
+24870569000176,Agronegocio Vasconcelos Ltda,Industria | Indústria,3.Pequena,Preparação do leite,Migração | Proposta,True,True,True,SESI + SENAI,2
+25245517000171,Consorcio Construtor Alta Maceio,Industria,3.Pequena,"Construção de redes de abastecimento de água, coleta de esgoto e construções correlatas, exceto obras de irrigação",Proposta,False,True,False,SOMENTE SENAI,1
+26058879000116,Ab Industria Metalurgica E Comercio Ltda,Industria,4.Micro,Fabricação de esquadrias de metal,Proposta,False,True,False,SOMENTE SENAI,1
+26260065000160,Cacau Matriz & Ecoturismo Ltda,Industria | Indústria,4.Micro,Fabricação de produtos derivados do cacau e de chocolates,Migração | Proposta,True,True,True,SESI + SENAI,2
+26479090000139,Industria De Alimentos Compostela Ltda,Industria,2.Média,Fabricação de conservas de frutas,Proposta,False,True,False,SOMENTE SENAI,1
+26600027000109,L Carlos Gomes  Ltda,Industria,4.Micro,Serviços de manutenção e reparação mecânica de veículos automotores,Migração,False,True,False,SOMENTE SENAI,1
+26609733000111,Seabra Engenharia E Projetos Ltda,Industria,3.Pequena,Construção de edifícios,Proposta,False,True,False,SOMENTE SENAI,1
+26688379000168,Podium Comunicacao Visual Ltda,Industria | Indústria,3.Pequena,Impressão de material para uso publicitário,Migração | Proposta,True,True,True,SESI + SENAI,2
+26773483000150,Newplast Industria E Comercio De Embalagens Ltda,Industria | Indústria,2.Média,Fabricação de laminados planos e tubulares de material plástico,Migração | Proposta,True,True,True,SESI + SENAI,2
+26794410000226,Tcl Semp Industria E Comerco De Condicionadores De Ar S.a,Industria,1.Grande,Fabricação de aparelhos e equipamentos de ar condicionado para uso não-industrial,Proposta,False,True,False,SOMENTE SENAI,1
+26969453000114,Alepack Industria E Comercio Plasticos Ltda,Industria | Indústria,3.Pequena,Fabricação de artefatos de material plástico para uso pessoal e doméstico,Migração | Proposta,True,True,True,SESI + SENAI,2
+27191235000164,Ayx Lanchonete Ltda,Nao Industria,4.Micro,"Lanchonetes, casas de chá, de sucos e similares",Proposta,False,True,False,SOMENTE SENAI,1
+27230297000138,Maria Lecia Dos Santos,Industria | Indústria,4.Micro,FABRICAÇÃO DE PRODUTOS DE PANIFICAÇÃO INDUSTRIAL,Migração | Proposta,True,True,True,SESI + SENAI,2
+27242125000184,Vergare Engenharia Ltda,Industria,3.Pequena,Serviços de engenharia,Migração,False,True,False,SOMENTE SENAI,1
+27347894000147,Estofados Bello Ltda,Industria,3.Pequena,Fabricação de móveis com predominância de madeira,Proposta,False,True,False,SOMENTE SENAI,1
+27654153000109,Fw Alimentacao Ltda,Nao Industria,4.Micro,Restaurantes e similares,Proposta,False,True,False,SOMENTE SENAI,1
+28017647000145,Led Engenharia E Sinalizacao Ltda,Industria,3.Pequena,Construção de rodovias e ferrovias,Migração,False,True,False,SOMENTE SENAI,1
+28094708000178,D H S De Albuquerque Pontes,Industria | Indústria,4.Micro,FABRICAÇÃO DE PRODUTOS DE PANIFICAÇÃO INDUSTRIAL,Migração | Proposta,True,True,True,SESI + SENAI,2
+28450759000195,F T De Souza Fabricacoes E Construcoes,Industria,4.Micro,"Fabricação de artefatos de cerâmica e barro cozido para uso na construção, exceto azulejos e pisos",Proposta,False,True,False,SOMENTE SENAI,1
+28620879000193,Impacto Bioenergia Alagoas S.a,Industria | Indústria,2.Média,Geração de energia elétrica,Migração | Proposta,True,True,True,SESI + SENAI,2
+29130610000191,Isobloco Industria De Concreto Ltda,Industria | Indústria,4.Micro,Preparação de massa de concreto e argamassa para construção,Migração,True,True,True,SESI + SENAI,2
+29398209000137,Veletrica Distribuidor Import. E Export. Ltda,Nao Industria,3.Pequena,Comércio atacadista de material elétrico,Proposta,False,True,False,SOMENTE SENAI,1
+29826376000131,T. C. Barbosa Da Silva Hidraulica,Industria | Indústria,4.Micro,"Manutenção e reparação de equipamentos hidráulicos e pneumáticos, exceto válvulas",Migração | Proposta,True,True,True,SESI + SENAI,2
+29880800000126,Cicero Fonseca Costa,Industria | Indústria,4.Micro,Fabricação de laticínios,Migração | Proposta,True,True,True,SESI + SENAI,2
+29884632000147,Infotec Consultoria E Planejamento Ltda,Nao Industria,1.Grande,"Atividades de consultoria em gestão empresarial, exceto consultoria técnica específica",Proposta,False,True,False,SOMENTE SENAI,1
+30483453000187,Alquimia Industria E Comercio De Capachos Ltda,Industria | Indústria,2.Média,Fabricação de artefatos de material plástico para uso pessoal e doméstico,Migração | Proposta,True,True,True,SESI + SENAI,2
+30494698000100,Bobs Palmeira Ltda,Nao Industria,4.Micro,"Lanchonetes, casas de chá, de sucos e similares",Proposta,False,True,False,SOMENTE SENAI,1
+31035574000129,Eudes Jeronimo & Cia Ltda,Nao Industria,4.Micro,Comércio varejista de vidros,Proposta,False,True,False,SOMENTE SENAI,1
+31534780000183,31.534.780 Diego Cesar Silva Santos,Industria,4.Micro,Instalação e manutenção elétrica,Proposta,False,True,False,SOMENTE SENAI,1
+31749329000426,Sales E Barbosa Ltda,Industria,2.Média,Fabricação de móveis com predominância de madeira,Proposta,False,True,False,SOMENTE SENAI,1
+31750099000172,Engenho Chp Limitada,Industria | Indústria,4.Micro,Fabricação de aguardente de cana-de-açúcar,Migração | Proposta,True,True,True,SESI + SENAI,2
+31996403000166,Mui Nobre Alimentos Ltda,Industria,4.Micro,"Fabricação de especiarias, molhos, temperos e condimentos",Proposta,False,True,False,SOMENTE SENAI,1
+32020674000144,Fp Engenharia Ltda,Industria,3.Pequena,Obras de terraplenagem,Proposta,False,True,False,SOMENTE SENAI,1
+32725022000105,T.g.lopes Empreendimento Ltda,Industria,4.Micro,Construção de edifícios,Proposta,False,True,False,SOMENTE SENAI,1
+32742424000118,C.mendes Pereira De Souza,Nao Industria,4.Micro,Comércio a varejo de peças e acessórios novos para veículos automotores,Migração,False,True,False,SOMENTE SENAI,1
+33064262000845,Tigre Ferramentas Para Construcao Civil S.a,Industria,3.Pequena,Fabricação de artefatos de material plástico para outros usos não especificados anteriormente,Proposta,False,True,False,SOMENTE SENAI,1
+33142642000184,F.r. Servicos Automotivos Ltda,Industria,4.Micro,Serviços de manutenção e reparação mecânica de veículos automotores,Proposta,False,True,False,SOMENTE SENAI,1
+33240746000121,Bc Plast Industria E Comercio Ltda,Industria | Indústria,4.Micro,Fabricação de embalagens de material plástico,Migração | Proposta,True,True,True,SESI + SENAI,2
+33623363000132,M Lisboa Brandao Ltda,Nao Industria,4.Micro,Restaurantes e similares,Proposta,False,True,False,SOMENTE SENAI,1
+33718671000141,A Padaria Comercio De Alimentos E Buffet Ltda,Industria,3.Pequena,FABRICAÇÃO DE PRODUTOS DE PANIFICAÇÃO INDUSTRIAL,Proposta,False,True,False,SOMENTE SENAI,1
+34098180000108,Navona Industria E Comercio De Marmores E Granitos Ltda,Industria,4.Micro,"Aparelhamento de placas e execução de trabalhos em mármore, granito, ardósia e outras pedras",Proposta,False,True,False,SOMENTE SENAI,1
+34116804000172,Colegio Iep Ltda,Nao Industria,3.Pequena,Educação infantil - pré-escola,Proposta,False,True,False,SOMENTE SENAI,1
+34607256000183,Dlicias Da Terra Ltda,Nao Industria | Não Indústria,3.Pequena,Comércio varejista de produtos alimentícios em geral ou especializado em produtos alimentícios não especificados anteriormente,Migração | Proposta,True,True,True,SESI + SENAI,2
+35398478000287,Plastmar Industria E Comercio De Plasticos Ltda,Industria | Indústria,2.Média,Fabricação de artefatos de material plástico para outros usos não especificados anteriormente,Migração | Proposta,True,True,True,SESI + SENAI,2
+35492098000126,Nbg Midia Ltda,Nao Industria,4.Micro,"Agenciamento de espaços para publicidade, exceto em veículos de comunicação",Migração,False,True,False,SOMENTE SENAI,1
+35518797000106,Construtora Urbanisme Ltda,Industria | Indústria,3.Pequena,Incorporação de empreendimentos imobiliários,Migração | Proposta,True,True,True,SESI + SENAI,2
+35562321000164,Fundacao De Amparo A Pesquisa De Alagoas,Nao Industria,3.Pequena,Administração pública em geral,Proposta,False,True,False,SOMENTE SENAI,1
+35631449000132,A Quatro Arquitetura E Construcoes Ltda,Industria,3.Pequena,Construção de edifícios,Proposta,False,True,False,SOMENTE SENAI,1
+35647608000197,R.a. Gestao De Ativos Ltda,Nao Industria,3.Pequena,"Serviços de organização de feiras, congressos, exposições e festas",Proposta,False,True,False,SOMENTE SENAI,1
+35682994000158,K. G. De Oliveira Souza,Industria,4.Micro,Serviços de manutenção e reparação mecânica de veículos automotores,Proposta,False,True,False,SOMENTE SENAI,1
+35728880000100,Tecfibra Empreiteira E Revestimentos Anticorrosivos Ltda,Industria | Indústria,2.Média,Manutenção e reparação de outras máquinas e equipamentos para usos industriais não especificados anteriormente,Proposta,True,True,True,SESI + SENAI,2
+36064094000100,Amp Lanchonetes Ltda,Nao Industria,4.Micro,"Lanchonetes, casas de chá, de sucos e similares",Proposta,False,True,False,SOMENTE SENAI,1
+36069750000167,D Da S C Acioli Comercio E Servicos,Industria,4.Micro,Manutenção e reparação de máquinas e equipamentos para uso geral não especificados anteriormente,Proposta,False,True,False,SOMENTE SENAI,1
+36359686000159,"Le Mix Brasil Preparacao De Massa, Argamassa E Concreto Ltda",Industria | Indústria,2.Média,Preparação de massa de concreto e argamassa para construção,Proposta,True,True,True,SESI + SENAI,2
+36359686000230,"Le Mix Brasil Preparacao De Massa, Argamassa E Concreto Ltda",Industria | Indústria,3.Pequena,Preparação de massa de concreto e argamassa para construção,Proposta,True,True,True,SESI + SENAI,2
+36434141000160,Sonhobom Industria E Comercio De Moveis Ltda,Industria,3.Pequena,Fabricação de colchões,Proposta,False,True,False,SOMENTE SENAI,1
+36634768000164,Equilibrio Vidros Temperados Ltda,Industria,3.Pequena,Fabricação de vidro plano e de segurança,Proposta,False,True,False,SOMENTE SENAI,1
+36634906000105,Optmus Consultoria E Servicos Ltda,Nao Industria,3.Pequena,Serviços combinados de escritório e apoio administrativo,Proposta,False,True,False,SOMENTE SENAI,1
+36862046000167,E Mangabeira Ltda,Industria,3.Pequena,Fabricação de estruturas metálicas,Proposta,False,True,False,SOMENTE SENAI,1
+37157610000103,J N Industria De Premoldados Ltda,Industria,3.Pequena,"Fabricação de estruturas pré-moldadas de concreto armado, em série e sob encomenda",Proposta,False,True,False,SOMENTE SENAI,1
+37288984000168,Lavenere Industria E Comercio De Pre-moldados Ltda,Industria,3.Pequena,Fabricação de artefatos de cimento para uso na construção,Proposta,False,True,False,SOMENTE SENAI,1
+37607277000197,Bx Comercio E Servicos De Bolsas Ltda,Industria | Indústria,4.Micro,"Fabricação de artigos para viagem, bolsas e semelhantes de qualquer material",Migração | Proposta,True,True,True,SESI + SENAI,2
+37888525000115,Atlantida Se Empreendimento Imobiliario Spe Ltda,Industria,3.Pequena,Construção de edifícios,Proposta,False,True,False,SOMENTE SENAI,1
+38075121000175,Pharos Residence Empreendimento Imobiliario Spe Ltda,Industria,3.Pequena,Construção de edifícios,Proposta,False,True,False,SOMENTE SENAI,1
+38132400000123,Boi Carreiro Ltda,Nao Industria,3.Pequena,Criação de bovinos para corte,Proposta,False,True,False,SOMENTE SENAI,1
+38240209000103,Lc Engenharia E Empreendimentos Ltda,Industria,3.Pequena,Construção de edifícios,Migração,False,True,False,SOMENTE SENAI,1
+38333461000159,Iabs Empresa Social Comercio Ltda,Industria | Indústria,4.Micro,Recuperação de materiais não especificados anteriormente,Migração | Proposta,True,True,True,SESI + SENAI,2
+38354009000173,Lht Energia Ltda,Industria,2.Média,Instalação e manutenção elétrica,Proposta,False,True,False,SOMENTE SENAI,1
+38449329000107,Rdv Roasters Torrefacao E Escola De Cafes Especiais Ltda,Industria | Indústria,4.Micro,Torrefação e moagem de café,Migração | Proposta,True,True,True,SESI + SENAI,2
+39580673000101,Brk Ambiental - Regiao Metropolitana De Maceio S.a.,Industria | Indústria,1.Grande,"Captação, tratamento e distribuição de água",Proposta,True,True,True,SESI + SENAI,2
+39808835000108,Solucao Construcoes E Servicos Ltda,Industria,3.Pequena,Serviços de engenharia,Proposta,False,True,False,SOMENTE SENAI,1
+39965463000123,Coco De Alagoas Ltda,Industria | Indústria,3.Pequena,"Fabricação de sucos de frutas, hortaliças e legumes, exceto concentrados",Migração | Proposta,True,True,True,SESI + SENAI,2
+40719251000145,Arte & Conceito Esquadrias De Aluminio Ltda,Industria,4.Micro,Fabricação de esquadrias de metal,Proposta,False,True,False,SOMENTE SENAI,1
+40730122000158,Tecnobloco Artefatos De Concreto Ltda,Industria | Indústria,4.Micro,"Fabricação de estruturas pré-moldadas de concreto armado, em série e sob encomenda",Migração,True,True,True,SESI + SENAI,2
+40843185000110,L H P Goes Construtora Ltda,Industria,4.Micro,Construção de edifícios,Proposta,False,True,False,SOMENTE SENAI,1
+40911117000141,Ativa Servicos Gerais Ltda,Nao Industria,1.Grande,Fornecimento e gestão de recursos humanos para terceiros,Migração,False,True,False,SOMENTE SENAI,1
+40917346000173,Merconplas Industrial De Plasticos Comercio Ltda,Industria | Indústria,2.Média,Fabricação de artefatos de material plástico para uso pessoal e doméstico,Proposta,True,True,True,SESI + SENAI,2
+40921140000117,Auto Pecas Real Ltda,Nao Industria,3.Pequena,Comércio a varejo de peças e acessórios novos para veículos automotores,Proposta,False,True,False,SOMENTE SENAI,1
+41053365000161,R C Dias Industria Grafica E Editora Ltda,Industria | Indústria,4.Micro,Impressão de material para outros usos,Migração | Proposta,True,True,True,SESI + SENAI,2
+41160680000198,F . P . Construtora Ltda,Industria | Indústria,1.Grande,Obras de terraplenagem,Proposta,True,True,True,SESI + SENAI,2
+41167347000100,Cony Engenharia Ltda,Industria | Indústria,2.Média,Construção de edifícios,Migração | Proposta,True,True,True,SESI + SENAI,2
+41183088000101,Pedrosa De Melo & Cia Ltda,Industria | Indústria,3.Pequena,"Confecção de peças do vestuário, exceto roupas íntimas e as confeccionadas sob medida",Migração | Proposta,True,True,True,SESI + SENAI,2
+41186560000160,Leonardo Pereira Lucena,Industria | Indústria,4.Micro,Fabricação de móveis com predominância de madeira,Migração | Proposta,True,True,True,SESI + SENAI,2
+41200286000136,Trez Participacoes E Engenharia Ltda,Industria,3.Pequena,Construção de edifícios,Proposta,False,True,False,SOMENTE SENAI,1
+41483782000144,Panificacao Alvorada Iii Ltda,Industria | Indústria,3.Pequena,FABRICAÇÃO DE PRODUTOS DE PANIFICAÇÃO INDUSTRIAL,Migração,True,True,True,SESI + SENAI,2
+41864070000175,Ne Comercio Atacadista Ltda,Nao Industria | Não Indústria,3.Pequena,Comércio atacadista de produtos alimentícios em geral,Migração | Proposta,True,True,True,SESI + SENAI,2
+41948207000170,Industria De Laticinios Queiroz Ltda,Industria,4.Micro,Fabricação de laticínios,Proposta,False,True,False,SOMENTE SENAI,1
+42150391002114,Braskem S.a,Industria,2.Média,Fabricação de resinas termoplásticas,Proposta,False,True,False,SOMENTE SENAI,1
+42620878000170,Aquacapri Empreendimento Imobiliario Spe Ltda,Industria,3.Pequena,Construção de edifícios,Migração,False,True,False,SOMENTE SENAI,1
+42623135000153,Vertice Servicos De Engenharia E Consultoria Ltda,Industria,4.Micro,Construção de edifícios,Proposta,False,True,False,SOMENTE SENAI,1
+42860886000193,John Fernandes Venancio Ltda,Industria,4.Micro,"Confecção de peças do vestuário, exceto roupas íntimas e as confeccionadas sob medida",Proposta,False,True,False,SOMENTE SENAI,1
+42873193000135,Consorcio Arapiraca-delmiro Gouveia Lote 2,Industria,3.Pequena,Construção de rodovias e ferrovias,Proposta,False,True,False,SOMENTE SENAI,1
+42908486000100,Consorcio Clc/conserva/f.p.,Industria,2.Média,Construção de rodovias e ferrovias,Proposta,False,True,False,SOMENTE SENAI,1
+43103238000155,Industria De Bebidas Piacava Guassu Ltda.,Industria | Indústria,4.Micro,Fabricação de aguardente de cana-de-açúcar,Proposta,True,True,True,SESI + SENAI,2
+43232996000173,Taverna Beer Cervejaria Artesanal Ltda,Industria | Indústria,4.Micro,Fabricação de cervejas e chopes,Migração,True,True,True,SESI + SENAI,2
+43249460000160,Warlem Teofilo Alves Ltda,Industria | Indústria,4.Micro,Recuperação de sucatas de alumínio,Migração | Proposta,True,True,True,SESI + SENAI,2
+43337470000158,Nuance Tintas Ltda,Industria | Indústria,4.Micro,"Fabricação de tintas, vernizes, esmaltes e lacas",Migração,True,True,True,SESI + SENAI,2
+43354807000135,Imagine Criative Ltda,Industria,3.Pequena,Impressão de material para uso publicitário,Proposta,False,True,False,SOMENTE SENAI,1
+43378051000164,Md Al Rooftop Construcoes Ltda,Industria,3.Pequena,Incorporação de empreendimentos imobiliários,Proposta,False,True,False,SOMENTE SENAI,1
+43796146000106,Citecon Match Spe Ltda,Industria,3.Pequena,Incorporação de empreendimentos imobiliários,Proposta,False,True,False,SOMENTE SENAI,1
+44426384000184,Consorcio Duplicacao Al-220 Lote 03 Fp-clc-conserva,Industria,3.Pequena,Construção de rodovias e ferrovias,Proposta,False,True,False,SOMENTE SENAI,1
+44526952000208,Matsubara Hoteis E Turismo Ltda,Nao Industria,4.Micro,Hotéis,Proposta,False,True,False,SOMENTE SENAI,1
+44803999000182,Jose W T D Santos,Industria | Indústria,4.Micro,Construção de edifícios,Proposta,True,True,True,SESI + SENAI,2
+44992350000157,Verde Ambiental Alagoas S.a.,Industria | Indústria,2.Média,"Captação, tratamento e distribuição de água",Migração | Proposta,True,True,True,SESI + SENAI,2
+44992350000238,Verde Ambiental Alagoas S.a.,Industria,3.Pequena,"Captação, tratamento e distribuição de água",Proposta,False,True,False,SOMENTE SENAI,1
+45359410000161,Consorcio Batalha-olivenca Fp-clc,Industria,3.Pequena,Construção de rodovias e ferrovias,Proposta,False,True,False,SOMENTE SENAI,1
+45456117000112,Aguas Do Sertao S/a,Industria | Indústria,4.Micro,"Captação, tratamento e distribuição de água",Migração | Proposta,True,True,True,SESI + SENAI,2
+45819383000162,Md Al Parque Shopping Construcoes Spe Ltda,Industria,4.Micro,Incorporação de empreendimentos imobiliários,Proposta,False,True,False,SOMENTE SENAI,1
+45909716000144,Md Al Via Express Construcoes Spe Ltda,Industria,3.Pequena,Incorporação de empreendimentos imobiliários,Proposta,False,True,False,SOMENTE SENAI,1
+46337372000109,Associacao Dos Adquirentes De Unidades Autonomas Do Condominio Residencial Ville De France,Nao Industria,2.Média,Atividades associativas não especificadas anteriormente,Proposta,False,True,False,SOMENTE SENAI,1
+46423021000110,Spot Ponta Verde Spe Ltda,Industria | Indústria,3.Pequena,Incorporação de empreendimentos imobiliários,Migração | Proposta,True,True,True,SESI + SENAI,2
+46506441000160,46.506.441 Ellyson Dawid Tenorio De Melo,Industria,4.Micro,Instalação e manutenção elétrica,Migração,False,True,False,SOMENTE SENAI,1
+46806564000117,Sunset Residence Frances Spe Ltda,Industria,3.Pequena,Incorporação de empreendimentos imobiliários,Proposta,False,True,False,SOMENTE SENAI,1
+46816463000127,Conect Servicos Industriais Ltda,Industria | Indústria,4.Micro,"Manutenção e reparação de máquinas, aparelhos e materiais elétricos não especificados anteriormente",Proposta,True,True,True,SESI + SENAI,2
+47025733000144,W Dos S Gouveia  Ltda,Industria | Indústria,4.Micro,Impressão de material para outros usos,Migração | Proposta,True,True,True,SESI + SENAI,2
+47069074000148,Metalurgica Louise E Cia Ltda,Industria | Indústria,3.Pequena,"Fabricação de produtos de trefilados de metal, exceto padronizados",Migração | Proposta,True,True,True,SESI + SENAI,2
+47074912000171,Grafica Mascarenhas Digital Ltda,Industria,4.Micro,Impressão de material para outros usos,Proposta,False,True,False,SOMENTE SENAI,1
+47133502000154,Group Damasceno Ltda,Industria,3.Pequena,Fabricação de biscoitos e bolachas,Proposta,False,True,False,SOMENTE SENAI,1
+47660138000180,Morino Moveis Planejados Ltda,Industria | Indústria,4.Micro,Fabricação de móveis com predominância de madeira,Proposta,True,True,True,SESI + SENAI,2
+47767426000139,Nova Costa Dourada Envase De Agua Ltda,Industria | Indústria,4.Micro,Fabricação de águas envasadas,Proposta,True,True,True,SESI + SENAI,2
+48012237000119,Edificio Genova Spe Ltda,Industria,2.Média,Incorporação de empreendimentos imobiliários,Proposta,False,True,False,SOMENTE SENAI,1
+48082971000154,Consorcio Vale Do Paraiba Lote 02 - Fp-clc-conserva,Industria,3.Pequena,Construção de rodovias e ferrovias,Proposta,False,True,False,SOMENTE SENAI,1
+48095104000153,Cruz Das Almas Empreendimento Imobiliario Spe Ltda,Industria,3.Pequena,Incorporação de empreendimentos imobiliários,Migração,False,True,False,SOMENTE SENAI,1
+48209133000107,Citecon Oceana Empreendimento Spe Ltda,Industria,3.Pequena,Incorporação de empreendimentos imobiliários,Proposta,False,True,False,SOMENTE SENAI,1
+48244421000194,Tatuamunha 01 Empreendimento Imobiliario Spe Ltda,Industria,2.Média,Incorporação de empreendimentos imobiliários,Proposta,False,True,False,SOMENTE SENAI,1
+48361535000114,Falcao Construcoes Ltda,Industria,3.Pequena,Construção de edifícios,Proposta,False,True,False,SOMENTE SENAI,1
+48462452000111,Hidrosol Energia Solar Representacao E Servicos Ltda,Industria,4.Micro,Instalação de máquinas e equipamentos industriais,Proposta,False,True,False,SOMENTE SENAI,1
+48684642000183,Adamo Spe 1 Ltda,Nao Industria,2.Média,Compra e venda de imóveis próprios,Proposta,False,True,False,SOMENTE SENAI,1
+48821494000100,Frango Lider Ltda,Industria | Indústria,4.Micro,Abate de aves,Migração | Proposta,True,True,True,SESI + SENAI,2
+49120631000133,Associacao Dos Proprietarios De Unidades Autonomas Do Futuro Edificio Botanic View Club Residence,Nao Industria | Não Indústria,2.Média,Atividades associativas não especificadas anteriormente,Proposta,True,True,True,SESI + SENAI,2
+49142678000106,"Secretaria De Estado Do Desenvolvimento, Industria, Comercio E Servicos",Nao Industria,2.Média,Administração pública em geral,Proposta,False,True,False,SOMENTE SENAI,1
+49173847000167,Riviera Empreendimentos Imobiliarios Spe Ltda,Industria,4.Micro,Incorporação de empreendimentos imobiliários,Proposta,False,True,False,SOMENTE SENAI,1
+49204490000137,Masetto Alimentos Ltda,Industria,4.Micro,Fabricação de conservas de frutas,Proposta,False,True,False,SOMENTE SENAI,1
+49329618000199,Sistenge Construcoes E Comercio Ltda,Industria,4.Micro,Construção de edifícios,Proposta,False,True,False,SOMENTE SENAI,1
+49770750000131,Duo Locacao E Administracao Ltda,Industria,4.Micro,Administração de obras,Proposta,False,True,False,SOMENTE SENAI,1
+49871213006623,Ic Transportes Ltda.,Nao Industria,1.Grande,"Transporte rodoviário de carga, exceto produtos perigosos e mudanças, intermunicipal, interestadual e internacional",Proposta,False,True,False,SOMENTE SENAI,1
+49946261000198,Consorcio Pavimentacao E Drenagem Ruas De Maceio,Industria,4.Micro,"Obras de urbanização - ruas, praças e calçadas",Proposta,False,True,False,SOMENTE SENAI,1
+49996687000156,Dje Engenharia Comercio E Servicos Ltda,Industria,4.Micro,"Fabricação de válvulas, registros e dispositivos semelhantes, peças e acessórios",Migração,False,True,False,SOMENTE SENAI,1
+50058390000129,Magic Berry Industria De Gelados Comestiveis Ltda,Industria,4.Micro,Fabricação de sorvetes e outros gelados comestíveis,Proposta,False,True,False,SOMENTE SENAI,1
+50362100000136,So Uniforme E Pijamas Ltda,Industria | Indústria,4.Micro,"Confecção, sob medida, de peças do vestuário, exceto roupas íntimas",Proposta,True,True,True,SESI + SENAI,2
+50938938000125,F6 Empreendimento Imobiliario Spe Ltda,Industria,3.Pequena,Incorporação de empreendimentos imobiliários,Migração,False,True,False,SOMENTE SENAI,1
+51254937000124,Nordrives Eletronica Industrial Ltda,Industria | Indústria,4.Micro,Manutenção e reparação de outras máquinas e equipamentos para usos industriais não especificados anteriormente,Migração | Proposta,True,True,True,SESI + SENAI,2
+51298283000130,C L Da Aparecida,Industria,3.Pequena,Instalação de máquinas e equipamentos industriais,Proposta,False,True,False,SOMENTE SENAI,1
+51321533000106,Watal Patacho Eco Boutique Residence Spe Ltda,Industria,2.Média,Construção de edifícios,Migração,False,True,False,SOMENTE SENAI,1
+51605820000148,Panfacile Alimentos Ltda,Industria,4.Micro,FABRICAÇÃO DE PRODUTOS DE PADARIA E CONFEITARIA COM PREDOMINÂNCIA DE PRODUÇÃO PRÓPRIA,Proposta,False,True,False,SOMENTE SENAI,1
+51899405000225,Pratagy Comercio De Alimentos Ltda,Nao Industria,3.Pequena,Restaurantes e similares,Proposta,False,True,False,SOMENTE SENAI,1
+51899405000497,Pratagy Comercio De Alimentos Ltda,Nao Industria,3.Pequena,Restaurantes e similares,Proposta,False,True,False,SOMENTE SENAI,1
+51899405000578,Pratagy Comercio De Alimentos Ltda,Nao Industria,3.Pequena,Restaurantes e similares,Proposta,False,True,False,SOMENTE SENAI,1
+52330340000184,Edificio Empresarial Link Office,Nao Industria,3.Pequena,Condomínios prediais,Proposta,False,True,False,SOMENTE SENAI,1
+52535498000190,Capetro Asfaltos Ltda,Industria,3.Pequena,Fabricação de outros produtos químicos não especificados anteriormente,Proposta,False,True,False,SOMENTE SENAI,1
+52571738000102,P R V L Firmino Confeccoes,Industria | Indústria,4.Micro,"Confecção de roupas profissionais, exceto sob medida",Proposta,True,True,True,SESI + SENAI,2
+52693780000104,Consorcio Infraestrutura Litoral Norte Maceio.,Industria,2.Média,"Obras de urbanização - ruas, praças e calçadas",Proposta,False,True,False,SOMENTE SENAI,1
+52750389000196,Coutinho Smart Incorporacoes Ltda,Industria,3.Pequena,Construção de edifícios,Proposta,False,True,False,SOMENTE SENAI,1
+52763806000135,Spot Ponta Verde Ii Spe Ltda,Industria | Indústria,3.Pequena,Incorporação de empreendimentos imobiliários,Migração | Proposta,True,True,True,SESI + SENAI,2
+53062066000172,53.062.066 Ana Gilda Roberto Dos Santos,Industria,4.Micro,Fabricação de alimentos e pratos prontos,Proposta,False,True,False,SOMENTE SENAI,1
+53156447000110,A Leonel Da Silva,Industria | Indústria,4.Micro,Outras obras de acabamento da construção,Proposta,True,True,True,SESI + SENAI,2
+53241657000107,Viver Bem Projeto 05 Empreendimento Imobiliario Spe Ltda,Industria,4.Micro,Incorporação de empreendimentos imobiliários,Migração,False,True,False,SOMENTE SENAI,1
+53689296000166,Marcineiro Eco Boutique Residence Spe Ltda,Industria,3.Pequena,Construção de edifícios,Migração,False,True,False,SOMENTE SENAI,1
+53737997000123,Valdir D Da Silva,Industria,4.Micro,Serviços de manutenção e reparação mecânica de veículos automotores,Proposta,False,True,False,SOMENTE SENAI,1
+53996848000189,New House Frances Spe Ltda,Industria,3.Pequena,Incorporação de empreendimentos imobiliários,Migração,False,True,False,SOMENTE SENAI,1
+54027801000170,Tgn Empreendimentos Ltda,Nao Industria,3.Pequena,Preparação de documentos e serviços especializados de apoio administrativo não especificados anteriormente,Proposta,False,True,False,SOMENTE SENAI,1
+54360370000169,Consorcio Cmeis.,Industria | Indústria,2.Média,Construção de edifícios,Migração | Proposta,True,True,True,SESI + SENAI,2
+54409926000164,Consorcio Pmcmv Marechal,Industria | Indústria,2.Média,Construção de edifícios,Migração,True,True,True,SESI + SENAI,2
+54502107000167,Projett Edificacoes Ltda,Industria | Indústria,3.Pequena,Fabricação de artefatos de cimento para uso na construção,Migração | Proposta,True,True,True,SESI + SENAI,2
+54531605000138,Contemporanea Parque Shopping Empreendimento Imobiliario Spe Ltda,Industria,2.Média,Incorporação de empreendimentos imobiliários,Proposta,False,True,False,SOMENTE SENAI,1
+54841751000160,Reserva Wara Spe Ltda,Industria | Indústria,3.Pequena,Incorporação de empreendimentos imobiliários,Migração | Proposta,True,True,True,SESI + SENAI,2
+54846397000166,Biscoite Parque Shopping Ltda,Nao Industria,4.Micro,"Comércio varejista de doces, balas, bombons e semelhantes",Proposta,False,True,False,SOMENTE SENAI,1
+55187737000157,Ep3 Construcao E Planejamento Ltda,Industria,4.Micro,Serviços de engenharia,Proposta,False,True,False,SOMENTE SENAI,1
+55699378000117,Consorcio Creches Seduc/al 2024.,Industria,2.Média,Construção de edifícios,Proposta,False,True,False,SOMENTE SENAI,1
+56083430000179,Mahi Patacho Empreendimento Imobiliario Spe Ltda,Industria,4.Micro,Incorporação de empreendimentos imobiliários,Proposta,False,True,False,SOMENTE SENAI,1
+56173759000120,Consorcio Educacao Alagoas,Industria,4.Micro,Administração de obras,Proposta,False,True,False,SOMENTE SENAI,1
+56263534000165,Condominio Reserva Do Bosque Empreendimento Imobiliario Spe Ltda,Industria | Indústria,2.Média,Incorporação de empreendimentos imobiliários,Migração,True,True,True,SESI + SENAI,2
+56443624000138,Consorcio Br-030-ba,Industria,3.Pequena,Construção de rodovias e ferrovias,Proposta,False,True,False,SOMENTE SENAI,1
+56635815000100,Kasa E Construcao Ltda,Industria | Indústria,4.Micro,Construção de edifícios,Proposta,True,True,True,SESI + SENAI,2
+56706119000139,Alpexgas Servicos Ltda,Industria | Indústria,4.Micro,"Instalações hidráulicas, sanitárias e de gás",Proposta,True,True,True,SESI + SENAI,2
+57061366000198,Patio 3 Empreendimento Imobiliario Spe Ltda,Industria,3.Pequena,Incorporação de empreendimentos imobiliários,Proposta,False,True,False,SOMENTE SENAI,1
+57348178000145,Rlx Comercio De Frutas Ltda,Industria,4.Micro,"Fabricação de sucos de frutas, hortaliças e legumes, exceto concentrados",Proposta,False,True,False,SOMENTE SENAI,1
+57645286000180,Bobs Azul Ltda,Nao Industria,4.Micro,"Lanchonetes, casas de chá, de sucos e similares",Proposta,False,True,False,SOMENTE SENAI,1
+57706135000194,Condominio Reserva Aldeprime Empreendimento Imobiliario Spe Ltda,Industria | Indústria,3.Pequena,Incorporação de empreendimentos imobiliários,Migração | Proposta,True,True,True,SESI + SENAI,2
+57809328000170,Consorcio Alagoas Br-424-al Lote 2,Industria,2.Média,Construção de rodovias e ferrovias,Proposta,False,True,False,SOMENTE SENAI,1
+57991098000103,Cavalcante & Rolim Design Spe Ltda,Industria,3.Pequena,Construção de edifícios,Proposta,False,True,False,SOMENTE SENAI,1
+58377116000124,Qaab Empreendimento Spe Ltda,Industria | Indústria,3.Pequena,Incorporação de empreendimentos imobiliários,Migração | Proposta,True,True,True,SESI + SENAI,2
+58406719000107,Bsm Ccmp Aurus Empreendimento Imobiliario Spe Ltda,Industria,3.Pequena,Incorporação de empreendimentos imobiliários,Proposta,False,True,False,SOMENTE SENAI,1
+58528303000161,Reserva Aruma Spe Ltda,Industria | Indústria,3.Pequena,Incorporação de empreendimentos imobiliários,Migração | Proposta,True,True,True,SESI + SENAI,2
+59533948000155,Nordestina Comercio De Alimentos Ltda,Industria | Indústria,4.Micro,Fabricação de outros produtos alimentícios não especificados anteriormente,Migração | Proposta,True,True,True,SESI + SENAI,2
+60321974000107,Pit Stop Comercio Alimenticio Ltda,Industria,4.Micro,FABRICAÇÃO DE PRODUTOS DE PANIFICAÇÃO INDUSTRIAL,Proposta,False,True,False,SOMENTE SENAI,1
+60818177000121,Condominio Beach Class Patacho,Nao Industria,3.Pequena,Condomínios prediais,Proposta,False,True,False,SOMENTE SENAI,1
+61082316000245,Vip Sports Group Industria E Comercio Ltda,Industria,4.Micro,"Confecção de peças do vestuário, exceto roupas íntimas e as confeccionadas sob medida",Proposta,False,True,False,SOMENTE SENAI,1
+61319829000146,Cleisson Nogueira Dos Santos Ltda,Industria | Indústria,4.Micro,Fabricação de alimentos para animais,Migração | Proposta,True,True,True,SESI + SENAI,2
+61320365000198,Bobs Posto Terra Nossa Ltda,Nao Industria,4.Micro,"Lanchonetes, casas de chá, de sucos e similares",Proposta,False,True,False,SOMENTE SENAI,1
+61471733000107,Grano Restaurante Ltda.,Nao Industria | Não Indústria,3.Pequena,Restaurantes e similares,Migração | Proposta,True,True,True,SESI + SENAI,2
+61491058000170,Associacao Comunitaria Amigos De Maribondo,Nao Industria,4.Micro,Atividades de associações de defesa de direitos sociais,Migração,False,True,False,SOMENTE SENAI,1
+62101633000143,Politecnica Engenharia De Tratamento Termico Ltda,Industria,4.Micro,Serviços de tratamento e revestimento em metais,Proposta,False,True,False,SOMENTE SENAI,1
+62258884014196,Intercement Brasil S.a.,Industria | Indústria,2.Média,Fabricação de cimento,Proposta,True,True,True,SESI + SENAI,2
+63184997000105,Arapack Industria E Comercio De Embalagens Plasticas Ltda,Industria | Indústria,4.Micro,Fabricação de embalagens de material plástico,Migração | Proposta,True,True,True,SESI + SENAI,2
+63477520000100,Condominio Do Edificio Salsa,Nao Industria,2.Média,Condomínios prediais,Proposta,False,True,False,SOMENTE SENAI,1
+63631496000111,Delicias Do Cheff Ltda,Nao Industria,4.Micro,Restaurantes e similares,Proposta,False,True,False,SOMENTE SENAI,1
+63647593000100,Consorcio Nova Sede Ale/al,Industria | Indústria,2.Média,Construção de edifícios,Migração | Proposta,True,True,True,SESI + SENAI,2
+63907723000199,Jg Extintores Ltda,Nao Industria,4.Micro,Comércio varejista de outros produtos não especificados anteriormente,Proposta,False,True,False,SOMENTE SENAI,1
+64078567000163,Carol Pasteis Ltda,Industria,4.Micro,Fabricação de alimentos e pratos prontos,Proposta,False,True,False,SOMENTE SENAI,1
+65780094000104,Martoke Empreendimento Imobiliario Spe Ltda,Nao Industria,3.Pequena,Gestão e administração da propriedade imobiliária,Proposta,False,True,False,SOMENTE SENAI,1
+67945071221495,Sapore S.a.,Industria,3.Pequena,Fornecimento de alimentos preparados preponderantemente para empresas,Proposta,False,True,False,SOMENTE SENAI,1
+69943967000456,M J Ramos Bezerra Lins,Industria,4.Micro,Fornecimento de alimentos preparados preponderantemente para empresas,Proposta,False,True,False,SOMENTE SENAI,1
+69983856000120,Norvinco Industria De Embalagem Nordeste Ltda,Industria | Indústria,3.Pequena,Fabricação de chapas e de embalagens de papelão ondulado,Migração | Proposta,True,True,True,SESI + SENAI,2
+70940994008358,Pandurata Alimentos Ltda,Industria | Indústria,2.Média,Fabricação de biscoitos e bolachas,Proposta,True,True,True,SESI + SENAI,2
+70940994009249,Pandurata Alimentos Ltda,Nao Industria | Não Indústria,3.Pequena,"Comércio atacadista de pães, bolos, biscoitos e similares",Proposta,True,True,True,SESI + SENAI,2
+83475913004006,Pbg S/a,Industria | Indústria,1.Grande,Fabricação de azulejos e pisos,Migração | Proposta,True,True,True,SESI + SENAI,2
+86894953001561,Bigburger Salvador Lanchonetes Ltda,Nao Industria,4.Micro,"Lanchonetes, casas de chá, de sucos e similares",Proposta,False,True,False,SOMENTE SENAI,1

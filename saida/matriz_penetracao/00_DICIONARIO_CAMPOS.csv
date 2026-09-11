@@ -1,0 +1,16 @@
+﻿CAMPO,DESCRICAO
+MERCADO,Quantidade de empresas no universo analisado.
+QT_SESI,Empresas com relacionamento SESI.
+QT_SENAI,Empresas com relacionamento SENAI.
+QT_SESI_SENAI,Empresas com SESI e SENAI simultaneamente.
+QT_SESI_OU_SENAI,Empresas com SESI ou SENAI.
+SEM_RELACIONAMENTO,Empresas sem relacionamento identificado com SESI ou SENAI.
+PENETRACAO_SESI_%,Percentual do mercado com relacionamento SESI.
+PENETRACAO_SENAI_%,Percentual do mercado com relacionamento SENAI.
+PENETRACAO_COMBINADA_%,Percentual do mercado com relacionamento SESI ou SENAI.
+GAP_SESI,Mercado total menos empresas com SESI.
+GAP_SENAI,Mercado total menos empresas com SENAI.
+GAP_COMBINADO,Mercado total menos empresas com SESI ou SENAI.
+STATUS_COMERCIAL,Situação comercial consolidada da empresa.
+OPORTUNIDADE_SEBRAE,Classificação de oportunidade relacionada ao SEBRAE.
+OPORTUNIDADE_CROSS_SELL,Possibilidade de venda cruzada entre SESI e SENAI.

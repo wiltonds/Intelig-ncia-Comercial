@@ -1,0 +1,9 @@
+﻿Categoria,STATUS_RELACIONAMENTO,QUANTIDADE
+Industria,SOMENTE SENAI,197
+Industria | Indústria,SESI + SENAI,148
+Indústria,SOMENTE SESI,542
+Nao Industria,SOMENTE SENAI,107
+Nao Industria | Não Indústria,SESI + SENAI,14
+Nao Industria | Órgãos Públicos,SESI + SENAI,1
+Não Indústria,SOMENTE SESI,653
+Órgãos Públicos,SOMENTE SESI,1
