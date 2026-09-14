@@ -251,6 +251,37 @@ if os.path.exists(ARQ_CORRECAO_UNIVERSO):
 
 
 # ------------------------------------------------------------
+# 1B. EXCLUSÃO DE OPTANTES MEI
+#
+# Regra de negócio: empresas optantes pelo MEI não entram no universo
+# comercial. Status obtido do arquivo oficial "Simples" da Receita
+# Federal (dados abertos), cruzado por CNPJ básico (8 primeiros
+# dígitos). Ver saida/SITUACAO_MEI_SIMPLES.csv para o detalhe.
+# ------------------------------------------------------------
+
+ARQ_SITUACAO_MEI = os.path.join(SAIDA, "SITUACAO_MEI_SIMPLES.csv")
+
+if os.path.exists(ARQ_SITUACAO_MEI):
+    situacao_mei = pd.read_csv(ARQ_SITUACAO_MEI, encoding="utf-8-sig", dtype=str)
+    raizes_mei = set(situacao_mei.loc[situacao_mei["opcao_mei"] == "S", "cnpj_basico"])
+
+    mercado["CNPJ_BASICO"] = mercado["CNPJ_NORMALIZADO"].str[:8]
+    mercado["OPTANTE_MEI"] = mercado["CNPJ_BASICO"].isin(raizes_mei)
+
+    total_antes = len(mercado)
+    total_mei = int(mercado["OPTANTE_MEI"].sum())
+    mercado = mercado[~mercado["OPTANTE_MEI"]].drop(columns=["OPTANTE_MEI"])
+
+    print(f"\nExclusão de optantes MEI: {total_mei:,} de {total_antes:,} removidas.")
+    print(f"Universo após exclusão MEI: {len(mercado):,}")
+else:
+    print(
+        "\n⚠ ATENÇÃO: saida/SITUACAO_MEI_SIMPLES.csv não encontrado. "
+        "Universo NÃO foi filtrado por optante MEI."
+    )
+
+
+# ------------------------------------------------------------
 # 2. CARREGAR RELACIONAMENTO SESI/SENAI
 # ------------------------------------------------------------
 print("\n" + "=" * 75)
