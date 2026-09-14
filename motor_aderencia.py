@@ -1,107 +1,194 @@
-"""
-Motor de aderência Portfólio × CNPJ — SESI/SENAI Alagoas
-Adaptado às colunas da BASE_MESTRE_COMERCIAL.csv.
+# ============================================================
+# MOTOR DE ADERÊNCIA DE PORTFÓLIO
+# SESI + SENAI | ALAGOAS
+# ============================================================
 
-Usa: cnae_fiscal_codigo (ou 'CNAE PRIMARIO' code), Porte,
-     STATUS_RELACIONAMENTO_REAL, POSSUI_SESI, POSSUI_SENAI.
-Arquivos de apoio: de_para_cnae_area.csv, portfolio_compact.json
-"""
-import json, re, pandas as pd
-from pathlib import Path
+import pandas as pd
+import re
 
-BASE_DIR = Path(__file__).resolve().parent
-UNIVERSAIS = {'1 - Gestão': 1.0, '27 - Segurança do trabalho': 1.0,
-              '32 - Meio ambiente': 0.8, '48 - Logística': 0.7}
+# ============================================================
+# MAPEAMENTO INTELIGENTE: DESCRICAO / PALAVRAS-CHAVE -> CÓDIGO CNAE
+# ============================================================
 
-def _carregar(depara_csv=None, portfolio_json=None):
-    depara_csv = depara_csv or (BASE_DIR / 'de_para_cnae_area.csv')
-    portfolio_json = portfolio_json or (BASE_DIR / 'portfolio_compact.json')
-    dp = pd.read_csv(depara_csv, dtype={'divisao_cnae': str})
-    depara = {}
-    for _, r in dp.iterrows():
-        depara.setdefault(str(r['divisao_cnae']).zfill(2), []).append(
-            (r['area_senai'], float(r['peso_afinidade'])))
-    tree = json.load(open(portfolio_json, encoding='utf-8'))['trees']['SENAI']
-    contagem = {}
-    def _f(n):
-        if not n.get('ch') and n.get('a'):
-            contagem[n['a']] = contagem.get(n['a'], 0) + 1
-        for c in n.get('ch', []): _f(c)
-    _f(tree)
-    return depara, contagem
+MAPEAMENTO_PALAVRAS_CHAVE = {
+    "CONSTRUCAO": "4120400",
+    "EDIFICIO": "4120400",
+    "OBRA": "4120400",
+    "ALIMENTO": "1099699",
+    "PANIFICACAO": "1091102",
+    "BEBIDA": "1113002",
+    "REFRIGERANTE": "1122401",
+    "TEXTIL": "1311100",
+    "CONFEC": "1412600",
+    "VESTUARIO": "1412600",
+    "CALCADO": "1531900",
+    "COURO": "1510600",
+    "MADEIRA": "1610003",
+    "MOVEL": "3101200",
+    "MOVEIS": "3101200",
+    "PAPEL": "1710900",
+    "GRAFICA": "1811302",
+    "QUIMIC": "2099199",
+    "FARMACEUT": "2110600",
+    "PLASTICO": "2229399",
+    "BORRACHA": "2212900",
+    "CERAMICA": "2349400",
+    "VIDRO": "2311700",
+    "CIMENTO": "2320600",
+    "CONCRETO": "2330301",
+    "METAL": "2599399",
+    "METALURG": "2410000",
+    "USINAGEM": "2539001",
+    "MECANIC": "2869100",
+    "MAQUINA": "2869100",
+    "EQUIPAMENTO": "2869100",
+    "ELETRIC": "2710401",
+    "ELETRONIC": "2610000",
+    "AUTOMOTIV": "2910701",
+    "VEICULO": "2910701",
+    "MANUTENCAO": "3314799",
+    "REPARO": "3314799",
+    "INSTALACAO": "3321000",
+    "ENERGIA": "3511501",
+    "AGUA": "3600600",
+    "ESGOTO": "3701100",
+    "RESIDUO": "3811400",
+    "LOGISTICA": "5211799",
+    "TRANSPORTE": "4930202",
+    "TI": "6201501",
+    "SOFTWARE": "6201501",
+    "TELECOM": "6110801",
+    "PESQUISA": "7210000",
+    "LABORATORIO": "7120100"
+}
 
-_DEPARA, _CONTAGEM = None, None
-def _ensure():
-    global _DEPARA, _CONTAGEM
-    if _DEPARA is None:
-        _DEPARA, _CONTAGEM = _carregar()
 
-def _divisao(cnae_code):
-    d = re.sub(r'\D', '', str(cnae_code))
-    return d.zfill(7)[:2] if d else '00'
+def extrair_codigo_cnae(cnae_input):
+    """
+    Normaliza o input de CNAE:
+    1. Se contiver 4 ou mais dígitos numéricos, extrai e retorna os números.
+    2. Se for texto/descrição, mapeia via palavras-chave.
+    3. Se não encontrar, retorna uma chave genérica de indústria/serviço.
+    """
+    if pd.isna(cnae_input) or not str(cnae_input).strip():
+        return "4120400"  # Padrão seguro
 
-def _gate(porte):
-    p = (porte or '').upper()
-    if 'MICRO' in p:  return 0.6, 0.4, 'SEBRAE-first'
-    if 'PEQUEN' in p: return 0.85, 0.7, 'SENAI/SEBRAE'
-    return 1.0, 1.0, 'SENAI/SESI'
+    texto = str(cnae_input).strip().upper()
+    
+    # 1. Tenta extrair dígitos numéricos
+    numeros = "".join(filter(str.isdigit, texto))
+    if len(numeros) >= 4:
+        return numeros
 
-def diagnosticar(cnae_code, porte, ja_sesi=False, ja_senai=False):
-    """Retorna o diagnóstico de aderência de um CNPJ ao portfólio."""
-    _ensure()
-    div = _divisao(cnae_code)
-    g_set, g_uni, rota = _gate(porte)
-    res = {}
-    for area, peso in _DEPARA.get(div, []):
-        res[area] = max(res.get(area, 0), peso * g_set)
-    tem_setorial = len(res) > 0
-    for area, base in UNIVERSAIS.items():
-        res[area] = max(res.get(area, 0), base * g_uni)
-    areas = sorted(
-        ({'area': a, 'score': round(s, 3), 'n_produtos': _CONTAGEM.get(a, 0),
-          'tipo': 'universal' if a in UNIVERSAIS else 'setorial'} for a, s in res.items()),
-        key=lambda x: -x['score'])
-    # cross-sell: já é cliente de um, oferecer o outro
-    if ja_sesi and not ja_senai:   cross = 'SENAI (já é cliente SESI)'
-    elif ja_senai and not ja_sesi: cross = 'SESI (já é cliente SENAI)'
-    elif ja_sesi and ja_senai:     cross = 'Aprofundar carteira (já tem os dois)'
-    else:                          cross = 'Prospect novo'
-    return {'divisao': div, 'rota': rota, 'cross_sell': cross,
-            'tem_encaixe_setorial': tem_setorial,
-            'score_max': areas[0]['score'] if areas else 0.0, 'areas': areas}
+    # 2. Busca por palavra-chave na descrição
+    for palavra, codigo in MAPEAMENTO_PALAVRAS_CHAVE.items():
+        if palavra in texto:
+            return codigo
 
-def scorear_base(df, col_cnae='cnae_fiscal_codigo', col_porte='Porte',
-                 col_sesi='POSSUI_SESI', col_senai='POSSUI_SENAI'):
-    """Aplica a toda a base. Colunas ausentes viram False/0 sem quebrar."""
-    _ensure()
-    def _linha(r):
-        return diagnosticar(r.get(col_cnae), r.get(col_porte),
-                            bool(r.get(col_sesi, False)), bool(r.get(col_senai, False)))
-    out = df.apply(_linha, axis=1)
-    df = df.copy()
-    df['ADER_divisao']   = out.map(lambda x: x['divisao'])
-    df['ADER_rota']      = out.map(lambda x: x['rota'])
-    df['ADER_cross']     = out.map(lambda x: x['cross_sell'])
-    df['ADER_score_max'] = out.map(lambda x: x['score_max'])
-    df['ADER_top_areas'] = out.map(lambda x: '; '.join(
-        f"{a['area']} ({a['score']})" for a in x['areas'][:3]))
-    df['_ADER_full']     = out.map(lambda x: x['areas'])
-    return df
+    # 3. Fallback genérico para a indústria
+    return "4120400"
 
-def fila_prospeccao(df_scored, area_alvo, apenas_sem_relacionamento=True,
-                    col_status='STATUS_RELACIONAMENTO_REAL'):
-    """Leitura 2: dado um alvo, ordena os CNPJs mais aderentes (fila do SDR)."""
-    linhas = []
-    for _, r in df_scored.iterrows():
-        for a in r['_ADER_full']:
-            if a['area'] == area_alvo:
-                d = r.drop('_ADER_full').to_dict()
-                d['score_area'] = a['score']
-                linhas.append(d)
-                break
-    out = pd.DataFrame(linhas)
-    if len(out):
-        out = out.sort_values('score_area', ascending=False)
-        if apenas_sem_relacionamento and col_status in out.columns:
-            out = out[out[col_status].astype(str).str.contains('SEM RELAC', case=False, na=False)]
-    return out
+
+# ============================================================
+# MATRIZ DE ADERÊNCIA E PESOS POR SETOR / CANAL
+# ============================================================
+
+def obter_matriz_setorial(cnae_code):
+    """
+    Retorna o ranqueamento de aderência das áreas do SESI e SENAI com base no código do CNAE.
+    """
+    codigo = str(cnae_code)
+    
+    # Construção Civil e Obras
+    if codigo.startswith(("41", "42", "43")):
+        return [
+            {"Área": "SST & Saúde Ocupacional (NR-18, PCMSO, PGR)", "Instituição": "SESI", "Relevância": "Altíssima", "Score": 95},
+            {"Área": "Formação Técnica em Edificações e Segurança", "Instituição": "SENAI", "Relevância": "Alta", "Score": 88},
+            {"Área": "Eficiência Operacional & Processos", "Instituição": "SENAI", "Relevância": "Média/Alta", "Score": 78},
+            {"Área": "Gestão de Absenteísmo e Prom. Saúde", "Instituição": "SESI", "Relevância": "Média", "Score": 70},
+            {"Área": "Consultoria em Inovação e Sustentabilidade", "Instituição": "SENAI", "Relevância": "Média", "Score": 62}
+        ]
+    
+    # Indústria de Alimentos, Bebidas e Química
+    elif codigo.startswith(("10", "11", "20", "21", "22")):
+        return [
+            {"Área": "SST & Ergonomia de Processos (NR-12, NR-36)", "Instituição": "SESI", "Relevância": "Altíssima", "Score": 92},
+            {"Área": "Automação, Mecânica e Manutenção Industrial", "Instituição": "SENAI", "Relevância": "Altíssima", "Score": 90},
+            {"Área": "Controle de Qualidade & Laboratórios", "Instituição": "SENAI", "Relevância": "Alta", "Score": 85},
+            {"Área": "Programas de Vacinação e Nutrição", "Instituição": "SESI", "Relevância": "Média/Alta", "Score": 75},
+            {"Área": "Consultoria em Processos Limpos", "Instituição": "SENAI", "Relevância": "Média", "Score": 65}
+        ]
+
+    # Metalmecânica, Vestuário, Calçados e Demais Transformações
+    elif codigo.startswith(("13", "14", "15", "24", "25", "28", "29", "30", "31", "33")):
+        return [
+            {"Área": "Capacitação Operacional & Solda/Usinagem", "Instituição": "SENAI", "Relevância": "Altíssima", "Score": 94},
+            {"Área": "Segurança no Trabalho & Proteção de Máquinas (NR-12)", "Instituição": "SESI", "Relevância": "Altíssima", "Score": 91},
+            {"Área": "Lean Manufacturing & Produtividade", "Instituição": "SENAI", "Relevância": "Alta", "Score": 84},
+            {"Área": "Exames Complementares & Consultas Ocupacionais", "Instituição": "SESI", "Relevância": "Média/Alta", "Score": 78},
+            {"Área": "Energia Renovável & Eficiência Energética", "Instituição": "SENAI", "Relevância": "Média", "Score": 60}
+        ]
+
+    # Serviços Industriais, Tecnologia, Logística e Outros
+    else:
+        return [
+            {"Área": "Gestão de NR's e Laudos Técnicos Ocupacionais", "Instituição": "SESI", "Relevância": "Alta", "Score": 85},
+            {"Área": "Cursos de Formação Profissional & Aperfeiçoamento", "Instituição": "SENAI", "Relevância": "Alta", "Score": 82},
+            {"Área": "Programas de Bem-Estar e Saúde Mental", "Instituição": "SESI", "Relevância": "Média/Alta", "Score": 75},
+            {"Área": "Consultoria em Digitalização e TI", "Instituição": "SENAI", "Relevância": "Média", "Score": 68},
+            {"Área": "Ginástica Laboral & Atividades Físicas", "Instituição": "SESI", "Relevância": "Média", "Score": 60}
+        ]
+
+
+# ============================================================
+# FUNÇÃO PRINCIPAL DE DIAGNÓSTICO
+# ============================================================
+
+def diagnosticar(cnae_code, porte, ja_sesi, ja_senai):
+    """
+    Executa o diagnóstico completo calculando estratégia recomendada,
+    aderência máxima, potencial de cross-sell e ranqueamento de portfólio.
+    """
+    # 1. Normalização do Código CNAE
+    codigo_cnae = extrair_codigo_cnae(cnae_code)
+
+    # 2. Obtenção do Ranqueamento do Portfólio
+    matriz_areas = obter_matriz_setorial(codigo_cnae)
+    df_areas = pd.DataFrame(matriz_areas)
+
+    # 3. Cálculo da Aderência Máxima
+    aderencia_maxima = df_areas["Score"].max() if not df_areas.empty else 75
+    principal_area = df_areas.iloc[0]["Área"] if not df_areas.empty else "SST & Saúde Ocupacional"
+
+    # 4. Definição da Rota Comercial / Estratégia Recomendada
+    if ja_sesi and ja_senai:
+        rota_comercial = "Fidelização / Venda Recorrente"
+        cross_sell = "Manter Contratos & Ampliar Escopo"
+    elif ja_sesi and not ja_senai:
+        rota_comercial = "Cross-Sell SENAI (Oferecer Cursos/Consultoria)"
+        cross_sell = "Alta Oportunidade para SENAI"
+    elif ja_senai and not ja_sesi:
+        rota_comercial = "Cross-Sell SESI (Oferecer SST/Saúde)"
+        cross_sell = "Alta Oportunidade para SESI"
+    else:
+        # Não possui relacionamento (Prospect)
+        porte_upper = str(porte).upper()
+        if "GRANDE" in porte_upper or "MEDIO" in porte_upper or "MÉDIO" in porte_upper:
+            rota_comercial = "Aquisição Prioritária (Conta Chave SESI+SENAI)"
+            cross_sell = "Oferta Conjunta (Pacote Integrado)"
+        else:
+            rota_comercial = "Prospecção Padrão (Entrada por SST/Cursos)"
+            cross_sell = "Apresentar Soluções Básicas"
+
+    # 5. Formatação do DataFrame para Retorno Visual
+    df_areas_formatado = df_areas.copy()
+    df_areas_formatado["Aderência"] = df_areas_formatado["Score"].astype(str) + "%"
+    df_areas_display = df_areas_formatado[["Área", "Instituição", "Relevância", "Aderência"]]
+
+    return {
+        "rota_comercial": rota_comercial,
+        "aderencia_maxima": int(aderencia_maxima),
+        "principal_area": principal_area,
+        "cross_sell": cross_sell,
+        "areas_ranqueadas": df_areas_display
+    }

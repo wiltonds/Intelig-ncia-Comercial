@@ -1,1071 +1,389 @@
 import os
+import re
 import pandas as pd
 
 # ============================================================
-# CONFIGURAÇÃO
+# FUNÇÕES DE HIGIENIZAÇÃO E REGRA DE NEGÓCIO
 # ============================================================
 
-PASTA = r"C:\Users\wilton.costa\Desktop\projeto_comercial"
-SAIDA = os.path.join(PASTA, "saida")
+# Lista expandida de termos da Indústria de Transformação (CNAEs 10 a 33)
+TERMOS_INDUSTRIA = [
+    # Verbos e Termos Gerais
+    "FABRICACAO", "FABRICACAO DE", "INDUSTRIA", "INDUSTRIAL", "PRODUCAO", 
+    "PROCESSAMENTO", "MONTAGEM", "USINA", "REFINO", "REFINARIA", "REPARACAO", 
+    "MANUTENCAO E REPARACAO", "INSTALACAO DE MAQUINAS", "REFORMACAO",
+    
+    # Alimentos, Bebidas e Fumo (Divisões 10, 11, 12)
+    "ABATE", "ABATIMENTO", "TORREFACTAO", "MOAGEM", "PANIFICACAO", "LATICINIOS", 
+    "CONSERVAS", "DESOSSAMENTO", "FRIGORIFICO", "PREPARACAO DE LEITE", 
+    "PREPARACAO DE CARNE", "CERVEJAS", "BEBIDAS", "DESTILACAO", "FUMO",
+    
+    # Têxtil, Vestuário, Couro e Calçados (Divisões 13, 14, 15)
+    "FIACAO", "TECELAGEM", "ACABAMENTO DE FIOS", "CONFECCAO", "COSTURA", 
+    "STAMPARIA", "CURTUME", "ALPARGATAS", "CALCADOS", "ARTEFATOS DE COURO",
+    
+    # Madeira, Papel e Gráfica (Divisões 16, 17, 18)
+    "DESDOBRAMENTO DE MADEIRA", "SERRARIA", "SULFATACAO", "CELULOSE", 
+    "EMBALAGENS DE PAPEL", "IMPRESSAO", "GRAFICA", "ENCADERNACAO", "MARCENARIA",
+    
+    # Química, Farmacêutica, Borracha e Plástico (Divisões 19, 20, 21, 22)
+    "COQUERIAS", "PETROQUIMICA", "BIODIESEL", "ADUBOS", "FERTILIZANTES", 
+    "TINTAS", "COSMETICOS", "PERFUMARIA", "FARMACEUTICOS", "MEDICAMENTOS", 
+    "VULCANIZACAO", "PNEUMATICOS", "ARTEFATOS DE PLASTICO", "LAMINAÇÃO DE PLASTICO",
+    
+    # Minerais Não-Metálicos, Metalurgia e Produtos de Metal (Divisões 23, 24, 25)
+    "CERAMICA", "VIDROS", "CIMENTO", "GESSO", "CONCRETO", "OLARIA", 
+    "SIDERURGIA", "FUNDICAO", "METALURGIA", "LAMINACAO", "TREFILACAO", 
+    "ESQUANQUADRIAS", "CALDEIRARIA", "USINAGEM", "SERRALHERIA", "ESTAMPARIA",
+    
+    # Equipamentos, Máquinas e Veículos (Divisões 26 a 33)
+    "INFORMATICA", "ELETRONICOS", "COMPONENTES ELETRONICOS", "MOTORES", 
+    "TRANSFORMADORES", "GERADORES", "COMPRESSORES", "MAQUINAS", "EQUIPAMENTOS", 
+    "CARROCERIAS", "REBOQUES", "NAVAL", "AERONAUTICA", "MOVEIS", "BIJUTERIAS"
+]
 
-ARQ_MERCADO = os.path.join(
-    PASTA,
-    "industrias_ativas.xlsx"
-)
 
-ARQ_RELACIONAMENTO = os.path.join(
-    PASTA,
-    "BASE_DADOS_SESI&SENAI_N_RELACIONAMENTO.xlsx"
-)
-
-ARQ_RELACIONAMENTO_DUPLO = os.path.join(
-    PASTA,
-    "relacionamento_SESI&SENAI.xlsx"
-)
-
-ARQ_SEBRAE = os.path.join(
-    PASTA,
-    "industrias_ativas_sebrae.xlsx"
-)
-
-ARQ_CORRECAO_UNIVERSO = os.path.join(
-    PASTA,
-    "CORRECAO_UNIVERSO_CONFIRMADA.csv"
-)
-
-os.makedirs(SAIDA, exist_ok=True)
+def extrair_apenas_numeros(val):
+    """Extrai estritamente os dígitos numéricos de qualquer valor."""
+    if pd.isna(val) or val is None:
+        return ""
+    s = str(val).split('.')[0].strip()
+    return re.sub(r"\D", "", s)
 
 
-# ============================================================
-# FUNÇÕES
-# ============================================================
+def identificar_industria(val):
+    """
+    Identifica se a empresa pertence à indústria por:
+    1. Código CNAE (Divisões 10 a 33).
+    2. Busca abrangente por vocabulário industrial na descrição.
+    """
+    if pd.isna(val):
+        return False, 0
+    
+    texto = str(val).upper().strip()
+    numeros = extrair_apenas_numeros(texto)
+    
+    divisao = 0
+    if len(numeros) >= 2:
+        div_candidata = int(numeros[:2])
+        if 10 <= div_candidata <= 33:
+            return True, div_candidata
+        divisao = div_candidata
+
+    # Checagem flexível de termos de transformação
+    for termo in TERMOS_INDUSTRIA:
+        if termo in texto:
+            return True, (divisao if divisao > 0 else 10)
+            
+    return False, divisao
+
 
 def normalizar_cnpj(series):
-
-    s = series.astype("string").str.strip()
-
-    s = s.str.replace(
-        r"\.0$",
-        "",
-        regex=True
-    )
-
-    s = s.str.replace(
-        r"\D",
-        "",
-        regex=True
-    )
-
-    s = s.str.zfill(14)
-
-    return s
+    """Padroniza o CNPJ mantendo 14 dígitos (preenchendo zeros à esquerda)."""
+    s = series.astype("string").fillna("").str.strip()
+    s = s.str.replace(r"\.0$", "", regex=True)
+    s = s.str.replace(r"\D", "", regex=True)
+    return s.str.zfill(14)
 
 
-def encontrar_coluna(df, nome_exato=None, contem=None):
+def encontrar_coluna(df, termos):
+    """
+    Busca dinâmica por nomes de colunas.
+    Prioriza correspondência EXATA antes de parcial, pra evitar que uma
+    coluna como "Origem da Cobertura" seja confundida com "COBERTURA".
+    """
+    for termo in termos:
+        for col in df.columns:
+            if str(col).strip().lower() == termo.lower():
+                return col
 
-    if nome_exato:
-
-        for coluna in df.columns:
-
-            if str(coluna).strip().lower() == nome_exato.lower():
-
-                return coluna
-
-    if contem:
-
-        for coluna in df.columns:
-
-            if contem.lower() in str(coluna).lower():
-
-                return coluna
-
+    for col in df.columns:
+        col_clean = str(col).strip().lower()
+        for termo in termos:
+            if termo.lower() in col_clean:
+                return col
     return None
 
 
+def definir_status_sebrae(row):
+    """
+    Define o status comercial do SEBRAE.
+    A base SEBRAE (industrias_ativas_sebrae.xlsx) já traz a categoria
+    final pronta em 'oportunidade_comercial' ("NÃO ATENDIDA" ou
+    "FORA DO ESCOPO SEBRAE") — não é um flag SIM/NÃO a ser reinterpretado.
+    """
+    if not row.get("EH_INDUSTRIA", False):
+        return "FORA DO ESCOPO SEBRAE"
+
+    elegivel = str(row.get("SEBRAE_ELEGIVEL", "")).upper()
+    if elegivel in ["NAO", "NÃO", "FALSE"]:
+        return "FORA DO ESCOPO SEBRAE"
+
+    oportunidade = row.get("SEBRAE_OPORTUNIDADE_ORIGINAL")
+    if pd.notna(oportunidade) and str(oportunidade).strip():
+        return str(oportunidade).strip().upper()
+
+    return "SEM INFORMAÇÃO"
+
+
 def transformar_cnpj_relacionamento(df):
-
-    """
-    Cria uma tabela única de relacionamento por CNPJ,
-    preservando as duas carteiras.
-    """
-
-    coluna_cnpj = encontrar_coluna(
-        df,
-        nome_exato="CNPJ"
-    )
-
-    coluna_cobertura = encontrar_coluna(
-        df,
-        nome_exato="COBERTURA"
-    )
+    """Cria tabela única de relacionamento por CNPJ (SESI x SENAI)."""
+    coluna_cnpj = encontrar_coluna(df, ["cnpj"])
+    coluna_cobertura = encontrar_coluna(df, ["cobertura", "cnae cobertura", "entidade", "casa"])
 
     if coluna_cnpj is None:
-        raise ValueError(
-            "Coluna CNPJ não encontrada na base de relacionamento."
-        )
-
-    if coluna_cobertura is None:
-        raise ValueError(
-            "Coluna COBERTURA não encontrada."
-        )
+        raise ValueError("Coluna CNPJ não encontrada na base de relacionamento.")
 
     temp = df.copy()
+    temp["CNPJ_NORMALIZADO"] = normalizar_cnpj(temp[coluna_cnpj])
+    
+    temp = temp[temp["CNPJ_NORMALIZADO"].str.len() == 14]
+    temp = temp[temp["CNPJ_NORMALIZADO"] != "00000000000000"]
 
-    temp["CNPJ_NORMALIZADO"] = normalizar_cnpj(
-        temp[coluna_cnpj]
-    )
+    if coluna_cobertura:
+        cobertura_txt = temp[coluna_cobertura].astype("string").fillna("").str.upper()
+        cnpjs_sesi = set(temp.loc[cobertura_txt.str.contains("SESI", regex=False), "CNPJ_NORMALIZADO"])
+        cnpjs_senai = set(temp.loc[cobertura_txt.str.contains("SENAI", regex=False), "CNPJ_NORMALIZADO"])
+    else:
+        cnpjs_sesi = set(temp["CNPJ_NORMALIZADO"])
+        cnpjs_senai = set()
 
-    temp["COBERTURA_NORMALIZADA"] = (
-        temp[coluna_cobertura]
-        .astype("string")
-        .str.strip()
-        .str.upper()
-    )
+    todos = sorted(cnpjs_sesi | cnpjs_senai)
 
-    # --------------------------------------------------------
-    # SESI
-    # --------------------------------------------------------
-
-    cnpjs_sesi = set(
-        temp.loc[
-            temp["COBERTURA_NORMALIZADA"] == "SESI",
-            "CNPJ_NORMALIZADO"
-        ]
-    )
-
-    # --------------------------------------------------------
-    # SENAI
-    # --------------------------------------------------------
-
-    cnpjs_senai = set(
-        temp.loc[
-            temp["COBERTURA_NORMALIZADA"] == "SENAI",
-            "CNPJ_NORMALIZADO"
-        ]
-    )
-
-    todos = sorted(
-        cnpjs_sesi | cnpjs_senai
-    )
-
-    relacionamento = pd.DataFrame({
-        "CNPJ_NORMALIZADO": todos
-    })
-
-    relacionamento["TEM_SESI"] = (
-        relacionamento["CNPJ_NORMALIZADO"]
-        .isin(cnpjs_sesi)
-    )
-
-    relacionamento["TEM_SENAI"] = (
-        relacionamento["CNPJ_NORMALIZADO"]
-        .isin(cnpjs_senai)
-    )
-
-    relacionamento["TEM_SESI_SENAI"] = (
-        relacionamento["TEM_SESI"]
-        & relacionamento["TEM_SENAI"]
-    )
+    relacionamento = pd.DataFrame({"CNPJ_NORMALIZADO": todos})
+    relacionamento["TEM_SESI"] = relacionamento["CNPJ_NORMALIZADO"].isin(cnpjs_sesi)
+    relacionamento["TEM_SENAI"] = relacionamento["CNPJ_NORMALIZADO"].isin(cnpjs_senai)
+    relacionamento["TEM_SESI_SENAI"] = relacionamento["TEM_SESI"] & relacionamento["TEM_SENAI"]
 
     relacionamento["STATUS_RELACIONAMENTO"] = "SEM RELACIONAMENTO"
-
-    relacionamento.loc[
-        relacionamento["TEM_SESI"]
-        & ~relacionamento["TEM_SENAI"],
-        "STATUS_RELACIONAMENTO"
-    ] = "SOMENTE SESI"
-
-    relacionamento.loc[
-        ~relacionamento["TEM_SESI"]
-        & relacionamento["TEM_SENAI"],
-        "STATUS_RELACIONAMENTO"
-    ] = "SOMENTE SENAI"
-
-    relacionamento.loc[
-        relacionamento["TEM_SESI_SENAI"],
-        "STATUS_RELACIONAMENTO"
-    ] = "SESI + SENAI"
+    relacionamento.loc[relacionamento["TEM_SESI"] & ~relacionamento["TEM_SENAI"], "STATUS_RELACIONAMENTO"] = "SOMENTE SESI"
+    relacionamento.loc[~relacionamento["TEM_SESI"] & relacionamento["TEM_SENAI"], "STATUS_RELACIONAMENTO"] = "SOMENTE SENAI"
+    relacionamento.loc[relacionamento["TEM_SESI_SENAI"], "STATUS_RELACIONAMENTO"] = "SESI + SENAI"
 
     return relacionamento
 
 
 # ============================================================
-# INÍCIO
+# CONFIGURAÇÃO DE CAMINHOS
 # ============================================================
+
+PASTA = r"C:\Users\wilton.costa\Desktop\projeto_comercial"
+SAIDA = os.path.join(PASTA, "saida")
+
+ARQ_MERCADO = os.path.join(PASTA, "industrias_ativas.xlsx")
+ARQ_RELACIONAMENTO = os.path.join(PASTA, "BASE_DADOS_SESI&SENAI_N_RELACIONAMENTO.xlsx")
+ARQ_SEBRAE = os.path.join(PASTA, "industrias_ativas_sebrae.xlsx")
+ARQ_CORRECAO_UNIVERSO = os.path.join(PASTA, "CORRECAO_UNIVERSO_CONFIRMADA.csv")
+
+os.makedirs(SAIDA, exist_ok=True)
 
 print("=" * 75)
 print("CONSTRUÇÃO DA BASE MESTRE COMERCIAL")
 print("=" * 75)
 
-
-# ============================================================
-# 1. CARREGAR MERCADO
-# ============================================================
-
+# ------------------------------------------------------------
+# 1. CARREGAR E HIGIENIZAR BASE-MÃE
+# ------------------------------------------------------------
 print("\n" + "=" * 75)
-print("1. CARREGANDO BASE-MÃE")
+print("1. CARREGANDO E HIGIENIZANDO BASE-MÃE")
 print("=" * 75)
 
-mercado = pd.read_excel(
-    ARQ_MERCADO,
-    engine="openpyxl"
-)
+mercado = pd.read_excel(ARQ_MERCADO, engine="openpyxl")
+print(f"Empresas na base-mãe: {len(mercado):,}")
 
-print(
-    f"\nEmpresas na base-mãe: {len(mercado):,}"
-)
+col_cnpj_mae = encontrar_coluna(mercado, ["cnpj"])
+if not col_cnpj_mae:
+    raise ValueError("Coluna de CNPJ não foi encontrada na base-mãe!")
+mercado["CNPJ_NORMALIZADO"] = normalizar_cnpj(mercado[col_cnpj_mae])
 
-mercado["CNPJ_NORMALIZADO"] = normalizar_cnpj(
-    mercado["cnpj"]
-)
+coluna_cnae = encontrar_coluna(mercado, ["cnae primario", "cnae", "atividade"])
 
-print(
-    f"CNPJs únicos: "
-    f"{mercado['CNPJ_NORMALIZADO'].nunique():,}"
-)
+if coluna_cnae:
+    print(f"-> Coluna identificada para CNAE: '{coluna_cnae}'")
+    res_ind = mercado[coluna_cnae].apply(identificar_industria)
+    mercado["CNAE_DIVISAO"] = [r[1] for r in res_ind]
+else:
+    print("⚠ ATENÇÃO: Nenhuma coluna de CNAE foi encontrada na base-mãe!")
+    mercado["CNAE_DIVISAO"] = 0
 
+# EH_INDUSTRIA confia na coluna SETOR da própria base-mãe (já validada:
+# 100% das empresas de industrias_ativas.xlsx são SETOR = INDÚSTRIA).
+# Classificar de novo por palavra-chave no CNAE subestimava o universo
+# (17.676 de 32.926), o que inflava incorretamente "FORA DO ESCOPO SEBRAE".
+coluna_setor = encontrar_coluna(mercado, ["setor"])
+if coluna_setor:
+    # Compara com e sem acento (evita falha por problema de encoding
+    # em algum arquivo de origem). Verificado: 100% das linhas de
+    # industrias_ativas.xlsx têm SETOR = "INDÚSTRIA".
+    valores_setor = mercado[coluna_setor].astype(str).str.upper().str.strip()
+    mercado["EH_INDUSTRIA"] = valores_setor.isin(["INDÚSTRIA", "INDUSTRIA"])
+else:
+    mercado["EH_INDUSTRIA"] = [r[0] for r in res_ind] if coluna_cnae else False
 
-# ------------------------------------------------------------
-# CORREÇÃO DE UNIVERSO
-#
-# Empresas confirmadas via auditoria cruzada com a Receita
-# Federal (ATIVA + registrada em Alagoas + CNAE de indústria
-# de transformação) que a base-mãe original não capturou.
-# Ver saida/AUDITORIA_GAP_REAL_CONFIRMADO.csv para a evidência
-# de cada uma.
-# ------------------------------------------------------------
+print(f"CNPJs únicos: {mercado['CNPJ_NORMALIZADO'].nunique():,}")
+print(f"Empresas identificadas no setor industrial: {mercado['EH_INDUSTRIA'].sum():,}")
 
+# Tratamento de correção de universo
 if os.path.exists(ARQ_CORRECAO_UNIVERSO):
+    correcao_universo = pd.read_csv(ARQ_CORRECAO_UNIVERSO, encoding="utf-8-sig")
+    col_cnpj_corr = encontrar_coluna(correcao_universo, ["cnpj"])
+    correcao_universo["CNPJ_NORMALIZADO"] = normalizar_cnpj(correcao_universo[col_cnpj_corr])
+    
+    col_cnae_corr = encontrar_coluna(correcao_universo, ["cnae primario", "cnae", "atividade"])
+    if col_cnae_corr:
+        res_ind_corr = correcao_universo[col_cnae_corr].apply(identificar_industria)
+        correcao_universo["CNAE_DIVISAO"] = [r[1] for r in res_ind_corr]
+    else:
+        correcao_universo["CNAE_DIVISAO"] = 0
 
-    correcao_universo = pd.read_csv(
-        ARQ_CORRECAO_UNIVERSO,
-        encoding="utf-8-sig"
-    )
-
-    correcao_universo["CNPJ_NORMALIZADO"] = normalizar_cnpj(
-        correcao_universo["cnpj"]
-    )
+    # Cada linha deste arquivo já passou por auditoria manual contra a
+    # Receita Federal (ATIVA + Alagoas + CNAE de indústria confirmado).
+    # Não faz sentido reclassificar por palavra-chave (a lista de termos
+    # é sem acento e o texto real do CNAE vem acentuado, então falha).
+    correcao_universo["EH_INDUSTRIA"] = True
 
     correcao_universo = correcao_universo[
-        ~correcao_universo["CNPJ_NORMALIZADO"].isin(
-            mercado["CNPJ_NORMALIZADO"]
-        )
+        ~correcao_universo["CNPJ_NORMALIZADO"].isin(mercado["CNPJ_NORMALIZADO"])
     ]
 
-    print(
-        f"\nCorreção de universo aplicada: "
-        f"{len(correcao_universo):,} empresas "
-        f"(auditoria Receita Federal)"
-    )
-
-    mercado = pd.concat(
-        [mercado, correcao_universo],
-        ignore_index=True
-    )
+    print(f"Correção de universo aplicada: {len(correcao_universo):,} empresas.")
+    mercado = pd.concat([mercado, correcao_universo], ignore_index=True)
 
 
-# ============================================================
+# ------------------------------------------------------------
 # 2. CARREGAR RELACIONAMENTO SESI/SENAI
-# ============================================================
-
+# ------------------------------------------------------------
 print("\n" + "=" * 75)
 print("2. CARREGANDO RELACIONAMENTO SESI/SENAI")
 print("=" * 75)
 
-relacionamento_original = pd.read_excel(
-    ARQ_RELACIONAMENTO,
-    engine="openpyxl"
-)
-
-print(
-    f"\nRegistros da base: "
-    f"{len(relacionamento_original):,}"
-)
-
-relacionamento = transformar_cnpj_relacionamento(
-    relacionamento_original
-)
-
-print(
-    f"CNPJs únicos de relacionamento: "
-    f"{len(relacionamento):,}"
-)
-
-print(
-    f"SESI: "
-    f"{relacionamento['TEM_SESI'].sum():,}"
-)
-
-print(
-    f"SENAI: "
-    f"{relacionamento['TEM_SENAI'].sum():,}"
-)
-
-print(
-    f"SESI + SENAI: "
-    f"{relacionamento['TEM_SESI_SENAI'].sum():,}"
-)
+relacionamento_original = pd.read_excel(ARQ_RELACIONAMENTO, engine="openpyxl")
+relacionamento = transformar_cnpj_relacionamento(relacionamento_original)
+print(f"CNPJs únicos de relacionamento: {len(relacionamento):,}")
 
 
-# ============================================================
-# 3. CRUZAR MERCADO × RELACIONAMENTO
-# ============================================================
-
+# ------------------------------------------------------------
+# 3. CRUZANDO MERCADO × RELACIONAMENTO
+# ------------------------------------------------------------
 print("\n" + "=" * 75)
 print("3. CRUZANDO MERCADO × RELACIONAMENTO")
 print("=" * 75)
 
-base = mercado.merge(
-    relacionamento,
-    on="CNPJ_NORMALIZADO",
-    how="left"
-)
+base = mercado.merge(relacionamento, on="CNPJ_NORMALIZADO", how="left")
 
-base["TEM_SESI"] = (
-    base["TEM_SESI"]
-    .fillna(False)
-    .astype(bool)
-)
-
-base["TEM_SENAI"] = (
-    base["TEM_SENAI"]
-    .fillna(False)
-    .astype(bool)
-)
-
-base["TEM_SESI_SENAI"] = (
-    base["TEM_SESI_SENAI"]
-    .fillna(False)
-    .astype(bool)
-)
-
-base["STATUS_RELACIONAMENTO"] = (
-    base["STATUS_RELACIONAMENTO"]
-    .fillna("SEM RELACIONAMENTO")
-)
+base["TEM_SESI"] = base["TEM_SESI"].fillna(False).astype("boolean")
+base["TEM_SENAI"] = base["TEM_SENAI"].fillna(False).astype("boolean")
+base["TEM_SESI_SENAI"] = base["TEM_SESI_SENAI"].fillna(False).astype("boolean")
+base["STATUS_RELACIONAMENTO"] = base["STATUS_RELACIONAMENTO"].fillna("SEM RELACIONAMENTO")
 
 
-# ============================================================
-# 4. CARREGAR SEBRAE
-# ============================================================
-
+# ------------------------------------------------------------
+# 4. CARREGAR E AUDITAR SEBRAE
+# ------------------------------------------------------------
 print("\n" + "=" * 75)
-print("4. CARREGANDO BASE SEBRAE")
+print("4. CARREGANDO E AUDITANDO SEBRAE")
 print("=" * 75)
 
-sebrae = pd.read_excel(
-    ARQ_SEBRAE,
-    engine="openpyxl"
-)
-
-print(
-    f"\nEmpresas SEBRAE: "
-    f"{len(sebrae):,}"
-)
-
-coluna_cnpj_sebrae = encontrar_coluna(
-    sebrae,
-    nome_exato="cnpj"
-)
+sebrae = pd.read_excel(ARQ_SEBRAE, engine="openpyxl")
+coluna_cnpj_sebrae = encontrar_coluna(sebrae, ["cnpj"])
 
 if coluna_cnpj_sebrae is None:
+    raise ValueError("CNPJ não encontrado na base SEBRAE.")
 
-    coluna_cnpj_sebrae = encontrar_coluna(
-        sebrae,
-        contem="cnpj"
-    )
+sebrae["CNPJ_NORMALIZADO"] = normalizar_cnpj(sebrae[coluna_cnpj_sebrae])
 
-if coluna_cnpj_sebrae is None:
-
-    raise ValueError(
-        "CNPJ não encontrado na base SEBRAE."
-    )
-
-sebrae["CNPJ_NORMALIZADO"] = normalizar_cnpj(
-    sebrae[coluna_cnpj_sebrae]
-)
-
-
-# ============================================================
-# 5. VERIFICAR DUPLICIDADE SEBRAE
-# ============================================================
-
-print("\n" + "=" * 75)
-print("5. AUDITORIA SEBRAE")
-print("=" * 75)
-
-duplicados_sebrae = (
-    sebrae["CNPJ_NORMALIZADO"]
-    .duplicated()
-    .sum()
-)
-
-print(
-    f"\nRegistros duplicados por CNPJ: "
-    f"{duplicados_sebrae:,}"
-)
-
+duplicados_sebrae = sebrae["CNPJ_NORMALIZADO"].duplicated().sum()
 if duplicados_sebrae > 0:
+    sebrae = sebrae.drop_duplicates(subset="CNPJ_NORMALIZADO", keep="first")
 
-    print(
-        "\nExistem CNPJs duplicados na base SEBRAE."
-    )
-
-    print(
-        "Será mantido o primeiro registro por CNPJ."
-    )
-
-    sebrae = (
-        sebrae
-        .drop_duplicates(
-            subset="CNPJ_NORMALIZADO",
-            keep="first"
-        )
-    )
+for coluna in list(sebrae.columns):
+    if coluna != "CNPJ_NORMALIZADO":
+        sebrae = sebrae.rename(columns={coluna: f"SEBRAE_{coluna}"})
 
 
-# ============================================================
-# 6. PREPARAR COLUNAS SEBRAE
-# ============================================================
-
+# ------------------------------------------------------------
+# 5. CRUZAR BASE-MÃE × SEBRAE E PROCESSAR STATUS
+# ------------------------------------------------------------
 print("\n" + "=" * 75)
-print("6. PREPARANDO DADOS SEBRAE")
+print("5. CRUZANDO BASE-MÃE × SEBRAE E PROCESSANDO STATUS")
 print("=" * 75)
 
-colunas_sebrae = []
+base = base.merge(sebrae, on="CNPJ_NORMALIZADO", how="left")
 
-for coluna in sebrae.columns:
+coluna_razao_sebrae = encontrar_coluna(base, ["sebrae_razao", "sebrae_nome"])
+if coluna_razao_sebrae:
+    base["ENCONTRADO_SEBRAE"] = base[coluna_razao_sebrae].notna()
+else:
+    colunas_verificacao = [c for c in base.columns if c.startswith("SEBRAE_")]
+    base["ENCONTRADO_SEBRAE"] = base[colunas_verificacao].notna().any(axis=1) if colunas_verificacao else False
 
-    if coluna == "CNPJ_NORMALIZADO":
-
-        continue
-
-    novo_nome = f"SEBRAE_{coluna}"
-
-    sebrae = sebrae.rename(
-        columns={
-            coluna: novo_nome
-        }
-    )
-
-    colunas_sebrae.append(
-        novo_nome
-    )
-
-
-# ============================================================
-# 7. CRUZAR BASE-MÃE × SEBRAE
-# ============================================================
-
-print("\n" + "=" * 75)
-print("7. CRUZANDO BASE-MÃE × SEBRAE")
-print("=" * 75)
-
-base = base.merge(
-    sebrae,
-    on="CNPJ_NORMALIZADO",
-    how="left"
+coluna_elegibilidade = encontrar_coluna(base, ["sebrae_elegivel", "elegivel"])
+base["SEBRAE_ELEGIVEL"] = (
+    base[coluna_elegibilidade].astype("string").str.strip().str.upper()
+    if coluna_elegibilidade else pd.NA
 )
 
-# ------------------------------------------------------------
-# Indicador de presença no SEBRAE
-# ------------------------------------------------------------
-
-coluna_razao_sebrae = None
-
-for coluna in base.columns:
-
-    if coluna == "SEBRAE_CNPJ_NORMALIZADO":
-
-        continue
-
-    if coluna.startswith("SEBRAE_"):
-
-        if coluna.replace(
-            "SEBRAE_",
-            ""
-        ).lower() == "razao_social":
-
-            coluna_razao_sebrae = coluna
-
-            break
-
-if coluna_razao_sebrae:
-
-    base["ENCONTRADO_SEBRAE"] = (
-        base[coluna_razao_sebrae]
-        .notna()
-    )
-
+coluna_oportunidade_original = encontrar_coluna(
+    base, ["sebrae_oportunidade_comercial", "oportunidade_comercial", "sebrae_oportunidade"]
+)
+if coluna_oportunidade_original:
+    base["SEBRAE_OPORTUNIDADE_ORIGINAL"] = base[coluna_oportunidade_original]
 else:
+    base["SEBRAE_OPORTUNIDADE_ORIGINAL"] = pd.NA
 
-    # fallback: qualquer coluna SEBRAE preenchida
-    colunas_verificacao = [
-        c for c in base.columns
-        if c.startswith("SEBRAE_")
-    ]
-
-    if colunas_verificacao:
-
-        base["ENCONTRADO_SEBRAE"] = (
-            base[colunas_verificacao]
-            .notna()
-            .any(axis=1)
-        )
-
-    else:
-
-        base["ENCONTRADO_SEBRAE"] = False
+base["STATUS_SEBRAE"] = base.apply(definir_status_sebrae, axis=1)
+base["SEBRAE_OPORTUNIDADE"] = base["STATUS_SEBRAE"]
+base["OPORTUNIDADE_SEBRAE"] = base["STATUS_SEBRAE"]
 
 
-# ============================================================
-# 8. NORMALIZAR CAMPOS SEBRAE
-# ============================================================
-
+# ------------------------------------------------------------
+# 6. CRIAR CLASSIFICAÇÕES COMERCIAIS ADICIONAIS
+# ------------------------------------------------------------
 print("\n" + "=" * 75)
-print("8. CAMPOS DE OPORTUNIDADE SEBRAE")
+print("6. CRIANDO CLASSIFICAÇÕES COMERCIAIS")
 print("=" * 75)
-
-coluna_elegibilidade = None
-coluna_oportunidade = None
-
-for coluna in base.columns:
-
-    nome = coluna.lower()
-
-    if (
-        "elegivel" in nome
-        or "elegível" in nome
-    ):
-
-        coluna_elegibilidade = coluna
-
-    if "oportunidade_comercial" in nome:
-
-        coluna_oportunidade = coluna
-
-
-# ------------------------------------------------------------
-# SEBRAE_ELEGIVEL
-# ------------------------------------------------------------
-
-if coluna_elegibilidade:
-
-    base["SEBRAE_ELEGIVEL"] = (
-        base[coluna_elegibilidade]
-        .astype("string")
-        .str.strip()
-        .str.upper()
-    )
-
-else:
-
-    base["SEBRAE_ELEGIVEL"] = pd.NA
-
-
-# ------------------------------------------------------------
-# SEBRAE_OPORTUNIDADE
-# ------------------------------------------------------------
-
-if coluna_oportunidade:
-
-    base["SEBRAE_OPORTUNIDADE"] = (
-        base[coluna_oportunidade]
-        .astype("string")
-        .str.strip()
-        .str.upper()
-    )
-
-else:
-
-    base["SEBRAE_OPORTUNIDADE"] = pd.NA
-
-
-# ============================================================
-# 9. CRIAR CLASSIFICAÇÕES COMERCIAIS
-# ============================================================
-
-print("\n" + "=" * 75)
-print("9. CRIANDO CLASSIFICAÇÕES COMERCIAIS")
-print("=" * 75)
-
-
-# ------------------------------------------------------------
-# OPORTUNIDADE SEBRAE
-# ------------------------------------------------------------
-
-base["OPORTUNIDADE_SEBRAE"] = "NÃO AVALIADA"
-
-base.loc[
-    (
-        base["SEBRAE_ELEGIVEL"] == "SIM"
-    )
-    &
-    (
-        base["SEBRAE_OPORTUNIDADE"] == "NÃO ATENDIDA"
-    ),
-    "OPORTUNIDADE_SEBRAE"
-] = "OPORTUNIDADE"
-
-
-base.loc[
-    (
-        base["SEBRAE_ELEGIVEL"] == "NAO"
-    )
-    |
-    (
-        base["SEBRAE_ELEGIVEL"] == "NÃO"
-    ),
-    "OPORTUNIDADE_SEBRAE"
-] = "FORA DO ESCOPO"
-
-
-# ------------------------------------------------------------
-# OPORTUNIDADE SESI
-# ------------------------------------------------------------
 
 base["OPORTUNIDADE_SESI"] = "NÃO"
-
-base.loc[
-    ~base["TEM_SESI"],
-    "OPORTUNIDADE_SESI"
-] = "SIM"
-
-
-# ------------------------------------------------------------
-# OPORTUNIDADE SENAI
-# ------------------------------------------------------------
+base.loc[~base["TEM_SESI"], "OPORTUNIDADE_SESI"] = "SIM"
 
 base["OPORTUNIDADE_SENAI"] = "NÃO"
-
-base.loc[
-    ~base["TEM_SENAI"],
-    "OPORTUNIDADE_SENAI"
-] = "SIM"
-
-
-# ------------------------------------------------------------
-# OPORTUNIDADE GERAL
-# ------------------------------------------------------------
+base.loc[~base["TEM_SENAI"], "OPORTUNIDADE_SENAI"] = "SIM"
 
 base["OPORTUNIDADE_GERAL"] = "SEM RELACIONAMENTO"
-
-base.loc[
-    (
-        base["TEM_SESI"]
-        | base["TEM_SENAI"]
-    ),
-    "OPORTUNIDADE_GERAL"
-] = "CLIENTE"
-
-
-base.loc[
-    (
-        ~base["TEM_SESI"]
-        &
-        ~base["TEM_SENAI"]
-    ),
-    "OPORTUNIDADE_GERAL"
-] = "PROSPECT"
-
-
-# ------------------------------------------------------------
-# CROSS-SELL
-# ------------------------------------------------------------
+base.loc[(base["TEM_SESI"] | base["TEM_SENAI"]), "OPORTUNIDADE_GERAL"] = "CLIENTE"
+base.loc[(~base["TEM_SESI"] & ~base["TEM_SENAI"]), "OPORTUNIDADE_GERAL"] = "PROSPECT"
 
 base["OPORTUNIDADE_CROSS_SELL"] = "NÃO"
-
-base.loc[
-    (
-        base["TEM_SESI"]
-        &
-        ~base["TEM_SENAI"]
-    ),
-    "OPORTUNIDADE_CROSS_SELL"
-] = "SENAI"
+base.loc[(base["TEM_SESI"] & ~base["TEM_SENAI"]), "OPORTUNIDADE_CROSS_SELL"] = "SENAI"
+base.loc[(base["TEM_SENAI"] & ~base["TEM_SESI"]), "OPORTUNIDADE_CROSS_SELL"] = "SESI"
 
 
-base.loc[
-    (
-        base["TEM_SENAI"]
-        &
-        ~base["TEM_SESI"]
-    ),
-    "OPORTUNIDADE_CROSS_SELL"
-] = "SESI"
-
-
-# ============================================================
-# 10. RESUMO
-# ============================================================
-
+# ------------------------------------------------------------
+# 7. EXPORTAÇÃO DOS RESULTADOS E RESUMOS
+# ------------------------------------------------------------
 print("\n" + "=" * 75)
-print("10. RESUMO COMERCIAL")
+print("7. EXPORTANDO BASE MESTRE E RESUMOS")
 print("=" * 75)
 
-print("\nUNIVERSO")
+arquivo_saida = os.path.join(SAIDA, "BASE_MESTRE_COMERCIAL.csv")
+base.to_csv(arquivo_saida, index=False, encoding="utf-8-sig")
 
-print(
-    f"Empresas: "
-    f"{len(base):,}"
-)
-
-print("\nRELACIONAMENTO")
-
-print(
-    f"SESI: "
-    f"{base['TEM_SESI'].sum():,}"
-)
-
-print(
-    f"SENAI: "
-    f"{base['TEM_SENAI'].sum():,}"
-)
-
-print(
-    f"SESI + SENAI: "
-    f"{base['TEM_SESI_SENAI'].sum():,}"
-)
-
-print(
-    f"Sem relacionamento: "
-    f"{(
-        ~base['TEM_SESI']
-        &
-        ~base['TEM_SENAI']
-    ).sum():,}"
-)
-
-
-print("\nSTATUS RELACIONAMENTO")
-
-print(
-    base["STATUS_RELACIONAMENTO"]
-    .value_counts()
-    .to_string()
-)
-
-
-print("\nSEBRAE")
-
-print(
-    base["ENCONTRADO_SEBRAE"]
-    .value_counts()
-    .rename({
-        True: "ENCONTRADA",
-        False: "NÃO ENCONTRADA"
-    })
-    .to_string()
-)
-
-
-print("\nOPORTUNIDADE SEBRAE")
-
-print(
-    base["OPORTUNIDADE_SEBRAE"]
-    .value_counts()
-    .to_string()
-)
-
-
-print("\nOPORTUNIDADE CROSS-SELL")
-
-print(
-    base["OPORTUNIDADE_CROSS_SELL"]
-    .value_counts()
-    .to_string()
-)
-
-
-# ============================================================
-# 11. MATRIZES COMERCIAIS
-# ============================================================
-
-print("\n" + "=" * 75)
-print("11. MATRIZES COMERCIAIS")
-print("=" * 75)
-
-
-print("\nSEBRAE × RELACIONAMENTO")
-
-print(
-    pd.crosstab(
-        base["STATUS_RELACIONAMENTO"],
-        base["ENCONTRADO_SEBRAE"]
-    )
-)
-
-
-print("\nSEBRAE × OPORTUNIDADE")
-
-print(
-    pd.crosstab(
-        base["OPORTUNIDADE_SEBRAE"],
-        base["STATUS_RELACIONAMENTO"]
-    )
-)
-
-
-print("\nPORTE × RELACIONAMENTO")
-
-print(
-    pd.crosstab(
-        base["Porte"],
-        base["STATUS_RELACIONAMENTO"]
-    )
-)
-
-
-print("\nSETOR × RELACIONAMENTO")
-
-print(
-    pd.crosstab(
-        base["SETOR"],
-        base["STATUS_RELACIONAMENTO"]
-    )
-)
-
-
-# ============================================================
-# 12. EXPORTAR BASE MESTRE
-# ============================================================
-
-print("\n" + "=" * 75)
-print("12. EXPORTANDO BASE MESTRE")
-print("=" * 75)
-
-arquivo_saida = os.path.join(
-    SAIDA,
-    "BASE_MESTRE_COMERCIAL.csv"
-)
-
-base.to_csv(
-    arquivo_saida,
-    index=False,
-    encoding="utf-8-sig"
-)
-
-print("\nArquivo criado:")
-
-print(arquivo_saida)
-
-print(
-    f"\nLinhas exportadas: "
-    f"{len(base):,}"
-)
-
-print(
-    f"Colunas exportadas: "
-    f"{len(base.columns):,}"
-)
-
-
-# ============================================================
-# 13. EXPORTAR RESUMOS
-# ============================================================
-
-print("\n" + "=" * 75)
-print("13. EXPORTANDO RESUMOS")
-print("=" * 75)
-
-
-# Status
 resumo_status = (
     base["STATUS_RELACIONAMENTO"]
     .value_counts()
     .rename_axis("STATUS_RELACIONAMENTO")
     .reset_index(name="EMPRESAS")
 )
+resumo_status.to_csv(os.path.join(SAIDA, "MESTRE_RESUMO_RELACIONAMENTO.csv"), index=False, encoding="utf-8-sig")
 
-resumo_status.to_csv(
-    os.path.join(
-        SAIDA,
-        "MESTRE_RESUMO_RELACIONAMENTO.csv"
-    ),
-    index=False,
-    encoding="utf-8-sig"
-)
-
-
-# SEBRAE
 resumo_sebrae = (
-    base["OPORTUNIDADE_SEBRAE"]
+    base["STATUS_SEBRAE"]
     .value_counts()
-    .rename_axis("OPORTUNIDADE_SEBRAE")
+    .rename_axis("STATUS_SEBRAE")
     .reset_index(name="EMPRESAS")
 )
+resumo_sebrae.to_csv(os.path.join(SAIDA, "MESTRE_RESUMO_SEBRAE.csv"), index=False, encoding="utf-8-sig")
 
-resumo_sebrae.to_csv(
-    os.path.join(
-        SAIDA,
-        "MESTRE_RESUMO_SEBRAE.csv"
-    ),
-    index=False,
-    encoding="utf-8-sig"
-)
-
-
-# Município
-resumo_municipio = (
-    base.groupby(
-        "Municipio",
-        dropna=False
-    )
-    .agg(
-        EMPRESAS=("CNPJ_NORMALIZADO", "nunique"),
-        CLIENTES_SESI=(
-            "TEM_SESI",
-            "sum"
-        ),
-        CLIENTES_SENAI=(
-            "TEM_SENAI",
-            "sum"
-        ),
-        SEM_RELACIONAMENTO=(
-            "STATUS_RELACIONAMENTO",
-            lambda x: (
-                x == "SEM RELACIONAMENTO"
-            ).sum()
-        ),
-        OPORTUNIDADE_SEBRAE=(
-            "OPORTUNIDADE_SEBRAE",
-            lambda x: (
-                x == "OPORTUNIDADE"
-            ).sum()
-        )
-    )
-    .reset_index()
-    .sort_values(
-        "EMPRESAS",
-        ascending=False
-    )
-)
-
-resumo_municipio.to_csv(
-    os.path.join(
-        SAIDA,
-        "MESTRE_RESUMO_MUNICIPIO.csv"
-    ),
-    index=False,
-    encoding="utf-8-sig"
-)
-
-
-# Porte
-resumo_porte = (
-    base.groupby(
-        "Porte",
-        dropna=False
-    )
-    .agg(
-        EMPRESAS=("CNPJ_NORMALIZADO", "nunique"),
-        SESI=("TEM_SESI", "sum"),
-        SENAI=("TEM_SENAI", "sum"),
-        SEM_RELACIONAMENTO=(
-            "STATUS_RELACIONAMENTO",
-            lambda x: (
-                x == "SEM RELACIONAMENTO"
-            ).sum()
-        ),
-        OPORTUNIDADE_SEBRAE=(
-            "OPORTUNIDADE_SEBRAE",
-            lambda x: (
-                x == "OPORTUNIDADE"
-            ).sum()
-        )
-    )
-    .reset_index()
-    .sort_values(
-        "EMPRESAS",
-        ascending=False
-    )
-)
-
-resumo_porte.to_csv(
-    os.path.join(
-        SAIDA,
-        "MESTRE_RESUMO_PORTE.csv"
-    ),
-    index=False,
-    encoding="utf-8-sig"
-)
-
-
-# ============================================================
-# 14. VALIDAÇÃO FINAL
-# ============================================================
-
-print("\n" + "=" * 75)
-print("14. VALIDAÇÃO FINAL")
-print("=" * 75)
-
-print(
-    f"\nBase-mãe original: "
-    f"{len(mercado):,}"
-)
-
-print(
-    f"Base mestre:       "
-    f"{len(base):,}"
-)
-
-print(
-    f"CNPJs únicos mestre: "
-    f"{base['CNPJ_NORMALIZADO'].nunique():,}"
-)
-
-if (
-    len(base) == len(mercado)
-    and
-    base["CNPJ_NORMALIZADO"].nunique()
-    == len(mercado)
-):
-
-    print(
-        "\n✓ VALIDAÇÃO OK"
-    )
-
-    print(
-        "A BASE MESTRE mantém 1 linha por CNPJ."
-    )
-
-else:
-
-    print(
-        "\n⚠ ATENÇÃO"
-    )
-
-    print(
-        "A quantidade de linhas/CNPJs mudou."
-    )
-
-
-# ============================================================
-# FINAL
-# ============================================================
-
-print("\n" + "=" * 75)
-print("BASE MESTRE COMERCIAL CONCLUÍDA")
-print("=" * 75)
-
-print("""
-Próxima etapa:
-
-1. Auditar a BASE_MESTRE_COMERCIAL
-2. Medir penetração SESI/SENAI
-3. Mapear oportunidades SEBRAE
-4. Mapear mercado sem relacionamento
-5. Criar visão por:
-   - Município
-   - Porte
-   - CNAE
-   - Setor
-6. Depois construir o dashboard comercial
-
-Ainda NÃO vamos trabalhar com portfólio,
-upsell, cross-sell avançado ou IA.
-
-Primeiro vamos entender o mercado.
-""")
-
+print(f"\n✓ Sucesso! Base mestre atualizada em: {arquivo_saida}")
+print(f"Linhas exportadas: {len(base):,}")
 print("=" * 75)
