@@ -9,6 +9,7 @@
 import streamlit as st
 import pandas as pd
 from pathlib import Path
+from motor_aderencia import calcular_aderencia_empresa  # ou a função exportada pelo seu motor
 
 
 # ============================================================
@@ -2032,7 +2033,46 @@ elif pagina == "🔎 Empresas":
 
         mime="text/csv"
     )
+# --------------------------------------------------------
+    # DIAGNÓSTICO DE ADERÊNCIA / CARD DA EMPRESA
+    # --------------------------------------------------------
+    st.divider()
+    st.subheader("🎯 Diagnóstico de Aderência ao Portfólio")
 
+    if not resultado.empty:
+        # 1. Dropdown para o consultor selecionar uma empresa da lista encontrada
+        opcoes_empresas = {
+            f"{row['razao_social']} ({row['cnpj']})": row['cnpj'] 
+            for _, row in resultado.iterrows()
+        }
+        
+        empresa_selecionada = st.selectbox(
+            "Selecione uma empresa para ver o diagnóstico:",
+            options=list(opcoes_empresas.keys())
+        )
+
+        if empresa_selecionada:
+            cnpj_escolhido = opcoes_empresas[empresa_selecionada]
+            dados_empresa = resultado[resultado['cnpj'] == cnpj_escolhido].iloc[0]
+
+            # 2. Chama o motor de aderência para calcular o diagnóstico
+            diagnostico = calcular_aderencia_empresa(dados_empresa)
+
+            # 3. Exibe o Card com o Resultado
+            col_c1, col_c2, col_c3 = st.columns(3)
+            with col_c1:
+                kpi("Rota Comercial Recomendada", diagnostico.get("rota_comercial", "N/D"))
+            with col_c2:
+                kpi("Aderência Máxima", diagnostico.get("aderencia_maxima", "N/D"))
+            with col_c3:
+                kpi("Cross-sell Recomendado", diagnostico.get("cross_sell", "Nenhum"))
+
+            # 4. Tabela com as Áreas Ranqueadas
+            st.markdown("#### Áreas do Portfólio Recomendadas")
+            if "tabela_areas" in diagnostico:
+                st.dataframe(diagnostico["tabela_areas"], use_container_width=True)
+    else:
+        st.info("Nenhuma empresa encontrada para gerar o diagnóstico.")
 
 # ============================================================
 # AUDITORIA DE COBERTURA
