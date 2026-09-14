@@ -161,24 +161,35 @@ def diagnosticar(cnae_code, porte, ja_sesi, ja_senai):
     principal_area = df_areas.iloc[0]["Área"] if not df_areas.empty else "SST & Saúde Ocupacional"
 
     # 4. Definição da Rota Comercial / Estratégia Recomendada
+    # (rótulo curto pro card + detalhe completo pro tooltip)
     if ja_sesi and ja_senai:
-        rota_comercial = "Fidelização / Venda Recorrente"
-        cross_sell = "Manter Contratos & Ampliar Escopo"
+        rota_comercial = "Fidelização"
+        rota_detalhe = "Cliente SESI + SENAI: manter contrato e ampliar escopo de venda recorrente."
+        cross_sell = "Manter & Ampliar"
+        cross_sell_detalhe = "Manter contratos atuais e ampliar o escopo de atendimento."
     elif ja_sesi and not ja_senai:
-        rota_comercial = "Cross-Sell SENAI (Oferecer Cursos/Consultoria)"
-        cross_sell = "Alta Oportunidade para SENAI"
+        rota_comercial = "Cross-Sell SENAI"
+        rota_detalhe = "Já é cliente SESI: oferecer cursos/consultoria SENAI."
+        cross_sell = "Oportunidade SENAI"
+        cross_sell_detalhe = "Alta oportunidade de venda cruzada para o SENAI."
     elif ja_senai and not ja_sesi:
-        rota_comercial = "Cross-Sell SESI (Oferecer SST/Saúde)"
-        cross_sell = "Alta Oportunidade para SESI"
+        rota_comercial = "Cross-Sell SESI"
+        rota_detalhe = "Já é cliente SENAI: oferecer SST/Saúde Ocupacional SESI."
+        cross_sell = "Oportunidade SESI"
+        cross_sell_detalhe = "Alta oportunidade de venda cruzada para o SESI."
     else:
         # Não possui relacionamento (Prospect)
         porte_upper = str(porte).upper()
         if "GRANDE" in porte_upper or "MEDIO" in porte_upper or "MÉDIO" in porte_upper:
-            rota_comercial = "Aquisição Prioritária (Conta Chave SESI+SENAI)"
-            cross_sell = "Oferta Conjunta (Pacote Integrado)"
+            rota_comercial = "Aquisição Prioritária"
+            rota_detalhe = "Prospect de porte médio/grande: tratar como conta-chave SESI + SENAI."
+            cross_sell = "Oferta Conjunta"
+            cross_sell_detalhe = "Apresentar pacote integrado SESI + SENAI."
         else:
-            rota_comercial = "Prospecção Padrão (Entrada por SST/Cursos)"
-            cross_sell = "Apresentar Soluções Básicas"
+            rota_comercial = "Prospecção Padrão"
+            rota_detalhe = "Prospect de micro/pequeno porte: entrada por SST ou cursos."
+            cross_sell = "Soluções Básicas"
+            cross_sell_detalhe = "Apresentar soluções básicas de entrada (SST ou cursos)."
 
     # 5. Formatação do DataFrame para Retorno Visual
     df_areas_formatado = df_areas.copy()
@@ -187,8 +198,10 @@ def diagnosticar(cnae_code, porte, ja_sesi, ja_senai):
 
     return {
         "rota_comercial": rota_comercial,
+        "rota_detalhe": rota_detalhe,
         "aderencia_maxima": int(aderencia_maxima),
         "principal_area": principal_area,
         "cross_sell": cross_sell,
+        "cross_sell_detalhe": cross_sell_detalhe,
         "areas_ranqueadas": df_areas_display
     }

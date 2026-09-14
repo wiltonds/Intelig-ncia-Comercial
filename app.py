@@ -538,11 +538,23 @@ elif pagina == "🩺 Diagnóstico por Empresa":
                 
                 m1, m2, m3 = st.columns(3)
                 with m1:
-                    st.metric("Estratégia Recomendada", res.get("rota_comercial", "N/D"))
+                    st.metric(
+                        "Estratégia Recomendada",
+                        res.get("rota_comercial", "N/D"),
+                        help=res.get("rota_detalhe", "")
+                    )
                 with m2:
-                    st.metric("Aderência Máxima", f"{res.get('aderencia_maxima', 0)}%", delta=res.get("principal_area", ""))
+                    st.metric(
+                        "Aderência Máxima",
+                        f"{res.get('aderencia_maxima', 0)}%",
+                        help=res.get("principal_area", "")
+                    )
                 with m3:
-                    st.metric("Potencial Cross-Sell", res.get("cross_sell", "N/D"))
+                    st.metric(
+                        "Potencial Cross-Sell",
+                        res.get("cross_sell", "N/D"),
+                        help=res.get("cross_sell_detalhe", "")
+                    )
 
                 st.write("### Áreas do Portfólio Ranqueadas")
                 areas = res.get("areas_ranqueadas")
