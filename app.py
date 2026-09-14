@@ -500,20 +500,42 @@ elif pagina == "🔎 Explorador de Empresas":
 elif pagina == "🩺 Diagnóstico por Empresa":
     st.header("🔎 Diagnóstico Detalhado & Recomendador de Portfólio")
 
-    opcoes = df_view["razao_social"].dropna().unique()
+    busca_diag = st.text_input(
+        "Buscar por CNPJ ou razão social",
+        placeholder="Digite parte do CNPJ ou do nome pra filtrar a lista abaixo",
+        key="busca_diagnostico"
+    )
+
+    candidatos = df_view
+    if busca_diag:
+        termo = busca_diag.strip()
+        mascara_diag = pd.Series(False, index=candidatos.index)
+        if "cnpj" in candidatos.columns:
+            mascara_diag |= candidatos["cnpj"].astype(str).str.contains(termo, case=False, na=False, regex=False)
+        if "razao_social" in candidatos.columns:
+            mascara_diag |= candidatos["razao_social"].astype(str).str.contains(termo, case=False, na=False, regex=False)
+        candidatos = candidatos[mascara_diag]
+
+    opcoes = candidatos["razao_social"].dropna().unique()
+
+    if len(opcoes) == 0:
+        st.warning("Nenhuma empresa encontrada com esse filtro.")
+        st.stop()
+
+    st.caption(f"{len(opcoes)} empresa(s) na lista abaixo.")
     empresa_selecionada = st.selectbox("Selecione a Empresa para Diagnóstico:", options=sorted(opcoes))
 
     if empresa_selecionada:
-        dados = df_view[df_view["razao_social"] == empresa_selecionada].iloc[0]
+        dados = candidatos[candidatos["razao_social"] == empresa_selecionada].iloc[0]
 
         st.markdown("---")
         st.subheader(f"🏢 {dados.get('razao_social', 'Empresa')}")
 
-        c1, c2, c3, c4 = st.columns(4)
+        c1, c2, c3 = st.columns(3)
         c1.write(f"**CNPJ:** {dados.get('cnpj', 'N/D')}")
         c2.write(f"**Município:** {dados.get('Municipio', 'N/D')}")
         c3.write(f"**Porte:** {dados.get('Porte', 'N/D')}")
-        c4.write(f"**CNAE Primário:** {dados.get('CNAE PRIMARIO', 'N/D')}")
+        st.write(f"**CNAE Primário:** {dados.get('CNAE PRIMARIO', 'N/D')}")
 
         st.markdown("---")
         st.subheader("🎯 Diagnóstico do Motor de Aderência Real")
