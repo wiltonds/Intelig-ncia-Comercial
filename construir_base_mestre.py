@@ -58,6 +58,17 @@ def identificar_industria(val):
     Identifica se a empresa pertence à indústria por:
     1. Código CNAE (Divisões 10 a 33).
     2. Busca abrangente por vocabulário industrial na descrição.
+
+    ATENÇÃO — regra não usada para decidir EH_INDUSTRIA (ver abaixo,
+    onde EH_INDUSTRIA confia na coluna SETOR já pronta). Esta função só
+    alimenta CNAE_DIVISAO, um campo diagnóstico secundário e já
+    documentado como não confiável (AI-Commercial-Intelligence/docs/
+    dicionario_dados.md). Foi testada e descartada como regra oficial
+    de indústria: subestimava o universo (17.676 de 32.926 empresas).
+    A regra oficial de "o que é indústria" tem duas etapas, em outros
+    dois repositórios: BI_Project (tabela DN, CNAE principal) e
+    classificacao-industria-al (seção CNAE/IBGE) — ver
+    AI-Commercial-Intelligence/docs/arquitetura_dados.md.
     """
     if pd.isna(val):
         return False, 0
