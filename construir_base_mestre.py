@@ -1,5 +1,7 @@
 import os
 import re
+from pathlib import Path
+
 import pandas as pd
 
 # ============================================================
@@ -167,7 +169,11 @@ def transformar_cnpj_relacionamento(df):
 # CONFIGURAÇÃO DE CAMINHOS
 # ============================================================
 
-PASTA = r"C:\Users\wilton.costa\Desktop\projeto_comercial"
+# Antes era um caminho absoluto fixo (C:\Users\wilton.costa\Desktop\
+# projeto_comercial) que não batia com a pasta real deste script
+# (…\Desktop\PROJETOS\projeto_comercial) — quebrava assim que alguém
+# rodava isto fora daquela máquina/pasta específica.
+PASTA = str(Path(__file__).resolve().parent)
 SAIDA = os.path.join(PASTA, "saida")
 
 ARQ_MERCADO = os.path.join(PASTA, "industrias_ativas.xlsx")
@@ -203,7 +209,7 @@ if coluna_cnae:
     res_ind = mercado[coluna_cnae].apply(identificar_industria)
     mercado["CNAE_DIVISAO"] = [r[1] for r in res_ind]
 else:
-    print("⚠ ATENÇÃO: Nenhuma coluna de CNAE foi encontrada na base-mãe!")
+    print("[AVISO] Nenhuma coluna de CNAE foi encontrada na base-mãe!")
     mercado["CNAE_DIVISAO"] = 0
 
 # EH_INDUSTRIA confia na coluna SETOR da própria base-mãe (já validada:
@@ -276,7 +282,7 @@ if os.path.exists(ARQ_SITUACAO_MEI):
     print(f"Universo após exclusão MEI: {len(mercado):,}")
 else:
     print(
-        "\n⚠ ATENÇÃO: saida/SITUACAO_MEI_SIMPLES.csv não encontrado. "
+        "\n[AVISO] saida/SITUACAO_MEI_SIMPLES.csv não encontrado. "
         "Universo NÃO foi filtrado por optante MEI."
     )
 
@@ -415,6 +421,6 @@ resumo_sebrae = (
 )
 resumo_sebrae.to_csv(os.path.join(SAIDA, "MESTRE_RESUMO_SEBRAE.csv"), index=False, encoding="utf-8-sig")
 
-print(f"\n✓ Sucesso! Base mestre atualizada em: {arquivo_saida}")
+print(f"\nSucesso! Base mestre atualizada em: {arquivo_saida}")
 print(f"Linhas exportadas: {len(base):,}")
 print("=" * 75)
