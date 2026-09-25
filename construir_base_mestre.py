@@ -121,9 +121,11 @@ def encontrar_coluna(df, termos):
 def definir_status_sebrae(row):
     """
     Define o status comercial do SEBRAE.
-    A base SEBRAE (industrias_ativas_sebrae.xlsx) já traz a categoria
-    final pronta em 'oportunidade_comercial' ("NÃO ATENDIDA" ou
-    "FORA DO ESCOPO SEBRAE") — não é um flag SIM/NÃO a ser reinterpretado.
+    A elegibilidade vem da base SEBRAE (CNAE principal na lista de CNAEs
+    SEBRAE). Quem é cliente vem do relacionamento desta própria base
+    (TEM_SESI/TEM_SENAI) — não da 'oportunidade_comercial' do arquivo
+    SEBRAE, que usa uma cópia antiga do relacionamento e divergia do
+    STATUS_RELACIONAMENTO em ~150 empresas.
     """
     if not row.get("EH_INDUSTRIA", False):
         return "FORA DO ESCOPO SEBRAE"
@@ -131,12 +133,18 @@ def definir_status_sebrae(row):
     elegivel = str(row.get("SEBRAE_ELEGIVEL", "")).upper()
     if elegivel in ["NAO", "NÃO", "FALSE"]:
         return "FORA DO ESCOPO SEBRAE"
+    if elegivel not in ["SIM", "TRUE"]:
+        return "SEM INFORMAÇÃO"
 
-    oportunidade = row.get("SEBRAE_OPORTUNIDADE_ORIGINAL")
-    if pd.notna(oportunidade) and str(oportunidade).strip():
-        return str(oportunidade).strip().upper()
-
-    return "SEM INFORMAÇÃO"
+    tem_sesi = bool(row.get("TEM_SESI", False))
+    tem_senai = bool(row.get("TEM_SENAI", False))
+    if tem_sesi and tem_senai:
+        return "SESI + SENAI"
+    if tem_sesi:
+        return "CLIENTE SESI / OPORTUNIDADE SENAI"
+    if tem_senai:
+        return "CLIENTE SENAI / OPORTUNIDADE SESI"
+    return "NÃO ATENDIDA"
 
 
 def transformar_cnpj_relacionamento(df):
