@@ -300,9 +300,12 @@ if os.path.exists(ARQ_SITUACAO_MEI):
     print(f"\nExclusão de optantes MEI: {total_mei:,} de {total_antes:,} removidas.")
     print(f"Universo após exclusão MEI: {len(mercado):,}")
 else:
-    print(
-        "\n[AVISO] saida/SITUACAO_MEI_SIMPLES.csv não encontrado. "
-        "Universo NÃO foi filtrado por optante MEI."
+    # Falha em vez de avisar: num job agendado ninguém lê o aviso, e a
+    # base sairia com os optantes MEI dentro.
+    raise FileNotFoundError(
+        f"{ARQ_SITUACAO_MEI} não encontrado — sem ele não dá para excluir "
+        "os optantes MEI. Gere com BI_Project/gerar_situacao_mei.py "
+        "(mesma competência da Receita) e copie para saida/."
     )
 
 
