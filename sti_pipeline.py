@@ -218,7 +218,7 @@ def match_products(text: str, catalog: pd.DataFrame, max_products=3) -> tuple[st
     scored.sort(key=lambda x: (-x[0], x[1]))
     if not scored:
         return "Sem correspondência automática — validação técnica necessária", "Baixa"
-    return " | ".join(product for _, product in scored[:max_products]), "Média" if len(scored[0][0:1]) else "Baixa"
+    return " | ".join(product for _, product in scored[:max_products]), "Alta" if scored[0][0] >= 2 else "Média"
 
 def score_signal(row: pd.Series) -> dict:
     text = " ".join(str(row.get(c, "")) for c in ["titulo_sinal", "resumo"])
