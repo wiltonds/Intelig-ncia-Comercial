@@ -169,17 +169,17 @@ def match_crm(master_record: dict, crm: pd.DataFrame) -> dict:
     empty = {
         "crm_encontrado": "Não verificado — exportação do Moskit não carregada",
         "crm_empresa": "", "crm_cnpj": "", "crm_status": "",
-        "crm_responsavel": "", "crm_oportunidade": "", "crm_metodo_match": ""
+        "crm_responsavel": "", "crm_oportunidade": "", "crm_metodo_match": "", "crm_registros_encontrados": 0
     }
     if crm.empty:
         return empty
     cnpj = normalize_cnpj(master_record.get("cnpj", ""))
     name = normalize_text(master_record.get("empresa_encontrada_base", ""))
     cnpj_col = _find_column(crm, {"cnpj", "cnpj da empresa", "cnpj estabelecimento", "cnpj completo", "cnpj normalizado"})
-    name_col = _find_column(crm, {"empresa", "nome da empresa", "organizacao", "organização", "nome", "razao social", "razao", "conta", "nome da conta", "nome fantasia"})
-    status_col = _find_column(crm, {"status", "situacao", "situação", "etapa", "fase", "status da oportunidade", "status do negocio", "status do negócio"})
-    owner_col = _find_column(crm, {"responsavel", "responsável", "proprietario", "proprietário", "dono", "executivo de conta", "responsavel pela oportunidade"})
-    opportunity_col = _find_column(crm, {"oportunidade", "nome da oportunidade", "negocio", "negócio", "titulo", "título", "deal"})
+    name_col = _find_column(crm, {"empresa", "nome da empresa", "organizacao", "nome", "razao social", "razao", "conta", "nome da conta", "nome fantasia"})
+    status_col = _find_column(crm, {"status", "situacao", "etapa", "fase", "status da oportunidade", "status do negocio"})
+    owner_col = _find_column(crm, {"responsavel", "responsável", "proprietario", "dono", "executivo de conta", "responsavel pela oportunidade"})
+    opportunity_col = _find_column(crm, {"oportunidade", "nome da oportunidade", "negocio", "titulo", "deal"})
     candidate = pd.DataFrame()
     method = ""
     if cnpj and cnpj_col:
@@ -199,16 +199,19 @@ def match_crm(master_record: dict, crm: pd.DataFrame) -> dict:
     if candidate.empty:
         return {**empty, "crm_encontrado": "Não localizado na exportação carregada"}
     row = candidate.iloc[0]
+    duplicate_count = len(candidate)
+    status = "Localizado — validar registro" if duplicate_count == 1 else f"{duplicate_count} registros no CRM — revisar duplicidade"
     def value(col):
         return str(row.get(col, "") or "") if col else ""
     return {
-        "crm_encontrado": "Localizado — validar duplicidade e registro",
+        "crm_encontrado": status,
         "crm_empresa": value(name_col),
         "crm_cnpj": normalize_cnpj(value(cnpj_col)),
         "crm_status": value(status_col),
         "crm_responsavel": value(owner_col),
         "crm_oportunidade": value(opportunity_col),
         "crm_metodo_match": method,
+        "crm_registros_encontrados": duplicate_count,
     }
 
 def classify_theme(text: str) -> tuple[str, list[str]]:
@@ -227,6 +230,7 @@ def match_company(text: str, master: pd.DataFrame) -> dict:
         return {"empresa_encontrada_base": "", "cnpj": "", "municipio": "", "cnae": "", "porte": "", "relacionamento_sesi": "", "relacionamento_senai": "", "match_empresa": "Base interna não carregada"}
     # Procura aliases conhecidos e razão social/nome fantasia no texto da notícia.
     name_columns = [c for c in master.columns if normalize_text(c) in {"razao social", "razao social nome empresarial", "nome fantasia", "empresa", "nome empresarial", "nome", "razao"}]
+    detected_alias_company = ""
     for alias_company, aliases in COMPANY_ALIASES.items():
         for alias in aliases:
             if normalize_text(alias) in normalized:
@@ -236,14 +240,16 @@ def match_company(text: str, master: pd.DataFrame) -> dict:
                     if not matches.empty:
                         row = matches.iloc[0]
                         return _master_record(row, col, master, "Nome/alias localizado na base")
-                # Alias detectado na notícia, mas não localizado na base interna.
-                return {"empresa_encontrada_base": alias_company, "cnpj": "", "municipio": "", "cnae": "", "porte": "", "relacionamento_sesi": "", "relacionamento_senai": "", "match_empresa": "Empresa citada no sinal; não localizada automaticamente na base"}
+                # Memoriza o alias e continua procurando outras variantes na base.
+                detected_alias_company = alias_company
     for col in name_columns:
         vals = master[col].fillna("").astype(str)
         for idx, value in vals.items():
             candidate = normalize_text(value)
             if len(candidate) >= 8 and candidate in normalized:
                 return _master_record(master.loc[idx], col, master, "Razão social/nome localizado no texto")
+    if detected_alias_company:
+        return {"empresa_encontrada_base": detected_alias_company, "cnpj": "", "municipio": "", "cnae": "", "porte": "", "relacionamento_sesi": "", "relacionamento_senai": "", "match_empresa": "Empresa citada no sinal; não localizada automaticamente na base"}
     return {"empresa_encontrada_base": "", "cnpj": "", "municipio": "", "cnae": "", "porte": "", "relacionamento_sesi": "", "relacionamento_senai": "", "match_empresa": "Não identificado automaticamente; revisar"}
 
 def _master_record(row, name_col, master, status):
