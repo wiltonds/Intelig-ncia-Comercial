@@ -9,6 +9,7 @@ from sti_pipeline import (
     build_pipeline,
     fetch_public_signals,
     load_catalog,
+    load_crm,
     load_master,
     load_seed_signals,
 )
@@ -36,7 +37,15 @@ with st.sidebar:
         help="O matching usa os nomes literais desta planilha. Sem catálogo, o painel não inventa nomes de produtos.",
     )
     st.divider()
-    st.markdown("**3. Coleta de sinais públicos**")
+    st.markdown("**3. Exportação do Moskit**")
+    crm_upload = st.file_uploader(
+        "Envie a exportação do Moskit (CSV ou XLSX)",
+        type=["csv", "xlsx", "xls"],
+        key="sti_crm",
+        help="Use uma exportação autorizada com nome da empresa, CNPJ quando disponível, status, responsável e oportunidade. O arquivo é usado somente nesta sessão; o painel não altera o CRM.",
+    )
+    st.divider()
+    st.markdown("**4. Coleta de sinais públicos**")
     max_results = st.slider("Máximo de notícias coletadas", min_value=10, max_value=100, value=50, step=10)
     st.caption("A busca por notícias descobre pistas. Ela não confirma demanda, cadastro ativo nem intenção de compra.")
 
@@ -45,6 +54,14 @@ try:
 except Exception as exc:
     master = pd.DataFrame()
     st.sidebar.error(f"Falha ao ler a base: {exc}")
+
+try:
+    crm = load_crm(crm_upload) if crm_upload is not None else pd.DataFrame()
+    if crm_upload is not None:
+        st.sidebar.success(f"Exportação CRM carregada: {len(crm):,} registros.")
+except Exception as exc:
+    crm = pd.DataFrame()
+    st.sidebar.error(f"Falha ao ler exportação CRM: {exc}")
 
 try:
     catalog = load_catalog(catalog_upload) if catalog_upload is not None else pd.DataFrame(columns=["produto_sti"])
@@ -74,7 +91,7 @@ with col_c:
     st.info("Fontes-semente incluem Sudene, SEFAZ-AL, ANP e notícia setorial. Novos sinais coletados via RSS devem ser confirmados na publicação original.")
 
 signals = st.session_state["sti_signals"].copy()
-pipeline = build_pipeline(signals, master, catalog)
+pipeline = build_pipeline(signals, master, catalog, crm)
 
 # KPIs
 total = len(pipeline)
@@ -111,7 +128,7 @@ st.subheader("2. Oportunidades candidatas para validação")
 display_cols = [
     "prioridade", "score_prioridade", "titulo_sinal", "data_publicacao", "fonte",
     "empresa_encontrada_base", "cnpj", "municipio", "cnae", "porte",
-    "relacionamento_sesi", "relacionamento_senai", "produtos_sti_sugeridos",
+    "relacionamento_sesi", "relacionamento_senai", "crm_encontrado", "crm_empresa", "crm_cnpj", "crm_status", "crm_responsavel", "crm_oportunidade", "crm_metodo_match", "produtos_sti_sugeridos",
     "confianca_matching_produto", "validacao_demanda", "proximo_passo", "url_fonte",
 ]
 display_cols = [c for c in display_cols if c in filtered.columns]
@@ -140,7 +157,9 @@ with st.expander("Como a priorização funciona e o que ainda precisa ser valida
         - **Sinal de mercado:** evidência pública localizada em notícia ou fonte oficial.
         - **Aderência STI:** sugestão baseada em palavras-chave e nos nomes do catálogo carregado; não substitui parecer técnico.
         - **Identificação da empresa:** correspondência automática com a base enviada/local. CNPJ em branco significa que não foi confirmado.
-        - **Relacionamento:** flags vêm exclusivamente da base carregada; o painel não acessa o Moskit nem altera o CRM.
+        - **Relacionamento SESI/SENAI:** flags vêm exclusivamente da base mestre carregada.
+        - **CRM/Moskit:** cruzamento local da exportação enviada, priorizando CNPJ exato e depois nome exato; correspondência aproximada só é sugerida quando única e requer confirmação. O painel não acessa nem altera o Moskit.
+        - **Privacidade:** a exportação é processada em memória durante a sessão e não é incorporada à base mestre nem enviada de volta ao CRM.
         - **Demanda validada:** permanece como não validada até que comercial/técnico confirme necessidade, prazo, orçamento e responsável.
         - **Score:** indicador heurístico para triagem, não probabilidade estatística nem previsão de receita.
         """
