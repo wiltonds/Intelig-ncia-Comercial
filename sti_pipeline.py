@@ -113,7 +113,7 @@ def load_master(uploaded=None) -> pd.DataFrame:
     else:
         return pd.DataFrame()
     df.columns = [str(c).strip() for c in df.columns]
-    cnpj_col = next((c for c in df.columns if normalize_text(c) in {"cnpj", "cnpj completo", "cnpj estabelecimento"}), None)
+    cnpj_col = next((c for c in df.columns if normalize_text(c) in {"cnpj", "cnpj completo", "cnpj estabelecimento", "cnpj normalizado"}), None)
     if cnpj_col:
         df["_cnpj_norm"] = df[cnpj_col].map(normalize_cnpj)
     else:
@@ -142,6 +142,75 @@ def load_catalog(uploaded) -> pd.DataFrame:
     products = products[products.ne("")].drop_duplicates()
     return pd.DataFrame({"produto_sti": products.tolist()})
 
+
+def load_crm(uploaded) -> pd.DataFrame:
+    """Carrega exportação do CRM sem escrever no CRM nem persistir dados."""
+    if uploaded is None:
+        return pd.DataFrame()
+    name = uploaded.name.lower()
+    if name.endswith((".xlsx", ".xls")):
+        df = pd.read_excel(uploaded, dtype=str)
+    else:
+        df = pd.read_csv(uploaded, dtype=str, encoding="utf-8-sig", low_memory=False)
+    df.columns = [str(c).strip() for c in df.columns]
+    cnpj_col = next((c for c in df.columns if normalize_text(c) in {
+        "cnpj", "cnpj da empresa", "cnpj estabelecimento", "cnpj completo", "cnpj normalizado"
+    }), None)
+    if cnpj_col:
+        df["_crm_cnpj_norm"] = df[cnpj_col].map(normalize_cnpj)
+    else:
+        df["_crm_cnpj_norm"] = ""
+    return df
+
+def _find_column(df: pd.DataFrame, aliases: set[str]):
+    return next((c for c in df.columns if normalize_text(c) in aliases), None)
+
+def match_crm(master_record: dict, crm: pd.DataFrame) -> dict:
+    empty = {
+        "crm_encontrado": "Não verificado — exportação do Moskit não carregada",
+        "crm_empresa": "", "crm_cnpj": "", "crm_status": "",
+        "crm_responsavel": "", "crm_oportunidade": "", "crm_metodo_match": ""
+    }
+    if crm.empty:
+        return empty
+    cnpj = normalize_cnpj(master_record.get("cnpj", ""))
+    name = normalize_text(master_record.get("empresa_encontrada_base", ""))
+    cnpj_col = _find_column(crm, {"cnpj", "cnpj da empresa", "cnpj estabelecimento", "cnpj completo", "cnpj normalizado"})
+    name_col = _find_column(crm, {"empresa", "nome da empresa", "organizacao", "organização", "nome", "razao social", "razao", "conta", "nome da conta", "nome fantasia"})
+    status_col = _find_column(crm, {"status", "situacao", "situação", "etapa", "fase", "status da oportunidade", "status do negocio", "status do negócio"})
+    owner_col = _find_column(crm, {"responsavel", "responsável", "proprietario", "proprietário", "dono", "executivo de conta", "responsavel pela oportunidade"})
+    opportunity_col = _find_column(crm, {"oportunidade", "nome da oportunidade", "negocio", "negócio", "titulo", "título", "deal"})
+    candidate = pd.DataFrame()
+    method = ""
+    if cnpj and cnpj_col:
+        candidate = crm.loc[crm["_crm_cnpj_norm"].eq(cnpj)]
+        if not candidate.empty:
+            method = "CNPJ exato"
+    if candidate.empty and name and name_col:
+        names = crm[name_col].fillna("").map(normalize_text)
+        # Primeiro tenta igualdade; depois contém apenas se o resultado for único.
+        exact = crm.loc[names.eq(name)]
+        if not exact.empty:
+            candidate, method = exact, "Nome exato"
+        else:
+            contains = crm.loc[names.map(lambda v: bool(v and (v in name or name in v)))]
+            if len(contains) == 1:
+                candidate, method = contains, "Nome aproximado único — confirmar"
+    if candidate.empty:
+        return {**empty, "crm_encontrado": "Não localizado na exportação carregada"}
+    row = candidate.iloc[0]
+    def value(col):
+        return str(row.get(col, "") or "") if col else ""
+    return {
+        "crm_encontrado": "Localizado — validar duplicidade e registro",
+        "crm_empresa": value(name_col),
+        "crm_cnpj": normalize_cnpj(value(cnpj_col)),
+        "crm_status": value(status_col),
+        "crm_responsavel": value(owner_col),
+        "crm_oportunidade": value(opportunity_col),
+        "crm_metodo_match": method,
+    }
+
 def classify_theme(text: str) -> tuple[str, list[str]]:
     normalized = normalize_text(text)
     hits = []
@@ -157,7 +226,7 @@ def match_company(text: str, master: pd.DataFrame) -> dict:
     if master.empty:
         return {"empresa_encontrada_base": "", "cnpj": "", "municipio": "", "cnae": "", "porte": "", "relacionamento_sesi": "", "relacionamento_senai": "", "match_empresa": "Base interna não carregada"}
     # Procura aliases conhecidos e razão social/nome fantasia no texto da notícia.
-    name_columns = [c for c in master.columns if normalize_text(c) in {"razao social", "nome fantasia", "empresa", "nome empresarial"}]
+    name_columns = [c for c in master.columns if normalize_text(c) in {"razao social", "razao social nome empresarial", "nome fantasia", "empresa", "nome empresarial", "nome", "razao"}]
     for alias_company, aliases in COMPANY_ALIASES.items():
         for alias in aliases:
             if normalize_text(alias) in normalized:
@@ -183,9 +252,9 @@ def _master_record(row, name_col, master, status):
             if normalize_text(col) in options:
                 return col
         return None
-    cnpj_col = find_col({"cnpj", "cnpj completo", "cnpj estabelecimento"})
+    cnpj_col = find_col({"cnpj", "cnpj completo", "cnpj estabelecimento", "cnpj normalizado"})
     city_col = find_col({"municipio", "município", "cidade"})
-    cnae_col = find_col({"cnae primario", "cnae principal", "cnae"})
+    cnae_col = find_col({"cnae primario", "cnae principal", "cnae", "atividade"})
     size_col = find_col({"porte", "porte empresa"})
     sesi_col = find_col({"tem sesi", "possui sesi"})
     senai_col = find_col({"tem senai", "possui senai"})
@@ -247,7 +316,7 @@ def score_signal(row: pd.Series) -> dict:
     return {"tema_sti": theme, "score_prioridade": total, "prioridade": priority,
             "validacao_demanda": "Não validada — sinal público não comprova intenção de compra"}
 
-def build_pipeline(signals: pd.DataFrame, master: pd.DataFrame, catalog: pd.DataFrame) -> pd.DataFrame:
+def build_pipeline(signals: pd.DataFrame, master: pd.DataFrame, catalog: pd.DataFrame, crm: pd.DataFrame | None = None) -> pd.DataFrame:
     if signals.empty:
         return signals.copy()
     rows = []
@@ -258,6 +327,7 @@ def build_pipeline(signals: pd.DataFrame, master: pd.DataFrame, catalog: pd.Data
         product, product_confidence = match_products(full_text, catalog)
         scoring = score_signal(pd.Series(row))
         row.update(company)
+        row.update(match_crm(company, crm if crm is not None else pd.DataFrame()))
         row["produtos_sti_sugeridos"] = product
         row["confianca_matching_produto"] = product_confidence
         row.update(scoring)
