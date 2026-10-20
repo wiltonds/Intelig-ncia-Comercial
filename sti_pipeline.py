@@ -178,7 +178,7 @@ def match_crm(master_record: dict, crm: pd.DataFrame) -> dict:
     cnpj_col = _find_column(crm, {"cnpj", "cnpj da empresa", "cnpj estabelecimento", "cnpj completo", "cnpj normalizado"})
     name_col = _find_column(crm, {"empresa", "nome da empresa", "organizacao", "nome", "razao social", "razao", "conta", "nome da conta", "nome fantasia"})
     status_col = _find_column(crm, {"status", "situacao", "etapa", "fase", "status da oportunidade", "status do negocio"})
-    owner_col = _find_column(crm, {"responsavel", "responsável", "proprietario", "dono", "executivo de conta", "responsavel pela oportunidade"})
+    owner_col = _find_column(crm, {"responsavel", "proprietario", "dono", "executivo de conta", "responsavel pela oportunidade"})
     opportunity_col = _find_column(crm, {"oportunidade", "nome da oportunidade", "negocio", "titulo", "deal"})
     candidate = pd.DataFrame()
     method = ""
