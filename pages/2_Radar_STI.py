@@ -98,11 +98,13 @@ total = len(pipeline)
 high = int((pipeline.get("prioridade", pd.Series(dtype=str)) == "Alta").sum())
 identified = int(pipeline.get("cnpj", pd.Series(dtype=str)).fillna("").astype(str).str.len().eq(14).sum())
 unvalidated = int(pipeline.get("validacao_demanda", pd.Series(dtype=str)).str.startswith("Não validada").sum())
-k1, k2, k3, k4 = st.columns(4)
+crm_matched = int(pipeline.get("crm_registros_encontrados", pd.Series(dtype=int)).fillna(0).gt(0).sum())
+k1, k2, k3, k4, k5 = st.columns(5)
 k1.metric("Sinais no radar", total)
 k2.metric("Prioridade alta", high)
-k3.metric("CNPJ identificado na base", identified)
-k4.metric("Demanda ainda não validada", unvalidated)
+k3.metric("CNPJ na base mestre", identified)
+k4.metric("Localizados no Moskit", crm_matched if crm_upload is not None else "—")
+k5.metric("Demanda não validada", unvalidated)
 
 st.subheader("1. Filtros de priorização")
 f1, f2, f3 = st.columns(3)
@@ -128,7 +130,7 @@ st.subheader("2. Oportunidades candidatas para validação")
 display_cols = [
     "prioridade", "score_prioridade", "titulo_sinal", "data_publicacao", "fonte",
     "empresa_encontrada_base", "cnpj", "municipio", "cnae", "porte",
-    "relacionamento_sesi", "relacionamento_senai", "crm_encontrado", "crm_empresa", "crm_cnpj", "crm_status", "crm_responsavel", "crm_oportunidade", "crm_metodo_match", "produtos_sti_sugeridos",
+    "relacionamento_sesi", "relacionamento_senai", "crm_encontrado", "crm_registros_encontrados", "crm_empresa", "crm_cnpj", "crm_status", "crm_responsavel", "crm_oportunidade", "crm_metodo_match", "produtos_sti_sugeridos",
     "confianca_matching_produto", "validacao_demanda", "proximo_passo", "url_fonte",
 ]
 display_cols = [c for c in display_cols if c in filtered.columns]
@@ -158,7 +160,7 @@ with st.expander("Como a priorização funciona e o que ainda precisa ser valida
         - **Aderência STI:** sugestão baseada em palavras-chave e nos nomes do catálogo carregado; não substitui parecer técnico.
         - **Identificação da empresa:** correspondência automática com a base enviada/local. CNPJ em branco significa que não foi confirmado.
         - **Relacionamento SESI/SENAI:** flags vêm exclusivamente da base mestre carregada.
-        - **CRM/Moskit:** cruzamento local da exportação enviada, priorizando CNPJ exato e depois nome exato; correspondência aproximada só é sugerida quando única e requer confirmação. O painel não acessa nem altera o Moskit.
+        - **CRM/Moskit:** cruzamento local da exportação enviada, priorizando CNPJ exato e depois nome exato; correspondência aproximada só é sugerida quando única e requer confirmação. Múltiplos registros são sinalizados para deduplicação. O painel não acessa nem altera o Moskit.
         - **Privacidade:** a exportação é processada em memória durante a sessão e não é incorporada à base mestre nem enviada de volta ao CRM.
         - **Demanda validada:** permanece como não validada até que comercial/técnico confirme necessidade, prazo, orçamento e responsável.
         - **Score:** indicador heurístico para triagem, não probabilidade estatística nem previsão de receita.
