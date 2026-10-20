@@ -150,4 +150,16 @@ with st.expander("Consultas usadas na descoberta de sinais"):
     for query in RSS_QUERIES:
         st.write(f"• {query}")
 
-st.caption("MVP STI — valide o sinal na fonte original, confirme matriz/filial e CNPJ, confira relacionamento no CRM e registre o resultado da validação comercial.")
+
+st.subheader("3. Fontes públicas prioritárias de Alagoas")
+st.markdown(
+    """
+    - [Radar de Investimentos — SEFAZ-AL](https://data.amerigeoss.org/dataset/radar-de-investimentos-alagoas): investimentos, benefícios fiscais e contexto econômico.
+    - [Portal da Transparência — API](https://www.transparencia.al.gov.br/portal/api): consultas estruturadas em JSON; endpoints específicos devem ser mapeados antes da ingestão automática.
+    - [IMA-AL — Licenciamento ambiental](https://www2.ima.al.gov.br/licenciamento/): licenças, autorizações e processos ambientais disponíveis publicamente.
+    - [Receita Federal — Dados abertos CNPJ](https://www.gov.br/receitafederal/dados): cadastro oficial para enriquecimento em lote; os arquivos são volumosos e exigem rotina de atualização.
+    - [Sudene — projeto NE 4.0 em Alagoas](https://www.gov.br/sudene/pt-br/assuntos/imprensa/ne-4-0-entrega-primeiro-projeto-de-transformacao-digital-para-industria-de-alagoas): sinal oficial de transformação digital na Cooperativa Pindorama.
+    """
+)
+st.caption("Nesta versão, a coleta automatizada implementada é a descoberta via RSS. As fontes estruturadas acima estão catalogadas para integração incremental; ainda não são todas ingeridas automaticamente.")
+\nst.caption("MVP STI — valide o sinal na fonte original, confirme matriz/filial e CNPJ, confira relacionamento no CRM e registre o resultado da validação comercial.")
